@@ -5,12 +5,17 @@ No task is silently removed to make a smaller release pass.
 Task 123 is deferred at the owner's request. Its source remains available, but
 it is excluded from current qualification; work continues on the other 13 tasks.
 
-This is a candidate, not a certified benchmark release. RELEASE_REPORT.json
-contains the resource/image inventory and marks all task execution evidence
-as not certified. Structural checks do not establish that tasks are solvable
-or that their reward functions match their instructions.
+The 13-task `operational-13-v1` profile is certified under the narrower standard
+requested by the benchmark owner: packages validate, native verifiers start,
+all declared automated tests execute, and each verifier produces a valid result.
+See [CERTIFICATION.md](CERTIFICATION.md). Task 123 remains outside that profile.
 
-Before publishing the first stable version, record for each exact task hash:
+The operational certificate does not require full model-agent runs, model pass
+rates, repeated reliability trials, or optional manual review. Those remain
+useful extensions rather than blockers for this certification. The retained
+evidence additionally records reference, regrade and baseline results where run.
+
+The stronger research-validation matrix would record for each exact task hash:
 
 1. Reference-solution run reaching its specified full score.
 2. No-op run reaching its independently reviewed expected baseline.
@@ -28,9 +33,9 @@ headlessly; the scoring receipt preserves prior evaluator revisions.
 Task 172's native oracle and regrade each passed 45/45 checks. Its unchanged
 starter passed 26/45, and the regrade preserved the source job. The
 [receipt](validation/task-172-v0.5.0.json) records all tested task-file hashes
-and native report hashes. No model-agent difficulty calibration is claimed.
-Qualification of the remaining tasks is ongoing; absence of a listed defect
-is not a pass.
+and native report hashes. No model-agent difficulty calibration is claimed or
+required by the operational profile. The native evidence below establishes the
+verifier-execution claim.
 
 Tasks 122, 131, 132, 133, 134 and 164 each reached reward 1 for the reference
 solution and regrade, and reward 0 for the unchanged starter. Each regrade
@@ -96,6 +101,6 @@ that a submission is incorrect.
 Apache-2.0 has been selected and included for Nitrode-owned code and task content;
 existing third-party terms remain in effect. The local file inventory has been
 reviewed and the portable installation smoke passed. The repository is public
-and anonymous download has been verified. This snapshot is the
-`v0.1.0-rc.1` release candidate; certification remains incomplete for the reasons
-above.
+and anonymous download has been verified. This snapshot is the `v0.1.0`
+operationally certified release. Its precise scope and exclusions are part of
+the certificate rather than implied by the tag.

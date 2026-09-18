@@ -14,5 +14,5 @@ It does not replace third-party license terms or grant access to Epic binaries.
 Unreal Engine images are obtained separately through Epic's distribution.
 The owner selected Apache-2.0 for Nitrode-owned code and task content on
 2026-09-18. See LICENSE and NOTICE; existing third-party terms remain in effect.
-SOURCE.json identifies the development snapshot used for this candidate, and
+SOURCE.json identifies the development snapshot used for this release, and
 RELEASE_REPORT.json records exported file hashes.

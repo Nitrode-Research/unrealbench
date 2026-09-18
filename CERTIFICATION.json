@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "profile": "operational-13-v1",
+  "certified": true,
+  "certified_at_utc": "2026-09-18",
+  "definition": "Each included package passes structural validation and has a native verifier run that executed every declared automated test and produced a valid result.",
+  "requirements": [
+    "The exact public task package passes the static Harbor package checks.",
+    "The task and verifier containers start sufficiently to execute the native verifier.",
+    "Every declared automated test executes in one recorded reference or regrade run.",
+    "The verifier emits a valid result without an infrastructure exception."
+  ],
+  "not_claimed": [
+    "Full model-agent runs, model pass rates, or benchmark difficulty calibration.",
+    "Repeated-run reliability on every supported hardware configuration.",
+    "Manual or optional visual review outside the declared automated score.",
+    "Task 123 qualification."
+  ],
+  "excluded_tasks": [
+    {
+      "name": "ue-0123-nse-spectator-rooms",
+      "reason": "Deferred by the benchmark owner; source remains public but is outside this certified profile."
+    }
+  ],
+  "evidence_json_sha256": {
+    "validation/cpu-tasks.json": "f95e283f3f0589c24c2442484f98779670c448a961dd5caf4eaa683bc4a4cf8c",
+    "validation/tasks-121-124-125.json": "4e04a393f022ea209b10fadf07e4d18b8d7f3de28e90821e949415f5562a727e",
+    "validation/task-172-v0.5.0.json": "01c74126b3c7cc77dc23f39ec1cf58303b4b0bf693d668c7a697b92e2c6607bd",
+    "validation/tasks-168-169-171.json": "6a38c23bafd1bcafc1f3ab6d885cf255d3791d0ef6c728227b9eac05ac81cee2",
+    "validation/public-installation.json": "b1071db2f170e359f6b1ede1505441df306019fcb8b1621b62fe209e6b2e51a5"
+  },
+  "tasks": [
+    {"name":"ue-0121-nse-swept-projectiles","package_files":3437,"package_manifest_sha256":"eed494daf79e877d61ec006f0cac93e30ea30e3da36acca3088182e4b80761a5","declared_tests_executed":11,"evidence_file":"validation/tasks-121-124-125.json","evidence_phase":"oracle","package_relation_to_execution":"exact"},
+    {"name":"ue-0122-nse-replay-takeover","package_files":3432,"package_manifest_sha256":"b0098c7c203fe106268a6cfd46203ae1914ec7f4362574ae81716df7a081a866","declared_tests_executed":15,"evidence_file":"validation/cpu-tasks.json","evidence_phase":"oracle","package_relation_to_execution":"QC.md documentation correction after execution"},
+    {"name":"ue-0124-nse-relay-combat","package_files":3461,"package_manifest_sha256":"8a12d9fcbe7a507930b388f133b6989d9bb1d6d6eaad58a1d02eda6284c1afaf","declared_tests_executed":36,"evidence_file":"validation/tasks-121-124-125.json","evidence_phase":"final_v013_regrade","package_relation_to_execution":"exact final v0.1.3 native regrade"},
+    {"name":"ue-0125-nse-match-modifiers","package_files":3476,"package_manifest_sha256":"8031f47bad51d54ec55cbaed1b4eed5aef83f589ffc2d673afa5613b591710c0","declared_tests_executed":23,"evidence_file":"validation/tasks-121-124-125.json","evidence_phase":"oracle","package_relation_to_execution":"QC.md documentation correction after execution"},
+    {"name":"ue-0131-nse-partitioned-charge","package_files":3450,"package_manifest_sha256":"494c188526ba61a56e639547f61a5db3397a51fe1c0de6c1c161f3ae6da31cd0","declared_tests_executed":8,"evidence_file":"validation/cpu-tasks.json","evidence_phase":"oracle","package_relation_to_execution":"QC.md documentation correction after execution"},
+    {"name":"ue-0132-nse-simultaneous-contacts","package_files":3451,"package_manifest_sha256":"8d7ec0c92e5f21659ed5fe983f6b096df4191af3f94b46a5d9e980ee500a326d","declared_tests_executed":17,"evidence_file":"validation/cpu-tasks.json","evidence_phase":"oracle","package_relation_to_execution":"QC.md documentation correction after execution"},
+    {"name":"ue-0133-nse-canonical-checkpoints","package_files":3456,"package_manifest_sha256":"6a99fc3d52585dbcd4c570998ec903458d841ad5a3aba067334ce414871bd914","declared_tests_executed":10,"evidence_file":"validation/cpu-tasks.json","evidence_phase":"oracle","package_relation_to_execution":"QC.md documentation correction after execution"},
+    {"name":"ue-0134-nse-combo-discovery","package_files":3447,"package_manifest_sha256":"c52501af655193ffb4cfff6a8ebfcdf2827c34912fe9ba4b7a1366fd98192c16","declared_tests_executed":9,"evidence_file":"validation/cpu-tasks.json","evidence_phase":"oracle","package_relation_to_execution":"QC.md documentation correction after execution"},
+    {"name":"ue-0164","package_files":859,"package_manifest_sha256":"1cfdfec31f85475addf5d42c2430079c4a3002cfe3a1f818379768c6a0ff7c76","declared_tests_executed":34,"evidence_file":"validation/cpu-tasks.json","evidence_phase":"oracle","package_relation_to_execution":"exact"},
+    {"name":"ue-0168","package_files":201,"package_manifest_sha256":"c115d1d4e4f32fff7ccdc6bea7657d23dc6fa47d26ffa22bf6a8bacc9e1013b5","declared_tests_executed":73,"evidence_file":"validation/tasks-168-169-171.json","evidence_phase":"regrade","package_relation_to_execution":"exact; saved oracle submission replay"},
+    {"name":"ue-0169","package_files":209,"package_manifest_sha256":"71492aec44b5b65fc936da0f16e9062f1e0dc8dec50050677c4b10bdac058961","declared_tests_executed":73,"evidence_file":"validation/tasks-168-169-171.json","evidence_phase":"oracle","package_relation_to_execution":"exact"},
+    {"name":"ue-0171","package_files":346,"package_manifest_sha256":"77c43abc052e195e5de4eab913c462cb78d284a492b8905441ad8e492b489c88","declared_tests_executed":45,"evidence_file":"validation/tasks-168-169-171.json","evidence_phase":"oracle","package_relation_to_execution":"exact"},
+    {"name":"ue-0172","package_files":338,"package_manifest_sha256":"492b80c948d85615281883435ecf1004ded139fd0be555e3232b92659d6fbc6e","declared_tests_executed":45,"evidence_file":"validation/task-172-v0.5.0.json","evidence_phase":"oracle","package_relation_to_execution":"exact v0.5.0"}
+  ]
+}

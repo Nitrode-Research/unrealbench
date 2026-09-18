@@ -3,11 +3,12 @@
 Fourteen Unreal Engine coding tasks for agents, packaged for Harbor. Run on
 your own Linux/Docker infrastructure with your own model credentials.
 
-**Release candidate:** all 14 tasks are included, but full task certification
-is pending. See [validation status](VALIDATION.md) and the generated
-[task catalog](CATALOG.md). The installation smoke is not an Unreal task score.
-Task 123 is deferred and unqualified; its source remains included, but exclude
-it from evaluation for now. Qualification continues for the other 13 tasks.
+All 14 task sources are included. The [operationally certified](CERTIFICATION.md)
+13-task profile excludes task 123, whose source remains available but deferred.
+Certification means that each included native verifier starts, executes all of
+its declared automated tests, and produces a valid result. It does not require
+full model-agent runs or claim model pass rates. See [validation status](VALIDATION.md)
+and the generated [task catalog](CATALOG.md).
 
 ## Install
 
@@ -21,7 +22,7 @@ build caches and job artifacts.
 python3 -m venv "$HOME/.local/share/unrealbench-uv"
 "$HOME/.local/share/unrealbench-uv/bin/pip" install 'uv==0.12.13'
 export PATH="$HOME/.local/share/unrealbench-uv/bin:$PATH"
-git clone --branch v0.1.0-rc.1 https://github.com/Nitrode-Research/unrealbench.git
+git clone --branch v0.1.0 https://github.com/Nitrode-Research/unrealbench.git
 cd "$(basename Nitrode-Research/unrealbench)"
 uv sync --locked
 uv run --locked python -m scripts.harbor_local check
@@ -76,7 +77,7 @@ uv run --locked harbor run -p unreal/tasks/ue-0172 --agent oracle -e docker --jo
 
 Task 172's reference solution and native regrade each passed 45/45 checks;
 the unchanged starter passed 26/45. See the [evidence](validation/task-172-v0.5.0.json).
-Full release certification remains pending.
+The 13-task operational profile is certified; task 123 remains uncertified.
 To use your own agent, configure its provider credentials and replace
 `--agent oracle` with `--agent AGENT --model PROVIDER/MODEL` using an agent
 supported by the pinned Harbor version. Keep credentials out of Git.
@@ -112,4 +113,5 @@ repository access is required. You supply compute and any model/engine access.
 See [provenance](PROVENANCE.md), [third-party notices](THIRD-PARTY.md), and
 [release status](VALIDATION.md). Nitrode-owned code and task content are licensed
 under [Apache-2.0](LICENSE). Existing third-party licenses remain in effect;
-see [NOTICE](NOTICE). This candidate is not a certified benchmark release.
+see [NOTICE](NOTICE). Certification scope and limits are defined in
+[CERTIFICATION.md](CERTIFICATION.md).

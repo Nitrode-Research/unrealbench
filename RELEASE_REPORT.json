@@ -1,5 +1,5 @@
 {
-  "public_release_ready": false,
+  "public_release_ready": true,
   "license": {
     "spdx_id": "Apache-2.0",
     "scope": "Nitrode-owned code and task content",
@@ -25,10 +25,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0122",
@@ -48,10 +46,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0123",
@@ -71,10 +67,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "excluded"
     },
     {
       "website_id": "ue-0124",
@@ -94,10 +88,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0125",
@@ -117,10 +109,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0131",
@@ -140,10 +130,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0132",
@@ -163,10 +151,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0133",
@@ -186,10 +172,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0134",
@@ -209,10 +193,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0164",
@@ -235,10 +217,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0168",
@@ -261,10 +241,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0169",
@@ -287,10 +265,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0171",
@@ -313,10 +289,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     },
     {
       "website_id": "ue-0172",
@@ -339,10 +313,8 @@
       "images_pinned": true,
       "separate_verifier": true,
       "records_project": true,
-      "oracle": "not_certified",
-      "baseline": "not_certified",
-      "agent_run": "not_certified",
-      "regrade": "not_certified"
+      "agent_run": "not_required_by_operational_profile",
+      "operational_certification": "certified"
     }
   ],
   "files": {
@@ -351,8 +323,8 @@
       "sha256": "87e399abbd2fa01e137c69d585137e99c9358b83e3cb324fe76a3d8f916d1cf4"
     },
     ".github/workflows/validate.yml": {
-      "bytes": 997,
-      "sha256": "f801a52e67fb89c27490cfc15c53aea34a5fdf05ed4fe8b355d78efcf0fdbc6a"
+      "bytes": 1123,
+      "sha256": "7675258e250beb908d8394532343f49870b5b1c8b43115159064a6d2a0b8400d"
     },
     ".gitignore": {
       "bytes": 50,
@@ -375,24 +347,24 @@
       "sha256": "c37fb058f7ab4370f233ffe9b85004fc0fef96c9130620a5d0915be6f09e87ad"
     },
     "PROVENANCE.md": {
-      "bytes": 1076,
-      "sha256": "e65b464ec7553371b605bbe531db3876e7e7da2e50a2d3d92751cc45f8773425"
+      "bytes": 1074,
+      "sha256": "c95d23ae7865155de4d2b8d00ce5ed5d8096e97a2df87d1df00d94d7afba7f39"
     },
     "README.md": {
-      "bytes": 6141,
-      "sha256": "cfc29d4c43a3afe8838ae53fdfe755db2c4933811c5b8f13e7c0d249486f8469"
+      "bytes": 6271,
+      "sha256": "3c83ac7516198f8b012d9ffd17771d61e39c05bf0eef74f228437cca4c1507d1"
     },
     "SOURCE.json": {
-      "bytes": 319,
-      "sha256": "af0fe666a0546ea9238404d464d534a0fdb8c0ee00f4e22b55db8eac940aebf0"
+      "bytes": 343,
+      "sha256": "6d98346960c71f1b071a91449e1ef7d0f77d45840048cf3f444c92a1f1b0c70d"
     },
     "THIRD-PARTY.md": {
       "bytes": 1159,
       "sha256": "8de95bed0d5280d5370d4ceff7c69aa2290a84b1237440b6d0128a8290f7fc25"
     },
     "VALIDATION.md": {
-      "bytes": 6380,
-      "sha256": "dd466736222d56a939b1a7cd12976ee08b5dbffc532016a5b2898c3667bc8f65"
+      "bytes": 6791,
+      "sha256": "2e98ee8b726aac591332f8492aeb5089f15770b04920f63e2f70b79541d87902"
     },
     "examples/regrade-smoke/README.md": {
       "bytes": 646,
@@ -439,8 +411,8 @@
       "sha256": "d49c910ad76554e5bb205e73fae624e0584f25624752feb7c940c4eb12ac4acd"
     },
     "registry.json": {
-      "bytes": 3546,
-      "sha256": "7e402529553b5d08085c7e8f6f98ea281875db4806c8a045300837e4c8bddc0b"
+      "bytes": 3471,
+      "sha256": "908920b5d0a06a87a7ccc154a15137b3d6fc4181435ac32d3e1de112da370539"
     },
     "scripts/check_website_tasks.py": {
       "bytes": 10859,
@@ -132781,6 +132753,18 @@
     "validation/tasks-168-169-171.json": {
       "bytes": 119439,
       "sha256": "82d0217f4d3ae378bcf7f90e109a49db04806c74e2b9afef964e333b4ec307a3"
+    },
+    "CERTIFICATION.json": {
+      "bytes": 5871,
+      "sha256": "06cec7b792888fe59d117d3c6c79424e6a1f9bd06fe5454b6c65fc451fd8f563"
+    },
+    "CERTIFICATION.md": {
+      "bytes": 1717,
+      "sha256": "ee04d0e105c1d2e1a026231bcdd50db5394d01b4f9c27eed4346f0f5006202fa"
+    },
+    "scripts/check_operational_certification.py": {
+      "bytes": 5320,
+      "sha256": "58e9aabe60fb713430dfe6fb2c3e8bfcc8da216d2537bf6d32d2d232e2d0c258"
     }
   },
   "large_files_requiring_distribution_plan": [],
@@ -132834,9 +132818,13 @@
     "unreal/tasks/ue-0172/environment/workspace/THIRD_PARTY_NOTICES.md",
     "unreal/tasks/ue-0172/tests/task-package/PROVENANCE.md"
   ],
-  "blockers": [
-    "Certify all 14 tasks: oracle, baseline, agent run, regrade, and applicable rendered/multiplayer checks.",
-    "Review exported content and complete an independent Linux installation test.",
-    "Publish an immutable repository tag and verify anonymous download."
-  ]
+  "blockers": [],
+  "certification": {
+    "profile": "operational-13-v1",
+    "certified_tasks": 13,
+    "excluded_tasks": [
+      "ue-0123-nse-spectator-rooms"
+    ],
+    "scope": "See CERTIFICATION.md; model-agent runs are outside this operational profile."
+  }
 }

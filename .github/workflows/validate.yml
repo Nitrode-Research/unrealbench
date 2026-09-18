@@ -26,6 +26,8 @@ jobs:
         run: uv sync --locked
       - name: Check all task packages
         run: uv run --locked python scripts/check_website_tasks.py
+      - name: Verify operational certification
+        run: uv run --locked python scripts/check_operational_certification.py
       - name: Check Docker host
         run: uv run --locked python -m scripts.harbor_local check
       - name: Run credential-free oracle and native regrade smoke
