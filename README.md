@@ -57,6 +57,11 @@ configuration exposes all of its GPUs. Full verification paths are still being
 qualified. The declared task storage limit does not include
 all host image/build-cache storage. Measured host requirements are pending.
 
+GPU validation uses a Linux host with 16 vCPUs, 64 GiB RAM, an NVIDIA T4,
+and a 300 GiB disk. Minimum host requirements have not been established.
+Initial rendered runs can spend many minutes compiling shaders before their
+checks begin; inspect the verifier logs under `jobs/` for progress.
+
 Task 172 v0.5.0 scores 45 checks with corrected fixtures and excludes HUD pixel
 scoring. Its complete verifier runs headlessly and does not require a GPU.
 Task 124 can require independent HUD observations for alternative layouts;

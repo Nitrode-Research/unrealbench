@@ -59,6 +59,14 @@ source job remained unchanged. The [installation receipt](validation/installatio
 identifies the tested source revision. This does not certify all Unreal tasks
 or installation on a fresh operating system.
 
+The first public UnrealBench snapshot also passed its Ubuntu 24.04 GitHub
+Actions workflow: locked installation, all 14 package checks, Docker host
+validation, and oracle/regrade smoke with rewards 1 and unchanged source.
+A complete anonymous Git download and unauthenticated README access were
+verified. The [public-installation receipt](validation/public-installation.json)
+links the successful workflow and records the exact helper hashes. This smoke
+does not execute Unreal tasks or require AWS/model credentials.
+
 Some visual checks have additional grading requirements: the deferred task 123's room UI
 and rendered checks require independent image observations, and task 124 has
 a review fallback for alternative HUD layouts. Task 125's optional integration
