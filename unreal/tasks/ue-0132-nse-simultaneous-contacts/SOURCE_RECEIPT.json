@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/brianyla/unrealbench",
+  "commit": "1ff51f9695b8bc0220296bd0f861f3e6f80c988d",
+  "source_task": "ue_task_0132_nse_simultaneous_contacts",
+  "source_files": {
+    "spec.yaml": "c50daf1ec9f474688a172c98a1041eab6665da729bb5c5233a462480b1b54c5e",
+    "tests/NSE006Tests.cpp": "0dfaa6ac04808ea4925fa768380453180aaec8e90b780e90c6bfa0819ba82625"
+  },
+  "adaptations": [
+    "Linux Vulkan flags replace Windows D3D flags",
+    "Harbor verifier runs every declared suite"
+  ]
+}

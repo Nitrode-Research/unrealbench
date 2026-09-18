@@ -1,0 +1,129 @@
+task_id: ue_task_0171
+title: "Foundations world and paired movement —"
+tier: hard
+instruction: "Implement world generation and the paired-character runtime for the supplied Foundations puzzle game. Build native geometry from the provided exports, and implement movement, navigation, cable simulation and camera behavior for two connected characters. Read `/project/gdd.md` for the game design, coordinate conventions, behavior and editable files. Story, interactions, inventory, saving and HUD are supplied. Preserve that implementation, including its functions in shared files, and keep the EntryGate-to-LoadingDocks game playable. Use the provided architecture and data, validate with local builds and tests, and submit only the listed implementation changes."
+files_to_edit:
+- Scripts/build_entry_composition.py
+- Scripts/build_entry_terrain.py
+- Scripts/prepare_entry_composition.py
+- Scripts/prepare_entry_terrain.py
+- Scripts/scene_coordinates.py
+- Source/foundations_ue/Editor/LinkSceneMeshTools.cpp
+- Source/foundations_ue/Gameplay/LinkChain.cpp
+- Source/foundations_ue/Gameplay/LinkCharacter.cpp
+- Source/foundations_ue/Gameplay/LinkGameMode.cpp
+- Source/foundations_ue/Gameplay/LinkPlayerController.cpp
+- Source/foundations_ue/Gameplay/LinkSceneLayout.cpp
+- Source/foundations_ue/Gameplay/LinkSourceItemDisplay.cpp
+- Source/foundations_ue/Rules/LinkCamera.cpp
+- Source/foundations_ue/Rules/LinkCameraResponse.cpp
+- Source/foundations_ue/Rules/LinkCommands.cpp
+- Source/foundations_ue/Rules/LinkInteractionCamera.cpp
+- Source/foundations_ue/Rules/LinkLocomotion.h
+- Source/foundations_ue/Rules/LinkNavigation.cpp
+- Source/foundations_ue/Rules/LinkSceneCoordinates.h
+- Source/foundations_ue/Rules/LinkSeededChain.h
+tests:
+  runner: ue_automation
+  mode: standalone
+  num_clients: 1
+  filter: Task0171
+verification_entrypoint: verification/verify.py
+runner_compatibility: task-local-generation-driver-required
+hidden_requirements:
+  R1:
+    text: Fresh affine mesh, collision/navigation, layout and chain reconstruction.
+    category: integration
+  R2:
+    text: Native paired commands, navigation, camera and runtime lifecycle.
+    category: integration
+  R3:
+    text: Data-driven story, inventory, interactions, effects and atomic persistence.
+    category: integration
+  R4:
+    text: Continuous two-area gameplay, completed disk reload and restart.
+    category: integration
+  R5:
+    text: Actual rendered native HUD responds to gameplay state.
+    category: integration
+test_requirements:
+  Task0171.Headless.Camera.SourceResponseOracle:
+  - R2
+  Task0171.Headless.Camera.SourceResponseEdges:
+  - R2
+  Task0171.Headless.Camera.SharedFramingAndStableSmoothing:
+  - R2
+  Task0171.Headless.Commands.HoldAndGrace:
+  - R2
+  Task0171.Headless.Commands.SimultaneousAndInvalidTargets:
+  - R2
+  Task0171.Headless.Integration.ContinuousTwoAreaSaveReload:
+  - R4
+  Task0171.Headless.Camera.InteractionTransitionOracle:
+  - R2
+  Task0171.Headless.Camera.InteractionTransitionEdges:
+  - R2
+  Task0171.Headless.Interactions.WaypointAllocationAndRoles:
+  - R2
+  Task0171.Headless.Interactions.PresenceReadinessAndInvalidLayout:
+  - R2
+  Task0171.Headless.Runtime.LocomotionClockAndEvents:
+  - R2
+  Task0171.Headless.Navigation.PathDistanceLimit:
+  - R2
+  Task0171.Headless.Navigation.FollowSpacingAndAvoidance:
+  - R2
+  Task0171.Headless.Progression.Interactions.ApproachAndRolesPIE:
+  - R3
+  Task0171.Headless.Progression.Interactions.CallOtherArrivalPIE:
+  - R3
+  Task0171.Headless.Progression.Inventory.SourceActionsPIE:
+  - R3
+  Task0171.Headless.Progression.Puzzles.EntryGatePIE:
+  - R3
+  Task0171.Headless.Progression.Puzzles.LoadingDocksPIE:
+  - R3
+  Task0171.Headless.Progression.Docks.WorldEffectsPIE:
+  - R3
+  Task0171.Headless.Progression.Save.VersionedPayload:
+  - R3
+  Task0171.Headless.Progression.Save.ReloadWorldPIE:
+  - R3
+  Task0171.Headless.Progression.Save.SessionRestoreIsolation:
+  - R3
+  Task0171.Headless.Progression.Docks.RepeatedEffectsPIE:
+  - R3
+  Task0171.Rendered.HUD.StateTransitionPixels:
+  - R5
+  Task0171.Headless.Story.PinnedContentAndUnityOracle:
+  - R3
+  Task0171.Headless.Story.AuthoredIntroPresenceAndOnce:
+  - R3
+  Task0171.Headless.Story.ScopesPriorityAndOnce:
+  - R3
+  Task0171.Headless.Story.EffectsDispatchAndMissingReferences:
+  - R3
+  Task0171.Headless.Story.DispatchCycleIsBounded:
+  - R3
+  Task0171.Headless.Scene.Coordinates:
+  - R1
+  Task0171.Headless.Scene.InvalidAffine:
+  - R1
+  Task0171.Headless.Scene.MeshAttributes:
+  - R1
+  Task0171.Headless.Scene.ReflectionWinding:
+  - R1
+  Task0171.Headless.Scene.BoxPlacement:
+  - R1
+  Task0171.Headless.Scene.NavigationPolicy:
+  - R1
+  Task0171.Headless.Scene.AuthoredChain:
+  - R1
+  Task0171.Headless.Scene.Layout:
+  - R1
+  Task0171.Headless.Scene.NativeAuthoredChain:
+  - R1
+  Task0171.Headless.Scene.GeneratedWorldPhysicsNavigation:
+  - R1
+  Task0171.Headless.Scene.GeneratedComposition:
+  - R1

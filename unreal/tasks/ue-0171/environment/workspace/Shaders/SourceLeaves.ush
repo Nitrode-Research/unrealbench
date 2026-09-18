@@ -1,0 +1,57 @@
+// Source-authored Leaves.shadergraph expressed as inspectable HLSL.
+// Inputs use Unity metres for its fixed world projection; mesh UVs are unchanged.
+struct FSourceLeaves
+{
+    float2 Project(float3 UEWorldCm)
+    {
+        float3 P=UEWorldCm.yzx*0.01;
+        return float2(1.414*P.x-0.000000003*P.y-1.414*P.z,-P.x-1.414*P.y-P.z);
+    }
+    float Permute(float V) { return fmod((34.0*V+1.0)*V,289.0); }
+    float2 Gradient(float2 Cell)
+    {
+        Cell=fmod(Cell,289.0);
+        float H=Permute(Permute(Cell.x)+Cell.y);
+        float X=frac(H/41.0)*2.0-1.0;
+        return normalize(float2(X-floor(X+0.5),abs(X)-0.5));
+    }
+    float Noise(float2 UV)
+    {
+        float2 P=UV*10.0,I=floor(P),F=frac(P);
+        float A=dot(Gradient(I),F);
+        float B=dot(Gradient(I+float2(0,1)),F-float2(0,1));
+        float C=dot(Gradient(I+float2(1,0)),F-float2(1,0));
+        float D=dot(Gradient(I+1.0),F-1.0);
+        float2 W=F*F*F*(F*(F*6.0-15.0)+10.0);
+        return lerp(lerp(A,B,W.y),lerp(C,D,W.y),W.x)+0.5;
+    }
+    float3 Wind(float3 WorldCm,float Clock,float3 AxisX,float3 AxisY)
+    {
+        float2 P=Project(WorldCm)+Clock*0.1;
+        float2 Offset=float2(Noise(P+1000.0),Noise(P))*0.006-0.003;
+        return AxisX*Offset.x+AxisY*Offset.y;
+    }
+    float Smooth(float A,float B,float V)
+    {
+        float T=saturate((V-A)/(B-A));return T*T*(3.0-2.0*T);
+    }
+    float4 Surface(Texture2D Paint,SamplerState PaintSampler,float2 UV,
+                   float3 BeforeCm,float3 AfterCm,float3 LightColor,float3 DarkColor,
+                   float3 Scales,float3 Strengths,float2 Line)
+    {
+        float Radius=2.0*length(UV-0.5);
+        float2 WorldUV=lerp(Project(AfterCm),Project(BeforeCm),sqrt(Radius));
+        float2 A=WorldUV*(Scales.x*0.01),B=WorldUV*(Scales.y*0.01),C=WorldUV*(Scales.z*0.01);
+        // Unity texture V starts at the bottom; Unreal's imported image starts at the top.
+        float R=Texture2DSample(Paint,PaintSampler,float2(A.x,1.0-A.y)).r;
+        float G=Texture2DSample(Paint,PaintSampler,float2(B.x,1.0-B.y)).g;
+        float Blue=Texture2DSample(Paint,PaintSampler,float2(C.x,1.0-C.y)).b;
+        float Amount=dot(float3(R,G,Blue),Strengths);
+        float Edge=Smooth(Line.x,Line.x+Line.y,G)*Smooth(Line.x+2.0*Line.y,Line.x+Line.y,G);
+        // The authored colour node is converted from sRGB in the source's linear renderer.
+        float3 Outline=float3(0.006173,0.01764196,0.002731743);
+        float3 Color=lerp(lerp(LightColor,DarkColor,Amount),Outline,Edge);
+        float Alpha=Smooth(0.4,0.5,saturate(2.0*(1.0-Radius)-Amount));
+        return float4(Color,Alpha);
+    }
+};

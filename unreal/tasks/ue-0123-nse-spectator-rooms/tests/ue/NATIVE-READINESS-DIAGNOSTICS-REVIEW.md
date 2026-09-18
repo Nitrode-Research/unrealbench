@@ -1,0 +1,9 @@
+# Native startup timeout diagnostics
+
+The authorized delta58 packet shows CompletedOutcome's ordinary selected-stage load finishing with ReplayFixtureRoomGameMode, followed by the unchanged30-second startup timeout. The common timeout message does not distinguish public start/activity from authored setup/association/player readiness. No outcome inputs were submitted, and the packet contains no fixture-predicate telemetry establishing which condition prevented continuation.
+
+This patch adds diagnostics only inside the existing timeout branch, after its unchanged failure assertion. It logs the already observed/current public active state, current observed match, first successful match latch, previous match, and original fixture start tick. It records the fixture context/current-world/travel conditions and exact associated-actor presence. A read-only test-owned getter reports the existing recorded and queued weak setup actors' presence, current-world relationship, authored initialization marker and player presence; absent actor details are explicitly unknown(-1). It never discovers or substitutes another actor.
+
+The fixture did not retain the original operation reply/status, so no diagnostic invents or retrospectively reconstructs that response. Reading `IsActive` at failure is labeled current; the earlier `Started` boolean and match observation remain separately labeled. No observation polling, native/world tick, input, reset, rebind, retry or private candidate inspection is added. Every readiness predicate, clock, wait bound, original assertion and the zero-input body is byte-identical.
+
+Validation removes the failure-only log block, the new read-only getter and its declaration to reproduce the approved delta58 verifier/fixture bytes exactly. C++ parsing is checked after Unreal macro normalization. This does not identify a cause or establish a runtime success; independent review and protected UE validation remain required.

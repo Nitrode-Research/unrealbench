@@ -1,0 +1,6608 @@
+{
+  "sourceRevision": "b4ac4409ea4fdfccd2e7f741a1f32874b50e0d1b",
+  "unityVersion": "2022.3.6f1",
+  "sourceNavMesh": "Assets/Scenes/Intro/EntryGate/NavMesh-LoadingDocsTerrain.asset",
+  "agent": {
+    "agentRadius": 0.5,
+    "agentHeight": 2.0,
+    "agentSlope": 30.0,
+    "agentClimb": 0.2,
+    "voxelSize": 0.166666672
+  },
+  "players": [
+    {
+      "name": "PlayerLT",
+      "position": [
+        -14.4887314,
+        0.6181716,
+        -42.517334
+      ],
+      "forward": [
+        -0.3436018,
+        0.0,
+        -0.939115644
+      ],
+      "baseOffset": 1.0,
+      "navFound": true,
+      "navPosition": [
+        -14.4887314,
+        -0.383551925,
+        -42.517334
+      ],
+      "ground": [
+        -14.4887314,
+        -0.401650339,
+        -42.517334
+      ]
+    },
+    {
+      "name": "PlayerRT",
+      "position": [
+        -16.9010315,
+        0.6955112,
+        -41.9125328
+      ],
+      "forward": [
+        -0.08015478,
+        0.0,
+        -0.9967824
+      ],
+      "baseOffset": 1.0,
+      "navFound": true,
+      "navPosition": [
+        -16.9010315,
+        -0.304483771,
+        -41.9125328
+      ],
+      "ground": [
+        -16.9010315,
+        -0.3183704,
+        -41.9125328
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.0873509049,
+        -46.0
+      ],
+      "normal": [
+        0.05758343,
+        0.9979207,
+        -0.028953312
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.5412015682240578,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        -0.0309190452,
+        -46.0
+      ],
+      "normal": [
+        0.06627481,
+        0.997341454,
+        -0.0302951373
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -24.0,
+        -0.00742009841,
+        -46.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.02309118090173242,
+      "sourceBoundaryDistanceM": 0.980302204039187,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        -0.152456984,
+        -46.0
+      ],
+      "normal": [
+        0.05678583,
+        0.9981352,
+        -0.022392137
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -22.0,
+        -0.10363131,
+        -46.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.10401965850020621,
+      "sourceBoundaryDistanceM": 0.7071067811865476,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        -0.265999258,
+        -46.0
+      ],
+      "normal": [
+        0.0457622334,
+        0.9987123,
+        -0.02189914
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        -0.199842453,
+        -46.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.17537870805343156,
+      "sourceBoundaryDistanceM": 2.259268186359326,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        -0.344858974,
+        -46.0
+      ],
+      "normal": [
+        0.03868145,
+        0.999140143,
+        -0.0149256717
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        -0.296053648,
+        -46.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.2662877904608681,
+      "sourceBoundaryDistanceM": 1.5164923222243776,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        -0.422288448,
+        -46.0
+      ],
+      "normal": [
+        0.03868145,
+        0.999140143,
+        -0.0149256717
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        -0.392264843,
+        -46.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.35719687286830476,
+      "sourceBoundaryDistanceM": 0.7737164580894296,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        -0.433269262,
+        -46.0
+      ],
+      "normal": [
+        -0.00296817673,
+        0.999991357,
+        0.002929725
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -14.0,
+        -0.409800231,
+        -46.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.41666650000000005,
+      "sourceBoundaryDistanceM": 0.32140297275186375,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        -0.427332878,
+        -46.0
+      ],
+      "normal": [
+        -0.00296817673,
+        0.999991357,
+        0.002929725
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        -0.4058934,
+        -46.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.41666649999999994,
+      "sourceBoundaryDistanceM": 0.024727869828649912,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.4036761,
+        -46.0
+      ],
+      "normal": [
+        -0.0218839385,
+        0.9997586,
+        0.00194026763
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.6331529468626476,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.32314533,
+        -46.0
+      ],
+      "normal": [
+        -0.04792972,
+        0.998621762,
+        0.02138587
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.3850834776842307,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        -0.2271536,
+        -46.0
+      ],
+      "normal": [
+        -0.04792972,
+        0.998621762,
+        0.02138587
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.1370140085058136,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        -0.07366677,
+        -46.0
+      ],
+      "normal": [
+        -0.037777558,
+        0.9991017,
+        -0.01920339
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.8889445393273968,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        -2.0,
+        0.001956284,
+        -46.0
+      ],
+      "normal": [
+        -0.037777558,
+        0.9991017,
+        -0.01920339
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.6666999999999987,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        4.76837158e-07,
+        0.106761128,
+        -46.0
+      ],
+      "normal": [
+        -0.0977347344,
+        0.994446635,
+        0.0390358
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.7950987074501525,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -46.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.303322136,
+        -46.0
+      ],
+      "normal": [
+        -0.0977347344,
+        0.994446635,
+        0.0390358
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.3436806837935862,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.137350917,
+        -44.0
+      ],
+      "normal": [
+        0.04952954,
+        0.998560667,
+        -0.02057639
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.8282073553412501,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.02983275,
+        -44.0
+      ],
+      "normal": [
+        0.06627481,
+        0.997341454,
+        -0.0302951373
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.6640903757441994,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        -0.103070229,
+        -44.0
+      ],
+      "normal": [
+        0.06627481,
+        0.997341454,
+        -0.0302951373
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.3905571055610652,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        -0.221372887,
+        -44.0
+      ],
+      "normal": [
+        0.05678583,
+        0.9981352,
+        -0.022392137
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        -0.17859906,
+        -44.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.1531384190092252,
+      "sourceBoundaryDistanceM": 0.40231260916891265,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        -0.313786983,
+        -44.0
+      ],
+      "normal": [
+        0.0457622334,
+        0.9987123,
+        -0.02189914
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.3404632549660357,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        -0.3924114,
+        -44.0
+      ],
+      "normal": [
+        0.03868145,
+        0.999140143,
+        -0.0149256717
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.7901839663644393,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        -0.4319164,
+        -44.0
+      ],
+      "normal": [
+        0.0153796757,
+        0.9997641,
+        -0.0153388306
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": [
+        -13.9825592,
+        -0.386857569,
+        -43.85635
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.14473613179214603,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        -0.433192372,
+        -44.0
+      ],
+      "normal": [
+        -0.00296817673,
+        0.999991357,
+        0.002929725
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        -0.413562626,
+        -44.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.3242842368869366,
+      "sourceBoundaryDistanceM": 0.10333333738627089,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.407557547,
+        -44.0
+      ],
+      "normal": [
+        -0.0218839385,
+        0.9997586,
+        0.00194026763
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        -0.403585881,
+        -44.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.2359003925134069,
+      "sourceBoundaryDistanceM": 0.3514028065646878,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.3637791,
+        -44.0
+      ],
+      "normal": [
+        -0.0218839385,
+        0.9997586,
+        0.00194026763
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.354407549,
+        -44.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.1475165481398773,
+      "sourceBoundaryDistanceM": 0.5994722757431047,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        -0.2623018,
+        -44.0
+      ],
+      "normal": [
+        -0.0878673,
+        0.9959799,
+        0.0174177848
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -6.0,
+        -0.2446834,
+        -44.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.059132703766347605,
+      "sourceBoundaryDistanceM": 0.8475417449215216,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        -0.08585784,
+        -44.0
+      ],
+      "normal": [
+        -0.0878673,
+        0.9959799,
+        0.0174177848
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.0,
+        -0.0682394952,
+        -44.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.029251140607182036,
+      "sourceBoundaryDistanceM": 1.0956112140999386,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        -2.0,
+        0.0403975844,
+        -44.0
+      ],
+      "normal": [
+        -0.037777558,
+        0.9991017,
+        -0.01920339
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -2.0,
+        0.0499029532,
+        -44.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.11763498498071168,
+      "sourceBoundaryDistanceM": 0.4158382427142759,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        0.100727379,
+        -44.0
+      ],
+      "normal": [
+        -0.0240155384,
+        0.99955225,
+        -0.0178434886
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.5802651664506153,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -44.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.2248146,
+        -44.0
+      ],
+      "normal": [
+        -0.0977347344,
+        0.994446635,
+        0.0390358
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.427833688822256,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.203318119,
+        -42.0
+      ],
+      "normal": [
+        0.05221151,
+        0.997748137,
+        -0.04210395
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.1666538463723275,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.0986594558,
+        -42.0
+      ],
+      "normal": [
+        0.05221151,
+        0.997748137,
+        -0.04210395
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.315424127454838,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        -0.03854212,
+        -42.0
+      ],
+      "normal": [
+        0.06811932,
+        0.9969326,
+        -0.03853553
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.536616051588684,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        -0.175199926,
+        -41.9999962
+      ],
+      "normal": [
+        0.06811932,
+        0.9969326,
+        -0.03853553
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.5390414274510422,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        -0.2699322,
+        -42.0
+      ],
+      "normal": [
+        0.0457622334,
+        0.9987123,
+        -0.02189914
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        -0.2570815,
+        -42.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.15643248386003472,
+      "sourceBoundaryDistanceM": 0.3171204671121371,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        -0.3615747,
+        -42.0
+      ],
+      "normal": [
+        0.0457622334,
+        0.9987123,
+        -0.02189914
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        -0.349978775,
+        -42.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.10380086691820808,
+      "sourceBoundaryDistanceM": 1.086510361910993,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -14.000001,
+        -0.401231468,
+        -42.0
+      ],
+      "normal": [
+        0.0153796757,
+        0.9997641,
+        -0.0153388306
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -14.000001,
+        -0.39254564,
+        -42.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.051169276292189876,
+      "sourceBoundaryDistanceM": 1.7778987623058402,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        -0.431998074,
+        -42.0
+      ],
+      "normal": [
+        0.0153796757,
+        0.9997641,
+        -0.0153388306
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        -0.4212319,
+        -42.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.0014623669654452165,
+      "sourceBoundaryDistanceM": 2.087889090813606,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.411439,
+        -42.0
+      ],
+      "normal": [
+        -0.0218839385,
+        0.9997586,
+        0.00194026763
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        -0.407467365,
+        -42.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.05409398390727188,
+      "sourceBoundaryDistanceM": 2.335958559992023,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.367660582,
+        -41.9999962
+      ],
+      "normal": [
+        -0.0218839385,
+        0.9997586,
+        0.00194026763
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.363688916,
+        -41.9999962
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.07775977451017137,
+      "sourceBoundaryDistanceM": 2.5840317998263735,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        -0.297277957,
+        -42.0
+      ],
+      "normal": [
+        -0.0878673,
+        0.9959799,
+        0.0174177848
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.1005983792058468,
+      "sourceBoundaryDistanceM": 2.832097498348857,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        -0.120834023,
+        -42.0
+      ],
+      "normal": [
+        -0.0878673,
+        0.9959799,
+        0.0174177848
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.0,
+        -0.103215687,
+        -42.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.12343690021465589,
+      "sourceBoundaryDistanceM": 2.534835904972535,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        -2.0,
+        0.05560991,
+        -42.0
+      ],
+      "normal": [
+        -0.0878673,
+        0.9959799,
+        0.0174177848
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -2.0,
+        0.07322826,
+        -42.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.14627542122346507,
+      "sourceBoundaryDistanceM": 0.5382871586225432,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        0.136430323,
+        -42.0
+      ],
+      "normal": [
+        -0.0240155384,
+        0.99955225,
+        -0.0178434886
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.4582615877274485,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -42.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.184482962,
+        -42.0
+      ],
+      "normal": [
+        -0.0240155384,
+        0.99955225,
+        -0.0178434886
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.5346715853940918,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.283212483,
+        -40.0
+      ],
+      "normal": [
+        0.0372527279,
+        0.99896425,
+        -0.02612586
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.4608489957736115,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.183057427,
+        -40.0
+      ],
+      "normal": [
+        0.05221151,
+        0.997748137,
+        -0.04210395
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.0513844051342485,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.0388127565,
+        -40.0
+      ],
+      "normal": [
+        0.07942193,
+        0.995788455,
+        -0.045796562
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -22.0,
+        0.07329606,
+        -40.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.07246388844696133,
+      "sourceBoundaryDistanceM": 0.09556997360876177,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        -0.09789175,
+        -40.0
+      ],
+      "normal": [
+        0.06811932,
+        0.9969326,
+        -0.03853553
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        -0.0761702061,
+        -40.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.028069996814582433,
+      "sourceBoundaryDistanceM": 1.242524352351772,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        -0.180112347,
+        -40.0
+      ],
+      "normal": [
+        0.0467127077,
+        0.997842252,
+        -0.04613915
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        -0.164843917,
+        -40.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.08047846593542564,
+      "sourceBoundaryDistanceM": 2.124599631530362,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        -0.273739785,
+        -40.0
+      ],
+      "normal": [
+        0.0467127077,
+        0.997842252,
+        -0.04613915
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        -0.258230984,
+        -40.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.05763994492661649,
+      "sourceBoundaryDistanceM": 2.9632046901864255,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        -0.312044919,
+        -40.0
+      ],
+      "normal": [
+        0.0146062439,
+        0.998780251,
+        -0.04716745
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -14.0,
+        -0.3017367,
+        -40.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.03480142391780736,
+      "sourceBoundaryDistanceM": 3.654593436275645,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -12.000001,
+        -0.34414804,
+        -40.0
+      ],
+      "normal": [
+        0.017300196,
+        0.99854517,
+        -0.0510729775
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.000001,
+        -0.332735837,
+        -40.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.01196291432825871,
+      "sourceBoundaryDistanceM": 4.072444720206207,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.371279985,
+        -40.0
+      ],
+      "normal": [
+        -0.0149617493,
+        0.9993874,
+        -0.03163861
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.0108756180998109,
+      "sourceBoundaryDistanceM": 4.320514313419358,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.3267628,
+        -40.0
+      ],
+      "normal": [
+        -0.0239563268,
+        0.999456167,
+        -0.0226599369
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.318989128,
+        -40.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.03371413910862006,
+      "sourceBoundaryDistanceM": 4.568583782597775,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -5.99999952,
+        -0.201250643,
+        -40.0
+      ],
+      "normal": [
+        -0.116574675,
+        0.9922365,
+        -0.0433243737
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.0565526655986742,
+      "sourceBoundaryDistanceM": 4.648828216053769,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        0.01457423,
+        -40.0
+      ],
+      "normal": [
+        -0.0834066346,
+        0.9937325,
+        -0.07442423
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.0,
+        0.0410456024,
+        -40.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.0793911811262383,
+      "sourceBoundaryDistanceM": 2.6522799488754756,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        -2.0,
+        0.182439625,
+        -40.0
+      ],
+      "normal": [
+        -0.0834066346,
+        0.9937325,
+        -0.07442423
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.2295491214236015,
+      "sourceBoundaryDistanceM": 0.6557312025254839,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        0.145987928,
+        -40.0
+      ],
+      "normal": [
+        -0.0232090186,
+        0.9997252,
+        -0.00328505319
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.340817543824508,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -40.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.1924187,
+        -40.0
+      ],
+      "normal": [
+        -0.0232090186,
+        0.9997252,
+        -0.00328505319
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.6456088596716867,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.33551836,
+        -38.0
+      ],
+      "normal": [
+        0.0372527279,
+        0.99896425,
+        -0.02612586
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.29320613627261,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.260935664,
+        -38.0
+      ],
+      "normal": [
+        0.0372527279,
+        0.99896425,
+        -0.02612586
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.3376025346546587,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.130793333,
+        -38.0
+      ],
+      "normal": [
+        0.07942193,
+        0.995788455,
+        -0.045796562
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -22.0,
+        0.156136468,
+        -38.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.1718428580431149,
+      "sourceBoundaryDistanceM": 1.6180010669632925,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        -0.0176326931,
+        -38.0
+      ],
+      "normal": [
+        0.03963066,
+        0.99839294,
+        -0.04050843
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        0.00210302975,
+        -38.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.09373456753319533,
+      "sourceBoundaryDistanceM": 2.8809674099775884,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        -0.09702158,
+        -38.0
+      ],
+      "normal": [
+        0.03963066,
+        0.99839294,
+        -0.04050843
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        -0.08691279,
+        -38.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.030576645278792027,
+      "sourceBoundaryDistanceM": 3.9320787959485872,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        -0.181261942,
+        -38.0
+      ],
+      "normal": [
+        0.0467127077,
+        0.997842252,
+        -0.04613915
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        -0.165753081,
+        -38.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.03258127697561123,
+      "sourceBoundaryDistanceM": 4.788244124722181,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -13.999999,
+        -0.217594832,
+        -38.0
+      ],
+      "normal": [
+        0.0146062439,
+        0.998780251,
+        -0.04716745
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -13.999999,
+        -0.207286626,
+        -38.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.07884713158696446,
+      "sourceBoundaryDistanceM": 5.531288110245451,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        -0.24684298,
+        -38.0
+      ],
+      "normal": [
+        0.0146062439,
+        0.998780251,
+        -0.04716745
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        -0.23653473,
+        -38.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.05600862199741587,
+      "sourceBoundaryDistanceM": 6.057000597668276,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.27650404,
+        -38.0
+      ],
+      "normal": [
+        0.017300196,
+        0.99854517,
+        -0.0510729775
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": -0.033170100988606704,
+      "sourceBoundaryDistanceM": 4.867667705380063,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.2780221,
+        -38.0
+      ],
+      "normal": [
+        -0.0149617493,
+        0.9993874,
+        -0.03163861
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": -0.010331579979797598,
+      "sourceBoundaryDistanceM": 3.961589187434761,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        -0.120920792,
+        -38.0
+      ],
+      "normal": [
+        -0.246848539,
+        0.9686654,
+        -0.0274431445
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.012506941029011537,
+      "sourceBoundaryDistanceM": 3.8369229572666703,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -3.99999976,
+        0.1210497,
+        -38.0000038
+      ],
+      "normal": [
+        -0.116574675,
+        0.9922365,
+        -0.0433243737
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -3.99999976,
+        0.147908032,
+        -38.0000038
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.3029203410975946,
+      "sourceBoundaryDistanceM": 2.7697235300488834,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        -1.99999952,
+        0.329495,
+        -38.0
+      ],
+      "normal": [
+        0.0448461361,
+        0.9976896,
+        -0.05103286
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -1.99999952,
+        0.340353131,
+        -38.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.27066230044054407,
+      "sourceBoundaryDistanceM": 0.7731747672567254,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        0.239595056,
+        -38.0
+      ],
+      "normal": [
+        0.0448461361,
+        0.9976896,
+        -0.05103286
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.2233734999215673,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -38.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.198990583,
+        -38.0
+      ],
+      "normal": [
+        -0.0232090186,
+        0.9997252,
+        -0.00328505319
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.7565461339492816,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.396256924,
+        -36.0
+      ],
+      "normal": [
+        0.03710441,
+        0.998806953,
+        -0.0317499638
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.539498641222171,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.321959436,
+        -36.0
+      ],
+      "normal": [
+        0.03710441,
+        0.998806953,
+        -0.0317499638
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.7566664359142374,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.214784741,
+        -36.0
+      ],
+      "normal": [
+        0.07862413,
+        0.996095,
+        -0.0401609652
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -22.0,
+        0.233934388,
+        -36.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.2786970541353763,
+      "sourceBoundaryDistanceM": 1.1989371657037136,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        0.06008622,
+        -36.0
+      ],
+      "normal": [
+        0.03730538,
+        0.998611748,
+        -0.03718775
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        0.08037625,
+        -36.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.215539131880973,
+      "sourceBoundaryDistanceM": 3.1545407673216648,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        -0.0172258615,
+        -36.0
+      ],
+      "normal": [
+        0.0395626947,
+        0.998448,
+        -0.0391949452
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        -0.008981653,
+        -36.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.15238120962656976,
+      "sourceBoundaryDistanceM": 5.110144368939616,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        -0.09647423,
+        -36.0
+      ],
+      "normal": [
+        0.0395626947,
+        0.998448,
+        -0.0391949452
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        -0.08459686,
+        -36.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.08922328737216649,
+      "sourceBoundaryDistanceM": 6.595723289140405,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        -0.191889673,
+        -36.0
+      ],
+      "normal": [
+        0.0120961387,
+        0.999368846,
+        0.0334024
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -14.0,
+        -0.184301764,
+        -36.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.026065365117763216,
+      "sourceBoundaryDistanceM": 7.0099556189750585,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        -0.2160972,
+        -36.0
+      ],
+      "normal": [
+        0.0120961387,
+        0.999368846,
+        0.0334024
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        -0.2085093,
+        -36.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.037092557136640045,
+      "sourceBoundaryDistanceM": 5.145160617512342,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.240304768,
+        -36.0
+      ],
+      "normal": [
+        0.0120961387,
+        0.999368846,
+        0.0334024
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        -0.232716873,
+        -36.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.07721582007702435,
+      "sourceBoundaryDistanceM": 3.4359682449056472,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.221717253,
+        -36.0
+      ],
+      "normal": [
+        -0.0136864781,
+        0.999672055,
+        -0.0216438826
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.215826944,
+        -36.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.054377299068215194,
+      "sourceBoundaryDistanceM": 2.0882980845655164,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        0.0435467958,
+        -36.0
+      ],
+      "normal": [
+        -0.6739626,
+        0.7127193,
+        -0.194436863
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -6.0,
+        0.111592308,
+        -36.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.03153877805940605,
+      "sourceBoundaryDistanceM": 1.8408633246387425,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        0.1777901,
+        -36.0000038
+      ],
+      "normal": [
+        -0.113434389,
+        0.9934002,
+        -0.0169847142
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.0,
+        0.19967097,
+        -36.0000038
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.34403353172745854,
+      "sourceBoundaryDistanceM": 2.8284298117519597,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        -2.0,
+        0.356541216,
+        -36.0
+      ],
+      "normal": [
+        0.05622059,
+        0.998416,
+        0.00215491885
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -2.0,
+        0.362846673,
+        -36.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.3117754949413817,
+      "sourceBoundaryDistanceM": 0.8906192903313653,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        0.260789216,
+        -36.0
+      ],
+      "normal": [
+        0.03992041,
+        0.9990874,
+        0.0151918223
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.1059294560186266,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -36.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.181433529,
+        -36.0
+      ],
+      "normal": [
+        0.0348170549,
+        0.9992806,
+        0.0150348525
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.8674834082268765,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.471262634,
+        -34.0
+      ],
+      "normal": [
+        0.0513270758,
+        0.997527361,
+        -0.0480088666
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.9751806589209566,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.385535181,
+        -34.0
+      ],
+      "normal": [
+        0.03710441,
+        0.998806953,
+        -0.0317499638
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.1757303371738164,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.282430768,
+        -34.0
+      ],
+      "normal": [
+        0.0668814555,
+        0.997218132,
+        -0.03290715
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -22.0,
+        0.307715237,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.38511773406019634,
+      "sourceBoundaryDistanceM": 0.7767509683367111,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        0.137556821,
+        -34.0
+      ],
+      "normal": [
+        0.07862413,
+        0.996095,
+        -0.0401609652
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        0.158649489,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.320162804709303,
+      "sourceBoundaryDistanceM": 2.7284375270745564,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        0.0598506331,
+        -34.0
+      ],
+      "normal": [
+        0.03730538,
+        0.998611748,
+        -0.03718775
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        0.0688303858,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.2577237455193126,
+      "sourceBoundaryDistanceM": 4.680124085812402,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        -0.0179625154,
+        -34.0
+      ],
+      "normal": [
+        0.0395626947,
+        0.998448,
+        -0.0391949452
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        -0.0074798977,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.19528468632932228,
+      "sourceBoundaryDistanceM": 6.631810644550247,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -14.000001,
+        -0.139566422,
+        -34.0
+      ],
+      "normal": [
+        0.06332788,
+        0.9972119,
+        -0.0394714065
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -14.000001,
+        -0.134115562,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.13245630643412018,
+      "sourceBoundaryDistanceM": 6.654405935163036,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        -0.26657632,
+        -34.0
+      ],
+      "normal": [
+        0.06332788,
+        0.9972119,
+        -0.0394714065
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        -0.255906433,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.06929835260075579,
+      "sourceBoundaryDistanceM": 4.662622088842154,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.307151765,
+        -34.0
+      ],
+      "normal": [
+        0.0120961387,
+        0.999368846,
+        0.0334024
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        -0.299563855,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.0061404303463525045,
+      "sourceBoundaryDistanceM": 2.6708392384126958,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.231994122,
+        -34.0
+      ],
+      "normal": [
+        -0.103216708,
+        0.994641244,
+        0.005937053
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.213703826,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.05701749190805075,
+      "sourceBoundaryDistanceM": 0.6872246939684277,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        0.366426349,
+        -34.0
+      ],
+      "normal": [
+        0.0507103875,
+        0.989292741,
+        -0.136851743
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -5.999999,
+        0.3980252,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.41666701564557684,
+      "sourceBoundaryDistanceM": 0.0,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -3.99999976,
+        0.263907969,
+        -34.0
+      ],
+      "normal": [
+        0.0507103875,
+        0.989292741,
+        -0.136851743
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -3.99999976,
+        0.295506924,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.38440889687347146,
+      "sourceBoundaryDistanceM": 1.8408635636526836,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        -1.99999952,
+        0.352224529,
+        -34.0
+      ],
+      "normal": [
+        0.05622059,
+        0.998416,
+        0.00215491885
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -1.99999952,
+        0.3511713,
+        -34.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.36271713485061946,
+      "sourceBoundaryDistanceM": 1.0081569852248138,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        0.23960501,
+        -34.0
+      ],
+      "normal": [
+        0.05622059,
+        0.998416,
+        0.00215491885
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.9882874338403284,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -34.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.151342154,
+        -34.0
+      ],
+      "normal": [
+        0.0348170549,
+        0.9992806,
+        0.0150348525
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.9784206825044715,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.5654303,
+        -31.9999981
+      ],
+      "normal": [
+        0.0505647436,
+        0.9980746,
+        -0.03592121
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.4864020550628905,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0000019,
+        0.464105666,
+        -32.0
+      ],
+      "normal": [
+        0.0505647436,
+        0.9980746,
+        -0.03592121
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.6118808921508012,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.3493268,
+        -32.0
+      ],
+      "normal": [
+        0.06487009,
+        0.9961653,
+        -0.0587082356
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -22.0,
+        0.381496,
+        -32.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.41603078306084773,
+      "sourceBoundaryDistanceM": 0.3398075206892759,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        0.219087243,
+        -32.0
+      ],
+      "normal": [
+        0.06487009,
+        0.9961653,
+        -0.0587082356
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        0.23474431,
+        -32.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.3195204585427118,
+      "sourceBoundaryDistanceM": 2.2914940794271215,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        0.134389579,
+        -32.0
+      ],
+      "normal": [
+        0.0373064466,
+        0.9986,
+        -0.0375002772
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        0.145947278,
+        -32.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.23745164042672717,
+      "sourceBoundaryDistanceM": 4.243180638164967,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        0.0596721172,
+        -32.0
+      ],
+      "normal": [
+        0.0373064466,
+        0.9986,
+        -0.0375002772
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        0.0696369857,
+        -32.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.1604767550121125,
+      "sourceBoundaryDistanceM": 6.194867196902812,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        -0.0631797,
+        -32.0
+      ],
+      "normal": [
+        0.06358607,
+        0.9976268,
+        -0.0264137387
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.08350186959749781,
+      "sourceBoundaryDistanceM": 6.5,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        -0.190654382,
+        -32.0
+      ],
+      "normal": [
+        0.06358607,
+        0.9976268,
+        -0.0264137387
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        -0.202367231,
+        -32.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.006526984182883125,
+      "sourceBoundaryDistanceM": 4.5,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.318129063,
+        -32.0
+      ],
+      "normal": [
+        0.06358607,
+        0.9976268,
+        -0.0264137387
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        -0.311335653,
+        -32.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.07044790123173171,
+      "sourceBoundaryDistanceM": 2.5,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.254226863,
+        -32.0
+      ],
+      "normal": [
+        -0.102788165,
+        0.993938565,
+        0.0389949
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.23045224,
+        -32.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.1474227866463464,
+      "sourceBoundaryDistanceM": 0.5,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        0.6184786,
+        -31.9999981
+      ],
+      "normal": [
+        0.0598521829,
+        0.996902943,
+        -0.05101071
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": [
+        -5.985927,
+        0.6360551,
+        -32.00221
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.013846273309742892,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        0.498402357,
+        -32.0
+      ],
+      "normal": [
+        0.0598521829,
+        0.996902943,
+        -0.05101071
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.0,
+        0.5169369,
+        -32.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.5726498666419909,
+      "sourceBoundaryDistanceM": 1.9500817646960342,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        -2.0,
+        0.3339119,
+        -31.9999981
+      ],
+      "normal": [
+        0.05545726,
+        0.998133,
+        0.0255935248
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -2.0,
+        0.339496017,
+        -31.9999981
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.4720985625284623,
+      "sourceBoundaryDistanceM": 1.1273539215269004,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        0.222789943,
+        -32.0
+      ],
+      "normal": [
+        0.05545726,
+        0.998133,
+        0.0255935248
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.8690910899215443,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -32.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.118979841,
+        -31.9999981
+      ],
+      "normal": [
+        0.03460751,
+        0.9992028,
+        0.019901745
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.0893580621724768,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.64048475,
+        -30.0
+      ],
+      "normal": [
+        0.05592722,
+        0.997543931,
+        -0.0421678536
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.0603183100980373,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.536086738,
+        -30.0000019
+      ],
+      "normal": [
+        0.0505647436,
+        0.9980746,
+        -0.03592121
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.048822070599729,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.436576962,
+        -30.0
+      ],
+      "normal": [
+        0.04661169,
+        0.998297,
+        -0.03507617
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.09713592695815923,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        0.336955667,
+        -30.0
+      ],
+      "normal": [
+        0.06487009,
+        0.9961653,
+        -0.0587082356
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        0.32306388,
+        -30.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.3560525596984505,
+      "sourceBoundaryDistanceM": 1.8545506317796863,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        0.2176165,
+        -29.9999981
+      ],
+      "normal": [
+        0.0455154851,
+        0.9978158,
+        -0.0478737019
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        0.233215481,
+        -29.9999981
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.25954226988581075,
+      "sourceBoundaryDistanceM": 3.8062367754212563,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        0.134777784,
+        -30.0
+      ],
+      "normal": [
+        0.0373064466,
+        0.9986,
+        -0.0375002772
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        0.146753937,
+        -30.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.1667604322078728,
+      "sourceBoundaryDistanceM": 5.757923749255377,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        0.0146205127,
+        -30.0
+      ],
+      "normal": [
+        0.08554305,
+        0.9947917,
+        -0.05542431
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -14.0,
+        0.05598843,
+        -30.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.08978554679325809,
+      "sourceBoundaryDistanceM": 6.800735254367722,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        -0.137701243,
+        -30.0
+      ],
+      "normal": [
+        0.06358607,
+        0.9976268,
+        -0.0264137387
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        -0.114946492,
+        -30.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.012810661378643368,
+      "sourceBoundaryDistanceM": 4.89614578992613,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.2651759,
+        -30.0
+      ],
+      "normal": [
+        0.06358607,
+        0.9976268,
+        -0.0264137387
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        -0.2577964,
+        -30.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.0641642240359714,
+      "sourceBoundaryDistanceM": 2.9920873938037498,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.31246838,
+        -30.0
+      ],
+      "normal": [
+        0.003627981,
+        0.9995909,
+        -0.0283687413
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.3071334,
+        -30.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.14113910945058616,
+      "sourceBoundaryDistanceM": 1.08802899768137,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        0.4667248,
+        -30.0
+      ],
+      "normal": [
+        -0.687058866,
+        0.700169265,
+        0.19419913
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.5797403634386694,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        0.6007407,
+        -30.0
+      ],
+      "normal": [
+        0.0598521829,
+        0.996902943,
+        -0.05101071
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.0,
+        0.6192752,
+        -30.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.675213920981243,
+      "sourceBoundaryDistanceM": 1.3176262326623582,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        -2.0,
+        0.3527078,
+        -30.0
+      ],
+      "normal": [
+        0.133744881,
+        0.9907856,
+        -0.02135832
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -2.0,
+        0.378798783,
+        -30.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.43390637867550597,
+      "sourceBoundaryDistanceM": 1.2465501522091575,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        0.17150712,
+        -30.0
+      ],
+      "normal": [
+        0.05545726,
+        0.998133,
+        0.0255935248
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.7498947460027602,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -30.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.0791446,
+        -30.0
+      ],
+      "normal": [
+        0.03460751,
+        0.9992028,
+        0.019901745
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.200295231059661,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.7250281,
+        -28.0
+      ],
+      "normal": [
+        0.05592722,
+        0.997543931,
+        -0.0421678536
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.6342341603532416,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.6128983,
+        -28.0
+      ],
+      "normal": [
+        0.05592722,
+        0.997543931,
+        -0.0421678536
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.48576593334344,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.506849,
+        -28.0
+      ],
+      "normal": [
+        0.04661169,
+        0.998297,
+        -0.03507617
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.5340793746055945,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        0.413466632,
+        -28.0
+      ],
+      "normal": [
+        0.04661169,
+        0.998297,
+        -0.03507617
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.3925846608541892,
+      "sourceBoundaryDistanceM": 1.417607184132251,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        0.320084155,
+        -28.0
+      ],
+      "normal": [
+        0.04661169,
+        0.998297,
+        -0.03507617
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        0.328502476,
+        -28.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.2960743363360533,
+      "sourceBoundaryDistanceM": 3.3692937428700964,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -15.999999,
+        0.222343266,
+        -28.0
+      ],
+      "normal": [
+        0.0455154851,
+        0.9978158,
+        -0.0478737019
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -15.999999,
+        0.237942159,
+        -28.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.19956396356275508,
+      "sourceBoundaryDistanceM": 5.32098127745122,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        0.126049489,
+        -28.0000019
+      ],
+      "normal": [
+        0.08554305,
+        0.9947917,
+        -0.05542431
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -14.0,
+        0.147560552,
+        -28.0000019
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.10305365259428538,
+      "sourceBoundaryDistanceM": 7.272667275442062,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        -0.0459323227,
+        -28.0
+      ],
+      "normal": [
+        0.08554305,
+        0.9947917,
+        -0.05542431
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        -0.0198944248,
+        -28.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.019094338574403624,
+      "sourceBoundaryDistanceM": 5.508160188576905,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.212222755,
+        -28.0000019
+      ],
+      "normal": [
+        0.06358607,
+        0.9976268,
+        -0.0264137387
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        -0.190829426,
+        -28.0000019
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.05788055280970461,
+      "sourceBoundaryDistanceM": 3.6041012110408457,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.255707681,
+        -28.0
+      ],
+      "normal": [
+        0.003627981,
+        0.9995909,
+        -0.0283687413
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.250372738,
+        -28.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.13485543225482588,
+      "sourceBoundaryDistanceM": 1.7000433963321446,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        -0.207577839,
+        -28.0
+      ],
+      "normal": [
+        -0.07748089,
+        0.996394157,
+        0.0345730223
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.20401499979023544,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        0.6657992,
+        -28.0
+      ],
+      "normal": [
+        0.133744881,
+        0.9907856,
+        -0.02135832
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.0,
+        0.691890061,
+        -28.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.7559942135595467,
+      "sourceBoundaryDistanceM": 0.6851707006286825,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        -2.0,
+        0.39582175,
+        -28.0
+      ],
+      "normal": [
+        0.133744881,
+        0.9907856,
+        -0.02135832
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -2.0,
+        0.4219127,
+        -28.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.3957141585399405,
+      "sourceBoundaryDistanceM": 1.3657464961279417,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        0.125844359,
+        -28.0
+      ],
+      "normal": [
+        0.133744881,
+        0.9907856,
+        -0.02135832
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.6306984020839762,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -28.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.0393093526,
+        -28.0000019
+      ],
+      "normal": [
+        0.03460751,
+        0.9992028,
+        0.019901745
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.3112323999468454,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.7490967,
+        -26.0
+      ],
+      "normal": [
+        0.0533804968,
+        0.9984585,
+        0.01520222
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.20815001060844607,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0000019,
+        0.642170966,
+        -26.0
+      ],
+      "normal": [
+        0.0533804968,
+        0.9984585,
+        0.01520222
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.162234205897976,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.5359365,
+        -26.0
+      ],
+      "normal": [
+        0.04583621,
+        0.998870969,
+        0.0124862092
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.9710228222530295,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        0.4337811,
+        -26.0
+      ],
+      "normal": [
+        0.0533379465,
+        0.998536348,
+        0.00896493
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        0.44418,
+        -26.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.42911676200992777,
+      "sourceBoundaryDistanceM": 0.980663736484816,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        0.326948822,
+        -26.0
+      ],
+      "normal": [
+        0.0533379465,
+        0.998536348,
+        0.00896493
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        0.337347746,
+        -26.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.3326064374917919,
+      "sourceBoundaryDistanceM": 2.932350295222661,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        0.216447413,
+        -26.0
+      ],
+      "normal": [
+        0.04754729,
+        0.998745,
+        0.0157330856
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        0.224719644,
+        -26.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.23609611297365607,
+      "sourceBoundaryDistanceM": 4.884036853960507,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        0.127440035,
+        -26.0
+      ],
+      "normal": [
+        0.0358040333,
+        0.9992815,
+        0.0124284821
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.1395857884555201,
+      "sourceBoundaryDistanceM": 6.835723412698352,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        0.010453254,
+        -26.0
+      ],
+      "normal": [
+        0.08337915,
+        0.9963252,
+        -0.0195977781
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        0.02767938,
+        -26.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.04307546393738425,
+      "sourceBoundaryDistanceM": 5.528041854367253,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.156920135,
+        -26.0
+      ],
+      "normal": [
+        0.08337915,
+        0.9963252,
+        -0.0195977781
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        -0.13969399,
+        -26.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.05159686964445094,
+      "sourceBoundaryDistanceM": 3.5824252499326152,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.206457555,
+        -26.0
+      ],
+      "normal": [
+        0.00312569388,
+        0.999745548,
+        -0.0223368332
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.202212751,
+        -26.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.12857175505906565,
+      "sourceBoundaryDistanceM": 1.6368086454979767,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        -0.23537001,
+        -26.0
+      ],
+      "normal": [
+        -0.0752717,
+        0.9971553,
+        -0.003941396
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.3088079589366618,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -4.000001,
+        0.6112759,
+        -26.0
+      ],
+      "normal": [
+        0.09472368,
+        0.9887199,
+        0.11601951
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.000001,
+        0.646800458,
+        -26.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.6526056267623983,
+      "sourceBoundaryDistanceM": 0.7870078043551136,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        -2.00000024,
+        0.335016251,
+        -26.0
+      ],
+      "normal": [
+        0.140976965,
+        0.9880267,
+        0.06268029
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -2.00000024,
+        0.369370461,
+        -26.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.35752198163798166,
+      "sourceBoundaryDistanceM": 1.4849430796201135,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        0.0496454835,
+        -26.0
+      ],
+      "normal": [
+        0.140976965,
+        0.9880267,
+        0.06268029
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.511502058165192,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -26.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        0.0106579363,
+        -26.0
+      ],
+      "normal": [
+        0.03477212,
+        0.9993236,
+        0.0119664073
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.4221697796148507,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.734870255,
+        -24.0
+      ],
+      "normal": [
+        0.07234085,
+        0.99737674,
+        -0.0025172364
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -26.0,
+        0.7473793,
+        -24.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.41398152191558896,
+      "sourceBoundaryDistanceM": 0.21793413913635004,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.611719549,
+        -24.0
+      ],
+      "normal": [
+        0.0533804968,
+        0.9984585,
+        0.01520222
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.736151912534931,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.5109359,
+        -24.0
+      ],
+      "normal": [
+        0.04583621,
+        0.998870969,
+        0.0124862092
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.4079662699004647,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        0.41582495,
+        -24.0
+      ],
+      "normal": [
+        0.0533379465,
+        0.998536348,
+        0.00896493
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        0.4262239,
+        -24.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.46564886316566645,
+      "sourceBoundaryDistanceM": 0.5437202888373809,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        0.308992684,
+        -24.0
+      ],
+      "normal": [
+        0.0533379465,
+        0.998536348,
+        0.00896493
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        0.3193916,
+        -24.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.3691385386475306,
+      "sourceBoundaryDistanceM": 2.495406847575226,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        0.184941709,
+        -24.0
+      ],
+      "normal": [
+        0.04754729,
+        0.998745,
+        0.0157330856
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        0.190006077,
+        -24.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.2726282141293947,
+      "sourceBoundaryDistanceM": 4.447093406313072,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        0.102565169,
+        -24.0
+      ],
+      "normal": [
+        0.0358040333,
+        0.9992815,
+        0.0124284821
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -14.0,
+        0.105048746,
+        -24.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.1761178896112588,
+      "sourceBoundaryDistanceM": 5.481757891462271,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        0.030905664,
+        -24.0
+      ],
+      "normal": [
+        0.0358040333,
+        0.9992815,
+        0.0124284821
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        0.03792965,
+        -24.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.07960756509312292,
+      "sourceBoundaryDistanceM": 5.169388530571096,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.100542441,
+        -24.0
+      ],
+      "normal": [
+        0.03950665,
+        0.998695731,
+        -0.0323408581
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        -0.08855221,
+        -24.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.016902759425013014,
+      "sourceBoundaryDistanceM": 3.1710846377856265,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.161772519,
+        -24.0
+      ],
+      "normal": [
+        0.00312569388,
+        0.999745548,
+        -0.0223368332
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.1575277,
+        -24.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": -0.11341308394314895,
+      "sourceBoundaryDistanceM": 1.1785490146786424,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        0.116139561,
+        -24.0
+      ],
+      "normal": [
+        -0.759283066,
+        0.6375716,
+        -0.130352288
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.4190528626377733,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        0.376589477,
+        -24.0
+      ],
+      "normal": [
+        0.09472368,
+        0.9887199,
+        0.11601951
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.0,
+        0.412114024,
+        -24.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.3521871385524226,
+      "sourceBoundaryDistanceM": 1.3968708123167524,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -2.0,
+        0.18498075,
+        -24.0
+      ],
+      "normal": [
+        0.09472368,
+        0.9887199,
+        0.11601951
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -2.0,
+        0.2205053,
+        -24.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.2605460169902886,
+      "sourceBoundaryDistanceM": 1.6041391839655097,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        -4.76837158e-07,
+        -0.07723427,
+        -24.0
+      ],
+      "normal": [
+        0.140976965,
+        0.9880267,
+        0.06268029
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.39230523825685243,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -24.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        -0.12146312,
+        -24.0
+      ],
+      "normal": [
+        -0.01463513,
+        0.9976976,
+        0.06622126
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.388750612458326,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.723783433,
+        -21.9999981
+      ],
+      "normal": [
+        0.07027777,
+        0.99592936,
+        0.0564427823
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -26.0,
+        0.7449895,
+        -21.9999981
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.36940570874816736,
+      "sourceBoundaryDistanceM": 0.6440186936610879,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.582653344,
+        -22.0
+      ],
+      "normal": [
+        0.07027777,
+        0.99592936,
+        0.0564427823
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.310067762790135,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0000019,
+        0.485935152,
+        -22.0
+      ],
+      "normal": [
+        0.04583621,
+        0.998870969,
+        0.0124862092
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 1.8255554067632318,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        0.394159138,
+        -22.0
+      ],
+      "normal": [
+        0.04583621,
+        0.998870969,
+        0.0124862092
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -20.0,
+        0.40389052,
+        -22.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.45559304285671004,
+      "sourceBoundaryDistanceM": 0.13846161593318337,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        0.287144244,
+        -22.0
+      ],
+      "normal": [
+        0.07048099,
+        0.9974389,
+        0.0121621955
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        0.300615847,
+        -22.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.4180123873823136,
+      "sourceBoundaryDistanceM": 2.1024767728151987,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        0.153436,
+        -22.0
+      ],
+      "normal": [
+        0.04754729,
+        0.998745,
+        0.0157330856
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        0.1552925,
+        -22.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.40580282623744335,
+      "sourceBoundaryDistanceM": 3.482214534617095,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        0.07769036,
+        -22.0
+      ],
+      "normal": [
+        0.0358040333,
+        0.9992815,
+        0.0124284821
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -14.0,
+        0.0771276951,
+        -22.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.34314183202742365,
+      "sourceBoundaryDistanceM": 3.4818735479848457,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        0.00896605849,
+        -22.0
+      ],
+      "normal": [
+        0.0293872356,
+        0.9995647,
+        -0.00259957626
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        0.0100086071,
+        -22.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.2708526831935016,
+      "sourceBoundaryDistanceM": 3.4603651144327365,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.0397439,
+        -22.0
+      ],
+      "normal": [
+        0.0390331447,
+        0.99888885,
+        -0.0264110118
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        -0.0288244,
+        -22.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.19856353435957952,
+      "sourceBoundaryDistanceM": 3.4388566808806282,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.126106113,
+        -22.0
+      ],
+      "normal": [
+        0.101343423,
+        0.994645953,
+        -0.020223204
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -8.0,
+        -0.106977537,
+        -22.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.12627438552565737,
+      "sourceBoundaryDistanceM": 1.8027756377319946,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        -0.05749041,
+        -22.0
+      ],
+      "normal": [
+        -0.3102211,
+        0.9505309,
+        -0.01593432
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.05398523669173528,
+      "sourceBoundaryDistanceM": 1.0,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        0.236821175,
+        -21.9999981
+      ],
+      "normal": [
+        0.105216473,
+        0.9917917,
+        -0.07265538
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.0,
+        0.254623771,
+        -21.9999981
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.1282054126686899,
+      "sourceBoundaryDistanceM": 2.2360688272062674,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -2.0,
+        0.02464658,
+        -22.0
+      ],
+      "normal": [
+        0.105216473,
+        0.9917917,
+        -0.07265538
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.06938174541340474,
+      "sourceBoundaryDistanceM": 1.7038876313161266,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        -4.76837158e-07,
+        -0.187527955,
+        -22.0
+      ],
+      "normal": [
+        0.105216473,
+        0.9917917,
+        -0.07265538
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.2946353993470529,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -22.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        -0.223679155,
+        -22.0
+      ],
+      "normal": [
+        -0.0201371536,
+        0.9995754,
+        -0.0210612416
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.2931593829805017,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.61043644,
+        -20.0
+      ],
+      "normal": [
+        0.07027777,
+        0.99592936,
+        0.0564427823
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -26.0,
+        0.631642759,
+        -20.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.32482998027471016,
+      "sourceBoundaryDistanceM": 1.0701024386259412,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.47292316,
+        -20.0
+      ],
+      "normal": [
+        0.03379369,
+        0.9983729,
+        0.04593055
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.8839836130453395,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.4052257,
+        -20.0
+      ],
+      "normal": [
+        0.03379369,
+        0.9983729,
+        0.04593055
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.203236560871243,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        0.3434326,
+        -20.0
+      ],
+      "normal": [
+        0.02872354,
+        0.9982727,
+        0.05124989
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.23922140398922803,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        0.2609926,
+        -20.0
+      ],
+      "normal": [
+        0.0725319758,
+        0.997052848,
+        0.0249933284
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -18.0,
+        0.271725148,
+        -20.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.3105678760570406,
+      "sourceBoundaryDistanceM": 1.3972104599720818,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        0.123936445,
+        -20.0
+      ],
+      "normal": [
+        0.0146001251,
+        0.9997324,
+        0.0179414432
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -16.0,
+        0.120578915,
+        -20.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.27031658514647516,
+      "sourceBoundaryDistanceM": 1.4841030047829122,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        0.07296753,
+        -20.0
+      ],
+      "normal": [
+        0.0293872356,
+        0.9995647,
+        -0.00259957626
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -14.0,
+        0.0492066368,
+        -20.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.2581070240016049,
+      "sourceBoundaryDistanceM": 1.4819892045074197,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        0.0161599219,
+        -20.0
+      ],
+      "normal": [
+        0.009654988,
+        0.999877,
+        -0.0123570766
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -12.0,
+        0.0232571363,
+        -20.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.24589746285673467,
+      "sourceBoundaryDistanceM": 1.460480770955311,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        -0.00315243,
+        -20.0
+      ],
+      "normal": [
+        0.009654988,
+        0.999877,
+        -0.0123570766
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -10.0,
+        0.00149625447,
+        -20.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.23368790171186443,
+      "sourceBoundaryDistanceM": 1.4389723374032022,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -8.0,
+        -0.08544196,
+        -20.0
+      ],
+      "normal": [
+        0.101343423,
+        0.994645953,
+        -0.020223204
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.2214783405669942,
+      "sourceBoundaryDistanceM": 1.4174639038510937,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        -0.023963213,
+        -20.0
+      ],
+      "normal": [
+        -0.3102211,
+        0.9505309,
+        -0.01593432
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": 0.19810022488752208,
+      "sourceBoundaryDistanceM": 1.395955470298985,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -4.00000048,
+        0.147395015,
+        -20.0
+      ],
+      "normal": [
+        0.01196494,
+        0.9985449,
+        0.05258288
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -4.00000048,
+        0.158168644,
+        -20.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.12581109340299568,
+      "sourceBoundaryDistanceM": 1.3744470419089003,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        -2.00000024,
+        0.123430282,
+        -20.0
+      ],
+      "normal": [
+        0.01196494,
+        0.9985449,
+        0.05258288
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -2.00000024,
+        0.134203881,
+        -20.0
+      ],
+      "route": "PathComplete",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.09615384190493888,
+      "sourceBoundaryDistanceM": 1.3529386057757797,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        -0.0410145521,
+        -20.0
+      ],
+      "normal": [
+        0.105216473,
+        0.9917917,
+        -0.07265538
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.21779974256402954,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -20.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        -0.1344082,
+        -20.0
+      ],
+      "normal": [
+        0.000852931,
+        0.998438835,
+        -0.0558484
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.2163232497123437,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -26.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -26.0,
+        0.495127857,
+        -18.0
+      ],
+      "normal": [
+        0.06830232,
+        0.995952547,
+        0.0584229119
+      ],
+      "collider": "Terrain",
+      "navigable": true,
+      "navPoint": [
+        -26.0,
+        0.5163345,
+        -18.0
+      ],
+      "route": "PathPartial",
+      "nearGroundNavigable": true,
+      "projectedNavHeightM": 0.28025420945427076,
+      "sourceBoundaryDistanceM": 1.4961865883707368,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -24.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -24.0,
+        0.380912364,
+        -18.0
+      ],
+      "normal": [
+        0.03379369,
+        0.9983729,
+        0.04593055
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.4578994633005438,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -22.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -22.0,
+        0.313214839,
+        -18.0
+      ],
+      "normal": [
+        0.03379369,
+        0.9983729,
+        0.04593055
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.4119855149718243,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -20.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -20.0,
+        0.245517313,
+        -18.0
+      ],
+      "normal": [
+        0.03379369,
+        0.9983729,
+        0.04593055
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.8333600002399913,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -18.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -18.0,
+        0.168381423,
+        -18.0
+      ],
+      "normal": [
+        0.04572857,
+        0.997518659,
+        0.05352844
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.6009010698621008,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -16.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -16.0,
+        0.08801019,
+        -18.0
+      ],
+      "normal": [
+        0.0168297067,
+        0.99859345,
+        0.05027794
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.5140085250512706,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -14.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -14.0,
+        0.0543033481,
+        -18.0
+      ],
+      "normal": [
+        0.0168297067,
+        0.99859345,
+        0.05027794
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.5178951389700062,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -12.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -12.0,
+        0.0309818387,
+        -18.0
+      ],
+      "normal": [
+        0.00766918762,
+        0.999005556,
+        0.0439218022
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.5394035725221149,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -10.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -10.0,
+        0.015628159,
+        -18.0
+      ],
+      "normal": [
+        0.00766918762,
+        0.999005556,
+        0.0439218022
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.5609120060742235,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -8.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -8.000001,
+        0.0140526,
+        -18.0
+      ],
+      "normal": [
+        -0.0246966854,
+        0.99480027,
+        0.09880506
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.5824204288721154,
+      "stableNavigationCase": false
+    },
+    {
+      "input": [
+        -6.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -6.0,
+        0.0527255535,
+        -18.0
+      ],
+      "normal": [
+        -0.0167341754,
+        0.9970987,
+        -0.07425741
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.6039288731784409,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -4.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -4.0,
+        0.04207605,
+        -18.0
+      ],
+      "normal": [
+        0.01196494,
+        0.9985449,
+        0.05258288
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.6254373067305496,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        -2.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        -1.99999952,
+        0.0181112885,
+        -18.0
+      ],
+      "normal": [
+        0.01196494,
+        0.9985449,
+        0.05258288
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.6469457454446823,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        0.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        0.0,
+        -0.005853474,
+        -18.0
+      ],
+      "normal": [
+        0.01196494,
+        0.9985449,
+        0.05258288
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 0.6666999999999987,
+      "stableNavigationCase": true
+    },
+    {
+      "input": [
+        2.0,
+        10.0,
+        -18.0
+      ],
+      "ground": true,
+      "point": [
+        2.0,
+        -0.0225367546,
+        -18.0
+      ],
+      "normal": [
+        0.000852931,
+        0.998438835,
+        -0.0558484
+      ],
+      "collider": "Terrain",
+      "navigable": false,
+      "navPoint": null,
+      "route": "None",
+      "nearGroundNavigable": false,
+      "projectedNavHeightM": null,
+      "sourceBoundaryDistanceM": 2.108195647941623,
+      "stableNavigationCase": true
+    }
+  ],
+  "waypoints": [
+    {
+      "interaction": "BarriersIeraction",
+      "name": "Waypoint A",
+      "position": [
+        -16.9010315,
+        -0.318370581,
+        -41.9125328
+      ],
+      "found": true,
+      "status": "PathComplete",
+      "corners": [
+        [
+          -14.4887314,
+          -0.2790451,
+          -42.517334
+        ],
+        [
+          -16.9010315,
+          -0.229063764,
+          -41.9125328
+        ]
+      ]
+    },
+    {
+      "interaction": "BarriersIeraction",
+      "name": "Waypoint B",
+      "position": [
+        -14.4887276,
+        -0.4037764,
+        -42.51732
+      ],
+      "found": true,
+      "status": "PathComplete",
+      "corners": [
+        [
+          -14.4887314,
+          -0.2790451,
+          -42.517334
+        ],
+        [
+          -14.4887276,
+          -0.279044628,
+          -42.51732
+        ]
+      ]
+    },
+    {
+      "interaction": "RockInteraction",
+      "name": "Waypoint A",
+      "position": [
+        -6.80427265,
+        -0.261186838,
+        -28.67072
+      ],
+      "found": true,
+      "status": "PathComplete",
+      "corners": [
+        [
+          -14.4887314,
+          -0.2790451,
+          -42.517334
+        ],
+        [
+          -6.80427265,
+          -0.166666612,
+          -28.67072
+        ]
+      ]
+    },
+    {
+      "interaction": "RockInteraction",
+      "name": "Waypoint B",
+      "position": [
+        -7.056992,
+        -0.224809647,
+        -26.6894417
+      ],
+      "found": true,
+      "status": "PathComplete",
+      "corners": [
+        [
+          -14.4887314,
+          -0.2790451,
+          -42.517334
+        ],
+        [
+          -7.056992,
+          -0.145292714,
+          -26.6894417
+        ]
+      ]
+    },
+    {
+      "interaction": "RollingGateInteraction",
+      "name": "Waypoint A",
+      "position": [
+        -11.88062,
+        0.06695843,
+        -19.4268932
+      ],
+      "found": true,
+      "status": "PathComplete",
+      "corners": [
+        [
+          -14.4887314,
+          -0.2790451,
+          -42.517334
+        ],
+        [
+          -11.88062,
+          0.131990388,
+          -19.4268932
+        ]
+      ]
+    },
+    {
+      "interaction": "RollingGateInteraction",
+      "name": "Waypoint B",
+      "position": [
+        -10.4262314,
+        0.0655145645,
+        -19.4551144
+      ],
+      "found": true,
+      "status": "PathComplete",
+      "corners": [
+        [
+          -14.4887314,
+          -0.2790451,
+          -42.517334
+        ],
+        [
+          -10.4262314,
+          0.116437376,
+          -19.4551144
+        ]
+      ]
+    },
+    {
+      "interaction": "SecurityKisokInteraction",
+      "name": "Waypoint A",
+      "position": [
+        -14.6148348,
+        0.09082937,
+        -19.28242
+      ],
+      "found": true,
+      "status": "PathComplete",
+      "corners": [
+        [
+          -14.4887314,
+          -0.2790451,
+          -42.517334
+        ],
+        [
+          -14.6148348,
+          0.160607174,
+          -19.28242
+        ]
+      ]
+    },
+    {
+      "interaction": "SecurityKisokInteraction",
+      "name": "Waypoint B",
+      "position": [
+        -16.0842648,
+        0.112109661,
+        -19.2724476
+      ],
+      "found": true,
+      "status": "PathComplete",
+      "corners": [
+        [
+          -14.4887314,
+          -0.2790451,
+          -42.517334
+        ],
+        [
+          -16.0842648,
+          0.2068355,
+          -19.2724476
+        ]
+      ]
+    }
+  ],
+  "oracleSha256": "8fa10019c393db2616fa6a2ce839c0bac36d27ef108d54dc3509bd4d2ad4173d",
+  "navigationComparison": "Horizontal footprint of the source baked navigation; original 15 cm 3-D proximity query retained as nearGroundNavigable",
+  "tolerances": {
+    "surfaceCm": 0.05,
+    "normalDegrees": 0.3,
+    "rootCm": 3,
+    "navigationBoundaryBandM": 0.6,
+    "navQueryXYCm": 15,
+    "navQueryZCm": 200
+  }
+}

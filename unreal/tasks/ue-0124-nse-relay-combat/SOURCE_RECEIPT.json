@@ -1,0 +1,61 @@
+{
+  "repository": "https://github.com/brianyla/unrealbench",
+  "commit": "1ff51f9695b8bc0220296bd0f861f3e6f80c988d",
+  "source_task": "ue_task_0124_nse_relay_combat",
+  "source_files": {
+    "spec.yaml": "d6c29bff2beefcf838eeeafb7b0f827e86813d7783b1d44fa185290bb77fab62",
+    "tests/HUD-REVIEW.md": "f3cc9bccda00ba3b4cef13605f6e9e11819087b804226d5cc07c3fe0ba74c3f2",
+    "tests/RelayCombatTests.cpp": "72dd3d2d6c66ec33e6970476c193e012bf5cf4a8ef77b513950f6af86048f897",
+    "tests/RelayPythonAutomation.h": "f8c49e7dc2574aa412c92e650551c0d979a7a7d7503b9dd63b79c456b676f02c",
+    "tests/relay_ggpo_campaign.py": "99a44dac00d5288c1c840e81060448410b444e26da985980604e3da977a1b015",
+    "tests/relay_ggpo_peers.py": "502cc816eef8ce2d51dfa7ce3a851388566fdd36901f3fc49e7eca13f4193b1f",
+    "tests/relay_rendered_sample.py": "ef0298c30a929dda89be3ca3db5c023cbd9f60c3fd81d5ba9dce86a61aa0c5ed",
+    "tests/test_relay_driver_helpers.py": "df53506fd97d9da6c56a1f498eae1762d163ef1ca1d8ae4c2c6e0cfa1b9642de",
+    "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelayPeerWorker.cpp": "d1d1c3d408441d2a1554768bcda40f7f5f14210b67021d956f1ae76f2780dafc",
+    "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelayPeerWorker.h": "6b04fde5fbf93e5c8c5610803f8b410c85caff9c739a011bac0583a025dc9694",
+    "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelayVisualProof.cpp": "c3c9b662a60579d4f82240d9d3041682bfeff8803d4fddcef731aa452bbfde5b",
+    "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelayVisualProof.h": "48bdfde21868bbd1d13be55e4cc7aebcbcdfeed0e783127008a03eb4e66abea3"
+  },
+  "adaptations": [
+    "Linux Vulkan flags replace Windows D3D flags",
+    "Harbor verifier runs every declared suite",
+    "Restore complete committed oracle delta within source editable paths; resolve and hash-check LFS assets"
+  ],
+  "oracle_files": {
+    "Config/DefaultEngine.ini": "b8143c3db2df326ead11fe31d0da3ebb2dafe41d9a523140959a982c8adaa140",
+    "Config/DefaultGame.ini": "2248986d9c9f03ee52fcba450b94b8a020d255dd53b1e9f48284a05d8a0b48a1",
+    "Content/NightSkyEngine/Maps/TestMap/TestMap_PL.umap": "2d738dd8264c54cf50105ccb875bc52c3c9bcb1fe6e5f71b55c26676b79052ff",
+    "Content/Relay124/RelayArena.umap": "8f6097cf000a232e55b820a9df7f878931c1933fe813830272c410f12fa7a170",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/FighterRunners/FighterReplayRunner.cpp": "fb0e4b389d3ef4f7e7483a8183ffce971356f623228a4cf76c291b1b7eb05434",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Misc/RandomManager.h": "b271cb98d3847c03169d885be7120fb924192a58305af19ea94d167d52853a11",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.cpp": "406e12e5a49aa3dfed9e1072a935a58b7bf2649358d5eb71a1f274ebbc76910f",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.h": "dc6322fcc0f9a00993af08664fd59d5da35b4300ef5e54397239948e6cc863cc",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyPlayerController.cpp": "d10dc5aa6fa9cc56e2171952551de70aac0c476bb8766814168409d09c207dbe",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.cpp": "575d0b225c2a9d86cb5138ef312fd406a1be42bfb2f1745ad6f79af2ee428546",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.h": "6742e0648cbcf6b39f14419aa51bcf309790501fc93b7d9d07000f7fcb162dd0",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.cpp": "06932343f0a8ff88049acc566a845ac1c6956e7a38258c1f96233c12ec078830",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.h": "e7198c214e591855e56a229674e46ecc54655864b67f41d09c3b1bc1d2d21de7",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/RelayCombat.cpp": "c9f16c1429e829353e4ee4bd73be1e165166c9bf5953ebd588e740ce565cf428",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelayPeerWorker.cpp": "697a3225b2110a1171566dfab0d3c37323ae518244220218cf6f19d2e5d91588",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelayPeerWorker.h": "444e3deee826543d1c9ec669055b48f927da025b703d6839f168b939670cd33e",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelaySample.cpp": "a7b0bad6b0d8bb5814fff738d0165dc0178c6bb03262f91f3135559edc43dcd3",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelayVisualProof.cpp": "b3063a8187b12659ac5e20390cead8c29a870d3e59112ace8c500cc145498b5e",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelayVisualProof.h": "7c206569c114c885c055ce59277475bc8f40b45f9d5c18a91b0e6ec62f404173",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/UI/RelayOverlay.cpp": "39f3f34a59da3282d95ce6ce69d03c5d279ac8c066e67940989572fc6263e6dc",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/UI/RelayOverlay.h": "b72464f101fdc613225f37d9b40c72c1cd5e36b0dd04a7958295fa0e71e54435",
+    "Source/NightSkyEngineDemo/NightSkyEngineDemo.Build.cs": "6c75dd53840fc85164b5b4df5afb6eba455cb29428c9160b2cf304798e9d65cc",
+    "Source/NightSkyEngineDemo/Relay/RelayArena.cpp": "9d804a8d74d5f46c24f798e5411e0fc3f1591579588f601203f90e7a8d85a514",
+    "Source/NightSkyEngineDemo/Relay/RelayArena.h": "e4b62eeec3e41290e0bc8141e6b005c9e709c86ddd3045c9e5390da08d044c98",
+    "Source/NightSkyEngineDemo/Tests/RelayArenaTests.cpp": "bae9cd64e00c761cd7c9d5570c32694a8dfcf2811cceb41a63f10c967cf02596",
+    "Source/NightSkyEngineDemo/Tests/RelayCombatTests.cpp": "750f4b37a0d086325d7115d8bbc2bc48fd36f5ee56d5b97311a64f803a968628",
+    "Source/NightSkyEngineDemo/Tests/RelayPythonAutomation.h": "70a8e921d3d3cee57321f80f1df469576a9e49ae1c4dc534508b4442728b1efc",
+    "Source/NightSkyEngineDemo/Tests/relay_ggpo_campaign.py": "b4b1bdbde154d6a51f5194ee7475c508dd730b43114ab3984eabe208caf7f8eb",
+    "Source/NightSkyEngineDemo/Tests/relay_ggpo_peers.py": "6bbe60b04d0fd1eda1c1dbd9e6a2940571da8c1e0cbac3150299dfd198d9ee2f",
+    "Source/NightSkyEngineDemo/Tests/relay_rendered_sample.py": "d28452948ea0b5e9ffec7a9fc9b9ba17171769a810ccca5a072fc7627ad3f001"
+  },
+  "oracle_omitted_outside_editable_scope": [
+    "LOG.md",
+    "README.md",
+    "docs/ASSETS.md"
+  ]
+}

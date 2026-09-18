@@ -1,0 +1,698 @@
+[
+  {
+    "path": "RTS.uproject",
+    "sha256": "43394767f5dbceba667d43bbdf21d4a12a8ece940c1fb56a53257fe9b44c8873",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "TASK.md",
+    "sha256": "b934201e58a21c3195f03bc2393a40e6c4e86d22c9ce22064bbe3cb3ed51f5b4",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Config/DefaultEditor.ini",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Config/DefaultEngine.ini",
+    "sha256": "753fe18ad0a0ff2567fc643d657fb8c002d2787085ffa9d31776c3b76887fc02",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Config/DefaultGame.ini",
+    "sha256": "b59e70e919e70a165c42f0fd5cff0b10c8215cf37bd54579271febd06122b6e4",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Config/DefaultInput.ini",
+    "sha256": "cd0c3fd4ce73db433688c9ec10e990fdc1a907529729ff238ba34a7a14bfc23d",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Shaders/RTSOverlayPrimitive.ush",
+    "sha256": "45c3fea657b2f84f94492c0524e3fbf4eff188c091892ad5c6f49241bd080592",
+    "full_target_bodies": 1,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS.Target.cs",
+    "sha256": "67a9859bfb532c82937f141717f2fe18faa169e19762446001af1df6b0c962c1",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTSEditor.Target.cs",
+    "sha256": "2951ea47ba0f393dfeaccd825d312fc6cff9ff341ea1b134650b271c3b115381",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/RTS.Build.cs",
+    "sha256": "a3ed00c65dd72a438fa4f5a5acc7418ce5548a60737c661cc5fb0514054e9820",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/RTS.cpp",
+    "sha256": "07b20da113c1df284726c36352682a5fd84ff954561e7cbdc8a2c05808f07c1e",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/RTS.h",
+    "sha256": "bfa5f34fa3fb37a7bce87d8f7a7486db2b3f3c0d278f9b3613998ca9b5cc6390",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/AI/RTSAIStrategyBootstrap.h",
+    "sha256": "07394bc301766d44903bb072710416764fb2dfd71e23f41f2ef01a87c1c23014",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/AI/RTSAIStrategySubsystem.h",
+    "sha256": "7eeca42d54e3b8ff8e048c3cba2ed9ff39b486789d94cce19b005827c143b251",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/AI/RTSAIStrategyTypes.h",
+    "sha256": "ad584c581af1c43bd70c361e5fd1b837cfd2fbcdbf671abcaaf6d1098598f8ee",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Camera/RTSCameraPawn.h",
+    "sha256": "cd0d8df1b48344dca3f1a761974e892d294c657517e2be36f491ea6010dd2df9",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Combat/RTSCombatTypes.h",
+    "sha256": "61b28e3ff2339f03f032a0f9d4a0df99523dc41f95ba82b817afabf20a8d0346",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Combat/RTSHealthComponent.h",
+    "sha256": "38f2076dd5424b746733c394a52bb271cb529b93e765b06d0ed596bdf34fab66",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Combat/RTSTurretCombatComponent.h",
+    "sha256": "48ef7d2fdcc5cd49b4c14b239222c0a876190ce8c52b77a09348ce066e83db65",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Combat/RTSTurretCombatTypes.h",
+    "sha256": "44042bd3aa585812a3062a0ea659d6aede0727381a245e8b86427e22287d495b",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Configuration/RTSMilestone2Configuration.h",
+    "sha256": "75e05e004ff28ac8bee73f4ce24933167771c2eaa74ccf7cee94e755c27f705a",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Configuration/RTSMilestone3Configuration.h",
+    "sha256": "dea39963aa797367043c61bff52ea51b381855d33b0994fb7e9071f04622adde",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Economy/RTSEconomySubsystem.h",
+    "sha256": "5f2c4b9d4042bf280dfd5a22bd9961f328d552f171d5cf4256b7d38049784f41",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Economy/RTSEconomyTypes.h",
+    "sha256": "8a4e4d302eb803c7f238018d63f6e086f460afe4b4c301bbc44cf34cde7aa4e8",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Game/RTSGameMode.h",
+    "sha256": "f7ecea27049cb684ab8284a7aaa9bf42ce825ce4d68508825a6244c6cffde226",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Game/RTSHUD.h",
+    "sha256": "1633e5e1e7ec751a0eb08caf90232cc35188904fda0b90d152b2ac0f2450e7ab",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Game/RTSPlayerController.h",
+    "sha256": "3d1a419b59d6d2596eefac20b8359a2818921d77c9ffcdf4fe52cdb81e1b3269",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Match/RTSMatchSubsystem.h",
+    "sha256": "a90b5b92ad8aabfb38cf8c89a6c3fe5fd6de92582a66902fe4f765f3219d0fba",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Match/RTSMatchTypes.h",
+    "sha256": "9b6327ad2eabf2c79669c6cf83bff72d414b7270320a1dd8f611cd565c103b34",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Orders/RTSCommandSubsystem.h",
+    "sha256": "fb131040a79fd83d6112c848f883749c93502eb36184f0672d5e745f9bab2e18",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Orders/RTSOrderTypes.h",
+    "sha256": "00459a4f80481c3e00059e8977c6be9c7ca62e41466d154e115a9596f622bd87",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Orders/RTSUnitOrderComponent.h",
+    "sha256": "7b6d6deaf3d5ae18c7e4161025998c1ce3d488a08da0d81b705fe9c139c09767",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Presentation/RTSPresentationSubsystem.h",
+    "sha256": "791c591fd032efeca454a59a3440dc6c725e30da45c2efff2e6246745e3fb180",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Presentation/RTSPresentationTypes.h",
+    "sha256": "84c7092ef1214d70e3125cd551e7c9eb0b7df62c4ea7ed63758441376ee96693",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Presentation/RTSTransientEffect.h",
+    "sha256": "578fb33169975528ee21ffccb1d044f48e57f294be247d332173c37d857dc732",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Presentation/RTSWorldOverlayActor.h",
+    "sha256": "5842d1722deae2236d9fcae49fcc7684d678bd8ca6a69b8ec9a5c5b1f1bfc2b0",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Presentation/RTSWorldOverlayShowcaseActor.h",
+    "sha256": "ea1fff6badc7b6bfa9a1677daab2e1b647e194adc64213eaa35c5d53f4dfa6dc",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Presentation/RTSWorldOverlaySubsystem.h",
+    "sha256": "44663e34ea672754430201f0850140f3a641d794b285ae1fb2d9b2955aa7129f",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Presentation/RTSWorldOverlayTypes.h",
+    "sha256": "bf48b222aa66aae5dd83591242b42aac44a9673e0223d0ab229c58759ed12fc9",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Production/RTSProductionComponent.h",
+    "sha256": "81fa5f12c99943732da2767ace8b46c7ba3044caa0348234d4825478b17c5be0",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Production/RTSProductionSubsystem.h",
+    "sha256": "adbb19e954d06d09e661c214bb93b7cd02c3cffce3a2bf6bf334b0298de31c9d",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Production/RTSProductionTypes.h",
+    "sha256": "59a63714b6f1506891a1be63788acf003a4bb974748a0058467827900f535248",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Reclaim/RTSReclaimComponent.h",
+    "sha256": "2ca427235861af5d87d8cae46595e5db359a3cf9cb90bb1f61d3469bf73ae41c",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Reclaim/RTSReclaimTypes.h",
+    "sha256": "d19dca6973d8c02360b6fd495bff8bfbe952492c0c883097779688333135fcdd",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Reclaim/RTSWreckage.h",
+    "sha256": "6fc0b32f68680f7e4dfbf4320a9ea1ba64df6e02c064c31c1286ed796b47ff79",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Reclaim/RTSWreckageSubsystem.h",
+    "sha256": "174154341138fe32645202c3a660c4974c312ddeb213d48af15cb745c627877e",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Selection/RTSSelectionSubsystem.h",
+    "sha256": "067259c1a74a5f50ab3a23589ee932de864929c8a562d91154d3d56525fa3688",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Structures/RTSDeploymentViewSubsystem.h",
+    "sha256": "1e2a7182480a13c4a3688aa6d10b32dca3d5fe101971ec0e932aa5c86f42f511",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Structures/RTSStructure.h",
+    "sha256": "efffcaad3fb1c95cd8066edae7093a1505fbc3d94a53c2112890aee0d5552cbf",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Structures/RTSStructureSubsystem.h",
+    "sha256": "b917dd44b8f6d9e13fa4c1b94aae6afbd38ed61030c0b2ac06d8bcfa3941c920",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Structures/RTSStructureTypes.h",
+    "sha256": "f668638e16c96fd5c8b20a240b30fa04c954bab0cd827bf19bbddc79c08b312e",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/UI/RTSHUDSnapshot.h",
+    "sha256": "a3c7ca1a0f0d9d93a312129378744a6f3928e619ee5ede24c1ed02deb49c436d",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/UI/SRTSStatusOverlay.h",
+    "sha256": "3e3a2efcb847988b1e5a5470ad23c05a476427104f2e78b78716f7d187480d02",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Units/RTSCombatUnit.h",
+    "sha256": "caea8e17ca65e415c79361c98c2123fb505514b03cfe51de77ad97c81995e75b",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Units/RTSTeams.h",
+    "sha256": "0cafa4eda84c2276cdc5f7f83d2d192a94744de8b1f887c3d4731dc5b63504ee",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Units/RTSUnitController.h",
+    "sha256": "aeb37d2356625001fa9fa5d26cb237bc2dc01f35ffa007dd97fdbea41199bb85",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Units/RTSUnitRegistrySubsystem.h",
+    "sha256": "eef41bb11b3cf5bce6590e03a5380a8a4b8a214720679cb5084dba014ec82f0b",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/Units/RTSUnitTypes.h",
+    "sha256": "5e1ba5abd6a2bfa74b4b652fa4f8c387488d7744699089f544eb7875124ccd34",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/World/RTSCameraBounds.h",
+    "sha256": "92448a2cbf11c613ab3324cc9f949d233daa188acae9e3d3ad5f9ce461489ec8",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/World/RTSMaterialDeposit.h",
+    "sha256": "0cbc04ace5188f6a983757ace4eee79a61c32c8c5efb41557cc673a0a8df1412",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/World/RTSStartingZone.h",
+    "sha256": "420330e0062df43a484bc9f97cf01212fb37c89ca04637af845efbac094f677f",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Public/World/RTSWorldTypes.h",
+    "sha256": "b26a93cb86817148662276bf646ac5e0cd17ea833557682d000517208983a7a2",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/AI/RTSAIStrategyBootstrap.cpp",
+    "sha256": "b2bf2374a738d2d1f22dd0828e872c71f611d16a6598b1364930030f239ea3d2",
+    "full_target_bodies": 2,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/AI/RTSAIStrategySubsystem.cpp",
+    "sha256": "36e7377e937ad9ec9cddbf24852250585ff8d7b6c44b6f66b69be6876a6175a1",
+    "full_target_bodies": 22,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Camera/RTSCameraPawn.cpp",
+    "sha256": "b8ffbf05cd5073d102d307fb44afb4dc0786bf31007e805dff15139e0a2a17fb",
+    "full_target_bodies": 6,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Combat/RTSCombatTypes.cpp",
+    "sha256": "71c43cdd861a96c531f19ec44a93d5d96024d9034f69a465f988723fa140b78f",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/Combat/RTSHealthComponent.cpp",
+    "sha256": "7a31cf2ef39cf0ea0133aefa9508de472f389df02ff3bf7e796636f8db7b85c2",
+    "full_target_bodies": 4,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Combat/RTSTurretCombatComponent.cpp",
+    "sha256": "f71ffdda5e159bdcd8bd3da53c8d150d51ef907a3959cfc57de974842e1b4579",
+    "full_target_bodies": 7,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Configuration/RTSMilestone2Configuration.cpp",
+    "sha256": "679d7981c8dd69e9b535aafe274be3c5411a05a9dc3469389e8242176f1afa12",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/Configuration/RTSMilestone3Configuration.cpp",
+    "sha256": "f69c394d8338f1b277a68c0200016ed5ba1ba4348d70b8ea711aad50fcf46a49",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/Economy/RTSEconomySubsystem.cpp",
+    "sha256": "6e7d8d2def5ed873c778a9bcd872a41e6ac709db8a710b585a9d080bda66b82d",
+    "full_target_bodies": 6,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Game/RTSGameMode.cpp",
+    "sha256": "1397d89fee9c2e65d102ddaf7f9ec9ec28462055b975f12cd3135bf02c1f5c45",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/Game/RTSHUD.cpp",
+    "sha256": "a4c8817e60d5bf3f585e9c75ad52f801d8484bb09d7d6ee320142c4cee036bd6",
+    "full_target_bodies": 20,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Game/RTSPlayerController.cpp",
+    "sha256": "f18626f3d20d540b25deefa4498341ea3f6c1912d13fb518bfb266f719b5bda8",
+    "full_target_bodies": 33,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Match/RTSMatchSubsystem.cpp",
+    "sha256": "9b24c64361b2cf303b00531066d3859c13756d8b809ba9632fe9916585299396",
+    "full_target_bodies": 11,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Orders/RTSCommandSubsystem.cpp",
+    "sha256": "771ae090063217c9bd0438ac343044c8237d48e648de0d3593b58e9fb14dae7e",
+    "full_target_bodies": 4,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Orders/RTSOrderTypes.cpp",
+    "sha256": "2b75e1787fd3a4bdf2f8de06f3451c13c6f46f9206c23c8a0a10d7256a758ed8",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/Orders/RTSUnitOrderComponent.cpp",
+    "sha256": "55c1ba4576509e478eea1c4f928a31697e7c336c20e06a73da8aa4159124736f",
+    "full_target_bodies": 23,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Presentation/RTSPresentationSubsystem.cpp",
+    "sha256": "168f78f9800f7232f14c4229bdd4caf3090fd8efdc00d121acf31e08dd1aed0e",
+    "full_target_bodies": 17,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Presentation/RTSTransientEffect.cpp",
+    "sha256": "f286254ef6b585b380fcd6f0b5203625352f91e00e49429a8fd238691f30449a",
+    "full_target_bodies": 3,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Presentation/RTSWorldOverlayActor.cpp",
+    "sha256": "a29fda055547d1a53e88165a08657db70885d5d817592a2e940736e984a22078",
+    "full_target_bodies": 1,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Presentation/RTSWorldOverlayShowcaseActor.cpp",
+    "sha256": "e9f5994895b20d0a270d923a2e2c01b9a0588553d0ac0d67ea89ad889c5605da",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/Presentation/RTSWorldOverlaySubsystem.cpp",
+    "sha256": "b31db6e5e09685e6f784811c9739c1aa446fc2631cd4e746a11bcdb23cb3e2bb",
+    "full_target_bodies": 12,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Production/RTSProductionComponent.cpp",
+    "sha256": "f038fa2968997966866dfba0dbed84993b93646d324e2b9a3f87c401abab92a0",
+    "full_target_bodies": 9,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Production/RTSProductionSubsystem.cpp",
+    "sha256": "b273cca0a77e051e8c0a9adb449e6860ea21b6f0139f4fbff459f69875f9f0a5",
+    "full_target_bodies": 2,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Reclaim/RTSReclaimComponent.cpp",
+    "sha256": "647c5044145a5f4275d765aa9fee875003ea3dea66028bf0a4c9ed4026c91961",
+    "full_target_bodies": 5,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Reclaim/RTSWreckage.cpp",
+    "sha256": "daf5a92c90cd338e733ae5f01f6dab2beb472702700cfb875b77b15a90765a88",
+    "full_target_bodies": 9,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Reclaim/RTSWreckageSubsystem.cpp",
+    "sha256": "5d5ada7f66eedfeaed76626ddd1ef0e10cabe3c3eb5fecdf412043c39df0ccda",
+    "full_target_bodies": 6,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Selection/RTSSelectionSubsystem.cpp",
+    "sha256": "abc8fd03ec87ee74ccfe25205154ae04cd46d738ccabbe1213e7eeac5a7edff2",
+    "full_target_bodies": 15,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Structures/RTSDeploymentViewSubsystem.cpp",
+    "sha256": "41af68c7a3ffa17b9f66cb8879a49e1639a4a725ecac1a10db7f12fd77edb4a9",
+    "full_target_bodies": 6,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Structures/RTSStructure.cpp",
+    "sha256": "31753cde745f95a01b9ab9842981f908f12e327a90813abf44af50db22f31dcb",
+    "full_target_bodies": 11,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Structures/RTSStructureSubsystem.cpp",
+    "sha256": "ca87f256384d8267d0f8635b1ee0ac5d4c418274f1e26f811f5e2aad031d257f",
+    "full_target_bodies": 21,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/UI/RTSHUDSnapshot.cpp",
+    "sha256": "1bc09d64e1bfabb1c7563877c1d4b98d5a959adb9d284e3bb0ece44c08883e2d",
+    "full_target_bodies": 1,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/UI/RTSPresentationText.cpp",
+    "sha256": "26b360235949e6036ad888aa6e6f48c4923baa7273fdbe2fba2a7a2799f0bc85",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/UI/RTSPresentationText.h",
+    "sha256": "936be93dda64fe4378026ce0e7045b0c2b946375307c71829f571cf0bbe61a48",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/UI/SRTSStatusOverlay.cpp",
+    "sha256": "33ddfe0dc241cd6a0711aba1fcbcc7d6d86f2eb26145d26aa7548568826f030a",
+    "full_target_bodies": 11,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Units/RTSCombatUnit.cpp",
+    "sha256": "a73f03112ff79f1ac934a87c956dce6ba8665d79f3451d3b72ab5e851026e2ba",
+    "full_target_bodies": 16,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Units/RTSUnitController.cpp",
+    "sha256": "bf91786ae554b3115a66a13a31fa7a13dd3fe0cbdfe74d0abf70f508ab052c5b",
+    "full_target_bodies": 1,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/Units/RTSUnitRegistrySubsystem.cpp",
+    "sha256": "4f11c385bc85e5f7d4aaabe33f021f93087a177eedfe4f201afd2b3ce8409405",
+    "full_target_bodies": 6,
+    "classification": "target runtime implementation"
+  },
+  {
+    "path": "Source/RTS/Private/World/RTSCameraBounds.cpp",
+    "sha256": "8704fda3c9d9470bf2011f671fd0f4c412165e49a22dfcf148b9873e408fb22a",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/World/RTSMaterialDeposit.cpp",
+    "sha256": "921319d10435ad3e69e0bc47b66cc9c9646b1e6a46f4c45d77b0b9e17da4d144",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Source/RTS/Private/World/RTSStartingZone.cpp",
+    "sha256": "4e4ca09c3627576eea21cd2d89738d21e083c8910e805e53a06c372194ddbbea",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Audio/S_Attack.uasset",
+    "sha256": "46624b0e23c25a7cac4d0b486cc2ec68cd7d58f676ebdea51d7088a837f0a86d",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Audio/S_ConstructionComplete.uasset",
+    "sha256": "8fdbff5a870ba2f3e28d6006ec21386dd6d8307ddd6ee8f1c83cb8bb3a08f58c",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Audio/S_Defeat.uasset",
+    "sha256": "78c0496f47e8686987ed0805d04e03ae0fe52d08867d3f8cb8f9777f476f8a6d",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Audio/S_Destruction.uasset",
+    "sha256": "5daadef98379ccbf68a61b842bbb513dd63060768db1d8c254291ee29ed42d1c",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Audio/S_Move.uasset",
+    "sha256": "84483ac36717a4e01e401c6d666240229a17d401eda49c6cbb4588ea577091bb",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Audio/S_ProductionComplete.uasset",
+    "sha256": "12f5bad2bed38ed322d9e2db15cdd7aaba29e663d72c9b7fd7052d011f798768",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Audio/S_ReclaimComplete.uasset",
+    "sha256": "8f8cfd0cff6b4dffcc0eec7d08a21b1d642c56ae7d906d484f5502122c26e8de",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Audio/S_Selection.uasset",
+    "sha256": "33b19653223d81fe504cc8f19de5f6a5d3cf869b7de5ea7b051f56ef66a6384f",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Audio/S_Victory.uasset",
+    "sha256": "0c832db91f53846f20d8e2b8cc30598fd61acaa361625d50e53cb6b4e080a36a",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Audio/S_WeaponImpact.uasset",
+    "sha256": "41abb524106374dde2f60281d5aa5d2c9e0da5a534a39afa8fd401918ad1814c",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Maps/M1_CombatSandbox.umap",
+    "sha256": "53fcf972f96181168716ce0640e1b7d384c681e9c2580ccdbe4bf3f9f2ea7aad",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Maps/M2_PlayerLoop.umap",
+    "sha256": "576a3c1ce2766d4ebae37071e353ce30c9c1ed6004c8a537bb44f02483d6283e",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Maps/M3_Skirmish.umap",
+    "sha256": "f94586dbfb8391fdf2fdb285bebed5fe367dd387717c1f50e467f44ba0c417ed",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  },
+  {
+    "path": "Content/RTS/Materials/M_RTSOverlayPrimitive.uasset",
+    "sha256": "256cfa17603ddcb7eda6e186481f11f17f132a3a15dc8887fd3367ca5fc71f57",
+    "full_target_bodies": 0,
+    "classification": "supplied architecture/configuration/accessor/helper/asset infrastructure"
+  }
+]

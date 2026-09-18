@@ -1,0 +1,365 @@
+{
+  "sourceRevision": "b4ac4409ea4fdfccd2e7f741a1f32874b50e0d1b",
+  "unity": "2022.3.6f1",
+  "displays": [
+    {
+      "displayId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1884739822-0",
+      "displayName": "ChairDisplay",
+      "interactionName": "SecurityKisokInteraction",
+      "itemFact": 1389396,
+      "initialItem": 1389396,
+      "initiallyVisible": true,
+      "sourcePrefab": "Assets/Environment/Prefabs/Chair.prefab",
+      "prefabGuid": "55b75d579b90d2d4f94bc1c4f1def031",
+      "instantiateSemantics": "Object.Instantiate(Item component, display.transform), as in ItemDisplay.Awake",
+      "parts": [
+        {
+          "member": 0,
+          "name": "Back",
+          "mesh": "e5fad68a0e3e1c88b4305a5a77b7eeadcb6eadc8fca60133d3174f3b618d81be",
+          "worldMatrix": [
+            0.5937377,
+            -2.58303822e-17,
+            0.8046588,
+            -15.044,
+            -1.22464685e-16,
+            1.0,
+            1.22464685e-16,
+            0.6440001,
+            -0.8046588,
+            -1.7125418e-16,
+            0.5937377,
+            -17.559,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "materials": [
+            "Assets/Environment/Materials/Palette.mat"
+          ],
+          "active": true
+        },
+        {
+          "member": 1,
+          "name": "Base",
+          "mesh": "5dd59a36c986598d05887de04b66c45e46ad0d1b0662befc4af2f948ebc79517",
+          "worldMatrix": [
+            0.5937377,
+            -2.58303822e-17,
+            0.8046588,
+            -15.044,
+            -1.22464685e-16,
+            1.0,
+            1.22464685e-16,
+            0.0940001,
+            -0.8046588,
+            -1.7125418e-16,
+            0.5937377,
+            -17.559,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "materials": [
+            "Assets/Environment/Materials/Palette.mat"
+          ],
+          "active": true
+        },
+        {
+          "member": 2,
+          "name": "Joint",
+          "mesh": "00cc1aede225d308dffc006729e1f4b4e62feef82abd878d0e70b64382cf148b",
+          "worldMatrix": [
+            0.5937377,
+            -2.58303822e-17,
+            0.8046588,
+            -15.044,
+            -1.22464685e-16,
+            1.0,
+            1.22464685e-16,
+            0.6440001,
+            -0.8046588,
+            -1.7125418e-16,
+            0.5937377,
+            -17.559,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "materials": [
+            "Assets/Environment/Materials/Palette.mat"
+          ],
+          "active": true
+        },
+        {
+          "member": 3,
+          "name": "Seat",
+          "mesh": "ef880ed08c3473015533167776600726377836877853238d771e86b4018811fd",
+          "worldMatrix": [
+            0.5937377,
+            -2.58303822e-17,
+            0.8046588,
+            -15.044,
+            -1.22464685e-16,
+            1.0,
+            1.22464685e-16,
+            0.6440001,
+            -0.8046588,
+            -1.7125418e-16,
+            0.5937377,
+            -17.559,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "materials": [
+            "Assets/Environment/Materials/Palette.mat"
+          ],
+          "active": true
+        }
+      ]
+    },
+    {
+      "displayId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-418265872-0",
+      "displayName": "RockDisplay",
+      "interactionName": "RockInteraction",
+      "itemFact": 1389410,
+      "initialItem": 1389410,
+      "initiallyVisible": true,
+      "sourcePrefab": "Assets/Environment/Prefabs/Rock.prefab",
+      "prefabGuid": "70e2810510a37c54db89a6e54e0621c6",
+      "instantiateSemantics": "Object.Instantiate(Item component, display.transform), as in ItemDisplay.Awake",
+      "parts": [
+        {
+          "member": 0,
+          "name": "Rock(Clone)",
+          "mesh": "571a6913fabe4440faee58eab62b975914bb1183695ecccefc77d051614bba87",
+          "worldMatrix": [
+            1.0,
+            0.0,
+            1.49975961e-32,
+            -5.64,
+            0.0,
+            1.0,
+            0.0,
+            -0.214,
+            -1.49975976e-32,
+            0.0,
+            1.0,
+            -27.119,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "materials": [
+            "Assets/Environment/Materials/Palette.mat"
+          ],
+          "active": true
+        }
+      ]
+    },
+    {
+      "displayId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-660450526-0",
+      "displayName": "ChairDisplay",
+      "interactionName": "RollingGateInteraction",
+      "itemFact": 1389396,
+      "initialItem": 0,
+      "initiallyVisible": false,
+      "sourcePrefab": "Assets/Environment/Prefabs/Chair.prefab",
+      "prefabGuid": "55b75d579b90d2d4f94bc1c4f1def031",
+      "instantiateSemantics": "Object.Instantiate(Item component, display.transform), as in ItemDisplay.Awake",
+      "parts": [
+        {
+          "member": 0,
+          "name": "Back",
+          "mesh": "e5fad68a0e3e1c88b4305a5a77b7eeadcb6eadc8fca60133d3174f3b618d81be",
+          "worldMatrix": [
+            0.9940456,
+            1.35080156e-16,
+            -0.108967528,
+            -11.2148438,
+            -1.22464685e-16,
+            1.0,
+            1.22464685e-16,
+            0.587,
+            0.108967528,
+            -1.08390809e-16,
+            0.9940456,
+            -18.74717,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "materials": [
+            "Assets/Environment/Materials/Palette.mat"
+          ],
+          "active": true
+        },
+        {
+          "member": 1,
+          "name": "Base",
+          "mesh": "5dd59a36c986598d05887de04b66c45e46ad0d1b0662befc4af2f948ebc79517",
+          "worldMatrix": [
+            0.9940456,
+            1.35080156e-16,
+            -0.108967528,
+            -11.2148438,
+            -1.22464685e-16,
+            1.0,
+            1.22464685e-16,
+            0.037,
+            0.108967528,
+            -1.08390809e-16,
+            0.9940456,
+            -18.74717,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "materials": [
+            "Assets/Environment/Materials/Palette.mat"
+          ],
+          "active": true
+        },
+        {
+          "member": 2,
+          "name": "Joint",
+          "mesh": "00cc1aede225d308dffc006729e1f4b4e62feef82abd878d0e70b64382cf148b",
+          "worldMatrix": [
+            0.9940456,
+            1.35080156e-16,
+            -0.108967528,
+            -11.2148438,
+            -1.22464685e-16,
+            1.0,
+            1.22464685e-16,
+            0.587,
+            0.108967528,
+            -1.08390809e-16,
+            0.9940456,
+            -18.74717,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "materials": [
+            "Assets/Environment/Materials/Palette.mat"
+          ],
+          "active": true
+        },
+        {
+          "member": 3,
+          "name": "Seat",
+          "mesh": "ef880ed08c3473015533167776600726377836877853238d771e86b4018811fd",
+          "worldMatrix": [
+            0.9940456,
+            1.35080156e-16,
+            -0.108967528,
+            -11.2148438,
+            -1.22464685e-16,
+            1.0,
+            1.22464685e-16,
+            0.587,
+            0.108967528,
+            -1.08390809e-16,
+            0.9940456,
+            -18.74717,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "materials": [
+            "Assets/Environment/Materials/Palette.mat"
+          ],
+          "active": true
+        }
+      ]
+    }
+  ],
+  "meshes": {
+    "00cc1aede225d308dffc006729e1f4b4e62feef82abd878d0e70b64382cf148b": {
+      "key": "00cc1aede225d308dffc006729e1f4b4e62feef82abd878d0e70b64382cf148b",
+      "file": "Meshes/00cc1aede225d308dffc006729e1f4b4e62feef82abd878d0e70b64382cf148b.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-fe1e75d7f5c2a9b41aaeddbfbf8701e4-12788219421953048265-0",
+        "name": "Joint",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Chair.fbx",
+        "guid": "fe1e75d7f5c2a9b41aaeddbfbf8701e4",
+        "localFileId": -5658524651756503351
+      },
+      "vertices": 88,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "571a6913fabe4440faee58eab62b975914bb1183695ecccefc77d051614bba87": {
+      "key": "571a6913fabe4440faee58eab62b975914bb1183695ecccefc77d051614bba87",
+      "file": "Meshes/571a6913fabe4440faee58eab62b975914bb1183695ecccefc77d051614bba87.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-e6cd06cf2a61d8c45b9028d148b26088-289301614986012343-0",
+        "name": "Icosphere",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Rock.fbx",
+        "guid": "e6cd06cf2a61d8c45b9028d148b26088",
+        "localFileId": 289301614986012343
+      },
+      "vertices": 60,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "5dd59a36c986598d05887de04b66c45e46ad0d1b0662befc4af2f948ebc79517": {
+      "key": "5dd59a36c986598d05887de04b66c45e46ad0d1b0662befc4af2f948ebc79517",
+      "file": "Meshes/5dd59a36c986598d05887de04b66c45e46ad0d1b0662befc4af2f948ebc79517.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-fe1e75d7f5c2a9b41aaeddbfbf8701e4-3909233067320746374-0",
+        "name": "Base",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Chair.fbx",
+        "guid": "fe1e75d7f5c2a9b41aaeddbfbf8701e4",
+        "localFileId": 3909233067320746374
+      },
+      "vertices": 290,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "e5fad68a0e3e1c88b4305a5a77b7eeadcb6eadc8fca60133d3174f3b618d81be": {
+      "key": "e5fad68a0e3e1c88b4305a5a77b7eeadcb6eadc8fca60133d3174f3b618d81be",
+      "file": "Meshes/e5fad68a0e3e1c88b4305a5a77b7eeadcb6eadc8fca60133d3174f3b618d81be.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-fe1e75d7f5c2a9b41aaeddbfbf8701e4-3833889208564203372-0",
+        "name": "Back",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Chair.fbx",
+        "guid": "fe1e75d7f5c2a9b41aaeddbfbf8701e4",
+        "localFileId": 3833889208564203372
+      },
+      "vertices": 24,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "ef880ed08c3473015533167776600726377836877853238d771e86b4018811fd": {
+      "key": "ef880ed08c3473015533167776600726377836877853238d771e86b4018811fd",
+      "file": "Meshes/ef880ed08c3473015533167776600726377836877853238d771e86b4018811fd.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-fe1e75d7f5c2a9b41aaeddbfbf8701e4-11619103759695854249-0",
+        "name": "Seat",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Chair.fbx",
+        "guid": "fe1e75d7f5c2a9b41aaeddbfbf8701e4",
+        "localFileId": -6827640314013697367
+      },
+      "vertices": 24,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    }
+  }
+}

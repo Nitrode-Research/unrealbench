@@ -1,0 +1,46 @@
+{
+  "project": "NightSkyEngine",
+  "target": "NightSkyEngineEditor",
+  "module": "NightSkyEngineDemo",
+  "protected": [
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures"
+  ],
+  "suites": [
+    {
+      "name": "behavior",
+      "filter": "NightSky.Room",
+      "expected": [
+        "NightSky.Room.AuthorityCrashWindows",
+        "NightSky.Room.CombinedLifecycleFuzz",
+        "NightSky.Room.CompletedOutcome",
+        "NightSky.Room.CreationAndAuthentication",
+        "NightSky.Room.EndpointWidgets",
+        "NightSky.Room.FreshOfflineReplay",
+        "NightSky.Room.FuzzMetamorphicCampaign",
+        "NightSky.Room.GGPOPair",
+        "NightSky.Room.LifecycleAndSeatTransfer",
+        "NightSky.Room.OfferOwnershipAndExpiration",
+        "NightSky.Room.RealBattleDelayedHistory",
+        "NightSky.Room.RenderedDVR",
+        "NightSky.Room.SeatSuccessionAndRecovery",
+        "NightSky.Room.SeededMembership",
+        "NightSky.Room.SixProcessAuthority",
+        "NightSky.Room.WidgetControls",
+        "NightSky.Room.ZeroInputSuccessfulStartInterruption"
+      ],
+      "flags": [
+        "-Unattended",
+        "-CrashForUAT",
+        "-NoSplash",
+        "-NumClients=5",
+        "-ListenServer",
+        "-sm5",
+        "-AllowSoftwareRendering",
+        "-RenderOffScreen",
+        "-DeterministicAudio",
+        "-vulkan"
+      ]
+    }
+  ],
+  "original_tests": []
+}

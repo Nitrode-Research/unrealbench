@@ -1,0 +1,7 @@
+# Organizer-owned fighter seat role compatibility
+
+The delta50 curated GGPO ledger stops after its final correlated host observe, before ready/start. The host previously accepted the offered seat0 assignment and selected its character. That current observation retains its membership and owned assignment while reporting Role=organizer. The scenario explicitly seats its organizer; organizer authority need not disappear from the role field when it owns a fighter seat.
+
+This separate test-only patch permits the known organizer host/server to report organizer alongside a current nonempty owned assignment. Ordinary remote peers still require fighter. All current membership, distinct assignment, prestart inactivity and public active/new-match checks remain. The native manual-control observer additionally requires both current memberships and distinct nonempty assignments before accepting either role label. No game state, token, identity, frame, input or deadline is rewritten.
+
+The two code members are based on approved fixture-preparation v4/frozen delta50. All29 original GGPO check ASTs remain unchanged and ordered.23 host tests pass; six evaluations of the actual revised Python predicate accept seated organizer/current fighter and reject organizer-labeled peer, empty assignment, empty membership and spectator. C++ tree-sitter and Python AST parsing pass. No local Unreal compile/runtime. Other delta50 failures remain separate and unexplained; no candidate source was accessed.

@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/brianyla/unrealbench",
+  "commit": "1ff51f9695b8bc0220296bd0f861f3e6f80c988d",
+  "source_task": "ue_task_0133_nse_canonical_checkpoints",
+  "source_files": {
+    "spec.yaml": "f342ebea91755e1fcc82d466ead8841eb147d263bf9985cc47c5c982c1c766ca",
+    "tests/NSE010FuzzTests.cpp": "79afa06a02ed5033a450b3e83f0d8b4b9c7fc2f49d36853a83c1a6eeaaf5e2a6",
+    "tests/NSE010RestoreTests.cpp": "1c69dda0e9f551cf09708f1c84b4935e517e4c86479336c68e2c1b2a166337c5",
+    "tests/NSE010TestCommon.h": "debec2c99b2af1fea0a7eb224c6791ab4804041df2259c3297701b1e9ced447e",
+    "tests/NSE010Tests.cpp": "6bdd5e3a6e2367cf54bf3f3f79b6074b6904353c0b42f14feeef67a9897454b2"
+  },
+  "adaptations": [
+    "Linux Vulkan flags replace Windows D3D flags",
+    "Harbor verifier runs every declared suite"
+  ]
+}

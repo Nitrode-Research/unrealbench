@@ -1,0 +1,44 @@
+{
+  "project": "NightSkyEngine",
+  "target": "NightSkyEngineEditor",
+  "module": "NightSkyEngineDemo",
+  "protected": [],
+  "suites": [
+    {
+      "name": "behavior",
+      "filter": "UnrealBench.NSE006",
+      "expected": [
+        "UnrealBench.NSE006.ArmorBudget",
+        "UnrealBench.NSE006.CallbackDeferral",
+        "UnrealBench.NSE006.Clashes",
+        "UnrealBench.NSE006.ContactHistory",
+        "UnrealBench.NSE006.FrozenDetection",
+        "UnrealBench.NSE006.FuzzPermutations",
+        "UnrealBench.NSE006.FuzzSingleFrame",
+        "UnrealBench.NSE006.FuzzStateful",
+        "UnrealBench.NSE006.Guard",
+        "UnrealBench.NSE006.Hitstop",
+        "UnrealBench.NSE006.LiveApplicationData",
+        "UnrealBench.NSE006.Permutations",
+        "UnrealBench.NSE006.ReenableDuringPhase",
+        "UnrealBench.NSE006.ReuseRollback",
+        "UnrealBench.NSE006.Rollback",
+        "UnrealBench.NSE006.SameTargetOrder",
+        "UnrealBench.NSE006.Trades"
+      ],
+      "flags": [
+        "-Unattended",
+        "-CrashForUAT",
+        "-NullRHI",
+        "-NoSplash",
+        "-NumClients=0",
+        "-ListenServer",
+        "-nosound"
+      ]
+    }
+  ],
+  "original_tests": [
+    "Source/NightSkyEngineDemo/Tests/AstralWardenTest.cpp",
+    "Source/NightSkyEngineDemo/Tests/JadeAscensionTest.cpp"
+  ]
+}

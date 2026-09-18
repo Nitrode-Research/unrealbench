@@ -1,0 +1,72 @@
+[
+  {
+    "website_id": "ue-0121",
+    "name": "ue-0121-nse-swept-projectiles",
+    "path": "unreal/tasks/ue-0121-nse-swept-projectiles"
+  },
+  {
+    "website_id": "ue-0122",
+    "name": "ue-0122-nse-replay-takeover",
+    "path": "unreal/tasks/ue-0122-nse-replay-takeover"
+  },
+  {
+    "website_id": "ue-0123",
+    "name": "ue-0123-nse-spectator-rooms",
+    "path": "unreal/tasks/ue-0123-nse-spectator-rooms"
+  },
+  {
+    "website_id": "ue-0124",
+    "name": "ue-0124-nse-relay-combat",
+    "path": "unreal/tasks/ue-0124-nse-relay-combat"
+  },
+  {
+    "website_id": "ue-0125",
+    "name": "ue-0125-nse-match-modifiers",
+    "path": "unreal/tasks/ue-0125-nse-match-modifiers"
+  },
+  {
+    "website_id": "ue-0131",
+    "name": "ue-0131-nse-partitioned-charge",
+    "path": "unreal/tasks/ue-0131-nse-partitioned-charge"
+  },
+  {
+    "website_id": "ue-0132",
+    "name": "ue-0132-nse-simultaneous-contacts",
+    "path": "unreal/tasks/ue-0132-nse-simultaneous-contacts"
+  },
+  {
+    "website_id": "ue-0133",
+    "name": "ue-0133-nse-canonical-checkpoints",
+    "path": "unreal/tasks/ue-0133-nse-canonical-checkpoints"
+  },
+  {
+    "website_id": "ue-0134",
+    "name": "ue-0134-nse-combo-discovery",
+    "path": "unreal/tasks/ue-0134-nse-combo-discovery"
+  },
+  {
+    "website_id": "ue-0164",
+    "name": "ue-0164",
+    "path": "unreal/tasks/ue-0164"
+  },
+  {
+    "website_id": "ue-0168",
+    "name": "ue-0168",
+    "path": "unreal/tasks/ue-0168"
+  },
+  {
+    "website_id": "ue-0169",
+    "name": "ue-0169",
+    "path": "unreal/tasks/ue-0169"
+  },
+  {
+    "website_id": "ue-0171",
+    "name": "ue-0171",
+    "path": "unreal/tasks/ue-0171"
+  },
+  {
+    "website_id": "ue-0172",
+    "name": "ue-0172",
+    "path": "unreal/tasks/ue-0172"
+  }
+]

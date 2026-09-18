@@ -1,0 +1,31 @@
+{
+  "task_version": "0.1.2",
+  "reason": "Unreal include-order validation requires RoomWorker.h to be the first include in RoomWorker.cpp. Only include order changed; fixture behavior and test assertions are unchanged. Linux Clang also rejects unconditional first-iteration breaks and unnecessary range-loop string copies as errors. The reference now uses equivalent first-element if initializers; the test binds its string by const reference. Original source hashes remain in SOURCE_RECEIPT.json.",
+  "changes": [
+    {
+      "path": "environment/workspace/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RoomWorker.cpp",
+      "before": "ed11b552c1d3339387bed6d5d66505dc3bf9d0b33de01bd700e90e4eaf121edd",
+      "after": "a4fb86dfb431d4ba41493f2277641f1384ff111066b043e4193cdc210bb70ee2"
+    },
+    {
+      "path": "environment/protected/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RoomWorker.cpp",
+      "before": "ed11b552c1d3339387bed6d5d66505dc3bf9d0b33de01bd700e90e4eaf121edd",
+      "after": "a4fb86dfb431d4ba41493f2277641f1384ff111066b043e4193cdc210bb70ee2"
+    },
+    {
+      "path": "environment/protected/.submission-baseline.json",
+      "before": "017f9d1170e623112f8d708529e7a45e1e8886a8aa637f61da0f8ac29d7f1ac3",
+      "after": "1a4720091c78c219d929e226ef6b88138bf4b1b5871825ce45234e84d2fa3442"
+    },
+    {
+      "path": "solution/files/Plugins/NightSkyEngine/Source/NightSkyEngine/Network/SpectatorRoom.cpp",
+      "before": "ad6f8486a16710e4c593f7699a1690ef2f9454956dc2769caaea8fce5a8b9c0d",
+      "after": "2e19d2e8d0518f3af9b8530600ba294d6fb92c623c6ee3783aad8d2a343a1b64"
+    },
+    {
+      "path": "tests/ue/SpectatorRoomTests.cpp",
+      "before": "129c49b68205ec1203e6cefec3aab67546b348fdfa5d9bb8d45584e04b3426e0",
+      "after": "5f5ed509bf2cc9f526e291c235f1fb7598f24590cd1e88692e6c82713905856d"
+    }
+  ]
+}

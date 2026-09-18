@@ -1,0 +1,29 @@
+schema_version = "1.4"
+artifacts = [{ source = "/project", destination = "project", exclude = [".git", "Binaries", "Intermediate", "Saved", "DerivedDataCache", "node_modules", ".venv", "__pycache__"] }]
+[task]
+name = "Nitrode/ue-0124-nse-relay-combat"
+version = "0.1.3"
+description = "Three-fighter relay combat with synchronized team attacks and elimination recovery"
+[[task.authors]]
+name = "Nitrode"
+email = "hello@nitrode.com"
+[metadata]
+required_gpus = 1
+benchmark = "UnrealBench"
+website_task_id = "ue-0124"
+source_task = "ue_task_0124_nse_relay_combat"
+source_commit = "1ff51f9695b8bc0220296bd0f861f3e6f80c988d"
+requires_rendering = true
+[verifier]
+user = "root"
+environment_mode = "separate"
+timeout_sec = 14400.0
+collect = []
+[agent]
+timeout_sec = 14400.0
+[environment]
+os = "linux"
+build_timeout_sec = 2400.0
+cpus = 8
+memory_mb = 16384
+storage_mb = 40960

@@ -1,0 +1,14 @@
+{
+  "mesh": "/Game/NightSkyEngine/CharacterAssets/AstralWarden/Meshes/SK_AstralWarden.SK_AstralWarden",
+  "skeleton": "/Game/ControlRig/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin",
+  "slot_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "lods": 3
+}

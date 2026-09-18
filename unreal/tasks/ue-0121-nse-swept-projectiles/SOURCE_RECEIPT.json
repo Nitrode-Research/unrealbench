@@ -1,0 +1,41 @@
+{
+  "repository": "https://github.com/brianyla/unrealbench",
+  "commit": "1ff51f9695b8bc0220296bd0f861f3e6f80c988d",
+  "source_task": "ue_task_0121_nse_swept_projectiles",
+  "source_files": {
+    "spec.yaml": "81e238e39c02e6cab77c19f8503af477e2c0382df6b36b93154215192349c71f",
+    "tests/NSE005Tests.cpp": "43ea4302dfbf29dc9e2521989ffec88ee3c396d2d4e70f189ad2e72630265593",
+    "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/NSE005Fixture.cpp": "f3eea257a56ee81e8e0f3239070cc37f3157514cdb0068ecd4161c401f4dd66a"
+  },
+  "adaptations": [
+    "Linux Vulkan flags replace Windows D3D flags",
+    "Harbor verifier runs every declared suite",
+    "Restore complete committed oracle delta within source editable paths; resolve and hash-check LFS assets"
+  ],
+  "oracle_files": {
+    "Config/DefaultEngine.ini": "31b3a1eff1ba88f544fe2e91e08178efc941350197fc93f29a6c5b5d771934c7",
+    "Config/DefaultGame.ini": "2cac32666d6c27ced421665d122f52bdc7a9c54a14c30649e8de9950b7b55971",
+    "Content/Playtest0121/AS_PlasmaCast.uasset": "5b49cc8eb2f2ca043a6118dd39ced89b2e315845311f631bdcd421359b3e0fa0",
+    "Content/Playtest0121/M_PlasmaCore.uasset": "0c763499dcbc58a83074054a87dba8a561dfea90c82cf66a07749223e50eae64",
+    "Content/Playtest0121/M_PlasmaHalo.uasset": "b450dde0ef4aa4c1390953119b53d7c4baca07265556b2ef4a59c2267f3e66a9",
+    "Content/Playtest0121/M_SweptShot.uasset": "d8a94fcfdc05b9f52be4fc83c012df34ea606fedc1beadc87f79e9eb03684ca3",
+    "Content/Playtest0121/author_plasma.py": "116255fc3330c89ad47c88b610e98a7605a77444860a9acf8f26a703ca23ab18",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Animation/NightSkyAnimInstance.cpp": "a98c499646f86fbd1655692fc3f1f05267a169e2a7c52629c3904a0ca0746396",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Animation/NightSkyAnimInstance.h": "253cc8a993b7161facc14255a516964e0c2766f2d41dd03780a7bc23ee50b794",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.cpp": "f083d7591e4083231392680cbea2eef684718f7be91602662b23a5f70c0a53fa",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.h": "6119a89efb1c6f5c313c189ef25aa25c517d9a8a1c83cf7e247a82d25f9ee2ec",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyPlayerController.cpp": "5e6d82c08ca44bb2c2b308b427f640b6a84dc2e1a659cd6f0f49d97ce606fb24",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyPlayerController.h": "1f6c71698456de1018bac9f4b268f0cd27af56ecdec0189e857d395aaecf0265",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.cpp": "2c213c651c55e305df6e7f3063014841ee7bf024d62dd0f139cf4ed97cb5baa8",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.h": "e67dcd665ddee7c14e193455341f2ea357aba75835356cf2a912e769f47514e1",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.cpp": "644bfcf96a21d5ae61959599ef18f1790663ed1f7f28bae6f66a913084a81fce",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.h": "6150fb5730eee5c36a330700f1209808ba4840ea7623fed69c676bc511bbc1f0",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/SweptProjectile.cpp": "1d4b79e5b6dc2a7f5bdb0a32736773341290868e007251826b5af5da10fc3a4a",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Playtest/SweptProjectilePlaytest.cpp": "ad83878fb4f806fdeb5940fe5ac71ee51079b749cef947409f7d339d4ad7997e",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Playtest/SweptProjectilePlaytest.h": "7a11bedac5405f21a69dd55590a42a64e30d16230eabc7136e6838af01aa754a",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.cpp": "b136d300d6fc80a7a571e065f471920c10297702614a13149dc236fb1c0e5929",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.h": "a9cdad060938bf7ab2b235ec03dfa3208393bb54d5b3e5a92496b01b7dbfdb55",
+    "Source/NightSkyEngineDemo/PlaytestTests/SweptPlaytestTests.cpp": "671bd7f2c3040572ad88543db2bdd985ae509fa4fa6e1ae1d622377c7909adb6"
+  },
+  "oracle_omitted_outside_editable_scope": []
+}

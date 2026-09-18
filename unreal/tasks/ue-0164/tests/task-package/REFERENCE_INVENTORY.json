@@ -1,0 +1,2047 @@
+{
+  "Config/DefaultEditor.ini": {
+    "sha256": "97ae57d5baa12afe645daafc8cc76d068ef4b144da48b4b2c0b0b9b9033677dc",
+    "bytes": 58734,
+    "category": "supplied_architecture"
+  },
+  "Config/DefaultEditorPerProjectUserSettings.ini": {
+    "sha256": "a5d03edb46b9a2243cf01484632260d4206469092dd39299c0643719afff9ad7",
+    "bytes": 68,
+    "category": "supplied_architecture"
+  },
+  "Config/DefaultEngine.ini": {
+    "sha256": "b471e4144d23decb6eadcf63a816d23b534e66fb9defed0f1fef3cfed978b30c",
+    "bytes": 10339,
+    "category": "supplied_architecture"
+  },
+  "Config/DefaultGame.ini": {
+    "sha256": "6bcc5174596900f4a47fc83749b8512c61446507536be83b177c67737595b099",
+    "bytes": 2339,
+    "category": "supplied_architecture"
+  },
+  "Config/DefaultInput.ini": {
+    "sha256": "7794233094b5962b0c7ea3d8fba594912758f2a588657de43a47644f65a9e6e8",
+    "bytes": 12659,
+    "category": "supplied_architecture"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/ABP_Unarmed.uasset": {
+    "sha256": "60ae8c970189979d9e070beb0fd8675f4afb2b04d8aaa8d11a0f03c5b7ebf4b2",
+    "bytes": 385911,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_01.uasset": {
+    "sha256": "f796113f17c91eca7e48ef57bbadc4fc36245a86b127e75a34ca4771500639ed",
+    "bytes": 757637,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_02.uasset": {
+    "sha256": "fb3c74b8e32fb5a88c6d659cae8717294af85d4eaa7f684b2a36c36d245559dc",
+    "bytes": 661409,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_03.uasset": {
+    "sha256": "1c66016fc3bd386453ac7fb1229a5f0644c6bd5f98ead29f6e6a1be80632ba1f",
+    "bytes": 1036132,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Attack/MM_ChargedAttack.uasset": {
+    "sha256": "5d9b0fc6892519095cb6930aba5c0dd063acf647612a06e0f2f7e19c463223ee",
+    "bytes": 1057890,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/BS_Idle_Walk_Run.uasset": {
+    "sha256": "bc71af8768b569695d4bcb69c79867f998e085693f5e8230854d228de359f5bb",
+    "bytes": 52333,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd.uasset": {
+    "sha256": "1f6e9448f0e0737f506d9e8f11b8d661d6d65c818f0e3160938f1e24082b16c3",
+    "bytes": 483265,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Left.uasset": {
+    "sha256": "e6e68e6cf4175f85c0e16a60f80335a1fab3f8c76a014d02bc0cd18aabe3314a",
+    "bytes": 417528,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Right.uasset": {
+    "sha256": "ee3137ff2b7d2cb721c935e2de91d55479e20f030ff230e9f912f6b70658c399",
+    "bytes": 417530,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd.uasset": {
+    "sha256": "0ccbe851f85a6d4cd7c6438c219cb6af8e281784107b5be8e9b052e4df3069cb",
+    "bytes": 531789,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Left.uasset": {
+    "sha256": "12ee5a11f277af90429980f120026f430ae1e438f6eae42c10222e175f9dbe12",
+    "bytes": 466995,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Right.uasset": {
+    "sha256": "66a7561d60453794864edd7e0c55487817068b6b66e31e179c98b9f2bab4c76b",
+    "bytes": 467310,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Left.uasset": {
+    "sha256": "f7842445f0c2b2f8d3cd9d43b9f58bc3ea888adeb1e161398b492097358431bd",
+    "bytes": 487864,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Right.uasset": {
+    "sha256": "208f642310d9627d12a5125889b480e051a1f1fc5397a10b83975903a0c59aea",
+    "bytes": 521907,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Dash.uasset": {
+    "sha256": "8a1c964403b7b1d9d9f5e0dd8c20c1ae809606c5e8021b2983edfc65ac0a66f0",
+    "bytes": 663135,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Fall_Loop.uasset": {
+    "sha256": "408be742c63adffe8c6c1d22442e99ea34a7618cd33c6e78e0eed3d7db877433",
+    "bytes": 925351,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Jump.uasset": {
+    "sha256": "252cbf69b07b797d3c3c6177d3ae9df17e9873f4872c4fa040c0d441dc3b3cef",
+    "bytes": 403730,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Land.uasset": {
+    "sha256": "a00de25a6beca56ff6d8077081531e5cef238c92825b6c184351d0aa99ef3fcb",
+    "bytes": 410017,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_WallJump.uasset": {
+    "sha256": "e29af6dc13219cb813097e596c143d964a18c118caca138015574009e50859c0",
+    "bytes": 409179,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/MM_Idle.uasset": {
+    "sha256": "11ee7fdeb84db89c1a66785b43b9bfc1415782122b8ac229517f4c5125d9cb0d",
+    "bytes": 1436554,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd.uasset": {
+    "sha256": "ae0c2ee1c1178fd1b9493f6c327e52d10a3d6bbde29eae54dcb07c13a27dcf46",
+    "bytes": 606821,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Left.uasset": {
+    "sha256": "7c25a8eebb9883085ac8f82de3c83fc34fd19b02567f17fafde9dd60c09cf3e5",
+    "bytes": 537758,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Right.uasset": {
+    "sha256": "8c71b9bbf7b15d75cacddbeb8827e22888cfa63a359ecbc0e017aec822d1a522",
+    "bytes": 537632,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd.uasset": {
+    "sha256": "c74b2fc0cb651c4924804b364e534856a1b44dee818127c408dc055e4bda5ed9",
+    "bytes": 475783,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Left.uasset": {
+    "sha256": "a7d8ff5a55eb0c445da2c74b2fd9460b6a3aff0db206be9e99aed319158d5770",
+    "bytes": 411535,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Right.uasset": {
+    "sha256": "67d3d4fed066023a14220277f5598db83f19efee97de908b1397b0ae998e5599",
+    "bytes": 411529,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Left.uasset": {
+    "sha256": "81500e4fcdd9ae9aa6433e652e67dea8f9dd9fa7b9ef1714e29f6ab0a1bb9d97",
+    "bytes": 486552,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right.uasset": {
+    "sha256": "f5922b4e632351353224b32f719af97e85512ab4f6553b15315cf14ad04f675f",
+    "bytes": 491934,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Materials/M_Mannequin.uasset": {
+    "sha256": "d7ffe412d906380bd5bd4462f464b2a1fe48fdb79b9077f29bd0f958a782035c",
+    "bytes": 59292,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Materials/Manny/MI_Manny_01_New.uasset": {
+    "sha256": "9f1e4ed382304d020b750c81505140fc1de4d339b0909430adb5380a6bb89b65",
+    "bytes": 17963,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Materials/Manny/MI_Manny_02_New.uasset": {
+    "sha256": "26389db06f0b7928b487494bef3320d6b0e6bccd58193bccedd67c2c89132a46",
+    "bytes": 18706,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Materials/Quinn/MI_Quinn_01.uasset": {
+    "sha256": "62a3050ef24b823f9fe84ac5d9c477099494982d35dafcc3d8078f32b0d4a865",
+    "bytes": 11184,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Materials/Quinn/MI_Quinn_02.uasset": {
+    "sha256": "6aec77489fdfab0e1ea299de60fbd4f332face4495bbbd20b97fb0308bb9c5b4",
+    "bytes": 10718,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset": {
+    "sha256": "be9f011191ee1887b97cd13bce09886a6066c2fd62c619991070ec142184e1bf",
+    "bytes": 15825101,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Meshes/SKM_Quinn_Simple.uasset": {
+    "sha256": "1ef45d92507a76d74a5e06737f94cad40eb7d5f5769dfbb63f7f74e784a178c6",
+    "bytes": 16252577,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset": {
+    "sha256": "22029d47455f24471195b26a0e04a1e1389f27d6a924e88c9f46a0f600c9a530",
+    "bytes": 191198,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Rigs/CR_Mannequin_Body.uasset": {
+    "sha256": "57f84458a160c35b77f0442d2af41054e41e021ebbb496c2c76dea76d1d89580",
+    "bytes": 17057558,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Rigs/CR_Mannequin_FootIK.uasset": {
+    "sha256": "aa01be065d2efa2dfd3b258f60b94b09fcd5d351356d16bb52578ef5bcbfb5c5",
+    "bytes": 498698,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Rigs/CR_Mannequin_Procedural.uasset": {
+    "sha256": "057818dd3e0e16ff90c147e25a8fc5ab309c49c4c60360477cf4742e767d151e",
+    "bytes": 2575944,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Rigs/PA_Mannequin.uasset": {
+    "sha256": "c0ceaf003947088ff076555b81a46e5ccb11149c94025eb2a9e74263fbaa0d67",
+    "bytes": 301538,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Manny/T_Manny_01_BN.uasset": {
+    "sha256": "2f623209571ecbd8185b5b463786be033c3284190b4fc7b249e8d1d2ed995fd8",
+    "bytes": 1422785,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Manny/T_Manny_01_D.uasset": {
+    "sha256": "6ae0f4f9908c30ecc9aedf1ebb442e4983e526a7832ec791542064c7853f9999",
+    "bytes": 699555,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Manny/T_Manny_01_MRA.uasset": {
+    "sha256": "3e42e888aed8aefff68da7d7dda4f177c5647b19473e4e913f61375c1319abd8",
+    "bytes": 712594,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_BN.uasset": {
+    "sha256": "c9575d21c9e2872b3358c0efb9e202535ce2efce94c338b9d3bd04cb9831e353",
+    "bytes": 20999487,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_D.uasset": {
+    "sha256": "474728713232c6833f55c041548f555bc62c5c49e74082a5d16e68a5ce488cfe",
+    "bytes": 1036712,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_MRA.uasset": {
+    "sha256": "6697972eaf2dfe201923dba6a302f024b0ef4c4e46b4ecf578178717098e8277",
+    "bytes": 1059559,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_N.uasset": {
+    "sha256": "61a9db73f72fe2d7d8821b33a79f57f3f11df9da9455822392b84b199c78e8df",
+    "bytes": 1680197,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_D.uasset": {
+    "sha256": "04e5ed207b7df0d2ad1bbc668916bcf170545fc2a72875e49ec99c6e2667002f",
+    "bytes": 674768,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_MRA.uasset": {
+    "sha256": "0988d4d9f25597224910e1043591cb2a089a8607a4fe4a63cbc68f3eb2ab473e",
+    "bytes": 791597,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_N.uasset": {
+    "sha256": "10fbe9ac3e18e0a890d19756d3470ca372a1aeaffefbe9a22d6b0e6182293551",
+    "bytes": 1263741,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_D.uasset": {
+    "sha256": "f0ccb2f465894c6f9ff4dd142351ed33186c5f861283a75f3e08d1531a253c49",
+    "bytes": 943331,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_MRA.uasset": {
+    "sha256": "9f7e495cbe0430aed7084b5508f87186f98346eb04f003734c9b378891da7887",
+    "bytes": 974099,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_N.uasset": {
+    "sha256": "0bc26466e9fdc954cc276bb6ac1350e22c3dabbe1b54b6bf78ed5ae2e339d9fc",
+    "bytes": 1524635,
+    "category": "authored_asset"
+  },
+  "Content/Characters/Mannequins/Textures/Shared/T_UE_Logo_M.uasset": {
+    "sha256": "34e6fa3414c04a86b7a5287e5569ea9d6e53c319d6e7dbfc8b09dab5b70611a6",
+    "bytes": 59927,
+    "category": "authored_asset"
+  },
+  "Content/Enes/BP_Desk.uasset": {
+    "sha256": "5cb9c378ee59a9223d960b8e5c3921eabf37e7c7edd1cff4b9706460eb726cff",
+    "bytes": 31853,
+    "category": "authored_asset"
+  },
+  "Content/Enes/Blackout/BP_Blackout.uasset": {
+    "sha256": "9265b02ee4248a2fb4a304820bfc3dd25800474c32e9da32abe11469cfd4ca6d",
+    "bytes": 43228,
+    "category": "authored_asset"
+  },
+  "Content/Enes/Blackout/BP_Blackout_Door.uasset": {
+    "sha256": "b0974e6b9a7a15ef9116b4ccd5b98ea7eac40b678c31a4ef41e7e465d9ab1a5d",
+    "bytes": 2364,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/AlarmConsole/BP_AlaramConsole.uasset": {
+    "sha256": "963ce82b18da0254d3b4a9540168469759e92fd02551f148f4072b017dcecfce",
+    "bytes": 41458,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/BP_CoolantValve.uasset": {
+    "sha256": "03a71a21ed403122b49d28bed6f80c7bbf70edda52e3c00109b38b1634eda7a5",
+    "bytes": 41036,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/BP_Crate.uasset": {
+    "sha256": "1cbb91821e122b33fea7e7fff78dff053f5320fef10c3b2ed1581aac99b5621e",
+    "bytes": 41837,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/BP_Flood.uasset": {
+    "sha256": "6b0164ddf13081c4767bd931914bcbb8cd51d3f53c28eecf5f35f1d8c9eadea9",
+    "bytes": 33553,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/BP_LiftCallPanel.uasset": {
+    "sha256": "8443efed83271232610a51e571700c4ed2642495d15a0b5087d1ffd3fa786696",
+    "bytes": 45804,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/BP_ServerRack.uasset": {
+    "sha256": "2d548b3a881c74380a68cdb4d7e5c681b472f4eba595bf62d3a864b83a55ee01",
+    "bytes": 41373,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/BackupGenerator/Generator/BP_Generator.uasset": {
+    "sha256": "44d2e7afcc08f673fb17977e476c900db076dfa480842ab8aece47c58b8fb5fc",
+    "bytes": 40749,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/Camera/BP_Camera.uasset": {
+    "sha256": "a82e778f868627d94efa35d1ffaf24b4eaa5b3b2e053a0f2f67cd6905278cd05",
+    "bytes": 34886,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/CargoLift/BP_CargoLift.uasset": {
+    "sha256": "d6be7b3c7ad2fe7063a807f90427f471a493104d7b60a80193bd77332dea695b",
+    "bytes": 43755,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/CargoLift/BP_FacilityLift_C.uasset": {
+    "sha256": "0dc2ebef457ab87713181affb455c83cfe32013fcd9b8aea75ef051944a87d9c",
+    "bytes": 1441,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/CargoLift/BP_LiftCallPanel_C.uasset": {
+    "sha256": "80809506e0d8f039cef326f031c361700a7c460f7d7e32af093930217e5eb307",
+    "bytes": 1449,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/Door/BP_Door.uasset": {
+    "sha256": "339b2998662a17e199f1892f2c41fb5e07e4539b0a65ee0beee78fddd6dea35e",
+    "bytes": 44470,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/Door/BP_Exit.uasset": {
+    "sha256": "3bfccecdb5a1d3bbb32af690930e5ed207dd6c2ce331ae53887312794d24eecb",
+    "bytes": 24164,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/Fan/BP_Fan.uasset": {
+    "sha256": "53b4a101bb835c81a3fb50cff0f704df808b32781322c608aeb877bcf519b1da",
+    "bytes": 50550,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/GateController/BP_GateController.uasset": {
+    "sha256": "5a5c9f61ec04008890efaabb1fb3ea2b0eb8ecf7942ae4e6aa582b40ef762b36",
+    "bytes": 34605,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/Hatch/BP_FacilityHatch.uasset": {
+    "sha256": "9377be0bc9ef5bcc268d4f9fbe591119f5b650daa1897f96dbca27d7b28c8486",
+    "bytes": 41327,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/Ladder/BP_FacilityLadder.uasset": {
+    "sha256": "9c4c8180a9a0768d9aa78b2a981057b2bec662e93a9765eb848784c9f6123f4f",
+    "bytes": 43096,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/Lift/BP_FacilityLift.uasset": {
+    "sha256": "d50f1b983fce015db13a92d2694376ababacff9dd2132d4ea78e4aa1768a076a",
+    "bytes": 47641,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/Lift/BP_LiftCallPanel.uasset": {
+    "sha256": "7af01bd0eb8c929c2ef9f3f52e5a13ead17213b1092f0f0ca0290c5d46be1861",
+    "bytes": 2395,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/Light/BP_FacilityLight.uasset": {
+    "sha256": "4b0a650b1ae9c1ebe0bbac02ea97a1fa0485a02d570f7bdee93d5cbf37ad848c",
+    "bytes": 34312,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/PanelSwitch/BP_PanelSwitch.uasset": {
+    "sha256": "33173022922d19ff4b22c6702ccbe386a5b769df9897ce7804e70eec97d3fcac",
+    "bytes": 78793,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityDevices/Vent/BP_Vent.uasset": {
+    "sha256": "de0161a2a164dadae4fb65846857713bfc725f4649d3444f34ba0aab15eb10de",
+    "bytes": 33705,
+    "category": "authored_asset"
+  },
+  "Content/Enes/FacilityItems/BP_Pickup_Item.uasset": {
+    "sha256": "8087214aeb89041d0552531b7ae05152ff460c225edb4ff01dbab365eb611960",
+    "bytes": 41177,
+    "category": "authored_asset"
+  },
+  "Content/Enes/Test/BP_TestInteractable.uasset": {
+    "sha256": "c427d4c77a4e2d4c910bb81a230021efe3e2e08150f86c8024ff5dee6c04a1a6",
+    "bytes": 53461,
+    "category": "authored_asset"
+  },
+  "Content/Enes/Test/M_Highlight.uasset": {
+    "sha256": "430c407a7fb0871e5a2e0aeb6122b8e13b6804916eda6fa28c788aa7200da662",
+    "bytes": 15220,
+    "category": "authored_asset"
+  },
+  "Content/Enes/Test/M_Highlight_Inst.uasset": {
+    "sha256": "6b9688aaef385e5a713cae4964a6b0a60769bd0ea5b257f7237ba6f25f627d6f",
+    "bytes": 10655,
+    "category": "authored_asset"
+  },
+  "Content/Enes/Test/NewBlueprint.uasset": {
+    "sha256": "515b4786eb731caf1185d3c52f2e773c63504cef2e8cd45c70ff9b42a5856f60",
+    "bytes": 48676,
+    "category": "authored_asset"
+  },
+  "Content/Enes/UI/WBP_GameEnd.uasset": {
+    "sha256": "c3db92bbb92a53aaa8e59034cdcbcf86f915af58c0690875aee0aecbe3e1de1d",
+    "bytes": 63467,
+    "category": "authored_asset"
+  },
+  "Content/Enes/UI/WBP_InventoryItem.uasset": {
+    "sha256": "cc88ddc39d7b41ab5a46ba5369831feebfa3ca7ed5e524056c1bf1cc2d0be0d5",
+    "bytes": 35468,
+    "category": "authored_asset"
+  },
+  "Content/Enes/UI/WBP_Overlay.uasset": {
+    "sha256": "f756e93710d9ea613627eba8939534018ea33c5f04a74937108537df40a6ebc6",
+    "bytes": 304074,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/Anims/ABP_FP_Copy.uasset": {
+    "sha256": "a9d36cac5bb30f5a5ecdb175dc4fcbd50d8ae74405ad57802436fbedbab02455",
+    "bytes": 57892,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/Anims/CtrlRig_FPWarp.uasset": {
+    "sha256": "7cab27cf0fdec19da9dd6ec98c5c1e8308774c460dda518ca0753c276af85078",
+    "bytes": 248824,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset": {
+    "sha256": "4a793efec1f630717a8a9b14599a492777fd952883dd473b9641b751342c84c2",
+    "bytes": 91464,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset": {
+    "sha256": "4e63f58d5630894f49a1e9c1e4cb42eb7bf6582582dbc1f7d3d5511eab39b66e",
+    "bytes": 43176,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/Blueprints/BP_FirstPersonPlayerController.uasset": {
+    "sha256": "d1d4b1cf72614229b68e34826f5916a0d3f53cb254ad69ffca4b8496204d82a1",
+    "bytes": 83934,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/Lvl_FirstPerson.umap": {
+    "sha256": "0afea9ab5939426a271ebcb2a29d9d668331f1002f6a77f68424348a057ce358",
+    "bytes": 14826,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/MI_FirstPersonColorway.uasset": {
+    "sha256": "d0821072d542c67e5eb8802456cf0f4744ea3eeb843fbf59baeae1771e939d23",
+    "bytes": 9419,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_06A0A4C5.uasset": {
+    "sha256": "75397cb4301a6bdb1537195673ffa53fa3ce3239245ffed9b77983e4ad904297",
+    "bytes": 30292,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_2BD51103.uasset": {
+    "sha256": "26f52eee41e9fd9a07189260be6e39ffe98853682a2d0fd5e10e84308cd31077",
+    "bytes": 15664,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_3F9CD5D3.uasset": {
+    "sha256": "5669a3004a985c94befbc92e7c839d37140c4d86659da7a74c245e20a5063cc7",
+    "bytes": 16280,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_4371E523.uasset": {
+    "sha256": "63785568d0e0a176ec23d2237a5c1ccfc413b4f195142b1bd31562326bf6aaf9",
+    "bytes": 17996,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_544F376C.uasset": {
+    "sha256": "97ebc7c65e267adfd03b3d4c9fffc7c6b52ca267bdafadc54952dea6a86f8cd8",
+    "bytes": 31016,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_61A0A722.uasset": {
+    "sha256": "f92510e690f111c59057403ebce2caaf28d8f28fda9b0ef69c7b4e7593c1e27f",
+    "bytes": 17418,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_8516FC56.uasset": {
+    "sha256": "fa3736a3a37c410ca15954c86a99f69c1a43f79601e01d74dc3254c5d90d0c96",
+    "bytes": 34261,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_B747708C.uasset": {
+    "sha256": "c226a34a58ff5dd79607c0ed42a0504a8745961288d7fbe589e28324c00550cb",
+    "bytes": 29807,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_B75D6787.uasset": {
+    "sha256": "67a5c05e768d7721ef055e00abfc99515cb4aae947d63a9d59f315e5594e8c3e",
+    "bytes": 33765,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_C131CE69.uasset": {
+    "sha256": "8aff7ffa038bf474e3adb42b1d1accc0be875edc8f1dfa4e5be768a38b46d4c7",
+    "bytes": 19426,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_C133645F.uasset": {
+    "sha256": "07a95ec0d81251a5e375b3ce440508fb15862b4ffcbc7c94ed111dcbb5a5f1c9",
+    "bytes": 30292,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_F41DC0A1.uasset": {
+    "sha256": "152a0489618f2e3bf8666480b490f507d3d25a9414805b608359047dfb718865",
+    "bytes": 17732,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_F8B6B8F9.uasset": {
+    "sha256": "6f598aade26b490959c8ad21fadd94ff8beb1116f472911d85abd6934ab41edf",
+    "bytes": 40523,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Boolean_FAAE8C94.uasset": {
+    "sha256": "cf4f38236c6424c1d2d9db6d00f0a2322b1cf176f8810c72e0d7efc266176afe",
+    "bytes": 18069,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Box_0FB5B61D.uasset": {
+    "sha256": "e062c10fe65c8134e54ecceba71d6c85a9e9c58d1a64891ff5419a98379b1e30",
+    "bytes": 15635,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Extrude_AE2B15BB.uasset": {
+    "sha256": "820cd2bab56b477a5492304bdc802feb688f3e40b3e8d0b05ab160ab28d4e114",
+    "bytes": 15449,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/SM_Cube_CutPart_0ABA5140.uasset": {
+    "sha256": "1a1cb5e717aef77718d1e937905d0d1d16166f014e503171399a1ba50217fde6",
+    "bytes": 15322,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/SM_Cube_CutPart_B5D21AE9.uasset": {
+    "sha256": "50731b3f2a58b4839ba3e816067c99c5ba49e320ef41f97a33fa3f0f0adef724",
+    "bytes": 25523,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/SM_Cube_CutPart_EA849DEF.uasset": {
+    "sha256": "933321c373bbd065b11825dee50558a34e70416e1872779643fcfb1b5fa3ea01",
+    "bytes": 16236,
+    "category": "authored_asset"
+  },
+  "Content/FirstPerson/_GENERATED/Enes/Trim_122722EE.uasset": {
+    "sha256": "7356cb9e17f76b61dace4fa0f2fff08a16ae495baa2b08bda8117d9a6865c987",
+    "bytes": 17867,
+    "category": "authored_asset"
+  },
+  "Content/Input/Actions/IA_Crouch.uasset": {
+    "sha256": "031c01bb2d8af87ef4dc5639fe1d877213fcf041a96ce3b6b680cccc31a30f73",
+    "bytes": 1670,
+    "category": "authored_asset"
+  },
+  "Content/Input/Actions/IA_Hack.uasset": {
+    "sha256": "952e0b8fd45f732f2d2592617a406b83fe65f7d62fd932e887232d9eca05d87d",
+    "bytes": 1154,
+    "category": "authored_asset"
+  },
+  "Content/Input/Actions/IA_Interact.uasset": {
+    "sha256": "9387bc84a63c7d74fc7f95100b6fd673255d5fd92de636ddf85c984b2713cce9",
+    "bytes": 1174,
+    "category": "authored_asset"
+  },
+  "Content/Input/Actions/IA_Jump.uasset": {
+    "sha256": "73c14789fee45a6e1eff57f3304a0bafee23790cc8ea6a6a5bf0056e75d7b3e4",
+    "bytes": 1695,
+    "category": "authored_asset"
+  },
+  "Content/Input/Actions/IA_Look.uasset": {
+    "sha256": "0d4a2cb59db11a0a080834e1b292207e530b8df217446afb46e382d9fa12f5a9",
+    "bytes": 1385,
+    "category": "authored_asset"
+  },
+  "Content/Input/Actions/IA_MouseLook.uasset": {
+    "sha256": "2901132a04ceb384e2693107b8f5455de48b7c325d6cc5ce07556c6425c19f48",
+    "bytes": 1410,
+    "category": "authored_asset"
+  },
+  "Content/Input/Actions/IA_Move.uasset": {
+    "sha256": "85567b9d91ffd9f7106c3062557a6fa864a791233380353f63eb563470985add",
+    "bytes": 1385,
+    "category": "authored_asset"
+  },
+  "Content/Input/IMC_Default.uasset": {
+    "sha256": "ae9c6bd98eca3e76ddb002a8ecacd32078413d82e574db7d7335988998769ee2",
+    "bytes": 9545,
+    "category": "authored_asset"
+  },
+  "Content/Input/IMC_MouseLook.uasset": {
+    "sha256": "6a00157cd520edcf0b037d7091bfe188fa6eb7c48465f695981f7cbe5fb4cc80",
+    "bytes": 2521,
+    "category": "authored_asset"
+  },
+  "Content/Input/Touch/BPI_TouchInterface.uasset": {
+    "sha256": "e778ae087305a34cd6957fcf9b29670f0a2a01be96bad89c79b83286496ec45f",
+    "bytes": 16393,
+    "category": "authored_asset"
+  },
+  "Content/Input/Touch/UI_Thumbstick.uasset": {
+    "sha256": "49c8c04b2e8c88beb55935b05d9af72c35d89512ea6435f20d5e3123be139f8b",
+    "bytes": 223040,
+    "category": "authored_asset"
+  },
+  "Content/Input/Touch/UI_TouchSimple.uasset": {
+    "sha256": "81f45f11e73180f0964ee3f59f77c8c55e61d355e5c69427e1de67e5aa5db77b",
+    "bytes": 70301,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/Door/BP_DoorFrame.uasset": {
+    "sha256": "4386d7d71b8d5241fd8150aa47900711eb0d8bd069c00de25fce07f011d698fa",
+    "bytes": 448616,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/Door/Meshes/SM_Door.uasset": {
+    "sha256": "fa98c4fc5083393e085d7b44d0b67a7e830922e2601a439167916616bbc29993",
+    "bytes": 59267,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Corner.uasset": {
+    "sha256": "383dea9555e76303d60d0011fae6651a4be07c24033c0aceeecd137c954ee3fc",
+    "bytes": 86885,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Edge.uasset": {
+    "sha256": "26eb76a2ce36be334bf0770561475a9e06be928e9ca75b4a31f5df3debb36592",
+    "bytes": 69088,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/MI_GlowNT.uasset": {
+    "sha256": "6fd40bc38bfea9418fa54fe365732a1219e615169542a0a4d2e1d518318c864b",
+    "bytes": 4145,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_GradientGlow.uasset": {
+    "sha256": "c1b29ad29c2eac3dba6dd6a90aed9de8c6147a13b6288a42bd73fe14b78970a8",
+    "bytes": 17587,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_SimpleGlow.uasset": {
+    "sha256": "e6098242541b34be6aba19ea1fbfa35107f891e8f55d30d4061aa11b065b8bd8",
+    "bytes": 15213,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularBand.uasset": {
+    "sha256": "97fbe3da2d907279dcbfbbf285e1b111ceb8d5f4a1c9d6bd48fcb8defc86842b",
+    "bytes": 70608,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularGlow.uasset": {
+    "sha256": "6ddb27bf7020f4980d3f8435cb0928fb48b32c1ab3ea24bac7e253435081bf6b",
+    "bytes": 71705,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/JumpPad/Assets/NS_JumpPad.uasset": {
+    "sha256": "2e76849cbb139160e5e73c226fe6aaa66a63fbf75cbd1213f871cca65e409817",
+    "bytes": 795908,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/JumpPad/BP_JumpPad.uasset": {
+    "sha256": "42ba8262f07355cdf36e33977f3bb415810390cf210b75573d766bd819cf8401",
+    "bytes": 92487,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/Target/Assets/SM_TargetBaseMesh.uasset": {
+    "sha256": "378ace355b8f5e71a12e459d9f8cf4958626884142fec34be8630db6d8412cad",
+    "bytes": 283425,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Interactable/Target/BP_WobbleTarget.uasset": {
+    "sha256": "8bd8784bf03cb945d63deb2c4c22261a9a9ea2af1f84766805ca92ec7b521ab3",
+    "bytes": 45551,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Materials/MF_ProcGrid.uasset": {
+    "sha256": "e5ee13abdb241d9811f6c1bcc0a607d229fa7adc5f46bfd5a9d5fedbfa279683",
+    "bytes": 49820,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Materials/MI_DefaultColorway.uasset": {
+    "sha256": "786a4dfcaaa6f4daf459c77bda247c2c138140680a8246d521974d0cc4fc8a8e",
+    "bytes": 9260,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset": {
+    "sha256": "084681bf680dad66b8c8ca803d927053cf46756f2f2e62d18fcc439e07de7263",
+    "bytes": 13121,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02.uasset": {
+    "sha256": "fa0f2a06a7d937127d7d737c13bacb3f8fe88c8e0479f5e6b7cda81fd225d077",
+    "bytes": 11922,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_Round.uasset": {
+    "sha256": "901ec868e81e7a73c9f3ad4814e1205af27abc772949e5a30550a00f31ce4437",
+    "bytes": 11413,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset": {
+    "sha256": "838034e5afc7ab3a70bfff6de2e1237aa02337fb423e95c1b536b3e30c61c982",
+    "bytes": 11957,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Materials/M_FlatCol.uasset": {
+    "sha256": "41dbbda4b463a224c29ee01765e1f52a8ae63f2f94f1440ee267fe7b1a481585",
+    "bytes": 11771,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset": {
+    "sha256": "bf8625ad5917cee705867038d8a590b25465e6b5d5818a738a584e515d7cbdfc",
+    "bytes": 79863,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset": {
+    "sha256": "8c05c95b1efa9009b241b45ea85dec313e03041322d543c36db3a96d5a10180a",
+    "bytes": 130469,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Meshes/SM_Cube.uasset": {
+    "sha256": "753a2299df2b448eac4a9ef08347304bdadbbe0b69cf857602b4270e36cb8f7d",
+    "bytes": 20612,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Meshes/SM_Cylinder.uasset": {
+    "sha256": "76aaa3c2b812ff790fb57ae7736b748e4e1556afbb13466fd787d4bacd2c7dfe",
+    "bytes": 193636,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Meshes/SM_Plane.uasset": {
+    "sha256": "39ab83dc57a9a27a80476711610f72e81c0685a05d4aa95413b3e4e7f6c4a3f2",
+    "bytes": 15581,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset": {
+    "sha256": "4087b3f85753d9ccbced7d00d42208dad4d21185f24a97b0c86db31be867b733",
+    "bytes": 135087,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Meshes/SM_QuarterCylinderOuter.uasset": {
+    "sha256": "ab58a5224da57452f367c9d55ea4976466138fc2cb8ec9e2fa92748c86a07f11",
+    "bytes": 79741,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Meshes/SM_Ramp.uasset": {
+    "sha256": "e5b472deb37a9956b9112dccee3d09498a456baeacc574db8c5d725463b73597",
+    "bytes": 18690,
+    "category": "authored_asset"
+  },
+  "Content/LevelPrototyping/Textures/T_GridChecker_A.uasset": {
+    "sha256": "bb8334767064b107ec4f4407ef1365e8b9e2dfeff5984e66d4a6232254ddd02a",
+    "bytes": 9600,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/5A/K9IPDKON4BP88G3XEECQQ6.uasset": {
+    "sha256": "1c5639267b62d807ed668de6abe06fa4850de18eeedea4c9e00dfebae2a883f2",
+    "bytes": 6999,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/QE/YG7RJQFX7EY54W8F51UIVV.uasset": {
+    "sha256": "f7d13218740ea68e5b761722ce412b0234a875628fb962f7e4784d405d135390",
+    "bytes": 4380,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/VE/6S4LZECPHOD1Q0C2ZKEPNK.uasset": {
+    "sha256": "2cda6d281e11b290e8d13babcb6449c9acf3bed40b1025b775d93fc5d96d5ea5",
+    "bytes": 4390,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/Y1/3T5G39OGV841TO6UDJ5QFI.uasset": {
+    "sha256": "8df2355dacb0ea2cdab6b2cc12e615eb7bda53268990e0cf6fb6bb9df7795d20",
+    "bytes": 3781,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/ZL/A6SWPFBO1C9SP5M18BT5DK.uasset": {
+    "sha256": "711af8a3c1f7b55e7abf201117e71e38c363052bd8473b5a028e11b267f1ca30",
+    "bytes": 4211,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/3Z/IBRDCN4IB7NI9T0FQ3926H.uasset": {
+    "sha256": "122b179af1e69b2ea895ec6ef9b692acc0d0b204a8de6aa5889c2e5dbc5292fa",
+    "bytes": 4163,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/C8/JXEU3MVXEJTQ7WJ8VNBWKB.uasset": {
+    "sha256": "8e01924debea36f605182238aabd33e9df90023c8fe69ad600705ed61648350e",
+    "bytes": 4300,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/CC/0JTUNI8VQLSXUN7CSUXHGJ.uasset": {
+    "sha256": "d69bf0aa7148d7920df9ef1d6a33cd8d05dcf8eff77f21f6004715e4c21fe1f0",
+    "bytes": 3832,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/DR/ZI8LAE78A8LF43557C6RVE.uasset": {
+    "sha256": "14e1c4ab6f37c448da45945100895974f8b3718343824479bab3e7ea1bec0103",
+    "bytes": 5111,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/FA/54XBSQ62IPOILDU5WBNV5Y.uasset": {
+    "sha256": "11d1a4003a09efc05a376316065e93552cc400ef9bc1880dc468a427bda06ee1",
+    "bytes": 4211,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/S2/6K7JEWRZKVGQQ8RUIIN8YX.uasset": {
+    "sha256": "c3a76f02510d2cc04aef6fcb17c35a858d4f148976a97fe7b8c991ad4b6b1fda",
+    "bytes": 4327,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/S9/K4IXXOBUHL2WXDP3BPXSXQ.uasset": {
+    "sha256": "2e14d08e5bc2d02cf1cd62b5549aa90c9fefbefa1062630e4771a21b44f38979",
+    "bytes": 6490,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/24/ZSS1LYD85BXEPG5HM2VPKW.uasset": {
+    "sha256": "7e005ccf9bc3cb753f9e64a3b140edfc062ba51f7b2a6df50a42a4712ce2f6bf",
+    "bytes": 4577,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/BE/CKDPJUWXQSU3W1PXGELGBP.uasset": {
+    "sha256": "62fa4b2b5e7fb4dd45684e6575f13bafb717edf04564142c5cc02ac91517f590",
+    "bytes": 4264,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/BY/GGLGDL7Q2WOF6N46YUIVU2.uasset": {
+    "sha256": "24427c6582af168ab68c8ce1e9ac8745e67ac54deb12b2e29647f3d5b031ba56",
+    "bytes": 5075,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/EG/CIZR6W2NYH4Y5P8G67XOU0.uasset": {
+    "sha256": "acb7f1b516b9cf32d865b4deec46c903ca2feba6e5b8ea6c1d7cd331acf70be0",
+    "bytes": 4266,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/GI/3AURWTLWFI3IZ8HB2DG7UB.uasset": {
+    "sha256": "81559707ccec6bb5e97999c0514f70acc39f637b3af80b1495189c66b0c798a2",
+    "bytes": 4459,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/J1/2HNJ0OU9Q84R98KQU1LVVW.uasset": {
+    "sha256": "09851f0f69c0ca43942b5c2b9ebfb102acca66c4959c8e9cceba8bcfa4fb6878",
+    "bytes": 4849,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/NN/UPER9K07U6B78EE80PY058.uasset": {
+    "sha256": "544976a287d472845bd47c068ae6913a5ae2febc1b15ea3e38f85d28b1ef2119",
+    "bytes": 2276,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/QA/D7MM81BVNY97OZKN5P02JL.uasset": {
+    "sha256": "e4591d16da2a2cdf9911bb3a935df26070f16c8cedab8d3bd710141ae42970e4",
+    "bytes": 4177,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/QZ/FV1YMVQUPS7D2EHJMYI1K6.uasset": {
+    "sha256": "219d00cff7775a1f7c1a705978fcbfafe506e1163623daaa7a93579c95f36fb1",
+    "bytes": 6587,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/UH/X15HI0EA8Q44Y2MKK11VLE.uasset": {
+    "sha256": "3c6edf5ded73bc79ec765e2f7049a2e8159a1ae5d8dde53618346373acd7c301",
+    "bytes": 4262,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/ZK/38KTRZUEXEGYZ06UJ9K507.uasset": {
+    "sha256": "a54a8c2f69955f32cfe3886126b022c2ae8de9b73bf8a5f63fbaf59c46d76468",
+    "bytes": 6922,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/01/DOEH4E76XIL4VEWL13ZDCT.uasset": {
+    "sha256": "bddaf15f4176f1a7b51dfcbf7c01b31c50591392ad7e47257392ac2ae0c2762a",
+    "bytes": 4209,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/38/LIVCYVLRSJ18OMJXCH20A5.uasset": {
+    "sha256": "4d8dca32e624af812ef778393e9062c50e9b062d47759469ac4a7a8a86dcbed5",
+    "bytes": 4213,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/4I/7AHHQJGSK8IIRS7PRKCTXA.uasset": {
+    "sha256": "7d18a3446f73a22a89914220aa41e5843e1a5138533bdd7f2b40e296c405252a",
+    "bytes": 6562,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/5E/XLZPYT1RN9K90HE05T5WA2.uasset": {
+    "sha256": "7301ec551d5bdc74265e8ca9ae7a8cd87cb70a2dc0202aee6c2e7f4bf91e6020",
+    "bytes": 6508,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/5T/YHGJ8N6TN8P85U7NWKHPCZ.uasset": {
+    "sha256": "63d88e5a8756d3f9d5a295dade82f52f40e98fa4ea7278f08273e9fea13f8c37",
+    "bytes": 5111,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/6N/QFZCQ3JINWFWO76KKSDXIZ.uasset": {
+    "sha256": "978436ed7455578b4a4908bedf7a0f09cf066167398c57c4ffa8f63af2fddf31",
+    "bytes": 4459,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/DB/7ZVYIZQNOS5WRH8VHFI7J5.uasset": {
+    "sha256": "57f309d101b1ca067c54928f2538cfd3d754339ed87a355466d10797a921d0a5",
+    "bytes": 4211,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/IU/99FJ80AORYEF6NN1ENHQDS.uasset": {
+    "sha256": "7b00cd0e124f904323b79911df143d680f00164835e763ff6a84f4bb3afd8a4b",
+    "bytes": 4249,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/JV/K01EWJIVDB7NNGVD8BZ6JA.uasset": {
+    "sha256": "c56003c84eac835abfd869b12237825e895463a8b6c2c4be166aa11a8c790132",
+    "bytes": 5109,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/YT/XK5D1AQ9EP0JDM7QK6KET2.uasset": {
+    "sha256": "9b06e915073368e991f482c5ec1dad2a1e00fcb2eabaea0abc443e6c0a5e51c7",
+    "bytes": 4485,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/AU/G93FYF8G6D0Q6AVZEKXYTI.uasset": {
+    "sha256": "39859a64ef01f6840f17600662630d2f6e0a65fbc715b8e42e689d81af47304f",
+    "bytes": 6360,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/BZ/WKOBGFBT34IX0LA5783ANS.uasset": {
+    "sha256": "b31809c6533f679e8a8c1b7c4601e45e91fc96bd0b26de962d08059c06a99bf4",
+    "bytes": 4327,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/DS/3ROXWPWNYA2NQ8XU81YE8B.uasset": {
+    "sha256": "5d9bb842ce3e8fbcb218840c57e321435c6996501fffd135d300fe20d573066f",
+    "bytes": 3881,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/IZ/IXRY643TMG4ICU0C0VXVAD.uasset": {
+    "sha256": "4e5ae3d1eedd243be72d18f735c31ed28c87eec1c0a4c2bb23b059520e65d37d",
+    "bytes": 4386,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/JS/RG694IJG4U229BFR7LKF6N.uasset": {
+    "sha256": "d716fec18297a36f84997861f6401ecb0b63ed0ebe2b57d2bf94ea6f19df6ee7",
+    "bytes": 6490,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/LQ/DC3WT53ECKFEJBK061L8H3.uasset": {
+    "sha256": "e20841148dc7aff3b462dcf0235bbad6d952a00a6b07e43514adacd495a81b02",
+    "bytes": 6737,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/TR/8D96Z0BPIVZZQWVYLRAQK7.uasset": {
+    "sha256": "0cb4490e646ccda7c03af1a8a80d8cb79f9073614523dd42bec2a50db0697496",
+    "bytes": 4774,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/9F/FRRE3NBOUVR772CRM9PRKG.uasset": {
+    "sha256": "3362deab2b92532edf1c78b73316abba7e61fd9c7ce826ec7aa72ce29343be76",
+    "bytes": 6490,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/LA/XIEJDLUBDPRPD7IBRYY146.uasset": {
+    "sha256": "0134be83bc0d67ddfd6e4869a0b36099a00e8d79db57fd28af18c096c1dc0629",
+    "bytes": 4772,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/NR/4THAZTXSJ1QH2HYCDYC27R.uasset": {
+    "sha256": "c54e85ca6e2982d95912c1ccb5c9141abae8faddc4cd4f3197e2527e9f74ab7b",
+    "bytes": 4181,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/NS/R6K0R4S2ZQ1A4L52F02C5A.uasset": {
+    "sha256": "b530dc45e58f68d505d8919a1366e65dad112cc6b3c15207d68bf1c3d675b34d",
+    "bytes": 4350,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/PG/LYE875JJ2YINJCHCMEJA2D.uasset": {
+    "sha256": "79a50e01c827e01240d76c11e77abc7f5db728c0632bebe6ed0bf7dca1519ecf",
+    "bytes": 6824,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/RQ/ZRKDPKR2SKTDSR1PQL09NV.uasset": {
+    "sha256": "38f2f348688e35e3e9ed0d795134cbb2df989ce82780e645a7167c5574e8517f",
+    "bytes": 6508,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/4D/AXI1FBSEGS9KXIKFJQ9L30.uasset": {
+    "sha256": "12527802274449d95944d0a6f6a8b33152d3912c78d76befccd1f44089c7368e",
+    "bytes": 4327,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/6O/LAXFHQGJN4OGTKBLVJJJCS.uasset": {
+    "sha256": "0e3a26c8a003f1f4bec69037c1ec64d6eac79fc5ec2c6c3c76e11e961c1a0bdf",
+    "bytes": 4327,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/81/7EOZ84VG2XVV0VZOABSTPY.uasset": {
+    "sha256": "864ca5708560ef6f612357db17bd7abbc87cd8c99f02912a572317e76a681695",
+    "bytes": 4390,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/96/JEF6NHSL8XXSCQTOUZMFM6.uasset": {
+    "sha256": "ca485f940cf796321bd9d7f2a8e6eb96c2ac2ed4eaa0bd4df3b409a7953c8ef2",
+    "bytes": 3714,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/HK/O2RWIH30KS5KLHMVKRHESW.uasset": {
+    "sha256": "6ed45fb4db82b3140a4bb4da55e914027f11f8f0632ec9f8adf238cb32905ae1",
+    "bytes": 4597,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/HW/4P84S30R3KZ0S94FO3LH96.uasset": {
+    "sha256": "4ba1a0b4bfac0135261da761bacff1bcbe469f886b33ec87d476a84cb992eac0",
+    "bytes": 4499,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/MA/FHTAR2SUMU1SV0UFNISZCG.uasset": {
+    "sha256": "a601685f3d163d08ec70d7bcc10f4576d7563c38e63fee4ed30d758adbc18977",
+    "bytes": 4891,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/TL/NFOKF8YKMA6C3T79H6S0P8.uasset": {
+    "sha256": "2ff40ba70a67502862975d68a97081b3851fc108c8b0088c7dc5bf53b2301e2d",
+    "bytes": 4654,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/X8/0HIYU6FVETXXQC2SSLW1DB.uasset": {
+    "sha256": "68da038eea176872550fdf96391eb2aae49e853475f9e3ec7fcdd048c839fbb2",
+    "bytes": 4390,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/48/SP1M6A1HCHD5YSTMX9U062.uasset": {
+    "sha256": "303451541865725f3e3adfd6d3e7944f622fbac4c46de6cbb12b60fa2be2b358",
+    "bytes": 4218,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/C5/DG5XB0SL0RCQBTCGKFZTZA.uasset": {
+    "sha256": "5980fff23710cc73c65a979ee0b871c8edb52c70113c910b8f6a3db4635bf295",
+    "bytes": 6290,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/EE/UF776LYHENUTAS0BQ07Q46.uasset": {
+    "sha256": "981066cf8400685fd5af18b436e589d3ea0e69cba1b043f7bbf5a8713c1abafe",
+    "bytes": 4526,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/NI/7Z9KFUHGDC33I0LYBUUYUQ.uasset": {
+    "sha256": "779e27d6444187d7ee82d69737af13dbefeb9434da79c25e51431e554e65d244",
+    "bytes": 2254,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/O1/98KIBZN38LG0Q4N77EAH1G.uasset": {
+    "sha256": "465ec0f4d9d73a5a5feff0a85fa811f0d93199d42e0cc0de4c08d9536fb602f4",
+    "bytes": 4211,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/SM/52BNUUTSPM9WHC69P39JCS.uasset": {
+    "sha256": "eb6398ad54d6ddcd11a33ca458872bc3b50bd88e16d68e8370490acf81bbf14d",
+    "bytes": 4596,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/TH/UGG6H16ZJAN6MHH1YRFNU5.uasset": {
+    "sha256": "7de7fd052e9f62c133d0531c87e150be1af17dccd74e3f4259f35d5624dcfb42",
+    "bytes": 4695,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/V8/I50B64II1QCFZVQV2E3C6B.uasset": {
+    "sha256": "779ebb165b23011d297d4715ec822bfe2d875a0bd3053ce4789b43ea31c51411",
+    "bytes": 8700,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/XS/QH1YZH3OC96LBSHSDX98QX.uasset": {
+    "sha256": "f44c47a0235fd4e6baebdc738a43bbf6924cf079f34169c7eea3748324ff1ea4",
+    "bytes": 4339,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/24/9J2IVD8OW5IM6O6G2CFX5M.uasset": {
+    "sha256": "a44c25806e08f1dccd490104a799a1a56c0f52d72ac6b0a1a864402a6d9d1207",
+    "bytes": 4537,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/9K/PI74DR0SSB49I7N70VP8NC.uasset": {
+    "sha256": "f8e53a134eff3d7ad99ad71380c4baa8ea952ff0bbcd7b9c7f11fcd421786916",
+    "bytes": 3870,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/9V/F0LM24GFRSAUG85R00EFFK.uasset": {
+    "sha256": "f38af18637cc19a5354a70f20054359bceeeca3761bb2c53109a0475ca5ba66e",
+    "bytes": 3731,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/EG/ZUEVHMD34D2QRK44I5F1KC.uasset": {
+    "sha256": "cd2e3773f1efafe390bcbb48cfcaa9adb85e95f1f49ecc6ea0254a1767b0d02c",
+    "bytes": 4327,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/QY/FSMNL3KLM133J5VKZAU0BE.uasset": {
+    "sha256": "5f1ab50543d0f9461964953ee9b87cd33605f122aae0fcc8549cfcfb635eddcd",
+    "bytes": 4974,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/2Y/OSODWBZXRBN5UZISFFSIS6.uasset": {
+    "sha256": "346a46e10a6c5afa4b6773fd8f7ce4b12884691bfef33d2ec6679d5c1bf74625",
+    "bytes": 6496,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/4M/XAEN0S5952KSRK7H4HB38T.uasset": {
+    "sha256": "913fca4b0f661bfb28adc20bdf3887b25d97677d844dc9906a72174c59a98ee2",
+    "bytes": 4327,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/6A/8D45D7UIP0EQ9PR9WEZ50H.uasset": {
+    "sha256": "7972afcdc66d517724af832e85f560cb65090a42c0d0d3a6ca2834ce658c84b5",
+    "bytes": 4394,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/82/0L11WCDK83LJ3J9ORNRJBU.uasset": {
+    "sha256": "b42aec52e0d47ca9f58668246b09d203ca8bca2a827f08d28654682e21ca4b58",
+    "bytes": 6629,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/FL/CB9TJAPX5NW4SMRQXFSXYI.uasset": {
+    "sha256": "19faf423c397309753640ca29bb90a2ef5854e679fe93fe58a628ea373b2abf2",
+    "bytes": 4702,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/LL/IZUZ3VBBSB2UU0KRN7D3S6.uasset": {
+    "sha256": "04b89a970d2473a660e687daf974824199c98a60075d11f4b5175d40f0028e8b",
+    "bytes": 4378,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/OD/Z697L13MLPE3JLA8O98E9O.uasset": {
+    "sha256": "b056f57bb18de4605f7482c16fe47cfcb9e06aa39e8a9760a6d45d2495312ff5",
+    "bytes": 4622,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/QT/T5AB8C5XHE5654UDY4M4FB.uasset": {
+    "sha256": "35fc518f40bac352c4401040063a7c636a2e75cc22c224d377f8aa38cfdc4de2",
+    "bytes": 4780,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/WA/3JX48FT8TVG8EYCHET8450.uasset": {
+    "sha256": "b829fd8734d8c15ae221954bc674797c7b5d78f8df30542ea6f380dbd577c0b2",
+    "bytes": 6646,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/XN/6HBRWPUNFWQ7AHRXUBWT3Q.uasset": {
+    "sha256": "58102ae511b024a9746ec7c589f4c6140cff82fcb784faef06f7ad490ccbf45b",
+    "bytes": 4712,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/03/S24TDXWYKYULIE25Z7THST.uasset": {
+    "sha256": "4e01a9fb18d5530e42dab795ba8f6ecb4f387b89d0fcf59c4f63c82cf4cb50dd",
+    "bytes": 6568,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/12/2QA09BMBCFSGVL1G4TUBUW.uasset": {
+    "sha256": "e344741880c695d171e478ab514684fe23c3471964b4174e022c02affff3179b",
+    "bytes": 4213,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/23/3VDYI57NMBJI7RGN78X96V.uasset": {
+    "sha256": "e10c77f04aa494d11c5b390f1b507620c4cc8b9e34ab93392aafad492a298e83",
+    "bytes": 4213,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/CN/2XHS8IW1UZBCR769VOMCWQ.uasset": {
+    "sha256": "80c23b328b89bf434ff5f2b65cb0e8172234de641481af791d4cdf453cf894be",
+    "bytes": 4211,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/IF/1KMRJIS1POYNU7NY5PAPRF.uasset": {
+    "sha256": "e87fbdcf4b3fc7b6abb86fd3204e8f757d2e5b90967f36fd866ba57a87a0378d",
+    "bytes": 4059,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/MS/BZ1P153XAXW6XS7PK4A2AF.uasset": {
+    "sha256": "688e6a3033aea9c0fee952033bf397f88732e4223aa3f7e18f8928d15318781f",
+    "bytes": 6915,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/O0/TXO4WDQE7LH63R68HJ5OZ7.uasset": {
+    "sha256": "c9f252f2bd8fcda51942f3feca67755308303f12af7c241b307535621c607ab4",
+    "bytes": 6544,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/SO/12DTMOBXO1VBHSM16C8HN0.uasset": {
+    "sha256": "5318dcc86567fb4b1d0739a1e54f33eba32c446e56b2b4bdac273699549b3578",
+    "bytes": 6845,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/WP/6VOKUOY5PFH224EUXRXPGB.uasset": {
+    "sha256": "4f8605861d1d159c78032e03aa5267f7c9a31a8fb5727c889772e82564ccc546",
+    "bytes": 5111,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/XW/U85GF50FK73SYZZEK987D6.uasset": {
+    "sha256": "ca4fe8b1b6422a70099cb8573bc68570cc2cbe0be14f3398100bb8c3b0284c38",
+    "bytes": 3721,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/9X/2NZXZNI1NW7HFU3C0BD8W4.uasset": {
+    "sha256": "9c1850c13d900fff3ede895a861a1cfc8d8329804502bc00c965676be9db8afa",
+    "bytes": 6535,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/BK/JPVEH642PKEA5E89H90EIX.uasset": {
+    "sha256": "c6dbf6fa25bd3d7912e85c46c5f697b321718c3665dc9f3bb955324b71ba2aae",
+    "bytes": 4213,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/KN/UPANT8E3HB7C1VYR3Q2BEL.uasset": {
+    "sha256": "7fa1feac152fcf4d364d8529304ed1b830cb6d7f26bc7861875e82e29839a8e4",
+    "bytes": 4487,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/N0/K88XFUE0JPJR4ADPDUKRB5.uasset": {
+    "sha256": "94ada27e0c765d31e3c86f54543d6d3406912bd91fcbdcec720181d86c8b542e",
+    "bytes": 4996,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/Q0/LWXK4VEDIBIBCDZLL0ZWDI.uasset": {
+    "sha256": "326b580dafa1b6f89e319692bf7729a509041dd06b123d28f00f23c8128d58c6",
+    "bytes": 5404,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/R2/DJZ4TFYJ1V226CQTVJHQHN.uasset": {
+    "sha256": "c59bc9625968902998e36799abdc4af41e832ec74e5cedfe53c8dd0c0c393982",
+    "bytes": 6396,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/0Z/W0JH64WNX4R5ARUJ45KB8A.uasset": {
+    "sha256": "dc8b0882cea2c9644f1a9daf0efaef4a6bc0f4baf5e8fe43da0e7baa205ac366",
+    "bytes": 4635,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/1M/R1J3K805X00ZCP8V1OF74K.uasset": {
+    "sha256": "fce9ff2ed65817ab1907e470ed4722f43b180a3b970fc4414d431384a5addc45",
+    "bytes": 4693,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/4S/UY64ZW0YTZIULJIVULJ06P.uasset": {
+    "sha256": "44687d4aa7e4a47afacaa07025b7674968f62cc6d43dac96efc3a382e5f3063b",
+    "bytes": 3742,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/8Z/PJC06CYY4W0LZJRW85EF0B.uasset": {
+    "sha256": "e2b59bd5ffe50bc5e4cd784b80feaeea22545c26f10347d197829d4c8cb3ec9a",
+    "bytes": 3742,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/CE/9X2QTFEV9TFRPCEUJV1UP9.uasset": {
+    "sha256": "b24399ca749b7d816b4ee2f027e12b24bb5b04fbba2488bbd3b369ed175f47e5",
+    "bytes": 5170,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/EL/I1QMRENQDMFTDSSKH4O0R0.uasset": {
+    "sha256": "faa91553a9b0f24340394cbed81a1fe8a7d2482ebe4e4811126d8e0bea3d58b6",
+    "bytes": 6825,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/HM/KCA1AOMP0KMAW5BSMJPOB8.uasset": {
+    "sha256": "abe14e0c43c3741a9fd129b7dd368c2b0be0b0e02b01f91b7ea5acd8407fd3ca",
+    "bytes": 4778,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/HS/5W7C6X4BKEI41YTJ7AG6YD.uasset": {
+    "sha256": "bcec740d6465258db822bf8ceb9947c14903a0829679b9ccda93ff97d06bb8e7",
+    "bytes": 5395,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/KA/NIW4Y8NU9QDYEJM4ARZRLY.uasset": {
+    "sha256": "1e006bcf223ca7aab1690ffed3a7dd8f765c2d1501cff90e1cfea382cf898423",
+    "bytes": 4327,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/LP/OWVWPXSPJ9UKVG25HCH4S6.uasset": {
+    "sha256": "ed9e589090f065ba65e887593e193fbf3f304ca8fa41eff6ff4469e219c8971a",
+    "bytes": 4996,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/PY/1QJP04UWCFD33DXUTO2DVK.uasset": {
+    "sha256": "b837885301dcde097d0123a46942d47cee4bffd67ee643bf8469f30e37f7bde2",
+    "bytes": 5111,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/QB/PL0S79FC372R7IF5OEDACU.uasset": {
+    "sha256": "d8480c35345bee33a4862ed74f31337edb19bf772eb0dca51bbb71ac3b6140e4",
+    "bytes": 4622,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/TA/DNUEETYXWGPX8JU5QOEHFQ.uasset": {
+    "sha256": "5174533492111feadf6878d8aebd0271136aa4b19084c1828afecc128e91ed83",
+    "bytes": 6519,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/V3/5YX4Z0ZV2G72LJC2J9LIZ8.uasset": {
+    "sha256": "dc19f7e2a6927a237ee180c8b4afa322e5d7e0a4190b43f7d489d9e208cb15c1",
+    "bytes": 6606,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/BL/WB7S47W2IE4F23EZ9SLQ1B.uasset": {
+    "sha256": "a1823ad6744bfe9409f572098e8edb445b6aa3fdaa889bbe2a89e9acf264192e",
+    "bytes": 3604,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/C7/LHEOZ28EA00LZG55QEAGFH.uasset": {
+    "sha256": "2c71d45731360d08d92f769ddbe0758e9eb501ede0806aedc2fdd949526725b9",
+    "bytes": 3727,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/HH/4S2HC4TUVQKGMZAGNT23XP.uasset": {
+    "sha256": "ee4065c714f04e2c4c47863c7e3c439a665f9f6e2516a51ae29f9afa0fa5267f",
+    "bytes": 6547,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/IZ/ELA71M4JEXS2N4U6VLK0RX.uasset": {
+    "sha256": "8035bf5e1ea88d43a5262b60518711c5e996946befac0a5b1e9e9db95965ee2f",
+    "bytes": 6619,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/L0/6JWJKJ2BDVAY8BIDT9DPO1.uasset": {
+    "sha256": "0359d64575c706cd2fd3439b48a78787fbf802ca324a5f90d25bdd513a660583",
+    "bytes": 4262,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/O1/R7NGSVCGNXIMXG7QJNQKIK.uasset": {
+    "sha256": "8884e5d68bc818bdd0d01f5ad54aabad586f710335ad93bd338493dd361fc1f7",
+    "bytes": 5111,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/S0/3TZRTKSTUEICKST2S2ZJIK.uasset": {
+    "sha256": "a8158a08cd6809ad99e203979d190e63ddbbca4cc28f13fbc359d4580d1a2ec7",
+    "bytes": 3787,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/TD/EPFBTP00B6EREQXNBXZBCP.uasset": {
+    "sha256": "42b2852b6764c81b414f96b0f0d13ea5344369c95e8a5aa85e597889f5da7fd7",
+    "bytes": 6496,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/XC/8CEAZBS94MTRWW36Y7CGAX.uasset": {
+    "sha256": "e290197226672241381504aaf5d47d072c5171e228007a5adf6d03efec0ef7df",
+    "bytes": 4790,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/6S/IYS9IY7B60ZPY3CXCV4TOL.uasset": {
+    "sha256": "a0e44b0148450e90c42b4b53b3f0def0ffeda04036c8d0134e4c7af2665f687b",
+    "bytes": 4262,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/9I/30Q9AGRGRDUJ1G8TLGWBUE.uasset": {
+    "sha256": "b27183e271b8e48ef2a2e4a9db2c96bf001ba2e22fefc993e65ad928a1e90496",
+    "bytes": 4327,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/LI/20Z1BJP8ZSC1VFXC0VTV0H.uasset": {
+    "sha256": "212a717b490eca7ba9a20f13ec4ada06eb24920d0f828c8bdcf52bef2010144d",
+    "bytes": 6496,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/PB/SMHH45JMLM3G15BPH2E59V.uasset": {
+    "sha256": "7be140b8f3270d3c7aa33041cabe4c19724e779e608311cd34ab9e1e67b8c404",
+    "bytes": 5111,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/TL/8YL71SDZRMMMBMRE3MAIBN.uasset": {
+    "sha256": "1143e83cd37b46892d27460730c30bf672da876ab865c059dcb8e6d49e91b5fa",
+    "bytes": 6089,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/Y6/8ORDQI6N5ZESXHADA6WT5A.uasset": {
+    "sha256": "745feccea1ff44fc6a5ed82851307164b165e7df19432622181cbdb050d327f3",
+    "bytes": 6091,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/YX/QSLP5TLCHT19G3DOA8P22E.uasset": {
+    "sha256": "68ee78aa13c6888eba0610465fac53858f4b285d9ed70d780eb68b07a5ed0676",
+    "bytes": 5104,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/ZA/1Q6T56ZQH4FT0VEYRKNZ2Z.uasset": {
+    "sha256": "61d383be5e918e53ca18e23f8e87d96decb3bad286f9c94a158c4ec1428adcd6",
+    "bytes": 6404,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/F/0X/D7T8QNK26OL6JN4EGGW1IO.uasset": {
+    "sha256": "3a7643f8d8ef005ba3a48695c04c98ca188e388fb94db10078d471bbbb4bfbd7",
+    "bytes": 4326,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/F/2R/U8S69GTPV9SF5WLOES4EB6.uasset": {
+    "sha256": "d5972d8e0cbe0a1eea0ae497b1d36850e5fa027a0d663faf06f61e433a026e7f",
+    "bytes": 5111,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/1/E5/IOQOGT9AJYYZQ06SOLO6RW.uasset": {
+    "sha256": "ae06f5d4591172a518e5215ee2b4ee22ee57cd286e746cd9717bd00557f7c691",
+    "bytes": 1863,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/8/NV/BZHI0QV2KVT1K1HYHYOC9G.uasset": {
+    "sha256": "73665f7a0a1cbbbb883712943ccb7a7dc7cf2297c5162d2a1d7abdba03e73a5d",
+    "bytes": 1849,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/9/N0/ZBTLL4GKPI5PPX4VUYKMWL.uasset": {
+    "sha256": "5b1a22a6ff00e578d91780a48ecbf97a08ec8bde9324a4c1f82c2585e6df5d4b",
+    "bytes": 1935,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/B/42/H18D69FJWRYD4GVKRGSDDK.uasset": {
+    "sha256": "3cb9c3d95c52a069b178dc3b101e6046a4dc8a9fb7cd4b5c7c8cddd2d01e1f02",
+    "bytes": 1931,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/B/8J/MDEKKPFLQMA4IA6K22YK6T.uasset": {
+    "sha256": "57fadae3a0088b2b69b5d8a83f94bcc18c248662d24a08f9ecb8a3b669772ce7",
+    "bytes": 1941,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/C/01/DML0CGCIWZLO08Q8GFUR1T.uasset": {
+    "sha256": "eb6d5679958b40bbc97796b9332fd7bcedfe02ce50ba327f5640ba4a4e4f46de",
+    "bytes": 1941,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/C/HY/6FAMT5B5C3GSGEDL74CLB7.uasset": {
+    "sha256": "4593adf24c036091f919461f2133f519c84c194f7f98271b18b5050d540492f5",
+    "bytes": 1851,
+    "category": "authored_asset"
+  },
+  "Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/D/H6/WOWF2937XN9IW7TLA7C1OW.uasset": {
+    "sha256": "44b8fb96d1914319752161c11422972b33b81df2336a70357ac7f496b6888a0d",
+    "bytes": 1849,
+    "category": "authored_asset"
+  },
+  "ScifiSimEscape.uproject": {
+    "sha256": "b3a0f92e7dc197baa132eb2cd19ccf209b34d77131e8dd737af9de7a1dc7ae97",
+    "bytes": 542,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape.Target.cs": {
+    "sha256": "5fd2a2e42b5eb032b0392959ba3611a728c50c554d2a036dd61c6ff5169b0c67",
+    "bytes": 513,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Climbing/ClimbComponent.cpp": {
+    "sha256": "ddb578cd3e82b2795fc4e46290351bb3fb24bd2fda9e1824835999c8f410c7e9",
+    "bytes": 5400,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/Climbing/ClimbComponent.h": {
+    "sha256": "05d36391c6b3a4c2c39b776f22850925e5fe24c43816be39db5b281b27dcb3e5",
+    "bytes": 3977,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Facility/FacilityRules.cpp": {
+    "sha256": "d8715c7eb0e96fa207556f8edf9585b72ac6e9534e4594b61030c20bc3079cff",
+    "bytes": 48911,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/Facility/FacilityRules.h": {
+    "sha256": "40f338a646d84a8f14a5b08ce52e71b38d1fcfed3e34d489fb8e6c19a362da56",
+    "bytes": 34181,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Facility/FacilitySettings.cpp": {
+    "sha256": "52ee02fda864cee29555fb06f911b2e3ae586885c90f80c6c919b94643ba6cf8",
+    "bytes": 1433,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Facility/FacilitySettings.h": {
+    "sha256": "1ac5a72aad610d95d0e2b8b2a7e1e0bd6e16c9fcb6cb23ecc0fc463f42851f15",
+    "bytes": 6392,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Facility/FacilityStateSubsystem.cpp": {
+    "sha256": "ecaa81933a3b5a92d2cca728de932239462be682b52745985a77e0e4d72a1a3b",
+    "bytes": 58004,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/Facility/FacilityStateSubsystem.h": {
+    "sha256": "664183c586ba7f66a848e86ddbd0b55946cb044acb9052adb26110633684a63a",
+    "bytes": 36406,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Facility/FacilityTypes.h": {
+    "sha256": "34b72592d43b16dcc83fff99b1c226e2aded4e58b1478ccdb06717a30e43296c",
+    "bytes": 29279,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/AlarmConsole/FacilityAlarmConsole.cpp": {
+    "sha256": "51bdd1471881f120644a2eb8ed9cea80acc78af06487d1e15bf1bff9d71e6b5d",
+    "bytes": 1421,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/AlarmConsole/FacilityAlarmConsole.h": {
+    "sha256": "72fe9399408648411ee7498d8dbba1bb91338e63299f6aca6532545a525248e6",
+    "bytes": 2118,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Camera/FacilityCamera.cpp": {
+    "sha256": "735f9f1f093a549b6a0336ec37e36b4054f8c4d3faa1cd0cb632af3539bec985",
+    "bytes": 8838,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Camera/FacilityCamera.h": {
+    "sha256": "5dd568a7d5e61c25786d4331096143b8aab8f659069687fa7854b1d1cd892003",
+    "bytes": 7859,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/CoolantValve/FacilityCoolantValve.cpp": {
+    "sha256": "089b62be0dbd502f6b3c0e8ba792d54ebc8aa187679d5a9ca6b1eb26842706b2",
+    "bytes": 2786,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/CoolantValve/FacilityCoolantValve.h": {
+    "sha256": "1113c9efd01f990afb1c324a4afde11663d141fd88d1fb31b6e28a741d67409e",
+    "bytes": 3481,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Crate/FacilityCrate.cpp": {
+    "sha256": "2982f655e5c554cd60c0c0523065520c87b21897677ab4d3debadec39c9880b3",
+    "bytes": 8562,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Crate/FacilityCrate.h": {
+    "sha256": "e810406398440ab85b701b45d1e5bab94dc60d46408931223b00615969113b75",
+    "bytes": 8220,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Door/FacilityDoor.cpp": {
+    "sha256": "68f81664767005187f6918c8c686971525973c03ab5da4e5ca7b50df590a20b6",
+    "bytes": 9034,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Door/FacilityDoor.h": {
+    "sha256": "1874d821e21b9aafdafc1379e9fdd387d6063a75cdff3ec0658d709c697bbe09",
+    "bytes": 7807,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Exit/FacilityExit.cpp": {
+    "sha256": "18be00b9d433b85ee964b64cd06fc49caaaf94f047ad82e51313bc8a4bd5d210",
+    "bytes": 5492,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Exit/FacilityExit.h": {
+    "sha256": "721091df0a652c385f0dba1fa565975fb8622f5e382ea8afd06b165c3b9e6798",
+    "bytes": 4029,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/FacilityActorBase.cpp": {
+    "sha256": "29499d46436e1b9d94f83c41442dfb328e23fbdd997a5347af931b9bb83b3ff2",
+    "bytes": 2409,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/FacilityActorBase.h": {
+    "sha256": "4ac83d5dbde5251b4da2f6c454bb6857621395184246488d5768f29a4e28b003",
+    "bytes": 5031,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/FacilityDeviceBase.cpp": {
+    "sha256": "3babcc4f8fa60bb6bcb2ce2f6527d1bf6942aedf39bbbe2ac893c08f98204fab",
+    "bytes": 3077,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/FacilityDeviceBase.h": {
+    "sha256": "f014a44ac8a4dcca359878df8028e71193f8a0240b9c5f524d6b080d262e5a63",
+    "bytes": 5850,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Fan/FacilityFan.cpp": {
+    "sha256": "6c4fbd2b46dee042b7da8da162d812ec7873de42e445852b06c3b679d9f15e5e",
+    "bytes": 7132,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Fan/FacilityFan.h": {
+    "sha256": "a9b2df534030395d6f419f85dc940b9aa1af014993328fae71469ec6f3aff494",
+    "bytes": 7579,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Flood/FacilityFlood.cpp": {
+    "sha256": "834c430f9b46c8330bc3da7d0d40317bbeb7b0b13d24e1f7f0c2cb1a1e1c63a8",
+    "bytes": 10207,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Flood/FacilityFlood.h": {
+    "sha256": "d1021a8ceca5d41b601314757508a599d518fc663c2890741f931e1b18d35af4",
+    "bytes": 9324,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/GateController/FacilityGateController.cpp": {
+    "sha256": "3d67eef0792890ae9254e2d355fa102f7235e44f1770a879b3872e8287330ed8",
+    "bytes": 3262,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/GateController/FacilityGateController.h": {
+    "sha256": "ec4ffff82fc5a7d60b7fb4ce9ea0be318bfcb2bb774237b9594233d63b84d6aa",
+    "bytes": 2396,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Generator/FacilityGenerator.cpp": {
+    "sha256": "b7adf475e3dfbcb1869e8421147e885d24c8b43b9d9ea4ce44107dcdbc4029d0",
+    "bytes": 4074,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Generator/FacilityGenerator.h": {
+    "sha256": "9cb68a2e8429a55db54471af1802a7d233c3bf4954109cae40858ab9c8fb6812",
+    "bytes": 4421,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Hatch/FacilityHatch.cpp": {
+    "sha256": "4c55ea663aff6e318cd354fee68d1a96f029907950e2342814e03d1a4b6e3df3",
+    "bytes": 3903,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Hatch/FacilityHatch.h": {
+    "sha256": "e78efde250e9dbef35c67ef9c91436b3f7321ec872e9b5e84833e24c757735c5",
+    "bytes": 4436,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/HidingSpot/FacilityHidingSpot.cpp": {
+    "sha256": "cf4262986eea3581b3e0bd16c2c905bc6edda578aa84c06aebe8dc3c2fb944f8",
+    "bytes": 1030,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/HidingSpot/FacilityHidingSpot.h": {
+    "sha256": "caee74041615dde6d6a819da76e492876bfb654f4b6d2daa3d1113152ad1c255",
+    "bytes": 1841,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Ladder/FacilityLadder.cpp": {
+    "sha256": "e15f16657c654cdffd32ca97cd48a85133779ab2b1ea267ace571e92c7315884",
+    "bytes": 2594,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Ladder/FacilityLadder.h": {
+    "sha256": "ee31cb4193b337a9c21e3279ebe41b7d7f5bedf973adf28193cc59d4ab77078f",
+    "bytes": 3507,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Lift/FacilityLift.cpp": {
+    "sha256": "6e2b8d2cb0d0327a1b1b278ee9fe0e81030d00c60d2132ecdc344684595a4907",
+    "bytes": 6588,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Lift/FacilityLift.h": {
+    "sha256": "aa722befd06d5ae91b1926dd57a3f80d130b75ea2639c4e60bae985c268390d3",
+    "bytes": 6378,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Lift/FacilityLiftCallPanel.cpp": {
+    "sha256": "968c4e5909a3b8ed906cb7da2d50ff26841927c0564eef08abc8659e3e47a2de",
+    "bytes": 3298,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Lift/FacilityLiftCallPanel.h": {
+    "sha256": "4e4bd6a54003e0404d5974fbb75e451db38de2f569c02d7bd5544da0ec84c0f6",
+    "bytes": 3243,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Light/FacilityLight.cpp": {
+    "sha256": "721bfb4f36d4ff1dd9df6bf566b48fee24b9deac2b76201056adb2b57efd72aa",
+    "bytes": 3298,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Light/FacilityLight.h": {
+    "sha256": "f2ce83f7da53bcf4fa584ac0e4b0e5999a9ad95237bef03e06e84babe6e1441e",
+    "bytes": 3936,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/LightZone/FacilityLightZone.cpp": {
+    "sha256": "905a74b4f3d0e5968b17ba758cf791103d644d29b1fc95a780ad0064ef05e621",
+    "bytes": 1567,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/LightZone/FacilityLightZone.h": {
+    "sha256": "421dc970468dde1b598a011d58569bc2eb718a0135264be196b21940479d173f",
+    "bytes": 2081,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/PanelSwitch.cpp": {
+    "sha256": "461a0417001032618ba67524d674465498353b0100d290f57fd5070b7feb937e",
+    "bytes": 3679,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/PanelSwitch.h": {
+    "sha256": "321a231274504a77dada74d753f4da1641a064da3a4b5df24de62067de620c86",
+    "bytes": 3687,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Pickup/FacilityPickup.cpp": {
+    "sha256": "05ba500251771db03e2780054b8ad1935a33868d8189dc6d1d9db32f06c84cba",
+    "bytes": 3844,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/Pickup/FacilityPickup.h": {
+    "sha256": "83aecf00ac20eaaa4748db52a6be449faa85150c0e8196350380768a19e63c7d",
+    "bytes": 4034,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/RoutingPanel/FacilityRoutingSwitch.cpp": {
+    "sha256": "bc0eb50c894fd3e71d7f9a417efd21adca35ef0124d44946ad4727b3cf421cfb",
+    "bytes": 5954,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/RoutingPanel/FacilityRoutingSwitch.h": {
+    "sha256": "fcd6abaa44d4b72b46b05d1ef40de20832f4f01ceaded27c44d0589a9fbe88c0",
+    "bytes": 5084,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/ServerRack/FacilityServerRack.cpp": {
+    "sha256": "5050dff3fa774cb144cf8f4ae2b55e6cff41c81d75eb027ac8975084421705f3",
+    "bytes": 3050,
+    "category": "target_A"
+  },
+  "Source/ScifiSimEscape/FacilityDevices/ServerRack/FacilityServerRack.h": {
+    "sha256": "a3c1d0721fc38b44e5dbab9e91aaa607e0de4c8e4e5820504174726dfc5eab42",
+    "bytes": 3394,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/InteractionSystem/Core/InteractionTypes.h": {
+    "sha256": "e13be38aafa3abc12b753a24f7031b40e8832c1c8609dbb7b43102c3272597ca",
+    "bytes": 3069,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/InteractionSystem/InteractableComponent.cpp": {
+    "sha256": "e421935916be92dd4b92794542e906e887d3940dda7292620a1e32bcd21f67eb",
+    "bytes": 3192,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/InteractionSystem/InteractableComponent.h": {
+    "sha256": "042ed2e7550c0a30743ce8ad8ea3c88d35b1cf81fcf216582dd0a706afa0d64b",
+    "bytes": 7839,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/InteractionSystem/InteractorComponent.cpp": {
+    "sha256": "4f8ed3ccf1e2aae281ba6061e4ebaac6dad4005a769477598443da344b5b58ce",
+    "bytes": 12497,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/InteractionSystem/InteractorComponent.h": {
+    "sha256": "b5f296e6e1477727a9e6a2a05c695330dc955556c9e68631742692eae2e11642",
+    "bytes": 10980,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscape.Build.cs": {
+    "sha256": "17210d2e82aa5188f717a8de2d74715630c1af280683eca0618f33c8ea6360f8",
+    "bytes": 1272,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscape.cpp": {
+    "sha256": "5ab1c17592ae5ada51d5d9071ddcd72adafd53707e3b0c9815d9c634b137ea7f",
+    "bytes": 290,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscape.h": {
+    "sha256": "c5ead98aea4b2ebcd04b95a8f941f31ddff70d3ddc6fa11020c1e84e60e71666",
+    "bytes": 259,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscapeCameraManager.cpp": {
+    "sha256": "989f2689198ba376d0b1801f24419b94799ee607f196dd3b864a1f492f070630",
+    "bytes": 244,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscapeCameraManager.h": {
+    "sha256": "d3a16d568e7723ea0f2762c03995b4bae72ef4309666d7f3665caa83dfe6437c",
+    "bytes": 444,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscapeCharacter.cpp": {
+    "sha256": "07b30f28c0139194a324ecfc0c1e452f2de280f913845c1524b994d57b55554a",
+    "bytes": 8542,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscapeCharacter.h": {
+    "sha256": "280fe77ea82b243f3ed2dadf40aa3e99b4d47d2ad553e557130418ff1bcdd4d2",
+    "bytes": 5657,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscapeGameMode.cpp": {
+    "sha256": "c1c658465124ba7d274470678f5aeab3b8ae8d17afd2d6a16c391528092cf05b",
+    "bytes": 2436,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscapeGameMode.h": {
+    "sha256": "ca603ca9949903af8261894bb94fee1775884c6c16b5b6c8a0d45d8a32b63151",
+    "bytes": 1927,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscapePlayerController.cpp": {
+    "sha256": "5872029e69a9fe6947010b2d6220bf90a5adf57a40a5979865a346002b63deb5",
+    "bytes": 2119,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/ScifiSimEscapePlayerController.h": {
+    "sha256": "a62559ce27f6e45b3d49309e21db49a8ec177f0381a1b13af6f6d1bf6812af2e",
+    "bytes": 1661,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Stealth/StealthComponent.cpp": {
+    "sha256": "f5c0fc807e033973dec8fec38eee52e8b1f0651949047be6177ce1d0b074e03d",
+    "bytes": 5977,
+    "category": "target_B"
+  },
+  "Source/ScifiSimEscape/Stealth/StealthComponent.h": {
+    "sha256": "7a051c413e56dd1772ef788abe7b88a85f234577ce97f97927dce5436ea74d1d",
+    "bytes": 5603,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Horror/HorrorCharacter.cpp": {
+    "sha256": "b3f3d4670be1fc85366e9cd0444cd59a47a04a517fe43281b60c86518385f75c",
+    "bytes": 3960,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Horror/HorrorCharacter.h": {
+    "sha256": "f396974f5e9ae80c38d7cd502b77f8e33b822bcefa4299b75ce0ef12af473499",
+    "bytes": 3144,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Horror/HorrorGameMode.cpp": {
+    "sha256": "a1645aeb66dd6116d55b4268d8721a2a5ecb42692f0401b874085e29e7d8124f",
+    "bytes": 1484,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Horror/HorrorGameMode.h": {
+    "sha256": "0e0e32a6ca9797ee738de53d36f380f933af2d19c45c4042a674f12ee843e5f1",
+    "bytes": 955,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Horror/HorrorPlayerController.cpp": {
+    "sha256": "f66dfb185314912e5566225f7f0b489d4c43c99464b148aab14cd8aae30bc575",
+    "bytes": 2529,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Horror/HorrorPlayerController.h": {
+    "sha256": "aa33da283f6bd6c4487953f9534b7e0127bc3c92dfc1abb4bfd1cca41c145622",
+    "bytes": 1903,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Horror/UI/HorrorUI.cpp": {
+    "sha256": "5fab92fc1f734eb0da9a03efbd176d05c715360692ca4f399e72d2bc79d80799",
+    "bytes": 613,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Horror/UI/HorrorUI.h": {
+    "sha256": "87a181778fd79818e734f2efb9bc5c3293c325b85af1524e0022ac3c39707300",
+    "bytes": 1235,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/AI/EnvQueryContext_Target.cpp": {
+    "sha256": "25ebf02c5c3615f192b0ed5e57aa332e1c910d47355bac1eaa0702271f515bb1",
+    "bytes": 925,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/AI/EnvQueryContext_Target.h": {
+    "sha256": "c227af8da7e4d5fafa4605ac710af83202ff6b3ced237a1daae292f37e512ab3",
+    "bytes": 594,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/AI/ShooterAIController.cpp": {
+    "sha256": "03fadadc89f23d3aaf56382b7adb9a533130cdda2397ee357da971d87de67d06",
+    "bytes": 2263,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/AI/ShooterAIController.h": {
+    "sha256": "191667d58d1a32351898e7235e71f7a15d8176d2bcf0b3a34f0b1e5e3f726470",
+    "bytes": 2390,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/AI/ShooterNPC.cpp": {
+    "sha256": "ec857f4d27012a3651db7f1c3ddb6b1b2e116edd86aa5d8b3afa07c561defa72",
+    "bytes": 5366,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/AI/ShooterNPC.h": {
+    "sha256": "11d9b844d93856ce0455719f32b92a2d9533abad9df9ced40d2dbbcf8c5060f3",
+    "bytes": 4846,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/AI/ShooterNPCSpawner.cpp": {
+    "sha256": "601379e5fed75a41d0ca9f6ebbc62c01845c3e6d0b16fff6b10784bcad6e09a8",
+    "bytes": 2767,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/AI/ShooterNPCSpawner.h": {
+    "sha256": "92f13a6b10916791865cd6b248603d12c4bf2f5f4d7fc03c840b6c446d78ae03",
+    "bytes": 2048,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/AI/ShooterStateTreeUtility.cpp": {
+    "sha256": "d8c2a883b93ec8a80b03f081a7712070b45da1d6882c111b182ccfafbd99a99e",
+    "bytes": 13502,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/AI/ShooterStateTreeUtility.h": {
+    "sha256": "6b1d1edac47e0e2c0e01cfd379f0f70a8d5630039d912e61888ba83e2d8e1f5e",
+    "bytes": 12343,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/ShooterCharacter.cpp": {
+    "sha256": "e4315c69be3cf85632e12ee846933d1ff6905b7a8c33a64d4655eb3274ba5221",
+    "bytes": 8596,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/ShooterCharacter.h": {
+    "sha256": "171ee2777225faf43f1fae98edf3405e909c7816560863fc3b498a4f4d28bd94",
+    "bytes": 6195,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/ShooterGameMode.cpp": {
+    "sha256": "b545dbf539a144ebfdf489b728aa654b3c59375c3264b92de7d14477738271c8",
+    "bytes": 2368,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/ShooterGameMode.h": {
+    "sha256": "b4078d50ec6c08ff52fc0865a62c18e8a0708fbd31d928b614f1408d4a66223f",
+    "bytes": 1461,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/ShooterPlayerController.cpp": {
+    "sha256": "37abc7fb8fd707438583cf74e7d5f14da7f18ac965703c3b4999182b32d2f3f2",
+    "bytes": 4582,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/ShooterPlayerController.h": {
+    "sha256": "5fc029c07945d219661255a1395c00d179fa6c649230287ecdc746507b035438",
+    "bytes": 3027,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/UI/ShooterBulletCounterUI.cpp": {
+    "sha256": "59b2d096d3ecaa1cbe9b779a6a3f233f8e441f6b6ab326b8f726941d95db1472",
+    "bytes": 95,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/UI/ShooterBulletCounterUI.h": {
+    "sha256": "4ae662212aeca30771a53f17d3cb777fe3b16f6536caa414d19a895120cf350b",
+    "bytes": 878,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/UI/ShooterUI.cpp": {
+    "sha256": "f7c16b8859f4341b891f91931a20602abd9330be29b96f973626225cd89c9997",
+    "bytes": 82,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/UI/ShooterUI.h": {
+    "sha256": "f0df4df35dfbb44d78fa55ad659bce9ca87dd4083e13a081c174471e8c26dbe9",
+    "bytes": 557,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/Weapons/ShooterPickup.cpp": {
+    "sha256": "6beebc84244502b3bac7225db7479d0ecb817e4608f9b5069c64066c5f90c56f",
+    "bytes": 3132,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/Weapons/ShooterPickup.h": {
+    "sha256": "2381689147c4ce070e5ba0a0fa00fbe77f5e9ed22e7cbaf83a9854d9124a5cce",
+    "bytes": 2807,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/Weapons/ShooterProjectile.cpp": {
+    "sha256": "c5efca8c51d8330ca5c5ada3383ef81d3d036db381f493eb70b430b11e3254bf",
+    "bytes": 5445,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/Weapons/ShooterProjectile.h": {
+    "sha256": "58069a5c84dbef36386b0e6df99d8b32c6de596533620820d358fe0c9e332ba7",
+    "bytes": 4252,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/Weapons/ShooterWeapon.cpp": {
+    "sha256": "e64f729156bb87a5a4a590cc0048c485aaf0c42a9cf810e794445053b3ab05ae",
+    "bytes": 6598,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/Weapons/ShooterWeapon.h": {
+    "sha256": "cd5a025e01c24bc83014d2209b0ef978d7c75dc221e56c715f176d6a461f433d",
+    "bytes": 6029,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/Weapons/ShooterWeaponHolder.cpp": {
+    "sha256": "f22a853a56cedb88e199a17a7f68a487515eb4b4eb04e6d31d816607f0cf919a",
+    "bytes": 193,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscape/Variant_Shooter/Weapons/ShooterWeaponHolder.h": {
+    "sha256": "dfe77b45902ec0a7abc9ecf6dfd014e341f90b461f81b2364ea58cc2f3175e01",
+    "bytes": 1578,
+    "category": "supplied_architecture"
+  },
+  "Source/ScifiSimEscapeEditor.Target.cs": {
+    "sha256": "2fb854f8389ec0a5d3a5e9df7a1dddf782835e25063863fd91925342281ce5b7",
+    "bytes": 527,
+    "category": "supplied_architecture"
+  },
+  "gdd.md": {
+    "sha256": "3b9161bfd52785f5b6a5f21255c54fdee84d3bfa7ac8e51531e3a93d751d67c7",
+    "bytes": 48342,
+    "category": "public_design_document"
+  }
+}

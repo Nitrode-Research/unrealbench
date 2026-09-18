@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/sejoonc/mint",
+  "mint_commit": null,
+  "source": "apps/data/content/tasks/ue-0172",
+  "gdd_sha256": "863e2cfa6bce8bf8f5bbf1d4f41b24158bd7b6a0a4fdd7b2a7ca1175ffdd8a97",
+  "instruction_sha256": "4cf7a2597b4b8092475f2b573bfc1cf319e3067967b5ca0d75dabf0740e2e797",
+  "note": "Scoring revision from the mint working tree; prior_revision preserves the previous published brief receipt. SOURCE_RECEIPT.json retains original code/test provenance.",
+  "prior_revision": {
+    "repository": "https://github.com/sejoonc/mint",
+    "mint_commit": null,
+    "source": "apps/data/content/tasks/ue-0172",
+    "gdd_sha256": "9bc252008787d3df351882a813fe55b40829e4c85f56d438177e535061f41627",
+    "instruction_sha256": "4cf7a2597b4b8092475f2b573bfc1cf319e3067967b5ca0d75dabf0740e2e797",
+    "note": "Scoring revision from the mint working tree; prior_revision preserves the previous published brief receipt. SOURCE_RECEIPT.json retains original code/test provenance.",
+    "prior_revision": {
+      "repository": "https://github.com/sejoonc/mint",
+      "mint_commit": null,
+      "source": "apps/data/content/tasks/ue-0172",
+      "gdd_sha256": "50cafc80b79323b6ed1c401220b76e65718d6d9e6f828cffce064a54df7d0b2a",
+      "instruction_sha256": "4cf7a2597b4b8092475f2b573bfc1cf319e3067967b5ca0d75dabf0740e2e797",
+      "note": "Scoring revision from the mint working tree; prior_revision preserves the previous published brief receipt. SOURCE_RECEIPT.json retains original code/test provenance.",
+      "prior_revision": {
+        "repository": "https://github.com/sejoonc/mint",
+        "mint_commit": "2ff8b922b00db8436e707c4e9fae38a1c798ecae",
+        "source": "apps/data/content/tasks/ue-0172",
+        "gdd_sha256": "4f79cd794809a674a80069d3c3cfedc350462c1989b7f0684af081797bf587d8",
+        "instruction_sha256": "4cf7a2597b4b8092475f2b573bfc1cf319e3067967b5ca0d75dabf0740e2e797",
+        "note": "Public brief/GDD revision only. SOURCE_RECEIPT.json retains the original code/test source provenance."
+      },
+      "scoring_revision": "ue-0172-no-hud-v1"
+    },
+    "scoring_revision": "ue-0172-scored-preservation-v2"
+  },
+  "scoring_revision": "ue-0172-valid-fixtures-v3"
+}

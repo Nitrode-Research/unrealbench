@@ -1,0 +1,38 @@
+{
+  "repository": "https://github.com/brianyla/unrealbench",
+  "commit": "1ff51f9695b8bc0220296bd0f861f3e6f80c988d",
+  "source_task": "ue_task_0122_nse_replay_takeover",
+  "source_files": {
+    "spec.yaml": "446c177b365982b28a9c6a66ceb8a5ea034eccbc0685c77d5e7e03545e1d3a99",
+    "tests/common-particle-tests.inl": "b06877e168b8e16280e1b884aa59b045e71f391c9dc5a5450808ba4bc6ffbc4c",
+    "tests/headless-audio-tests.inl": "c60a08cfbba449e5481b1fb8d69359ad0e7c5cd42f594bb91f423453b948bfa9",
+    "tests/hlsl-tests.inl": "06686185528856c6365d53b99fc107d0b1e0529bffbe1c865a0767100c6f6608",
+    "tests/ReplayHlslFixture.cpp": "2d42b9e76d0b9ed6eeddc27c2c319d1871694e12d614b906f8725f0739d455d2",
+    "tests/ReplayHlslFixture.h": "e7094c2960cf5fe35cb866053a9b3d208bef251af03a0f497f0eba0bc40feb00",
+    "tests/ReplayTakeoverTests.cpp": "6504acb7f6519f49b77865fd785c807b42ead2d63f640a4c28547f942fbf95fd"
+  },
+  "adaptations": [
+    "Linux Vulkan flags replace Windows D3D flags",
+    "Harbor verifier runs every declared suite",
+    "Restore complete committed oracle delta within source editable paths; resolve and hash-check LFS assets"
+  ],
+  "oracle_files": {
+    "Config/.gitignore": "65e97bd9ec9bbff0b79cf52f382758d5aa0d1bd7b4b195eedd4a2c50a7f8a014",
+    "Config/DefaultEditorPerProjectUserSettings.ini": "7a3abe44a58ed922c61701a391a387f939b21a855fce775b3dedf922356d655a",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/FighterRunners/FighterReplayRunner.cpp": "9cd0fca4eed0a4d37bcfaf4ee0583760295f5f07e2e3a5241675baff1fd3c1a1",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Misc/RandomManager.h": "5f518b9e5430919236fd8659095dd6dc14e1236d1f17404a3dd6faf6f03fd09c",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.cpp": "7933aa6113ecc88aea908d77efee5c130d2f0f397f5d3e44efdc44448bd88ac2",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.h": "227f961ded93aff2b968940d47d894979f81e3eb992bdcb9665bc72534eec953",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyPlayerController.cpp": "88192de8907ae37174ac4932e530a79813f5e63b56d5d03f8374506ca1a8db4f",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyPlayerController.h": "52ec5cbc652345a1a4e2a09fa5cfe63cb2f326daa02cbd2ab0ca44aa39c7579b",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.cpp": "115332d061ec74831cde2c3928e3a29f586cbb87146429de3ebb742ef3dfa675",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.cpp": "730365abea055504cd12488eff53b73a8053dc3fdd81d13665c27c577ae3164f",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.cpp": "e70f62fe1caaa2a85883c7a793b1c1401ed64c4b036415469beb59bbdc9288c2",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.h": "92a215292f43f0bde4b9597b9d237c7ca6f39a8b99ab6b77063674c43366b2c7",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/NightSkyEngine.Build.cs": "6907d5e0b568e9e9147cb415c7a2925cdb3cabada2adae347d0b4aa69f71c39f",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/UI/Replay/NightSkyReplayWidget.cpp": "c57c18f256c1d24027882e68226d28c3ef061b58610965f8fc8c52edd72ee247",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/UI/Replay/NightSkyReplayWidget.h": "e1b9970c645de692e79bcf924b3a35e772d25fc2b0f220498e5ecbd861cdc464",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/ReplayInfo.h": "5d0fe55e291d3aae12d9a02567e71ad42bc7b320a9de481570434b0c18afc766"
+  },
+  "oracle_omitted_outside_editable_scope": []
+}

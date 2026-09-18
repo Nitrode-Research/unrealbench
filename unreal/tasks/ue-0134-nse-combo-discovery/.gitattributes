@@ -1,0 +1,7 @@
+environment/workspace/** -text
+environment/protected/** -text
+solution/files/** -text
+tests/source-spec.yaml -text
+tests/ue/** -text
+tests/fixture_overlay/** -text
+tests/verify.py text eol=lf

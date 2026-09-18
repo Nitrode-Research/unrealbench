@@ -1,0 +1,3806 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Environment/Prefabs/UtilityPole.prefab",
+  "guid": "eee247759bb8f0e47ac951ccf6e96dbe",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+      "transformId": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:0",
+      "parent": null,
+      "name": "UtilityPole",
+      "path": "0:UtilityPole",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 12,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[-16.4516,-0.220111847,7.04919863],
+      "localRotation":[-8.923006E-18,0.7762049,8.613459E-17,-0.6304808],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[-0.204988,9.47602559E-17,-0.9787646,-16.4516,-1.22464579E-16,1.0,1.22464619E-16,-0.220111847,0.9787646,1.44967743E-16,-0.204988,7.04919863,0.0,0.0,0.0,1.0],
+      "worldMatrix":[-0.204988,9.47602559E-17,-0.9787646,-16.4516,-1.22464579E-16,1.0,1.22464619E-16,-0.220111847,0.9787646,1.44967743E-16,-0.204988,7.04919863,0.0,0.0,0.0,1.0],
+      "worldPosition":[-16.4516,-0.220111847,7.04919863],
+      "worldRotation":[-8.923006E-18,0.7762049,8.613459E-17,-0.6304808],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+                "name": "UtilityPole",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-8.923006E-18,0.7762049,8.613459E-17,-0.6304808],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[-16.4516,-0.220111847,7.04919863],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 6,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole:component:0",
+                "name": "UtilityPole",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/1:Tip:component:0",
+                "name": "Tip",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[2]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable:component:0",
+                "name": "Cable",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[3]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1):component:0",
+                "name": "Cable (1)",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[4]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2):component:0",
+                "name": "Cable (2)",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[5]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3):component:0",
+                "name": "Cable (3)",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:1",
+          "type": "Environment.UtilityPole",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+                "name": "UtilityPole",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-542a81cd56d64fd88dd8265628c8c204-11500000-0",
+                "name": "UtilityPole",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Environment/UtilityPole.cs",
+                "guid": "542a81cd56d64fd88dd8265628c8c204",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_cable",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+                "name": "Cable",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "Assets/Environment/Models/Cable.fbx",
+                "guid": "f72393abba943de4f88bf0fb8393c590",
+                "localFileId": 919132149155446097
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_cables.Array.size",
+              "kind": "ArraySize",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "_cables.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable",
+                "name": "Cable",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_cables.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1)",
+                "name": "Cable (1)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_cables.Array.data[2]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2)",
+                "name": "Cable (2)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_cables.Array.data[3]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3)",
+                "name": "Cable (3)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_target",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "_tip",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/1:Tip:component:0",
+                "name": "Tip",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:2",
+          "type": "UnityEngine.CapsuleCollider",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+                "name": "UtilityPole",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LayerOverridePriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTrigger",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProvidesContacts",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Radius",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Height",
+              "kind": "Float",
+              "value": 13.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Direction",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Center",
+              "kind": "Vector3",
+              "value":[0.0,4.0,0.0],
+              "prefabOverride": false
+            }
+          ],
+          "collider": {
+            "enabled": true,
+            "isTrigger": false,
+            "material": null,
+            "center":[0.0,4.0,0.0],
+            "radius": 0.5,
+            "height": 13.0,
+            "direction": 1
+          }
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:3",
+          "type": "Unity.AI.Navigation.NavMeshModifier",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+                "name": "UtilityPole",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-1e3fdca004f2d45fe8abbed571a8abd5-11500000-0",
+                "name": "NavMeshModifier",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.ai.navigation/Runtime/NavMeshModifier.cs",
+                "guid": "1e3fdca004f2d45fe8abbed571a8abd5",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OverrideArea",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Area",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OverrideGenerateLinks",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GenerateLinks",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreFromBuild",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ApplyToChildren",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AffectedAgents.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AffectedAgents.Array.data[0]",
+              "kind": "Integer",
+              "value": -1,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole",
+      "transformId": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole:component:0",
+      "parent": {
+        "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+        "name": "UtilityPole",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "UtilityPole",
+      "path": "0:UtilityPole/0:UtilityPole",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 12,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,-2.06795153E-24,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,4.135903E-24,0.0,0.0,-4.135903E-24,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[-0.204988,9.47602559E-17,-0.9787646,-16.4516,-1.22464579E-16,1.0,1.22464619E-16,-0.220111847,0.9787646,1.44967743E-16,-0.204988,7.04919863,0.0,0.0,0.0,1.0],
+      "worldPosition":[-16.4516,-0.220111847,7.04919863],
+      "worldRotation":[-8.923007E-18,0.7762049,8.613459E-17,-0.6304808],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-919132149155446097-0",
+          "name": "UtilityPole",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+          "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+          "localFileId": 919132149155446097
+        },
+        "instanceRoot": {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole",
+          "name": "UtilityPole",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole",
+          "name": "UtilityPole",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_RootOrder",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.w",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.x",
+            "value": "-0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.y",
+            "value": "-0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.z",
+            "value": "-2.0679515e-24",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "-101.829",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-9766822690554734571-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-10935185892488420484-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": -7511558181221131132
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-919132149155446097-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Name",
+            "value": "UtilityPole",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-919132149155446097-0",
+              "name": "UtilityPole",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+              "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Layer",
+            "value": "12",
+            "objectReference": null
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole",
+                "name": "UtilityPole",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,-2.06795153E-24,1.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:0",
+                "name": "UtilityPole",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,-101.829,0.0],
+              "prefabOverride": true
+            }
+          ]
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole",
+                "name": "UtilityPole",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-0f4684b1ae83a5f44a60b931b6b67288-12950841956634786071-0",
+                "name": "Cube",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/UtilityPole.fbx",
+                "guid": "0f4684b1ae83a5f44a60b931b6b67288",
+                "localFileId": -5495902117074765545
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "7c2f72a900ff860994f0d4d84077785c68dc44619f93a7226bbdfec42565bbf3"
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/0:UtilityPole",
+                "name": "UtilityPole",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-16.34597,3.879888,7.071321],
+              "size":[1.69641,12.2,4.09862]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/1:Tip",
+      "transformId": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/1:Tip:component:0",
+      "parent": {
+        "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+        "name": "UtilityPole",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Tip",
+      "path": "0:UtilityPole/1:Tip",
+      "siblingIndex": 1,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 12,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,10.1,-0.2],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,10.1,0.0,0.0,1.0,-0.2,0.0,0.0,0.0,1.0],
+      "worldMatrix":[-0.204988,9.47602559E-17,-0.9787646,-16.255846,-1.22464579E-16,1.0,1.22464619E-16,9.879889,0.9787646,1.44967743E-16,-0.204988,7.090196,0.0,0.0,0.0,1.0],
+      "worldPosition":[-16.255846,9.879889,7.090196],
+      "worldRotation":[-8.923006E-18,0.7762049,8.613459E-17,-0.6304808],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/1:Tip:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/1:Tip",
+                "name": "Tip",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,10.1,-0.2],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:0",
+                "name": "UtilityPole",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable",
+      "transformId": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable:component:0",
+      "parent": {
+        "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+        "name": "UtilityPole",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Cable",
+      "path": "0:UtilityPole/2:Cable",
+      "siblingIndex": 2,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 12,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,4.0,1.0],
+      "localMatrix":[-1.0,-4.89858741E-16,-1.49975976E-32,0.0,-1.22464685E-16,4.0,1.22464685E-16,0.0,-7.34684E-40,4.89858741E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[0.204988,-1.919059E-22,0.9787646,-16.4516,-1.05879118E-22,4.0,6.617445E-23,-0.220111847,-0.9787646,-5.82335151E-22,0.204988,7.04919863,0.0,0.0,0.0,1.0],
+      "worldPosition":[-16.4516,-0.220111847,7.04919863],
+      "worldRotation":[7.27918939E-23,-0.6304808,1.65436123E-23,-0.7762049],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+          "name": "Cable",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Cable.fbx",
+          "guid": "f72393abba943de4f88bf0fb8393c590",
+          "localFileId": 919132149155446097
+        },
+        "instanceRoot": {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable",
+          "name": "Cable",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable",
+          "name": "Cable",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_RootOrder",
+            "value": "2",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalScale.y",
+            "value": "4",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.x",
+            "value": "-0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.w",
+            "value": "-3.7493994e-33",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.x",
+            "value": "-6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.y",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.z",
+            "value": "6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-10935185892488420484-0",
+              "name": "Cable",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -7511558181221131132
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+              "name": "Cable",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Name",
+            "value": "Cable",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+              "name": "Cable",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Layer",
+            "value": "12",
+            "objectReference": null
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable",
+                "name": "Cable",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,4.0,1.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:0",
+                "name": "UtilityPole",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            }
+          ]
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable",
+                "name": "Cable",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-17983763054289694068-0",
+                "name": "Plane",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Cable.fbx",
+                "guid": "f72393abba943de4f88bf0fb8393c590",
+                "localFileId": -462981019419857548
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "0ba7bbf78cb30cca18bebcb185f8a413cfa319ab43e7826060a4371e916ba5dc"
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/2:Cable",
+                "name": "Cable",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-16.4516,-2.22011185,7.04919863],
+              "size":[1.97802794,4.0,0.5078525]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1)",
+      "transformId": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1):component:0",
+      "parent": {
+        "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+        "name": "UtilityPole",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Cable (1)",
+      "path": "0:UtilityPole/3:Cable (1)",
+      "siblingIndex": 3,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 12,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,4.0,1.0],
+      "localMatrix":[-1.0,-4.89858741E-16,-1.49975976E-32,0.0,-1.22464685E-16,4.0,1.22464685E-16,0.0,-7.34684E-40,4.89858741E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[0.204988,-1.919059E-22,0.9787646,-16.4516,-1.05879118E-22,4.0,6.617445E-23,-0.220111847,-0.9787646,-5.82335151E-22,0.204988,7.04919863,0.0,0.0,0.0,1.0],
+      "worldPosition":[-16.4516,-0.220111847,7.04919863],
+      "worldRotation":[7.27918939E-23,-0.6304808,1.65436123E-23,-0.7762049],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+          "name": "Cable",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Cable.fbx",
+          "guid": "f72393abba943de4f88bf0fb8393c590",
+          "localFileId": 919132149155446097
+        },
+        "instanceRoot": {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1)",
+          "name": "Cable (1)",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1)",
+          "name": "Cable (1)",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_RootOrder",
+            "value": "3",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalScale.y",
+            "value": "4",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.x",
+            "value": "-0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.w",
+            "value": "-3.7493994e-33",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.x",
+            "value": "-6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.y",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.z",
+            "value": "6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-10935185892488420484-0",
+              "name": "Cable",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -7511558181221131132
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+              "name": "Cable",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Name",
+            "value": "Cable (1)",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+              "name": "Cable",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Layer",
+            "value": "12",
+            "objectReference": null
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1):component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1)",
+                "name": "Cable (1)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,4.0,1.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:0",
+                "name": "UtilityPole",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            }
+          ]
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1):component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1)",
+                "name": "Cable (1)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-17983763054289694068-0",
+                "name": "Plane",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Cable.fbx",
+                "guid": "f72393abba943de4f88bf0fb8393c590",
+                "localFileId": -462981019419857548
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "0ba7bbf78cb30cca18bebcb185f8a413cfa319ab43e7826060a4371e916ba5dc"
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1):component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/3:Cable (1)",
+                "name": "Cable (1)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-16.4516,-2.22011185,7.04919863],
+              "size":[1.97802794,4.0,0.5078525]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2)",
+      "transformId": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2):component:0",
+      "parent": {
+        "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+        "name": "UtilityPole",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Cable (2)",
+      "path": "0:UtilityPole/4:Cable (2)",
+      "siblingIndex": 4,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 12,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,4.0,1.0],
+      "localMatrix":[-1.0,-4.89858741E-16,-1.49975976E-32,0.0,-1.22464685E-16,4.0,1.22464685E-16,0.0,-7.34684E-40,4.89858741E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[0.204988,-1.919059E-22,0.9787646,-16.4516,-1.05879118E-22,4.0,6.617445E-23,-0.220111847,-0.9787646,-5.82335151E-22,0.204988,7.04919863,0.0,0.0,0.0,1.0],
+      "worldPosition":[-16.4516,-0.220111847,7.04919863],
+      "worldRotation":[7.27918939E-23,-0.6304808,1.65436123E-23,-0.7762049],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+          "name": "Cable",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Cable.fbx",
+          "guid": "f72393abba943de4f88bf0fb8393c590",
+          "localFileId": 919132149155446097
+        },
+        "instanceRoot": {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2)",
+          "name": "Cable (2)",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2)",
+          "name": "Cable (2)",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_RootOrder",
+            "value": "4",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalScale.y",
+            "value": "4",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.x",
+            "value": "-0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.w",
+            "value": "-3.7493994e-33",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.x",
+            "value": "-6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.y",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.z",
+            "value": "6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-10935185892488420484-0",
+              "name": "Cable",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -7511558181221131132
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+              "name": "Cable",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Name",
+            "value": "Cable (2)",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+              "name": "Cable",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Layer",
+            "value": "12",
+            "objectReference": null
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2):component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2)",
+                "name": "Cable (2)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,4.0,1.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:0",
+                "name": "UtilityPole",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            }
+          ]
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2):component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2)",
+                "name": "Cable (2)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-17983763054289694068-0",
+                "name": "Plane",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Cable.fbx",
+                "guid": "f72393abba943de4f88bf0fb8393c590",
+                "localFileId": -462981019419857548
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "0ba7bbf78cb30cca18bebcb185f8a413cfa319ab43e7826060a4371e916ba5dc"
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2):component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/4:Cable (2)",
+                "name": "Cable (2)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-16.4516,-2.22011185,7.04919863],
+              "size":[1.97802794,4.0,0.5078525]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3)",
+      "transformId": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3):component:0",
+      "parent": {
+        "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole",
+        "name": "UtilityPole",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Cable (3)",
+      "path": "0:UtilityPole/5:Cable (3)",
+      "siblingIndex": 5,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 12,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,4.0,1.0],
+      "localMatrix":[-1.0,-4.89858741E-16,-1.49975976E-32,0.0,-1.22464685E-16,4.0,1.22464685E-16,0.0,-7.34684E-40,4.89858741E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[0.204988,-1.919059E-22,0.9787646,-16.4516,-1.05879118E-22,4.0,6.617445E-23,-0.220111847,-0.9787646,-5.82335151E-22,0.204988,7.04919863,0.0,0.0,0.0,1.0],
+      "worldPosition":[-16.4516,-0.220111847,7.04919863],
+      "worldRotation":[7.27918939E-23,-0.6304808,1.65436123E-23,-0.7762049],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+          "name": "Cable",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Cable.fbx",
+          "guid": "f72393abba943de4f88bf0fb8393c590",
+          "localFileId": 919132149155446097
+        },
+        "instanceRoot": {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3)",
+          "name": "Cable (3)",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3)",
+          "name": "Cable (3)",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_RootOrder",
+            "value": "5",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalScale.y",
+            "value": "4",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.x",
+            "value": "-0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.w",
+            "value": "-3.7493994e-33",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.x",
+            "value": "-6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.y",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.z",
+            "value": "6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-9766822690554734571-0",
+              "name": "Cable",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-10935185892488420484-0",
+              "name": "Cable",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": -7511558181221131132
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+              "name": "Cable",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Name",
+            "value": "Cable (3)",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-919132149155446097-0",
+              "name": "Cable",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Cable.fbx",
+              "guid": "f72393abba943de4f88bf0fb8393c590",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Layer",
+            "value": "12",
+            "objectReference": null
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3):component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3)",
+                "name": "Cable (3)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,4.0,1.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole:component:0",
+                "name": "UtilityPole",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            }
+          ]
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3):component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3)",
+                "name": "Cable (3)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-f72393abba943de4f88bf0fb8393c590-17983763054289694068-0",
+                "name": "Plane",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Cable.fbx",
+                "guid": "f72393abba943de4f88bf0fb8393c590",
+                "localFileId": -462981019419857548
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "0ba7bbf78cb30cca18bebcb185f8a413cfa319ab43e7826060a4371e916ba5dc"
+        },
+        {
+          "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3):component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:eee247759bb8f0e47ac951ccf6e96dbe:0:UtilityPole/5:Cable (3)",
+                "name": "Cable (3)",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-16.4516,-2.22011185,7.04919863],
+              "size":[1.97802794,4.0,0.5078525]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    }
+  ]
+}

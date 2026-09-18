@@ -1,0 +1,41 @@
+{
+  "task_version": "0.1.3",
+  "reason": "The injected RelayCombatTests.cpp directly uses Slate painting APIs in NightSkyEngineDemo. Add the same Slate and SlateCore dependencies already declared by the pinned upstream reference, so the Linux NOP baseline can link the hidden tests. Gameplay, reference implementation, fixtures and test assertions are unchanged. Original source hashes remain in SOURCE_RECEIPT.json. Task124-only verifier entrypoint now withholds reward when the exact independent HUD review deadline expires, preserving diagnostic scores and existing assertion semantics. A pending review that completes and a completed review finding incorrect values retain normal scoring. Shared verify.py, baseline files, source receipt and reference bytes are unchanged by this revision. PUBLIC_REVIEW.md documents the original deadline, manual submission workflow and malformed-response ambiguity.",
+  "upstream_reference": {
+    "commit": "1ff51f9695b8bc0220296bd0f861f3e6f80c988d",
+    "path": "tasks_unreal/ue_task_0124_nse_relay_combat/solution/Source/NightSkyEngineDemo/NightSkyEngineDemo.Build.cs",
+    "sha256": "6c75dd53840fc85164b5b4df5afb6eba455cb29428c9160b2cf304798e9d65cc"
+  },
+  "changes": [
+    {
+      "path": "environment/workspace/Source/NightSkyEngineDemo/NightSkyEngineDemo.Build.cs",
+      "before": "2a0e1d66915cebd34ca16763ca0e9d371eef608eb743bd9c1f3c5782883dfb1d",
+      "after": "a73cb6dabb522553382acbea4b23acb4c7782330901344bb785316545d50ee95"
+    },
+    {
+      "path": "environment/protected/.submission-baseline.json",
+      "before": "43af9e030f41c9268acad35db209974aa35a82f9ffb14cd74ca17dfff9f5ae96",
+      "after": "74a76e9e2050bed7f855f2c03e57b45d2e45d636cafcb93c53b79551f5d35707"
+    },
+    {
+      "path": "tests/task124_verify.py",
+      "before": null,
+      "after": "468b39c6dddd80c8cda09355ce9f03bbb18e3de485a10c037af5ac2dbcdf2693"
+    },
+    {
+      "path": "tests/test.sh",
+      "before": "2812ac936b2c422512921a96deeac67517c339542cd32d781a1f0c5db6222c06",
+      "after": "ebef306f4efdada64dd1fe8fa036b13102f4c21937bb0b11926d3f5d972bf649"
+    },
+    {
+      "path": "task.toml",
+      "before": "f9494e58f1f01d093b5327f9b58e1d3880f11c23476a77d722d40d8c43169dcb",
+      "after": "2680dfacb28d531bf36b77048e9599432f46311969f2a4d41baab95c2eb42069"
+    },
+    {
+      "path": "PUBLIC_REVIEW.md",
+      "before": null,
+      "after": "e552801d1524b5bb62253df8e3f8591cce98acfaeb883d600d97e6d829238fc6"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/brianyla/unrealbench",
+  "commit": "1ff51f9695b8bc0220296bd0f861f3e6f80c988d",
+  "source_task": "ue_task_0131_nse_partitioned_charge",
+  "source_files": {
+    "spec.yaml": "410ec8b8fb0b4805c700b616a5c4d52f0242df57d854e90fcfbf9d54176832fc",
+    "tests/NSE004Tests.cpp": "ba0c5b594e5ba4fbdd929363bab9e6c5e05ed3d844671413eb40363b2e6b42e3"
+  },
+  "adaptations": [
+    "Linux Vulkan flags replace Windows D3D flags",
+    "Harbor verifier runs every declared suite"
+  ]
+}

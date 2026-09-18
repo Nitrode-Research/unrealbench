@@ -1,0 +1,1191 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Player/Prefab/TopDownVCamera.prefab",
+  "guid": "c9dd8bf4e995d864eb0071619b6309c9",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera",
+      "transformId": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera:component:0",
+      "parent": null,
+      "name": "TopDownVCamera",
+      "path": "0:TopDownVCamera",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[-5.00000048,7.071068,-5.00000048],
+      "localRotation":[0.272532,0.4030582,-0.127083734,0.864361167],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[0.6427876,0.439385,0.627507,-5.00000048,1.49011612E-08,0.8191521,-0.5735764,7.071068,-0.7660445,0.368687838,0.5265408,-5.00000048,0.0,0.0,0.0,1.0],
+      "worldMatrix":[0.6427876,0.439385,0.627507,-5.00000048,1.49011612E-08,0.8191521,-0.5735764,7.071068,-0.7660445,0.368687838,0.5265408,-5.00000048,0.0,0.0,0.0,1.0],
+      "worldPosition":[-5.00000048,7.071068,-5.00000048],
+      "worldRotation":[0.272532,0.4030582,-0.127083734,0.864361167],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera",
+                "name": "TopDownVCamera",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.272532,0.4030582,-0.127083734,0.864361167],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[-5.00000048,7.071068,-5.00000048],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm:component:0",
+                "name": "cm",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[35.0,50.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera:component:1",
+          "type": "Cinemachine.CinemachineVirtualCamera",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera",
+                "name": "TopDownVCamera",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-45e653bab7fb20e499bda25e1b646fea-11500000-0",
+                "name": "CinemachineVirtualCamera",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineVirtualCamera.cs",
+                "guid": "45e653bab7fb20e499bda25e1b646fea",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludedPropertiesInInspector.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludedPropertiesInInspector.Array.data[0]",
+              "kind": "String",
+              "value": "m_Script",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LockStageInInspector.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StreamingVersion",
+              "kind": "Integer",
+              "value": 20170927,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Priority",
+              "kind": "Integer",
+              "value": 10,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StandbyUpdate",
+              "kind": "Enum",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LookAt",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Follow",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Lens.FieldOfView",
+              "kind": "Float",
+              "value": 60.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Lens.OrthographicSize",
+              "kind": "Float",
+              "value": 5.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Lens.NearClipPlane",
+              "kind": "Float",
+              "value": 0.30000001192092896,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Lens.FarClipPlane",
+              "kind": "Float",
+              "value": 1000.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Lens.Dutch",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Lens.ModeOverride",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Lens.LensShift",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Lens.GateFit",
+              "kind": "Enum",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Lens.FocusDistance",
+              "kind": "Float",
+              "value": 10.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Lens.m_SensorSize",
+              "kind": "Vector2",
+              "value":[1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Transitions.m_BlendHint",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Transitions.m_InheritPosition",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Transitions.m_OnCameraLive.m_PersistentCalls.m_Calls.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LegacyBlendHint",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ComponentOwner",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm:component:0",
+                "name": "cm",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm",
+      "transformId": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm:component:0",
+      "parent": {
+        "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera",
+        "name": "TopDownVCamera",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "cm",
+      "path": "0:TopDownVCamera/0:cm",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[0.6427876,0.439385,0.627507,-5.00000048,1.49011612E-08,0.8191521,-0.5735764,7.071068,-0.7660445,0.368687838,0.5265408,-5.00000048,0.0,0.0,0.0,1.0],
+      "worldPosition":[-5.00000048,7.071068,-5.00000048],
+      "worldRotation":[0.272532,0.4030582,-0.127083734,0.864361167],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm",
+                "name": "cm",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera:component:0",
+                "name": "TopDownVCamera",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm:component:1",
+          "type": "Cinemachine.CinemachinePipeline",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm",
+                "name": "cm",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-ac0b09e7857660247b1477e93731de29-11500000-0",
+                "name": "CinemachinePipeline",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePipeline.cs",
+                "guid": "ac0b09e7857660247b1477e93731de29",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm:component:2",
+          "type": "Cinemachine.CinemachineFramingTransposer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm",
+                "name": "cm",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-6ad980451443d70438faac0bc6c235a0-11500000-0",
+                "name": "CinemachineFramingTransposer",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.cinemachine/Runtime/Components/CinemachineFramingTransposer.cs",
+                "guid": "6ad980451443d70438faac0bc6c235a0",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TrackedObjectOffset",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LookaheadTime",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LookaheadSmoothing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LookaheadIgnoreY",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_XDamping",
+              "kind": "Float",
+              "value": 0.10000000149011612,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_YDamping",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ZDamping",
+              "kind": "Float",
+              "value": 0.10000000149011612,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TargetMovementOnly",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScreenX",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScreenY",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CameraDistance",
+              "kind": "Float",
+              "value": 50.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DeadZoneWidth",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DeadZoneHeight",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DeadZoneDepth",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_UnlimitedSoftZone",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SoftZoneWidth",
+              "kind": "Float",
+              "value": 0.800000011920929,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SoftZoneHeight",
+              "kind": "Float",
+              "value": 0.800000011920929,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_BiasX",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_BiasY",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CenterOnActivate",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GroupFramingMode",
+              "kind": "Enum",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdjustmentMode",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GroupFramingSize",
+              "kind": "Float",
+              "value": 0.800000011920929,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaxDollyIn",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaxDollyOut",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumDistance",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaximumDistance",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumFOV",
+              "kind": "Float",
+              "value": 3.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaximumFOV",
+              "kind": "Float",
+              "value": 60.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumOrthoSize",
+              "kind": "Float",
+              "value": 7.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaximumOrthoSize",
+              "kind": "Float",
+              "value": 9.0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm:component:3",
+          "type": "Cinemachine.CinemachineFramingTransposer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm",
+                "name": "cm",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-6ad980451443d70438faac0bc6c235a0-11500000-0",
+                "name": "CinemachineFramingTransposer",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.cinemachine/Runtime/Components/CinemachineFramingTransposer.cs",
+                "guid": "6ad980451443d70438faac0bc6c235a0",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TrackedObjectOffset",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LookaheadTime",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LookaheadSmoothing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LookaheadIgnoreY",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_XDamping",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_YDamping",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ZDamping",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TargetMovementOnly",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScreenX",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScreenY",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CameraDistance",
+              "kind": "Float",
+              "value": 10.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DeadZoneWidth",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DeadZoneHeight",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DeadZoneDepth",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_UnlimitedSoftZone",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SoftZoneWidth",
+              "kind": "Float",
+              "value": 0.800000011920929,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SoftZoneHeight",
+              "kind": "Float",
+              "value": 0.800000011920929,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_BiasX",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_BiasY",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CenterOnActivate",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GroupFramingMode",
+              "kind": "Enum",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdjustmentMode",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GroupFramingSize",
+              "kind": "Float",
+              "value": 0.800000011920929,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaxDollyIn",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaxDollyOut",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumDistance",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaximumDistance",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumFOV",
+              "kind": "Float",
+              "value": 3.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaximumFOV",
+              "kind": "Float",
+              "value": 60.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumOrthoSize",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaximumOrthoSize",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm:component:4",
+          "type": "Cinemachine.CinemachineFramingTransposer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:c9dd8bf4e995d864eb0071619b6309c9:0:TopDownVCamera/0:cm",
+                "name": "cm",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-6ad980451443d70438faac0bc6c235a0-11500000-0",
+                "name": "CinemachineFramingTransposer",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.cinemachine/Runtime/Components/CinemachineFramingTransposer.cs",
+                "guid": "6ad980451443d70438faac0bc6c235a0",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TrackedObjectOffset",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LookaheadTime",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LookaheadSmoothing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LookaheadIgnoreY",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_XDamping",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_YDamping",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ZDamping",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TargetMovementOnly",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScreenX",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScreenY",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CameraDistance",
+              "kind": "Float",
+              "value": 10.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DeadZoneWidth",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DeadZoneHeight",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DeadZoneDepth",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_UnlimitedSoftZone",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SoftZoneWidth",
+              "kind": "Float",
+              "value": 0.800000011920929,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SoftZoneHeight",
+              "kind": "Float",
+              "value": 0.800000011920929,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_BiasX",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_BiasY",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CenterOnActivate",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GroupFramingMode",
+              "kind": "Enum",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdjustmentMode",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GroupFramingSize",
+              "kind": "Float",
+              "value": 0.800000011920929,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaxDollyIn",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaxDollyOut",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumDistance",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaximumDistance",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumFOV",
+              "kind": "Float",
+              "value": 3.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaximumFOV",
+              "kind": "Float",
+              "value": 60.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumOrthoSize",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaximumOrthoSize",
+              "kind": "Float",
+              "value": 5000.0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

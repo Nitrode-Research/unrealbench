@@ -1,0 +1,596 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Environment/Prefabs/Pallet.prefab",
+  "guid": "5f5dbe891257b1649b21ffb447498081",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:5f5dbe891257b1649b21ffb447498081:0:Pallet",
+      "transformId": "prefab:5f5dbe891257b1649b21ffb447498081:0:Pallet:component:0",
+      "parent": null,
+      "name": "Pallet",
+      "path": "0:Pallet",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.2,0.14,0.8],
+      "localMatrix":[-1.2,-1.71450553E-17,-1.19980784E-32,0.0,-1.46957622E-16,0.14,9.797175E-17,0.0,-8.816213E-40,1.71450553E-17,-0.8,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[-1.2,-1.71450553E-17,-1.19980784E-32,0.0,-1.46957622E-16,0.14,9.797175E-17,0.0,-8.816213E-40,1.71450553E-17,-0.8,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-919132149155446097-0",
+          "name": "Pallet",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Pallet.fbx",
+          "guid": "29cc5ff78e7115d439913c2e016169c4",
+          "localFileId": 919132149155446097
+        },
+        "instanceRoot": {
+          "id": "prefab:5f5dbe891257b1649b21ffb447498081:0:Pallet",
+          "name": "Pallet",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:5f5dbe891257b1649b21ffb447498081:0:Pallet",
+          "name": "Pallet",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-9766822690554734571-0",
+              "name": "Pallet",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-9766822690554734571-0",
+              "name": "Pallet",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-9766822690554734571-0",
+              "name": "Pallet",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-9766822690554734571-0",
+              "name": "Pallet",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.w",
+            "value": "-3.7493994e-33",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-9766822690554734571-0",
+              "name": "Pallet",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.x",
+            "value": "-6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-9766822690554734571-0",
+              "name": "Pallet",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.y",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-9766822690554734571-0",
+              "name": "Pallet",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.z",
+            "value": "6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-9766822690554734571-0",
+              "name": "Pallet",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-9766822690554734571-0",
+              "name": "Pallet",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-9766822690554734571-0",
+              "name": "Pallet",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-10935185892488420484-0",
+              "name": "Pallet",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": -7511558181221131132
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-919132149155446097-0",
+              "name": "Pallet",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Pallet.fbx",
+              "guid": "29cc5ff78e7115d439913c2e016169c4",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Name",
+            "value": "Pallet",
+            "objectReference": null
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:5f5dbe891257b1649b21ffb447498081:0:Pallet:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:5f5dbe891257b1649b21ffb447498081:0:Pallet",
+                "name": "Pallet",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.2,0.14,0.8],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            }
+          ]
+        },
+        {
+          "id": "prefab:5f5dbe891257b1649b21ffb447498081:0:Pallet:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:5f5dbe891257b1649b21ffb447498081:0:Pallet",
+                "name": "Pallet",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-29cc5ff78e7115d439913c2e016169c4-12950841956634786071-0",
+                "name": "Cube",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Pallet.fbx",
+                "guid": "29cc5ff78e7115d439913c2e016169c4",
+                "localFileId": -5495902117074765545
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "9c6cde8244f877c169bbe9ae21ab8a616dc799c924647c2eb816b9211b312c5c"
+        },
+        {
+          "id": "prefab:5f5dbe891257b1649b21ffb447498081:0:Pallet:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:5f5dbe891257b1649b21ffb447498081:0:Pallet",
+                "name": "Pallet",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[0.0,0.0,0.0],
+              "size":[1.2,0.14,0.8]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    }
+  ]
+}

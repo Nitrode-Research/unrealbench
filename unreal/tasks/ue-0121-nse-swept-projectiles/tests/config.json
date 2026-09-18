@@ -1,0 +1,38 @@
+{
+  "project": "NightSkyEngine",
+  "target": "NightSkyEngineEditor",
+  "module": "NightSkyEngineDemo",
+  "protected": [
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures",
+    "PUBLIC_INTERFACE.md"
+  ],
+  "suites": [
+    {
+      "name": "behavior",
+      "filter": "UnrealBench.NSE005",
+      "expected": [
+        "UnrealBench.NSE005.V1",
+        "UnrealBench.NSE005.V10",
+        "UnrealBench.NSE005.V11",
+        "UnrealBench.NSE005.V2",
+        "UnrealBench.NSE005.V3",
+        "UnrealBench.NSE005.V4",
+        "UnrealBench.NSE005.V5",
+        "UnrealBench.NSE005.V6",
+        "UnrealBench.NSE005.V7",
+        "UnrealBench.NSE005.V8",
+        "UnrealBench.NSE005.V9"
+      ],
+      "flags": [
+        "-Unattended",
+        "-CrashForUAT",
+        "-NullRHI",
+        "-NoSplash",
+        "-NumClients=0",
+        "-ListenServer",
+        "-nosound"
+      ]
+    }
+  ],
+  "original_tests": []
+}

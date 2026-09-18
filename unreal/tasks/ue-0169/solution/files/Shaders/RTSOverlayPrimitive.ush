@@ -1,0 +1,57 @@
+// The material asset only connects typed scalar inputs to this source-owned renderer. Shape,
+// faction treatment, validity language, and animation remain reviewable here rather than in a graph.
+#ifndef RTS_OVERLAY_PRIMITIVE_USH
+#define RTS_OVERLAY_PRIMITIVE_USH
+
+float4 RTSWorldOverlay(
+	float2 UV,
+	float OverlayMode,
+	float OverlayValidity,
+	float OverlayFaction,
+	float AnimationPhase,
+	float GameTime)
+{
+	const float2 Centered = UV * 2.0f - 1.0f;
+	const float Time = GameTime + AnimationPhase;
+	const float3 FactionColor = OverlayFaction < 1.0f
+		? float3(0.04f, 0.78f, 1.8f)
+		: float3(1.8f, 0.16f, 0.035f);
+	float3 Color = FactionColor;
+	float Alpha = 0.0f;
+
+	if (OverlayMode < 0.5f)
+	{
+		const float Radius = length(Centered);
+		const float RingWidth = max(fwidth(Radius) * 1.75f, 0.014f);
+		const float Ring = 1.0f - smoothstep(RingWidth, RingWidth * 2.0f, abs(Radius - 0.91f));
+		const float Pulse = 0.72f + 0.18f * sin(Time * 1.4f);
+		Alpha = Ring * Pulse + (1.0f - smoothstep(0.0f, 0.88f, Radius)) * 0.035f;
+	}
+	else if (OverlayMode < 1.5f)
+	{
+		Color = OverlayValidity > 1.5f
+			? float3(2.2f, 0.055f, 0.018f)
+			: float3(0.035f, 2.0f, 0.42f);
+		const float EdgeDistance = 1.0f - max(abs(Centered.x), abs(Centered.y));
+		const float Border = 1.0f - smoothstep(0.035f, 0.085f, EdgeDistance);
+		const float InvalidHatch = OverlayValidity > 1.5f
+			? (1.0f - smoothstep(0.35f, 0.48f, abs(frac((Centered.x + Centered.y + Time * 0.18f) * 5.0f) - 0.5f))) * 0.32f
+			: 0.0f;
+		Alpha = saturate(Border + InvalidHatch);
+	}
+	else
+	{
+		Color = lerp(FactionColor, float3(2.0f, 0.72f, 0.04f), 0.5f);
+		const float Radius = length(Centered);
+		const float RingWidth = max(fwidth(Radius) * 1.65f, 0.012f);
+		const float Ring = 1.0f - smoothstep(RingWidth, RingWidth * 2.0f, abs(Radius - 0.91f));
+		const float Angle = atan2(Centered.y, Centered.x);
+		const float Tick = step(0.82f, Radius) * step(Radius, 0.98f)
+			* step(0.84f, abs(cos(Angle * 4.0f)));
+		Alpha = saturate(Ring + Tick * 0.34f);
+	}
+
+	return float4(Color, saturate(Alpha));
+}
+
+#endif

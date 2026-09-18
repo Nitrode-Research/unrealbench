@@ -1,0 +1,2019 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Environment/Prefabs/DocInteraction.prefab",
+  "guid": "95a6b0b2e6ea13d46bcfba9f194cc598",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction",
+      "transformId": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction:component:0",
+      "parent": null,
+      "name": "DocInteraction",
+      "path": "0:DocInteraction",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction",
+                "name": "DocInteraction",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:0",
+                "name": "Interaction",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction",
+      "transformId": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:0",
+      "parent": {
+        "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction",
+        "name": "DocInteraction",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Interaction",
+      "path": "0:DocInteraction/0:Interaction",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 8,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[-0.183,0.757,-2.353],
+      "localRotation":[0.0,-0.70418036,0.0,0.710021257],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[0.008260071,0.0,-0.999966,-0.183,0.0,1.0,0.0,0.757,0.999966,0.0,0.008260071,-2.353,0.0,0.0,0.0,1.0],
+      "worldMatrix":[0.008260071,0.0,-0.999966,-0.183,0.0,1.0,0.0,0.757,0.999966,0.0,0.008260071,-2.353,0.0,0.0,0.0,1.0],
+      "worldPosition":[-0.183,0.757,-2.353],
+      "worldRotation":[0.0,-0.70418036,0.0,0.710021257],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction",
+                "name": "Interaction",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,-0.70418036,0.0,0.710021257],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[-0.183,0.757,-2.353],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/0:Waypoint A:component:0",
+                "name": "Waypoint A",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/1:Waypoint B:component:0",
+                "name": "Waypoint B",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[2]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/2:Area:component:0",
+                "name": "Area",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[3]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo:component:0",
+                "name": "Gizmo",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction:component:0",
+                "name": "DocInteraction",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,-89.527,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:1",
+          "type": "Interactions.Interactable",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction",
+                "name": "Interaction",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-f5586ceac2654ed88573dd8f8fb2861d-11500000-0",
+                "name": "Interactable",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Interactions/Interactable.cs",
+                "guid": "f5586ceac2654ed88573dd8f8fb2861d",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "Waypoints.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "Waypoints.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/0:Waypoint A:component:1",
+                "name": "Waypoint A",
+                "type": "Interactions.InteractionWaypoint",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "Waypoints.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/1:Waypoint B:component:1",
+                "name": "Waypoint B",
+                "type": "Interactions.InteractionWaypoint",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "Gizmo",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo:component:4",
+                "name": "Gizmo",
+                "type": "Interactions.InteractionGizmo",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "Event.EventReference.InternalID",
+              "kind": "Integer",
+              "value": 1389005,
+              "prefabOverride": false
+            },
+            {
+              "path": "Blackboard.List.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "Context.Context.List.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "Context.Interactable",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "_initialItem.InternalID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_id.ChunkId",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_id.ObjectId",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_cameraTemplate",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-c9dd8bf4e995d864eb0071619b6309c9-6031051610096390852-0",
+                "name": "TopDownVCamera",
+                "type": "Cinemachine.CinemachineVirtualCamera",
+                "assetPath": "Assets/Player/Prefab/TopDownVCamera.prefab",
+                "guid": "c9dd8bf4e995d864eb0071619b6309c9",
+                "localFileId": 6031051610096390852
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_orthoSize",
+              "kind": "Float",
+              "value": 4.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_area",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/2:Area:component:1",
+                "name": "Area",
+                "type": "Interactions.InteractionArea",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:2",
+          "type": "Interactions.InteractionHighlight",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction",
+                "name": "Interaction",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-8084cf3afdd848d38f2d36d54e7dd26c-11500000-0",
+                "name": "InteractionHighlight",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Interactions/InteractionHighlight.cs",
+                "guid": "8084cf3afdd848d38f2d36d54e7dd26c",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_material",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-599736ef716593e4e9599f8a109b899f-2100000-0",
+                "name": "PaletteHighlight",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/PaletteHighlight.mat",
+                "guid": "599736ef716593e4e9599f8a109b899f",
+                "localFileId": 2100000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_interactable",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:1",
+                "name": "Interaction",
+                "type": "Interactions.Interactable",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_renderers.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "_renderers.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "_renderers.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:3",
+          "type": "UnityEngine.BoxCollider",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction",
+                "name": "Interaction",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LayerOverridePriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTrigger",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProvidesContacts",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Size",
+              "kind": "Vector3",
+              "value":[1.987356,2.00487232,0.6850081],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Center",
+              "kind": "Vector3",
+              "value":[-0.0173784476,-0.0122641921,-0.03869969],
+              "prefabOverride": false
+            }
+          ],
+          "collider": {
+            "enabled": true,
+            "isTrigger": false,
+            "material": null,
+            "center":[-0.0173784476,-0.0122641921,-0.03869969],
+            "size":[1.987356,2.00487232,0.6850081]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/0:Waypoint A",
+      "transformId": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/0:Waypoint A:component:0",
+      "parent": {
+        "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction",
+        "name": "Interaction",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Waypoint A",
+      "path": "0:DocInteraction/0:Interaction/0:Waypoint A",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 8,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.039,-0.757,1.239],
+      "localRotation":[0.0,0.9997289,0.0,-0.0232820455],
+      "localScale":[0.5,0.5,0.5],
+      "localMatrix":[-0.4994579,0.0,-0.0232757349,0.039,0.0,0.5,0.0,-0.757,0.0232757349,0.0,-0.4994579,1.239,0.0,0.0,0.0,1.0],
+      "worldMatrix":[-0.0274005011,0.0,0.499248683,-1.42163575,0.0,0.5,0.0,0.0,-0.499248683,0.0,-0.0274005011,-2.303767,0.0,0.0,0.0,1.0],
+      "worldPosition":[-1.42163575,0.0,-2.303767],
+      "worldRotation":[0.0,0.7262235,0.0,0.6874587],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/0:Waypoint A:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/0:Waypoint A",
+                "name": "Waypoint A",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.9997289,0.0,-0.0232820455],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.039,-0.757,1.239],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[0.5,0.5,0.5],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:0",
+                "name": "Interaction",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,182.668,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/0:Waypoint A:component:1",
+          "type": "Interactions.InteractionWaypoint",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/0:Waypoint A",
+                "name": "Waypoint A",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-6f00f770dbcd4c59bdda8afe07b12938-11500000-0",
+                "name": "InteractionWaypoint",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Interactions/InteractionWaypoint.cs",
+                "guid": "6f00f770dbcd4c59bdda8afe07b12938",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/1:Waypoint B",
+      "transformId": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/1:Waypoint B:component:0",
+      "parent": {
+        "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction",
+        "name": "Interaction",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Waypoint B",
+      "path": "0:DocInteraction/0:Interaction/1:Waypoint B",
+      "siblingIndex": 1,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 8,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[-1.202,-0.757,0.875],
+      "localRotation":[0.0,0.8599731,0.0,0.510339558],
+      "localScale":[0.5,0.5,0.5],
+      "localMatrix":[-0.23955369,0.0,0.438878268,-1.202,0.0,0.5,0.0,-0.757,-0.438878268,0.0,-0.23955369,0.875,0.0,0.0,0.0,1.0],
+      "worldMatrix":[0.436884642,0.0,0.243170723,-1.06789887,0.0,0.5,0.0,0.0,-0.243170723,0.0,0.436884642,-3.5477314,0.0,0.0,0.0,1.0],
+      "worldPosition":[-1.06789887,0.0,-3.5477314],
+      "worldRotation":[0.0,0.251228064,0.0,0.967928052],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/1:Waypoint B:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/1:Waypoint B",
+                "name": "Waypoint B",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.8599731,0.0,0.510339558],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[-1.202,-0.757,0.875],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[0.5,0.5,0.5],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:0",
+                "name": "Interaction",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,118.627,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/1:Waypoint B:component:1",
+          "type": "Interactions.InteractionWaypoint",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/1:Waypoint B",
+                "name": "Waypoint B",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-6f00f770dbcd4c59bdda8afe07b12938-11500000-0",
+                "name": "InteractionWaypoint",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Interactions/InteractionWaypoint.cs",
+                "guid": "6f00f770dbcd4c59bdda8afe07b12938",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/2:Area",
+      "transformId": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/2:Area:component:0",
+      "parent": {
+        "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction",
+        "name": "Interaction",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Area",
+      "path": "0:DocInteraction/0:Interaction/2:Area",
+      "siblingIndex": 2,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[0.008260071,0.0,-0.999966,-0.183,0.0,1.0,0.0,0.757,0.999966,0.0,0.008260071,-2.353,0.0,0.0,0.0,1.0],
+      "worldPosition":[-0.183,0.757,-2.353],
+      "worldRotation":[0.0,-0.70418036,0.0,0.710021257],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/2:Area:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/2:Area",
+                "name": "Area",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:0",
+                "name": "Interaction",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/2:Area:component:1",
+          "type": "Interactions.InteractionArea",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/2:Area",
+                "name": "Area",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-77870a28781a4d4b81619784c36df2b3-11500000-0",
+                "name": "InteractionArea",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Interactions/InteractionArea.cs",
+                "guid": "77870a28781a4d4b81619784c36df2b3",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/2:Area:component:2",
+          "type": "UnityEngine.SphereCollider",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/2:Area",
+                "name": "Area",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LayerOverridePriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTrigger",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProvidesContacts",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Radius",
+              "kind": "Float",
+              "value": 1.690000057220459,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Center",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ],
+          "collider": {
+            "enabled": true,
+            "isTrigger": true,
+            "material": null,
+            "center":[0.0,0.0,0.0],
+            "radius": 1.69
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo",
+      "transformId": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo:component:0",
+      "parent": {
+        "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction",
+        "name": "Interaction",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Gizmo",
+      "path": "0:DocInteraction/0:Interaction/3:Gizmo",
+      "siblingIndex": 3,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 9,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.00109540881,-0.0114210248,0.151902243],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[0.7500001,0.75,0.7500001],
+      "localMatrix":[0.7500001,0.0,0.0,0.00109540881,0.0,0.75,0.0,-0.0114210248,0.0,0.0,0.7500001,0.151902243,0.0,0.0,0.0,1.0],
+      "worldMatrix":[0.00619505439,0.0,-0.7499746,-0.334888041,0.0,0.75,0.0,0.745579,0.7499746,0.0,0.00619505439,-2.35064983,0.0,0.0,0.0,1.0],
+      "worldPosition":[-0.334888041,0.745579,-2.35064983],
+      "worldRotation":[0.0,-0.70418036,0.0,0.710021257],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-2736293608084336562-0",
+          "name": "Gizmo",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Interactions/Gizmo.prefab",
+          "guid": "8f75fded23ad17f4d91ba1386877096e",
+          "localFileId": 2736293608084336562
+        },
+        "instanceRoot": {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo",
+          "name": "Gizmo",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo",
+          "name": "Gizmo",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-2200932180627228171-0",
+              "name": "Gizmo",
+              "type": "Interactions.InteractionGizmo",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 2200932180627228171
+            },
+            "property": "_expansion",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-2200932180627228171-0",
+              "name": "Gizmo",
+              "type": "Interactions.InteractionGizmo",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 2200932180627228171
+            },
+            "property": "_conversation",
+            "value": "",
+            "objectReference": {
+              "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:1",
+              "name": "Interaction",
+              "type": "Interactions.Interactable",
+              "assetPath": "",
+              "guid": "00000000000000000000000000000000",
+              "localFileId": 0
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-2736293608084336562-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 2736293608084336562
+            },
+            "property": "m_Name",
+            "value": "Gizmo",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalScale.x",
+            "value": "0.7500001",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalScale.y",
+            "value": "0.75",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalScale.z",
+            "value": "0.7500001",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalPosition.x",
+            "value": "0.0010954088",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalPosition.y",
+            "value": "-0.011421025",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalPosition.z",
+            "value": "0.15190224",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalRotation.w",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalRotation.x",
+            "value": "-0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalRotation.y",
+            "value": "-0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalRotation.z",
+            "value": "-0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-8f75fded23ad17f4d91ba1386877096e-3397334455388534160-0",
+              "name": "Gizmo",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Interactions/Gizmo.prefab",
+              "guid": "8f75fded23ad17f4d91ba1386877096e",
+              "localFileId": 3397334455388534160
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo",
+                "name": "Gizmo",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.00109540881,-0.0114210248,0.151902243],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[0.7500001,0.75,0.7500001],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction:component:0",
+                "name": "Interaction",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            }
+          ]
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo",
+                "name": "Gizmo",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-4-0000000000000000e000000000000000-10210-0",
+                "name": "Quad",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Library/unity default resources",
+                "guid": "0000000000000000e000000000000000",
+                "localFileId": 10210
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "4acbc481795d8d128d6444fa9764b14f64f6031bd5f156c0ec1722b78af58bf1"
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo",
+                "name": "Gizmo",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-cc779082737a97b42a93822f9e7c858d-2100000-0",
+                "name": "InteractionGizmo",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/InteractionGizmo.mat",
+                "guid": "cc779082737a97b42a93822f9e7c858d",
+                "localFileId": 2100000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-0.334888041,0.745579,-2.35064983],
+              "size":[0.00619505439,0.75,0.7499746]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-cc779082737a97b42a93822f9e7c858d-2100000-0",
+                "name": "InteractionGizmo",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/InteractionGizmo.mat",
+                "guid": "cc779082737a97b42a93822f9e7c858d",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo:component:3",
+          "type": "UnityEngine.MeshCollider",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo",
+                "name": "Gizmo",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LayerOverridePriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTrigger",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProvidesContacts",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Convex",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CookingOptions",
+              "kind": "Integer",
+              "value": 30,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-4-0000000000000000e000000000000000-10210-0",
+                "name": "Quad",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Library/unity default resources",
+                "guid": "0000000000000000e000000000000000",
+                "localFileId": 10210
+              },
+              "prefabOverride": false
+            }
+          ],
+          "collider": {
+            "enabled": true,
+            "isTrigger": false,
+            "material": null,
+            "mesh": "4acbc481795d8d128d6444fa9764b14f64f6031bd5f156c0ec1722b78af58bf1",
+            "convex": false,
+            "cookingOptions": "CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase"
+          }
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo:component:4",
+          "type": "Interactions.InteractionGizmo",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo",
+                "name": "Gizmo",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-b726c70262574368b736872d92dfcc8a-11500000-0",
+                "name": "InteractionGizmo",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Interactions/InteractionGizmo.cs",
+                "guid": "b726c70262574368b736872d92dfcc8a",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo:component:5",
+          "type": "Environment.LookAtCamera",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:95a6b0b2e6ea13d46bcfba9f194cc598:0:DocInteraction/0:Interaction/3:Gizmo",
+                "name": "Gizmo",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-1d5c09224cd449c9a2fd55a122504fb2-11500000-0",
+                "name": "LookAtCamera",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Environment/LookAtCamera.cs",
+                "guid": "1d5c09224cd449c9a2fd55a122504fb2",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

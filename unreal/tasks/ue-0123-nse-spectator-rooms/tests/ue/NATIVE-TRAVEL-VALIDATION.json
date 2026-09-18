@@ -1,0 +1,71 @@
+{
+  "baseline_assertions": 292,
+  "new_assertions": 307,
+  "missing": {
+    "host reauthentication preserves current seat": [
+      "TestEqual(TEXT(\"hostreauthenticationpreservescurrentseat\"),Connection->LastDelivery.Assignment,HostAssignment)"
+    ],
+    "fighter reauthentication preserves current seat": [
+      "TestEqual(TEXT(\"fighterreauthenticationpreservescurrentseat\"),Fighter->LastDelivery.Assignment,FighterAssignment)"
+    ]
+  },
+  "changed": {},
+  "added": {
+    "current authenticated fighters retain distinct owned seats": [
+      "TestTrue(TEXT(\"currentauthenticatedfightersretaindistinctownedseats\"),OwnsSeat(First,FirstIdentity)&&OwnsSeat(Second,SecondIdentity)&&First.Assignment!=Second.Assignment)"
+    ],
+    "live setup retains the first successful match identity": [
+      "TestEqual(TEXT(\"livesetupretainsthefirstsuccessfulmatchidentity\"),Match,RecordedMatch)"
+    ],
+    "native setup remains inactive before actual start dispatch": [
+      "TestFalse(TEXT(\"nativesetupremainsinactivebeforeactualstartdispatch\"),Room->IsActive())"
+    ],
+    "live setup preserves original room clock": [
+      "TestEqual(TEXT(\"livesetuppreservesoriginalroomclock\"),Tick,Scenario.SuccessfulStartTick())"
+    ],
+    "frame-zero release retains successful match identity": [
+      "TestEqual(TEXT(\"frame-zeroreleaseretainssuccessfulmatchidentity\"),Delivery.Match,Active->Match)"
+    ],
+    "immediate frame-zero witness retains original start clock": [
+      "TestEqual(TEXT(\"immediateframe-zerowitnessretainsoriginalstartclock\"),*Clock,StartTick)"
+    ],
+    "host reauthentication preserves current owned seat": [
+      "TestFalse(TEXT(\"hostreauthenticationpreservescurrentownedseat\"),Connection->LastDelivery.Assignment.IsEmpty())"
+    ],
+    "fighter reauthentication preserves current owned seat": [
+      "TestFalse(TEXT(\"fighterreauthenticationpreservescurrentownedseat\"),Fighter->LastDelivery.Assignment.IsEmpty())"
+    ],
+    "widget setup remains inactive before actual start dispatch": [
+      "TestFalse(TEXT(\"widgetsetupremainsinactivebeforeactualstartdispatch\"),Room->IsActive())"
+    ],
+    "widget reconnect retains successful match identity": [
+      "TestEqual(TEXT(\"widgetreconnectretainssuccessfulmatchidentity\"),Room->Observe(TEXT(\"host\")).Match,BattleMatch)"
+    ],
+    "widget live setup preserves original room clock": [
+      "TestEqual(TEXT(\"widgetlivesetuppreservesoriginalroomclock\"),*Clock,Scenario.SuccessfulStartTick())"
+    ],
+    "competitive setup remains inactive before actual start dispatch": [
+      "TestFalse(TEXT(\"competitivesetupremainsinactivebeforeactualstartdispatch\"),Room->IsActive())"
+    ],
+    "competitive live setup preserves original room clock": [
+      "TestEqual(TEXT(\"competitivelivesetuppreservesoriginalroomclock\"),Tick,Scenario.SuccessfulStartTick())"
+    ],
+    "competitive artifact retains successful match identity": [
+      "TestEqual(TEXT(\"competitiveartifactretainssuccessfulmatchidentity\"),Replay.Id,Match)"
+    ],
+    "successor setup remains inactive before actual start dispatch": [
+      "TestFalse(TEXT(\"successorsetupremainsinactivebeforeactualstartdispatch\"),NextRoom->IsActive())"
+    ],
+    "successor live setup retains successful match identity": [
+      "TestEqual(TEXT(\"successorlivesetupretainssuccessfulmatchidentity\"),NextRoom->Observe(TEXT(\"f0\")).Match,Current)"
+    ],
+    "successor live setup preserves original room clock": [
+      "TestEqual(TEXT(\"successorlivesetuppreservesoriginalroomclock\"),Tick,Scenario.SuccessfulStartTick())"
+    ]
+  },
+  "cpp_parser": "all three files parse after Unreal declaration/scope-exit normalization",
+  "zero_input_body": "byte-identical to frozen delta50 native verifier",
+  "host_tests": "23 passed in v2; Python unchanged since v2",
+  "unreal_validation": "not run locally; protected EC2 compile/runtime required",
+  "baseline_native_sha256": "aae9e6555d91c6a476da3e2f4d6a35500968c59696b230180d3e8d98fe55c649"
+}

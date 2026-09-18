@@ -1,0 +1,36 @@
+{
+  "python_modules_compiled": 19,
+  "host_unittests": "17 passed",
+  "cpp_parser": "passed after Unreal declaration/scope-exit macro normalization",
+  "ue_compile_or_runtime": "not run locally; protected EC2 operator required",
+  "draft_original_assertions": 278,
+  "preserved_non_start_assertion_expressions": 274,
+  "accepted_start_assertions_moved_to_latent_helper": [
+    "start establishes initialized active match",
+    "start widget creates actual active match",
+    "competitive start establishes initialized match",
+    "successor starts through organizer control"
+  ],
+  "additional_assertions": {
+    "host widget connection available after preparation": 1,
+    "fighter widget connection available after preparation": 1,
+    "viewer widget connection available after preparation": 1,
+    "widget controls recreated after preparation travel": 1,
+    "host reauthentication has current acknowledged membership": 1,
+    "fighter reauthentication has current acknowledged membership": 1,
+    "viewer reauthentication has current acknowledged membership": 1,
+    "host reauthentication restores reserved role": 1,
+    "fighter reauthentication restores reserved role": 1,
+    "viewer reauthentication restores reserved role": 1,
+    "host reauthentication preserves current seat": 1,
+    "fighter reauthentication preserves current seat": 1
+  },
+  "approved_zero_input_test_body": "all assertions preserved; exact changes limited to current-world lookup, allowing pending actor ticks, and immediate interruption for synchronous success",
+  "preserved_archives": {
+    "zero-input-start-review.zip": "aaca834d9c30d4a9a825fa620ccce8188fcbe91c88deb9a5f47285c67b153e19",
+    "pending-start-compatibility-review.zip": "913c8eb7ecf315149141c3a2485213fbc3daf403bb5278df24484b5a2f7a8bd9",
+    "pending-start-latent-compatibility-review-v2.zip": "76395e6fb29f9f50ed29c943afcac830f93ee4bad0d32ae39b6668d75be5c0ec",
+    "pending-start-latent-compatibility-review-v3.zip": "a8f151a730013f47751cc371456410d897e61e1dd3842d2b04d7e1cf5916a54b"
+  },
+  "v4_refresh": "Documentation/mapping only; every C++/Python code member byte-identical to approved v3"
+}

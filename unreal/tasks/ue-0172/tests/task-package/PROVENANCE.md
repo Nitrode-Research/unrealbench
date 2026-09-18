@@ -1,0 +1,135 @@
+# Foundations game restoration triplet
+
+All three references use contractor commit
+`5833ed10d285238c58a1c268d9a7f89d3ee78698` from
+https://github.com/hammadfozi/foundations_ue, through the frozen UE0163 filtered
+snapshot. Source-data revision is `b4ac4409ea4fdfccd2e7f741a1f32874b50e0d1b`.
+Original source worktree status was clean at extraction. UE0156's compatibility
+composition is not used as the new reference. UE0157's older gameplay package is
+verifier evidence only, not a solution overlay. No gameplay repair was performed.
+
+## Snapshot adaptations, identical in all corresponding references
+
+Reuse UE0163's documented local-only input acquisition, exact-hash newline repair,
+Python/editor plugins, installed-engine targets, blank default startup and
+filtered assets. Output namespace moves uniformly to `/Game/Task0170` in all three
+packages so they restore exactly the same game. Completed source maps/meshes,
+generated definitions and hidden fixtures are absent from every solver start.
+Original authored EntryGate, LoadingDocks and PortFixture maps, their original
+Environment/Materials and native Audio kit are added from the same clean source.
+These prototype maps are protected authored inputs, not completed outputs of the
+source-scene importer. Source/Environment output directories are omitted.
+
+No raw Characters/animation, pose grids, Mixamo FBX or original FMOD recording
+inventory is added. Licensed pose evaluator, optional native audio adapter and
+shader support remain supplied code; the existing primitive character fallback
+is retained. No binary shader rewrite, alternate engine or mock gameplay is added.
+Retain original source notices; inclusion here is not new legal clearance.
+
+## Exact split
+
+170 removes A union B.171 removes only A and supplies B.172 removes only B and
+supplies A. `removal-manifest.json` records every body/hunk with source offsets,
+reference/stub hashes, partition and physical nonblank/noncomment LOC. Root
+authoring `partition-manifest.json` proves disjoint sets and the complete union.
+Each package is standalone: no runtime sibling/reference imports.
+
+A owns source geometry/layout/authored chain, commands/navigation, character
+runtime, ordinary cable initialization, cameras/locomotion and controller startup,
+input/tick/movement. B owns story JSON/database/interpreter, interactions,
+inventory/session/restore, persistence/world effects and Slate HUD/world hints.
+Shared controller files are split at named methods. Constructors, headers,
+configuration/data and optional licensed presentation adapters remain supplied.
+`protected-functions.json` protects unchanged counterpart methods inside editable
+files; `protected-paths.json` protects other supplied files by SHA256.
+
+LOC includes reference braces/physical code lines in replaced bodies, excludes
+blank/comment-only lines, assets, data and verifier. It is not minimal solution
+size, token count or a difficulty claim. See each removal manifest for exact counts.
+
+## Implemented-game boundary
+
+The playable contractor loop is the two prototype areas and native completion
+panel. The later generated EntryGate source geometry is separately implemented
+but its source-faithful interaction restoration is unfinished. Tests consequently
+require fresh geometry AND one continuous real prototype gameplay route; they do
+not pretend those are the same map. Office, source Outro, tape/settings workflows,
+full source visual parity and unimplemented roadmap features are excluded.
+
+The complete route includes the real submitted controller, characters, chain,
+story engine, interaction actors, inventory, world effects, travel, disk save,
+completed reload and restart. It never seeds progression facts, teleports between
+visits or substitutes solved dependencies. Component tests remain diagnostics.
+Some component fixtures seed state for bounded tests; that is not the whole-game
+gate. The generated world independently probes geometry/navigation/scene-state.
+
+## Fairness and coverage
+
+Campaign audits156/157 were read. New instructions disclose fresh RT gun, low-level
+independent CommandMove versus paired orchestration, following interpolation and
+avoidance endpoints, invalid cable reinitialization retention and narrative-only
+partner waits. Synthetic interaction tests set their own waypoint offsets before
+spawn. Exact route feedback sentences are not asserted. Source story tests guard
+empty event results instead of crashing a stripped implementation. Public
+ACTION_CONTRACT table is generated from the supplied narrative and includes
+participant/inventory/persistence consequences.
+
+Geometry tests reuse frozen0163; progression diagnostics reuse hardened0157 with
+the above scoped fixture changes. Source command/navigation/story/camera rule
+tests use this reference's APIs. New locomotion and full uninterrupted route tests
+cover additional integration. Rendered HUD readback is separately required and
+checks visible content plus pause-state pixel change; it is bounded evidence,
+not comprehensive typography, every button click, every world hint or full image
+parity. Fresh native reference/start, mutation controls and platform validation
+are still required before claiming verifier completeness.
+
+## Execution and interpretation
+
+`verification/verify.py` freezes a clean submission, checks protected inputs,
+runs submitted CPU preparation, builds evaluator-injected native tests, runs
+submitted editor builders, injects expected fixtures after generation, then
+executes separate headless and rendered processes. It rejects missing, duplicate,
+unexpected or incomplete results and crash/ensure markers. Binary success requires
+every declared gate. Partial diagnostics are distinct. CPU/headless-only results
+never become full reward. Compiler/harness errors retain invalid reward for
+attribution rather than silently treating every crash as a model failure.
+
+Current driver targets installed Windows UE5.8. Linux/Harbor port verification is
+not inherited from old tasks or certified here. No native builds, paid solves,
+commits, pushes, registry changes or releases occurred during authoring. All
+Foundations tasks must share one train/evaluation partition; supplying a half
+exposes solutions for its siblings.
+# Reconciled revision — 2026-09-15
+
+This revision preserves the user's concurrent `ALinkSceneLayout::Find` null-world
+guard and iterator cleanup in both start and solution, plus its updated protected
+file hash. The function is supplied in UE0172 and lies outside all 89 B removal
+records across 13 files; those records and the story/progression partition are
+unchanged. The user-authored UE5.8 pointer fixes in the evaluator are retained.
+
+The user's matrix-only `math.isclose(rel_tol=0, abs_tol=1e-12)` collision comparison
+is intentionally retained as a new evaluator revision. It accepts bounded finite
+matrix roundoff while retaining exact counts, shapes, IDs, field sets, and
+nonmatrix policy fields. NaN/infinities fail against the finite fixture. The
+original fixture is retained; no cross-runtime verification claim is made.
+
+Task-local wrapper repairs capture native engine logs explicitly, disable only
+AndroidFileServer for each Windows editor process to prevent generated config
+writes, and distinguish submitted preparation failures from blocked generation.
+Protected integrity checks and all 45 check identities remain intact. Earlier
+native evidence belongs to its recorded input hashes and does not certify this
+combined revision. No canonical gameplay change was authored by the repair worker.
+
+The serial coordinator subsequently validated the exact reconciled package frozen
+at `C:/ub/gr-20260915-02/t172v1`. Both reference and start compiled, generated the
+fresh native scene and completed all 44 preparation/headless groups without
+infrastructure errors. Reference passed 44/44; start passed 25/44 with 19 failures
+in the stripped story/progression systems. Controller/evidence hashes remain in
+`C:/ub/gr-20260915-02/172v1.json`; original failed evidence is retained unchanged.
+
+Publication copies only the validated wrapper and four package metadata files.
+User source, tests, matrix comparison, fixtures and protected/removal manifests
+remain untouched. Full native certification remains false because the rendered
+HUD group has not run on a compatible host. No model calls, full mutation
+campaign, commits, pushes, shared runner changes, or global engine changes were
+part of this repair.

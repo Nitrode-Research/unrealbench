@@ -1,0 +1,67 @@
+[
+  {
+    "name": "SM_JA_CombatTerrace",
+    "triangles": 972,
+    "collision": "box"
+  },
+  {
+    "name": "SM_JA_MoonGate",
+    "triangles": 17724,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_Pagoda",
+    "triangles": 40028,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_Balustrade",
+    "triangles": 2220,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_Lantern",
+    "triangles": 5816,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_LotusBrazier",
+    "triangles": 1492,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_SpiritObelisk",
+    "triangles": 1842,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_BlossomTree",
+    "triangles": 10220,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_FloatingCrag",
+    "triangles": 295,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_PrayerBanner",
+    "triangles": 1400,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_GardenTerrace",
+    "triangles": 1188,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_SpiritHalo",
+    "triangles": 2576,
+    "collision": "none"
+  },
+  {
+    "name": "SM_JA_CelestialCyclorama",
+    "triangles": 128,
+    "collision": "none"
+  }
+]

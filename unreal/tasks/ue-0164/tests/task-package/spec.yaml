@@ -1,0 +1,277 @@
+task_id: ue_task_0164
+title: "Facility escape —"
+tier: hard
+instruction: "Implement the native gameplay for an immersive sim set inside a powered facility. The player should be able to manipulate power and machinery, collect tools, bypass security, climb and hide, escape through the MainGate or ServiceTunnel, and start a new attempt. Read `/project/gdd.md` before coding. It describes the game systems, their interactions, acceptance scenarios and editable files. Implement both facility simulation and player systems in the supplied architecture. Keep the existing headers, APIs, components, maps and assets intact. Use local builds and tests to check your work; submit only changes to the listed implementation files."
+files_to_edit:
+- Source/ScifiSimEscape/Climbing/ClimbComponent.cpp
+- Source/ScifiSimEscape/Facility/FacilityRules.cpp
+- Source/ScifiSimEscape/Facility/FacilityStateSubsystem.cpp
+- Source/ScifiSimEscape/FacilityDevices/AlarmConsole/FacilityAlarmConsole.cpp
+- Source/ScifiSimEscape/FacilityDevices/Camera/FacilityCamera.cpp
+- Source/ScifiSimEscape/FacilityDevices/CoolantValve/FacilityCoolantValve.cpp
+- Source/ScifiSimEscape/FacilityDevices/Crate/FacilityCrate.cpp
+- Source/ScifiSimEscape/FacilityDevices/Door/FacilityDoor.cpp
+- Source/ScifiSimEscape/FacilityDevices/Exit/FacilityExit.cpp
+- Source/ScifiSimEscape/FacilityDevices/FacilityActorBase.cpp
+- Source/ScifiSimEscape/FacilityDevices/FacilityDeviceBase.cpp
+- Source/ScifiSimEscape/FacilityDevices/Fan/FacilityFan.cpp
+- Source/ScifiSimEscape/FacilityDevices/Flood/FacilityFlood.cpp
+- Source/ScifiSimEscape/FacilityDevices/GateController/FacilityGateController.cpp
+- Source/ScifiSimEscape/FacilityDevices/Generator/FacilityGenerator.cpp
+- Source/ScifiSimEscape/FacilityDevices/Hatch/FacilityHatch.cpp
+- Source/ScifiSimEscape/FacilityDevices/HidingSpot/FacilityHidingSpot.cpp
+- Source/ScifiSimEscape/FacilityDevices/Ladder/FacilityLadder.cpp
+- Source/ScifiSimEscape/FacilityDevices/Lift/FacilityLift.cpp
+- Source/ScifiSimEscape/FacilityDevices/Lift/FacilityLiftCallPanel.cpp
+- Source/ScifiSimEscape/FacilityDevices/Light/FacilityLight.cpp
+- Source/ScifiSimEscape/FacilityDevices/LightZone/FacilityLightZone.cpp
+- Source/ScifiSimEscape/FacilityDevices/PanelSwitch.cpp
+- Source/ScifiSimEscape/FacilityDevices/Pickup/FacilityPickup.cpp
+- Source/ScifiSimEscape/FacilityDevices/RoutingPanel/FacilityRoutingSwitch.cpp
+- Source/ScifiSimEscape/FacilityDevices/ServerRack/FacilityServerRack.cpp
+- Source/ScifiSimEscape/InteractionSystem/InteractableComponent.cpp
+- Source/ScifiSimEscape/InteractionSystem/InteractorComponent.cpp
+- Source/ScifiSimEscape/ScifiSimEscapeCharacter.cpp
+- Source/ScifiSimEscape/ScifiSimEscapeGameMode.cpp
+- Source/ScifiSimEscape/Stealth/StealthComponent.cpp
+tests:
+  runner: ue_automation
+  mode: editor
+  num_clients: 0
+  filter: GameEngineBench.UE0164
+  suites:
+  - name: behavioral
+    filter: GameEngineBench.UE0164
+    command_line: {}
+hidden_requirements:
+  P152_R1:
+    text: Initialize configured defaults and clock; maintain live versus registration-time state and preserve registrations,
+      progress, actor identity and cleanup.
+    category: lifecycle
+  P152_R2:
+    text: Subsystem actions preserve pure-rule outcomes and event ordering, including noisy failed hacks, quiet
+      bookkeeping, unconditional reset events and synchronous listener reentry.
+    category: events
+  P152_R3:
+    text: Pickups register settings, grant an item only once, update visibility before ordered callbacks and restore
+      on reset; inventory changes affect door access and forcing.
+    category: integration
+  P152_R4:
+    text: Doors preserve obstacle/prompt/hack behavior and constant-speed authored-pose motion, reversal, changed-only
+      arrival and reset snapping.
+    category: integration
+  P152_R5:
+    text: Breakers mirror actual breaker positions and third-breaker trips while generator backup, expiry and pry-driven
+      overload affect powered actors; notifications and prompts track those distinctions.
+    category: integration
+  P152_R6:
+    text: Lift and panel calls/hacks share logical state immediately, preserve hacked/power/lockdown refusal and
+      elevator parking, and complete or redirect visual trips with ordered arrivals.
+    category: integration
+  P152_R7:
+    text: Routing options register under a shared panel, honor powered hack eligibility and handheld upgrades, keep
+      one patch, restore displaced homes and expose current option state.
+    category: integration
+  P152_R8:
+    text: Pump/flood registration and configured stepping couple fan drainage, valve state, shorting, failed-open
+      doors, corrosion and one-shot escape/reset.
+    category: integration
+  P152_R9:
+    text: Fan overlap damage is live-state based and independent of spin; speed ramps, authored rotation, light
+      routing, reset and subscription cleanup remain coherent.
+    category: integration
+  P152_R10:
+    text: Flood surface and water transforms match logical targets, damage gates use current power, occupant activation
+      catches existing overlaps and damage-triggered reset remains safe.
+    category: integration
+  P152_R11:
+    text: Restore console command dispatch/parsing and repeated positive-interval world clock updates using the
+      same configured state stepping.
+    category: lifecycle
+  P153_R1:
+    text: Effective display updates are idempotent; owned eligible overlays preserve distinct originals, update
+      availability live and clean up.
+    category: core_logic
+  P153_R2:
+    text: In-range camera-forward focus routes real hacks; blockers retain proximity highlighting; restart, stop
+      and destroyed target cleanup are idempotent.
+    category: core_logic
+  P153_R3:
+    text: Climb input clamps and consumes once, sweeps against a hatch, exits only when both exit sweeps permit,
+      restores movement; hatch reversal preserves its current pose and reset remains coherent.
+    category: core_logic
+  P153_R4:
+    text: Ladder tracking permits replacement without exclusivity, detaches listeners and cleans tracked or invalid-ladder
+      climbs without stale state.
+    category: core_logic
+  P153_R5:
+    text: Stealth queries use live priority, horizontal threshold, effective facility lighting including backup
+      power and overlap membership; duplicate/expired membership and reentrant notifications are safe.
+    category: core_logic
+  P153_R6:
+    text: Camera pan obeys endpoints and power; player entry and resumed watching report once; callback ordering,
+      reset and cleanup suppress duplicate sightings.
+    category: core_logic
+  P153_R7:
+    text: Underleveled gate hacking returns state change without bypass; upgrade opens eligible gate; powered alarm
+      console lowers exactly one level and rejects quiet/unpowered actions.
+    category: core_logic
+  P153_R8:
+    text: Crate quiet transport, powered/pry gating, logical motion, immediate drop damage and reset differ correctly;
+      repeated/nested notifications never repeat edge effects.
+    category: core_logic
+  P158_R1:
+    text: Initialize only scalar attempt defaults; preserve routing/registrations/inventory/configuration/escape,
+      first-wins registrations and absent query/no-op semantics.
+    category: core_logic
+  P158_R2:
+    text: Separate breaker positions from effective power; enforce two-of-three trips, short refusal, immediate
+      automatic door/elevator settlement and registration-order independence.
+    category: core_logic
+  P158_R3:
+    text: Respect alternate credentials, obstacle precedence, powered nongate hacks, permanent force and controller-driven
+      noisy gate settlement.
+    category: core_logic
+  P158_R4:
+    text: Calls preserve known-lift/same-stop semantics; hacks are capability gated; hacked/power/lockdown precedence
+      and elevator parking remain coherent.
+    category: core_logic
+  P158_R5:
+    text: Inventory and pickup semantics compose with handheld levels and camera power, lighting, drive removal
+      and persistent looping.
+    category: core_logic
+  P158_R6:
+    text: Validate and normalize jobs, require the registered powered panel, distinguish failed hack events from
+      route success, and displace/undo one patch while preserving home.
+    category: core_logic
+  P158_R7:
+    text: Generator duration, expiry, effective delivery, overload prerequisites, permanent disable and surviving
+      breaker operation match the contract.
+    category: core_logic
+  P158_R8:
+    text: Noise, failed hacks, decay and consoles preserve visible-change return values, quiet bookkeeping, saturation
+      and configured thresholds.
+    category: core_logic
+  P158_R9:
+    text: Flood aging, nonresetting reflood, fan-drain precedence, valve feed, shorts, named-door corrosion and
+      water lethality compose correctly.
+    category: core_logic
+  P158_R10:
+    text: Pump failures/success/drain reuse and rack prerequisites, once-only smoke/fire/flood and alarm floor preserve
+      observable semantics.
+    category: core_logic
+  P158_R11:
+    text: Crates move, ride or drop on distinct conditions/effects; escape requirements and once-only completion
+      respect unavailable LoadingDock.
+    category: core_logic
+  P158_R12:
+    text: Independent copied states support routing/generator/flood/settlement/corrosion/escape compositions; generator
+      expiry precedes flood decisions and alarm decay.
+    category: integration
+  E2E:
+    text: Submitted rules, coordinator, actors, player input, and escape lifecycle work together across access/escape/reset
+      and sabotage/traversal routes.
+    category: integration
+test_requirements:
+  GameEngineBench.UE0164.Subsystem152.RegistryAndPersistence:
+  - P152_R1
+  - P152_R3
+  - P152_R4
+  GameEngineBench.UE0164.Subsystem152.PickupAccessAndDoorMotion:
+  - P152_R2
+  - P152_R3
+  - P152_R4
+  GameEngineBench.UE0164.Subsystem152.BreakersGeneratorAndBlackout:
+  - P152_R3
+  - P152_R5
+  GameEngineBench.UE0164.Subsystem152.LiftCallsHackingAndParking:
+  - P152_R2
+  - P152_R6
+  GameEngineBench.UE0164.Subsystem152.RoutingDisplacementAndUpgrade:
+  - P152_R2
+  - P152_R3
+  - P152_R7
+  GameEngineBench.UE0164.Subsystem152.PumpDrainageShortingAndCorrosion:
+  - P152_R1
+  - P152_R4
+  - P152_R8
+  GameEngineBench.UE0164.Subsystem152.FanDamageRampAndCleanup:
+  - P152_R1
+  - P152_R9
+  GameEngineBench.UE0164.Subsystem152.FloodSurfaceAndLiveDamage:
+  - P152_R2
+  - P152_R10
+  GameEngineBench.UE0164.Subsystem152.AtomicNotificationsAndReset:
+  - P152_R1
+  - P152_R2
+  - P152_R3
+  - P152_R5
+  GameEngineBench.UE0164.Subsystem152.ConsoleAndWorldClock:
+  - P152_R1
+  - P152_R11
+  GameEngineBench.UE0164.Subsystem153.01.PresentationLifecycle:
+  - P153_R1
+  GameEngineBench.UE0164.Subsystem153.02.FocusHackAndCleanup:
+  - P153_R2
+  GameEngineBench.UE0164.Subsystem153.03.LadderHatchTraversal:
+  - P153_R3
+  GameEngineBench.UE0164.Subsystem153.04.ClimberReplacementAndLifetime:
+  - P153_R4
+  GameEngineBench.UE0164.Subsystem153.05.StealthLightingAndOverlapLifetime:
+  - P153_R5
+  GameEngineBench.UE0164.Subsystem153.06.CameraSightingsAndPower:
+  - P153_R6
+  GameEngineBench.UE0164.Subsystem153.07.GateOverrideAndAlarmRecovery:
+  - P153_R7
+  GameEngineBench.UE0164.Subsystem153.08.CrateTransportDropAndReset:
+  - P153_R8
+  GameEngineBench.UE0164.Subsystem158.RegistrationAndSeeds:
+  - P158_R1
+  GameEngineBench.UE0164.Subsystem158.PowerAndSettlement:
+  - P158_R2
+  GameEngineBench.UE0164.Subsystem158.AccessAndForcing:
+  - P158_R3
+  - P158_R8
+  GameEngineBench.UE0164.Subsystem158.LiftHackAndParking:
+  - P158_R4
+  GameEngineBench.UE0164.Subsystem158.InventoryAndCameras:
+  - P158_R5
+  GameEngineBench.UE0164.Subsystem158.RoutingSinglePatch:
+  - P158_R6
+  GameEngineBench.UE0164.Subsystem158.GeneratorLifecycle:
+  - P158_R7
+  GameEngineBench.UE0164.Subsystem158.AlarmActionResults:
+  - P158_R8
+  GameEngineBench.UE0164.Subsystem158.FloodCorrosionAndDrain:
+  - P158_R9
+  GameEngineBench.UE0164.Subsystem158.RackSabotageAndPump:
+  - P158_R10
+  GameEngineBench.UE0164.Subsystem158.CratesAndEscapes:
+  - P158_R11
+  GameEngineBench.UE0164.Subsystem158.IntegratedRouteAndClock:
+  - P158_R12
+  - P158_R2
+  - P158_R6
+  - P158_R7
+  - P158_R8
+  - P158_R9
+  - P158_R11
+  GameEngineBench.UE0164.EndToEnd.PlayerUpgradeGateEscapeReset:
+  - E2E
+  GameEngineBench.UE0164.EndToEnd.PowerStealthSabotageReset:
+  - E2E
+  GameEngineBench.UE0164.EndToEnd.CharacterLadderInputAndRelease:
+  - E2E
+  GameEngineBench.UE0164.EndToEnd.TunnelThresholdRechecksLiveFans:
+  - E2E
+metadata:
+  source_solution_commit: 8c720a7e4fc145bf5e525f012f5d7df355c21b7e
+  engine_version: '5.8'
+  triplet_family: sse-0164-0166
+  half: full
+  expected_test_count: 34
+  verifier_status: authored_native_validation_pending
+  calibration_status: not_run
+  score_policy: 'verify.py: fraction of required behavioral groups; strict success requires all'
+  protected_manifest: PROTECTED_PATHS.json
+  release_ready: false

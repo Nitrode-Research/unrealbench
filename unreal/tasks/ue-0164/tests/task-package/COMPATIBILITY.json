@@ -1,0 +1,20 @@
+[
+  {
+    "path": "Config/DefaultEngine.ini",
+    "upstream_sha256": "eae22f57dc3c5d5f78f8f8d27419a2f2b706a09d9acef5d8c9e1a0c1d5efb071",
+    "packaged_sha256": "b471e4144d23decb6eadcf63a816d23b534e66fb9defed0f1fef3cfed978b30c",
+    "reason": "installed-engine target compatibility or removal of Android debug-server credentials"
+  },
+  {
+    "path": "Source/ScifiSimEscape.Target.cs",
+    "upstream_sha256": "b11d0e2a214ef17dff6725854fbba337bce9b46b251c655ccf7ce78ee2884f3a",
+    "packaged_sha256": "5fd2a2e42b5eb032b0392959ba3611a728c50c554d2a036dd61c6ff5169b0c67",
+    "reason": "installed-engine target compatibility or removal of Android debug-server credentials"
+  },
+  {
+    "path": "Source/ScifiSimEscapeEditor.Target.cs",
+    "upstream_sha256": "27cb5bd70522848b41411a97b1e008310703ae48ce7b83dc9c225446d3841a0a",
+    "packaged_sha256": "2fb854f8389ec0a5d3a5e9df7a1dddf782835e25063863fd91925342281ce5b7",
+    "reason": "installed-engine target compatibility or removal of Android debug-server credentials"
+  }
+]

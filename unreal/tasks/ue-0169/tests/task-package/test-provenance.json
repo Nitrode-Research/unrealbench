@@ -1,0 +1,128 @@
+[
+  {
+    "file": "GameHealthTests.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\mint\\.task-worktrees\\game-triplets\\rts\\GameHealthTests.cpp",
+    "source_sha256": "3c609d1b7ed889157ad0fe2758839b41158d659f3642cd8a8299bc6500ab16e2",
+    "adapted_sha256": "6c7346745599f355b114589e7cb7ac9ef333097007fb3ceeacf3a2b9fd6c9a1f"
+  },
+  {
+    "file": "RTSMilestone1CameraTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone1\\RTSMilestone1CameraTest.cpp",
+    "source_sha256": "9fb64334ddf2ead58b14e8e29ee8eb00ee71d69110c70986d087c0f5ec832dc0",
+    "adapted_sha256": "a852134828086596ce119495261b272e974d3e44edc591971e46a22022eaad2f"
+  },
+  {
+    "file": "RTSMilestone1SelectionTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone1\\RTSMilestone1SelectionTest.cpp",
+    "source_sha256": "6c4c4b3c0eb65db5b1ec14e4c76d0471d2ebb124ce278b22a801c81e453a5694",
+    "adapted_sha256": "301072c85e395b1acaa1205288ba80136d442a21c92850efdb430f76e00adb06"
+  },
+  {
+    "file": "RTSMilestone1PIEPossessionTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone1\\RTSMilestone1PIEPossessionTest.cpp",
+    "source_sha256": "f23db2bfa9f52055189b11b09480b0e89fd5fde514b44221e3f237cc42154443",
+    "adapted_sha256": "ce34323a60713b3bf9d5949981aa794d9c55a1ef4f85243e15e8b49ec5d77e06"
+  },
+  {
+    "file": "RTSMilestone2DeploymentTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone2\\RTSMilestone2DeploymentTest.cpp",
+    "source_sha256": "5549635c08a80cb785bd94f1977910855e111bf5eb9e6e70a168cf0712abd236",
+    "adapted_sha256": "d7ee30d72801bf7bf108d59eec027f9e4d5ee86e9d2a0dabe1d2eabf31c08c35"
+  },
+  {
+    "file": "RTSMilestone2EconomyTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone2\\RTSMilestone2EconomyTest.cpp",
+    "source_sha256": "a8c480adc1eecfe3f08ee42cbd36da8223a23b92df2a72587cda1cc039e5982d",
+    "adapted_sha256": "33e2e35caf50fd6e2b3ff7593645e6caf09809ce61bd76ad93fd46291312046f"
+  },
+  {
+    "file": "RTSMilestone2PlacementTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone2\\RTSMilestone2PlacementTest.cpp",
+    "source_sha256": "8eefa1740340aa7d764af556918517368eeae0258f2089a28a5b667e9a4c688e",
+    "adapted_sha256": "7a6c72a6e9d7ce9e91621c8e5ae8d325091f67671f9cb3930b71497e211fdc61"
+  },
+  {
+    "file": "RTSMilestone2ProductionTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone2\\RTSMilestone2ProductionTest.cpp",
+    "source_sha256": "f8d07296b7447326e292aba0e883922d6bdaf8862ab151db529a5e9721677c29",
+    "adapted_sha256": "041f9d0479fda905a83cd8bdaae6b30eb2aac2ce5c481298efcb83611244a026"
+  },
+  {
+    "file": "RTSMilestone2StructurePathingTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone2\\RTSMilestone2StructurePathingTest.cpp",
+    "source_sha256": "de06f26910c8d07b3ff87d994a88f18cc786bf196de6c124750ceaf0b742d871",
+    "adapted_sha256": "87f2db92b55fe1ed623818991290a289105cf3bf93dff543763b7687300b948b"
+  },
+  {
+    "file": "RTSMilestone3AIDeploymentTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone3\\RTSMilestone3AIDeploymentTest.cpp",
+    "source_sha256": "8da503916212acca2df0af205682d8501048ee0d5a5792965eb06dd7bea3bf6d",
+    "adapted_sha256": "fe7fee3c79671544df6edf70e8fa5b1abae409ff98d2e77b66d016f4f2e63a63"
+  },
+  {
+    "file": "RTSMilestone3AIEconomyTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone3\\RTSMilestone3AIEconomyTest.cpp",
+    "source_sha256": "a5518dbe8d719d29e71909d7d6fe42486be6674382df266a0e2ae461d2f6d5b7",
+    "adapted_sha256": "4d37bae38bcb34a75840311c0df9e9097dbde81d8a978154742fc265c11760ae"
+  },
+  {
+    "file": "RTSMilestone3AITacticsTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone3\\RTSMilestone3AITacticsTest.cpp",
+    "source_sha256": "75dbdbe3502380bc9100a274bfba1e140f0bef1e01f4a4a312ecca0e4053d9b0",
+    "adapted_sha256": "4a263e9a7106d779cd1f48e66a71b8bbd2fce35fd8b5ef12d73af72f788d4f0c"
+  },
+  {
+    "file": "RTSMilestone3MatchTuningTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\RTS\\Source\\RTSTests\\Private\\Milestone3\\RTSMilestone3MatchTuningTest.cpp",
+    "source_sha256": "70d088b9e5a0089871bc97fa9eb8f8a2c52c5360aeace539705d75a083c22583",
+    "adapted_sha256": "9fb31ccfada0042d61a4a775ad523b9c9c355565e46b001ad78c1aaed573925c"
+  },
+  {
+    "file": "OrdersCombatTests.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\unrealbench\\tasks_unreal\\ue_task_0159_rts_orders_combat\\tests\\OrdersCombatTests.cpp",
+    "source_sha256": "a372fb9145ce09fdefb7c483d69d6c92ad98f55a0b2f8d234ea05a2a99c530d4",
+    "adapted_sha256": "1b148fc5b4239006e28f8ca32e3f59ec2d77692e34d1b16e8cf5e31414708140"
+  },
+  {
+    "file": "ResourcesReclaimMatchTests.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\unrealbench\\tasks_unreal\\ue_task_0160_rts_resources_reclaim_match\\tests\\ResourcesReclaimMatchTests.cpp",
+    "source_sha256": "bdd1c7991bb1dbb52bd05f74eb7c61dd24fbb142338741f38143068b141b16b6",
+    "adapted_sha256": "5910311d95961f2f8083a7bf9c0c7b6b9cd6dc705968ab2ec241e9ee19c693ba"
+  },
+  {
+    "file": "Task0161HUDRenderedTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\unrealbench\\tasks_unreal\\ue_task_0161_rts_interface_overlays\\tests\\Task0161HUDRenderedTest.cpp",
+    "source_sha256": "f3fcadef652f622cd555ac3b77a33a02e2019bcd485ee3baa2004e56192ecee4",
+    "adapted_sha256": "d274193f9e67fe3c7b36409b0c8b84a3c21a9253833e4cdf451f80a855548d8d"
+  },
+  {
+    "file": "Task0161HUDTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\unrealbench\\tasks_unreal\\ue_task_0161_rts_interface_overlays\\tests\\Task0161HUDTest.cpp",
+    "source_sha256": "5dbf3ee91bc1b3581f7135e60bb03313f927bdd8d67cee2fbfb3976b1e0466a7",
+    "adapted_sha256": "fc1394cf826de6c5255aa423861ee390144d5f24cc40edec9dbec4ffa02c625d"
+  },
+  {
+    "file": "Task0161InteractionTests.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\unrealbench\\tasks_unreal\\ue_task_0161_rts_interface_overlays\\tests\\Task0161InteractionTests.cpp",
+    "source_sha256": "11a61a08f225a45e97c370c0588aa3ce5a8f52124dd8bead9beebae8c8d8e2d9",
+    "adapted_sha256": "f7274be7235c2f09f0b42d31180f91f42872db98f19a2d878b08bb38508b2a4d"
+  },
+  {
+    "file": "Task0161OverlayRenderTests.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\unrealbench\\tasks_unreal\\ue_task_0161_rts_interface_overlays\\tests\\Task0161OverlayRenderTests.cpp",
+    "source_sha256": "141ff7073df4c5638ce7ead7156ddaaf4eed06f60412dc732d19bec52de1f6a4",
+    "adapted_sha256": "b0cd805e5f62dfc5ee43c24b46d5a3f3b38aeead0e7fa961c9b9109d1c2c17b6"
+  },
+  {
+    "file": "Task0161OverlayTest.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\unrealbench\\tasks_unreal\\ue_task_0161_rts_interface_overlays\\tests\\Task0161OverlayTest.cpp",
+    "source_sha256": "3ad75a0349175dba10e8e84d0e6f7d512935c0e3df40b53f15394550139067f7",
+    "adapted_sha256": "b647200f452c9dc8e9f4a59baa4493a125f641abdf7462435e3def6c1565c702"
+  },
+  {
+    "file": "EffectsAudioTests.cpp",
+    "source": "C:\\Users\\Administrator\\Documents\\unrealbench\\tasks_unreal\\ue_task_0162_rts_effects_audio\\tests\\EffectsAudioTests.cpp",
+    "source_sha256": "2acbfdef200bb3b8399b5fce00f5fe838917335e3b872c73d37cfd198b92a829",
+    "adapted_sha256": "7a12a5868360efa27a82a521bd8285da7fc29ad2086487a2709f6c40bcd9607e"
+  }
+]

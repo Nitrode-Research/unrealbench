@@ -1,0 +1,32 @@
+name: Validate portable benchmark
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package-and-regrade-smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install pinned uv
+        shell: bash
+        run: |
+          python3 -m venv "$RUNNER_TEMP/uv"
+          "$RUNNER_TEMP/uv/bin/pip" install 'uv==0.12.13'
+          echo "$RUNNER_TEMP/uv/bin" >> "$GITHUB_PATH"
+      - name: Install locked environment
+        run: uv sync --locked
+      - name: Check all task packages
+        run: uv run --locked python scripts/check_website_tasks.py
+      - name: Check Docker host
+        run: uv run --locked python -m scripts.harbor_local check
+      - name: Run credential-free oracle and native regrade smoke
+        run: uv run --locked python -m scripts.harbor_local smoke --output jobs/ci-smoke

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/brianyla/unrealbench",
+  "commit": "1ff51f9695b8bc0220296bd0f861f3e6f80c988d",
+  "source_task": "ue_task_0134_nse_combo_discovery",
+  "source_files": {
+    "spec.yaml": "d2588949d7d6097fcd4796cbcb41b7e6cbec755cd130e7b31316f826025e8c0f",
+    "tests/NSE025Tests.cpp": "4d2dd9bd54cf45957207e9feb67187a1e1af2bbc2ab495b5d6ba716551b03726"
+  },
+  "adaptations": [
+    "Linux Vulkan flags replace Windows D3D flags",
+    "Harbor verifier runs every declared suite"
+  ]
+}

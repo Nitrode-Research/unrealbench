@@ -1,0 +1,99 @@
+{
+  "project": "NightSkyEngine",
+  "target": "NightSkyEngineEditor",
+  "module": "NightSkyEngineDemo",
+  "protected": [
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelayFixture.h",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/RelayFixture.cpp",
+    "RELAY_INTERFACE.md"
+  ],
+  "suites": [
+    {
+      "name": "reward",
+      "filter": "NightSky.Relay",
+      "expected": [
+        "NightSky.Relay.AsymmetricHitstopClocks",
+        "NightSky.Relay.CameraAllocationRestore",
+        "NightSky.Relay.ComboOwnershipAndPromotedRecovery",
+        "NightSky.Relay.ContactKOPromotesSurvivor",
+        "NightSky.Relay.DeepFrozenQueue",
+        "NightSky.Relay.EligibilityBoundaries",
+        "NightSky.Relay.EqualStatSlotRelabeling",
+        "NightSky.Relay.ExactBoundaries",
+        "NightSky.Relay.FreezeEdgesAndRecovery",
+        "NightSky.Relay.FreezeMetamorphicCombat",
+        "NightSky.Relay.FrozenArrivalOrder",
+        "NightSky.Relay.GuardedContactAndWhiff",
+        "NightSky.Relay.IndependentTeams",
+        "NightSky.Relay.KOCancellationScope",
+        "NightSky.Relay.MixedCombatRollbackFuzz",
+        "NightSky.Relay.OverlappingProjectileCancellation",
+        "NightSky.Relay.OverlayPaintsTeams",
+        "NightSky.Relay.OverlayReflectsRolesAndStatus",
+        "NightSky.Relay.ParticipantKOPhaseMatrix",
+        "NightSky.Relay.PublicButtonBinding",
+        "NightSky.Relay.RecoveryConservation",
+        "NightSky.Relay.RejectedEntryConditions",
+        "NightSky.Relay.ResourceExhaustion",
+        "NightSky.Relay.RollbackContinuation",
+        "NightSky.Relay.RouteCommandEdges",
+        "NightSky.Relay.SampleSlotSelection",
+        "NightSky.Relay.SeededLifecycle",
+        "NightSky.Relay.SimultaneousElimination",
+        "NightSky.Relay.StrikeInterruptsExposedReserve",
+        "NightSky.Relay.StrikePhaseMatrix",
+        "NightSky.Relay.TeamTimeoutAndInputLock",
+        "NightSky.Relay.ThrowInterruption",
+        "NightSky.Relay.ThrowPhaseMatrix",
+        "NightSky.Relay.TrainingResetAllPhases"
+      ],
+      "flags": [
+        "-Unattended",
+        "-CrashForUAT",
+        "-NullRHI",
+        "-NoSplash",
+        "-NumClients=0",
+        "-ListenServer",
+        "-sm5",
+        "-AllowSoftwareRendering",
+        "-nosound"
+      ]
+    },
+    {
+      "name": "peers",
+      "filter": "NightSkyIntegration.Relay.GGPOPeers",
+      "expected": [
+        "NightSkyIntegration.Relay.GGPOPeers"
+      ],
+      "flags": [
+        "-Unattended",
+        "-CrashForUAT",
+        "-NullRHI",
+        "-NoSplash",
+        "-NumClients=0",
+        "-ListenServer",
+        "-nosound"
+      ]
+    },
+    {
+      "name": "rendered",
+      "filter": "NightSkyIntegration.Relay.RenderedSample",
+      "expected": [
+        "NightSkyIntegration.Relay.RenderedSample"
+      ],
+      "flags": [
+        "-Unattended",
+        "-CrashForUAT",
+        "-NoSplash",
+        "-NumClients=0",
+        "-ListenServer",
+        "-AllowSoftwareRendering",
+        "-sm5",
+        "-RenderOffScreen",
+        "-vulkan",
+        "-nosound"
+      ]
+    }
+  ],
+  "original_tests": []
+}

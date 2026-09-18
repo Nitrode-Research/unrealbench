@@ -1,0 +1,8 @@
+// World-space asphalt variation. Source-authoritative body embedded by import_environment.py.
+float2 p = WorldPosition.xy * 0.01;
+float grain = frac(sin(dot(floor(p * 70.0), float2(127.1,311.7))) * 43758.5453);
+float broad = frac(sin(dot(floor(p * 0.4), float2(73.17,91.63))) * 15731.743);
+float2 cell = abs(frac(p / 6.0 + 0.5) - 0.5) * 6.0;
+float seam = 1.0 - smoothstep(0.014,0.032,min(cell.x,cell.y));
+float3 asphalt = float3(0.072,0.084,0.095) * (0.90 + 0.18 * grain + 0.06 * broad);
+return lerp(asphalt,asphalt * 0.48,seam);

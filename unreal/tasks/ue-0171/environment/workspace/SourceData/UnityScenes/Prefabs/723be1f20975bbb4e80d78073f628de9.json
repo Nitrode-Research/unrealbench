@@ -1,0 +1,1581 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Player/Prefab/Player.prefab",
+  "guid": "723be1f20975bbb4e80d78073f628de9",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+      "transformId": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:0",
+      "parent": null,
+      "name": "Player",
+      "path": "0:Player",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 6,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+                "name": "Player",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player/0:ChainTarget:component:0",
+                "name": "ChainTarget",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:1",
+          "type": "UnityEngine.CapsuleCollider",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+                "name": "Player",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LayerOverridePriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTrigger",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProvidesContacts",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Radius",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Height",
+              "kind": "Float",
+              "value": 2.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Direction",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Center",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ],
+          "collider": {
+            "enabled": true,
+            "isTrigger": false,
+            "material": null,
+            "center":[0.0,0.0,0.0],
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        },
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:2",
+          "type": "UnityEngine.AI.NavMeshAgent",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+                "name": "Player",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AgentTypeID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Radius",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Speed",
+              "kind": "Float",
+              "value": 3.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Acceleration",
+              "kind": "Float",
+              "value": 8.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "avoidancePriority",
+              "kind": "Integer",
+              "value": 50,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularSpeed",
+              "kind": "Float",
+              "value": 720.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StoppingDistance",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoTraverseOffMeshLink",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoBraking",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoRepath",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Height",
+              "kind": "Float",
+              "value": 2.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_BaseOffset",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_WalkableMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ObstacleAvoidanceType",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:3",
+          "type": "UnityEngine.Rigidbody",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+                "name": "Player",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mass",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Drag",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularDrag",
+              "kind": "Float",
+              "value": 0.05000000074505806,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CenterOfMass",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_InertiaTensor",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_InertiaRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImplicitCom",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImplicitTensor",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_UseGravity",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsKinematic",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Interpolate",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Constraints",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CollisionDetection",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:4",
+          "type": "Player.PlayerController",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+                "name": "Player",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-1eb18abed5ee4bb585cfad00e2dde09c-11500000-0",
+                "name": "PlayerController",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/PlayerController.cs",
+                "guid": "1eb18abed5ee4bb585cfad00e2dde09c",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "Other",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "Config",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-74b20a78b90c2d847bdaa3ceb262eace-11400000-0",
+                "name": "PlayerConfig",
+                "type": "Player.PlayerConfig",
+                "assetPath": "Assets/Player/PlayerConfig.asset",
+                "guid": "74b20a78b90c2d847bdaa3ceb262eace",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "Type",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "ChainTarget",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player/0:ChainTarget:component:1",
+                "name": "ChainTarget",
+                "type": "UnityEngine.Rigidbody",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "CommandAction",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "Fact.InternalID",
+              "kind": "Integer",
+              "value": -124344911,
+              "prefabOverride": false
+            },
+            {
+              "path": "ItemFact.InternalID",
+              "kind": "Integer",
+              "value": -1848183240,
+              "prefabOverride": false
+            },
+            {
+              "path": "PresenceFact.InternalID",
+              "kind": "Integer",
+              "value": -1848183240,
+              "prefabOverride": false
+            },
+            {
+              "path": "_id.ChunkId",
+              "kind": "String",
+              "value": "00000000000000000000000000000000",
+              "prefabOverride": false
+            },
+            {
+              "path": "_id.ObjectId",
+              "kind": "String",
+              "value": "7182595737060933988-0",
+              "prefabOverride": false
+            },
+            {
+              "path": "InteractSound.Event",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-a8a5b322d268f91479193a90fffc224f-11400000-0",
+                "name": "InteractionEnterEvent",
+                "type": "Audio.Events.FMODEvent",
+                "assetPath": "Assets/Audio/Events/Dialogue/InteractionEnterEvent.asset",
+                "guid": "a8a5b322d268f91479193a90fffc224f",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "EnterDialogueSound.Event",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-b7729e8999b074a449fa60ba6a91d86d-11400000-0",
+                "name": "DialogueEnterEvent",
+                "type": "Audio.Events.FMODEvent",
+                "assetPath": "Assets/Audio/Events/Dialogue/DialogueEnterEvent.asset",
+                "guid": "b7729e8999b074a449fa60ba6a91d86d",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "FootstepAudio.Event",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0fa7e7320843cd54fb6156720238ecdc-11400000-0",
+                "name": "FootstepEvent",
+                "type": "Audio.Events.FMODEvent",
+                "assetPath": "Assets/Audio/Events/FootstepEvent.asset",
+                "guid": "0fa7e7320843cd54fb6156720238ecdc",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "StepSpeedParam",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-834e8cfbffcb49c4c9687e27f68353bd-11400000-0",
+                "name": "SpeedParameter",
+                "type": "Audio.Parameters.FMODParameter",
+                "assetPath": "Assets/Audio/Parameters/SpeedParameter.asset",
+                "guid": "834e8cfbffcb49c4c9687e27f68353bd",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "StepSurfaceParam",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-9614dbc22482f5d41b934e7831f99daa-11400000-0",
+                "name": "SurfaceParameter",
+                "type": "Audio.Parameters.FMODParameter",
+                "assetPath": "Assets/Audio/Parameters/SurfaceParameter.asset",
+                "guid": "9614dbc22482f5d41b934e7831f99daa",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "StepCharacterParam",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-2548bcfab98c734469e5da6fc6ab87de-11400000-0",
+                "name": "CharacterParameter",
+                "type": "Audio.Parameters.FMODParameter",
+                "assetPath": "Assets/Audio/Parameters/CharacterParameter.asset",
+                "guid": "2548bcfab98c734469e5da6fc6ab87de",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "StepFocusParam",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-e2e3fd3add94ce24bafbc76c3843fa18-11400000-0",
+                "name": "FocusParameter",
+                "type": "Audio.Parameters.FMODParameter",
+                "assetPath": "Assets/Audio/Parameters/FocusParameter.asset",
+                "guid": "e2e3fd3add94ce24bafbc76c3843fa18",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:5",
+          "type": "Player.States.FollowState",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+                "name": "Player",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-3495f6833c2444ebb16cf28555b378c1-11500000-0",
+                "name": "FollowState",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/States/FollowState.cs",
+                "guid": "3495f6833c2444ebb16cf28555b378c1",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "TargetRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "TightDistance",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:6",
+          "type": "Player.States.IdleState",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+                "name": "Player",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-7e9755b316b0408fb73410038b2d6dc5-11500000-0",
+                "name": "IdleState",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/States/IdleState.cs",
+                "guid": "7e9755b316b0408fb73410038b2d6dc5",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "TargetRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:7",
+          "type": "Player.States.InteractState",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+                "name": "Player",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-c7baf4c831e44de49cd5465739185619-11500000-0",
+                "name": "InteractState",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/States/InteractState.cs",
+                "guid": "c7baf4c831e44de49cd5465739185619",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "TargetRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "_bundle",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-5fbd4547a65c8bb408e316186c88a582-11400000-0",
+                "name": "GameplaySettingsBundle",
+                "type": "Settings.Bundles.GameplaySettingsBundle",
+                "assetPath": "Assets/Settings/Bundles/GameplaySettingsBundle.asset",
+                "guid": "5fbd4547a65c8bb408e316186c88a582",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:8",
+          "type": "Player.States.NavigateState",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+                "name": "Player",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-3a041780c2604e57ae3b77649a4a0354-11500000-0",
+                "name": "NavigateState",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/States/NavigateState.cs",
+                "guid": "3a041780c2604e57ae3b77649a4a0354",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "TargetRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player/0:ChainTarget",
+      "transformId": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player/0:ChainTarget:component:0",
+      "parent": {
+        "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player",
+        "name": "Player",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "ChainTarget",
+      "path": "0:Player/0:ChainTarget",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,-0.6,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,-0.6,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,-0.6,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,-0.6,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player/0:ChainTarget:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player/0:ChainTarget",
+                "name": "ChainTarget",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,-0.6,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player:component:0",
+                "name": "Player",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player/0:ChainTarget:component:1",
+          "type": "UnityEngine.Rigidbody",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player/0:ChainTarget",
+                "name": "ChainTarget",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mass",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Drag",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularDrag",
+              "kind": "Float",
+              "value": 0.05000000074505806,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CenterOfMass",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_InertiaTensor",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_InertiaRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImplicitCom",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImplicitTensor",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_UseGravity",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsKinematic",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Interpolate",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Constraints",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CollisionDetection",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player/0:ChainTarget:component:2",
+          "type": "UnityEngine.ConfigurableJoint",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:723be1f20975bbb4e80d78073f628de9:0:Player/0:ChainTarget",
+                "name": "ChainTarget",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConnectedBody",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConnectedArticulationBody",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Anchor",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Axis",
+              "kind": "Vector3",
+              "value":[1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoConfigureConnectedAnchor",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConnectedAnchor",
+              "kind": "Vector3",
+              "value":[0.0,1.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SecondaryAxis",
+              "kind": "Vector3",
+              "value":[0.0,1.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_XMotion",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_YMotion",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ZMotion",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularXMotion",
+              "kind": "Enum",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularYMotion",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularZMotion",
+              "kind": "Enum",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LinearLimitSpring.spring",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LinearLimitSpring.damper",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LinearLimit.limit",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LinearLimit.bounciness",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LinearLimit.contactDistance",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularXLimitSpring.spring",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularXLimitSpring.damper",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LowAngularXLimit.limit",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LowAngularXLimit.bounciness",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LowAngularXLimit.contactDistance",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_HighAngularXLimit.limit",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_HighAngularXLimit.bounciness",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_HighAngularXLimit.contactDistance",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularYZLimitSpring.spring",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularYZLimitSpring.damper",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularYLimit.limit",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularYLimit.bounciness",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularYLimit.contactDistance",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularZLimit.limit",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularZLimit.bounciness",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularZLimit.contactDistance",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TargetPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TargetVelocity",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_XDrive.positionSpring",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_XDrive.positionDamper",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_XDrive.maximumForce",
+              "kind": "Float",
+              "value": 3.4028232635611926E+38,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_XDrive.useAcceleration",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_YDrive.positionSpring",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_YDrive.positionDamper",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_YDrive.maximumForce",
+              "kind": "Float",
+              "value": 3.4028232635611926E+38,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_YDrive.useAcceleration",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ZDrive.positionSpring",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ZDrive.positionDamper",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ZDrive.maximumForce",
+              "kind": "Float",
+              "value": 3.4028232635611926E+38,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ZDrive.useAcceleration",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TargetRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TargetAngularVelocity",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RotationDriveMode",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularXDrive.positionSpring",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularXDrive.positionDamper",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularXDrive.maximumForce",
+              "kind": "Float",
+              "value": 3.4028232635611926E+38,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularXDrive.useAcceleration",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularYZDrive.positionSpring",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularYZDrive.positionDamper",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularYZDrive.maximumForce",
+              "kind": "Float",
+              "value": 3.4028232635611926E+38,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AngularYZDrive.useAcceleration",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SlerpDrive.positionSpring",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SlerpDrive.positionDamper",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SlerpDrive.maximumForce",
+              "kind": "Float",
+              "value": 3.4028232635611926E+38,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SlerpDrive.useAcceleration",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProjectionMode",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProjectionDistance",
+              "kind": "Float",
+              "value": 0.10000000149011612,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProjectionAngle",
+              "kind": "Float",
+              "value": 180.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConfiguredInWorldSpace",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SwapBodies",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_BreakForce",
+              "kind": "Float",
+              "value": "Infinity",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_BreakTorque",
+              "kind": "Float",
+              "value": "Infinity",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnableCollision",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnablePreprocessing",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MassScale",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConnectedMassScale",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

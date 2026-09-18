@@ -1,0 +1,212 @@
+task_id: ue_task_0125
+title: Composable match modifiers
+tier: hard
+instruction: |
+  # Composable match modifiers
+
+  Build an authorable match-modifier system in NightSkyEngine. Designers must be able to create independent rules, configure several before a match, and play their combination locally and online. Include damage, meter, movement and victory rules, their setup validation and an in-game display of active rule names and remaining simulation frames. Supply a playable preset combining the four rules below, with authoring controls for the behavior below.
+
+  - Each definition has a stable, case-sensitive ASCII identifier, revision, integer priority, optional exclusive groups and activation intervals identified by round number, start frame and duration, or round end. Round numbers start at one. Frame zero is the first playable step; frames advance through hitstop and superfreeze, but not pause, introductions or round results. Intervals are start-inclusive and end-exclusive; remaining frames include the displayed frame. Ending rules cease before starting rules take effect, before that frame's gameplay. Each round ends all intervals; rematch restarts the configured schedule and rule state. Author-requested deactivation takes effect before the next playable step.
+  - Apply rules by ascending priority, then identifier in ASCII order, independent of selection/registration order. Reject duplicate definition identifiers, missing definitions/revisions, invalid numeric parameters, negative starts, nonpositive durations and overlapping intervals for the same identifier or shared exclusive group before accepting battle input. Name the offending rules and reason. Validate conflicts across the whole schedule, including future rounds. Online peers must agree on the exact definitions and configuration before starting; mismatch blocks play with a reason.
+  - Damage rules transform the nonnegative integer damage remaining after ordinary combat scaling, before health loss. Authored operations support adding a signed integer, multiplying by a nonnegative rational with positive denominator, and canceling. Clamp damage to zero after each operation and round multiplication down. Cancellation stops later handlers and discards that damage event and its pending child events: no health loss or damage-derived meter gain. Contact reactions remain ordinary. Otherwise ordinary damage-derived meter uses transformed damage, except converted damage grants neither participant these gains. Conversion still debits the victim and does not cancel authored children. Clamp each committed meter change to the ordinary meter bounds.
+  - Authored damage and meter rules may produce either kind of child event. Commit children after the accepted parent, including its ordinary meter gains or conversion debit. The observable order is parent, then each child and its descendants in emission order. For an accepted damage event, commit its health change and both ordinary damage-derived meter changes, or its conversion debit, before executing any authored descendant emitted while processing that event or those meter changes. Then execute authored children and their descendants depth first in emission order. Children use the same ordered handlers. A rule affects an event at most once along each parent-to-descendant chain. Meter handlers may also cancel, preventing the meter change and children. Canceled parents emit no children. Removing a modifier removes its live owned attacks/statuses and pending effects before further gameplay, without undoing committed health/meter changes or deleting another owner's effects. Overlapping movement restrictions remain until their last owner ends.
+  - Ship configurable resource drain, subtracting a nonnegative amount from both teams' meter at each active frame's start; damage conversion, replacing a victim's health damage with an equal meter debit without spilling into health; movement restriction, suppressing new walk/dash/jump commands while preserving existing momentum, knockback and attacks; and sudden death, awarding the round to the sole side inflicting positive committed health damage that frame. If both sides do so, draw; if neither does, ordinary victory rules apply. Evaluate victory after all that frame's events. Conversion follows damage transforms and precedes health commit; drain follows activation and precedes combat.
+
+  For damage caused by attacker A to victim V, both ordinary damage-derived meter events retain A as their source; their recipients are V and A respectively. A conversion debit likewise retains the damage event's source and targets its victim. Every authored child inherits its parent event's source, including ChildDamage, which uses that source as its ordinary damage attacker. Unless ToAttacker is true, a child targets its parent event's recipient; ToAttacker targets the inherited source. Receiving meter or selecting a child target does not change source attribution.
+
+  Save the immutable configuration and required rule revisions with replays, and reject unavailable or incompatible definitions explicitly. Rewinding across activation, cancellation, expiry or round transitions must reconstruct gameplay, owned effects and rule durations. Corrected online play and replay must reproduce confirmed health, meter, movement, round results and rule displays without duplicated effects. Expiry restores ordinary behavior immediately; rounds and rematches leave no stale rule state.
+
+  The supported numeric domain consists of authored parameters and incoming event amounts representable by their published public field types, with every required final public value also representable after the specified gameplay clamps. Intermediate arithmetic is mathematical and need not fit those field types: apply only the stated flooring and zero clamps, without overflow, wraparound or additional saturation. Final health and meter commits retain ordinary engine bounds. Configurations or event sequences requiring unrepresentable final public values are outside scope.
+files_to_edit:
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/MatchModifiers.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/MatchModifiers.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/ReplayInfo.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Network/NetworkPawn.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Network/NetworkPawn.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/UI/NightSkyModifierWidget.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/UI/NightSkyModifierWidget.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/UI/ModifierSetupWidget.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/UI/ModifierSetupWidget.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Misc/RandomManager.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/FighterRunners/FighterReplayRunner.cpp
+hidden_requirements:
+  R1:
+    text: Ordered damage transforms, ASCII priority tie-breaking and per-operation clamping.
+    category: core_logic
+  R2:
+    text: Conversion suppresses both ordinary meter gains and preserves authored children.
+    category: core_logic
+  R3:
+    text: A rule affects each event at most once along a parent-to-descendant chain; cancellation discards that event and its pending descendants.
+    category: core_logic
+  R4:
+    text: Children complete depth first with branch-local cancellation and per-commit meter clamping.
+    category: core_logic
+  R5:
+    text: Validate all scheduled rounds and exclusive-group conflicts.
+    category: core_logic
+  R6:
+    text: Frame durations, next-step deactivation and gameplay checkpoint/restore outcomes.
+    category: core_logic
+  R7:
+    text: Arithmetic follows the declared operation order, flooring and clamping independently of registration or selection order.
+    category: core_logic
+  R8:
+    text: Ordinary fighter contacts apply the active composed damage rules.
+    category: core_logic
+  R9:
+    text: Persist replay configuration and reject unavailable or changed revisions.
+    category: core_logic
+  R10:
+    text: The playable frame clock advances through hitstop and superfreeze and holds during pause, introductions and round results.
+    category: core_logic
+  R11:
+    text: The four configurable shipped rules compose with their declared activation, conversion, movement, drain and victory behavior.
+    category: core_logic
+  R12:
+    text: Author deactivation removes only owned future attacks and overlapping movement restrictions
+      remain.
+    category: core_logic
+  R13:
+    text: Rollback restores rule clocks and owned effects; a corrected deactivation removes the discarded continuation's future effects.
+    category: core_logic
+  R14:
+    text: Recorded input playback uses the saved immutable modifier configuration and required revisions.
+    category: core_logic
+  R15:
+    text: The in-game display shows active rule names and remaining simulation frames without presentation advancing the rule clock.
+    category: core_logic
+  R16:
+    text: Saved replays reproduce confirmed health, meter, movement, round results, rule durations and owned effects after restart.
+    category: core_logic
+  R17:
+    text: Corrected online play and saved replay reproduce combat and rule lifecycles through nested events, cancellation, round transitions, match results and rematches.
+    category: core_logic
+  R18:
+    text: Incompatible peer rule definitions or configurations block play and identify the offending rule and reason.
+    category: core_logic
+  R19:
+    text: Registration and selection order do not change ordered rule outcomes; pause, rollback and replay preserve the specified gameplay and lifecycle.
+    category: core_logic
+  R20:
+    text: Player-facing authoring and setup controls select rules and timing, reject invalid configurations and provide the configured playable match and rule display.
+    category: core_logic
+  R21:
+    text: Nested damage and meter events preserve ordered handlers, conversion, cancellation and authored deactivation semantics.
+    category: core_logic
+  R22:
+    text: Movement restriction suppresses new walk, dash and jump commands while preserving existing momentum, knockback and attacks; expiry restores ordinary movement.
+    category: core_logic
+  R23:
+    text: Sudden death evaluates positive committed health damage after all frame events, including simultaneous damage. Round transitions and rematches reset the configured rule lifecycle without stale effects, and inactive sudden death leaves ordinary victory rules in force.
+    category: core_logic
+test_requirements:
+  NightSky.Modifiers.Composition:
+  - R1
+  NightSky.Modifiers.ConversionMeterChildren:
+  - R2
+  NightSky.Modifiers.AncestryAndCancellation:
+  - R3
+  NightSky.Modifiers.DepthFirstBranches:
+  - R4
+  NightSky.Modifiers.ScheduleValidation:
+  - R5
+  NightSky.Modifiers.ScheduleAndRollbackState:
+  - R6
+  NightSky.Modifiers.SeededArithmeticEpisodes:
+  - R7
+  NightSky.Modifiers.PlayableContact:
+  - R8
+  NightSky.Modifiers.ReplayContentFidelity:
+  - R9
+  NightSky.Modifiers.PlayableClockPauseFreeze:
+  - R10
+  NightSky.Modifiers.PlayableFourRuleVictory:
+  - R11
+  NightSky.Modifiers.PlayableOwnedAttackCleanup:
+  - R12
+  NightSky.Modifiers.PlayableRollbackOwnedEffects:
+  - R13
+  NightSky.Modifiers.RecordAndReplayRunner:
+  - R14
+  NightSky.Modifiers.SeededBattleRollbackReplay:
+  - R19
+  NightSky.Modifiers.SeededEventInterpreter:
+  - R21
+  NightSky.Modifiers.MovementCommandsAndMomentum:
+  - R22
+  NightSky.Modifiers.SimultaneousVictoryRoundRematch:
+  - R23
+  NightSky.Modifiers.AtomicDamageCommit:
+  - R2
+  - R4
+  - R21
+  NightSky.Modifiers.AuthoringDomain:
+  - R1
+  - R5
+  - R7
+  NightSky.Modifiers.ExactDefinitionAgreement:
+  - R9
+  - R18
+  NightSky.Modifiers.NumericDomain:
+  - R1
+  - R7
+  NightSky.Modifiers.ParentCommitOrderAndOriginalAmount:
+  - R2
+  - R4
+  - R21
+# integration_tests: multiprocess GGPO / subprocess tests. These run by default and are
+# the source of flakiness (child-editor subprocess, loopback UDP peers). They are excluded
+# from the reward filter and run separately as a non-reward gate under the
+# NightSkyIntegration.Modifiers.* filter. Their requirement mappings are preserved here.
+integration_tests:
+  # RenderedRuleDuration does pixel/HUD readback (needs a real RHI; fails under
+  # -NullRHI on a CPU RLVR fleet), so it is eval-only. R15's non-render coverage
+  # remains in the reward set.
+  NightSkyIntegration.Modifiers.RenderedRuleDuration:
+  - R15
+  # SetupSelectionStartsBattle renders the player-setup widget ("render actual
+  # player setup" returns null under -NullRHI), so it is eval-only on a CPU fleet.
+  # R20 (authorable setup-summary display) is therefore eval-only; its reward
+  # coverage was a hollow text-grep anyway (see verifier assessment m15).
+  NightSkyIntegration.Modifiers.SetupSelectionStartsBattle:
+  - R20
+  NightSkyIntegration.Modifiers.FreshProcessReplay:
+  - R16
+  NightSkyIntegration.Modifiers.GGPOConfirmedReplay:
+  - R17
+  NightSkyIntegration.Modifiers.PeerMismatchBlocksPlay:
+  - R18
+tests:
+  runner: ue_automation
+  mode: editor
+  num_clients: 0
+  filter: NightSky.Modifiers
+  command_line:
+    remove_args:
+    - -NullRHI
+    add_args:
+    - -d3d11
+    - -sm5
+    - -AllowSoftwareRendering
+    - -RenderOffScreen
+    - -NoSound
+metadata:
+  source_id: NSE-041
+  reviewed_difficulty: very-hard
+  admission_status: incomplete
+editable_paths:
+- Config
+- Content
+- Source
+- Plugins
+- NightSkyEngine.uproject
+protected_paths:
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures

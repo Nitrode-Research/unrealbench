@@ -1,0 +1,52 @@
+{
+  "project": "NightSkyEngine",
+  "target": "NightSkyEngineEditor",
+  "module": "NightSkyEngineDemo",
+  "protected": [
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures"
+  ],
+  "suites": [
+    {
+      "name": "behavior",
+      "filter": "NightSky.Modifiers",
+      "expected": [
+        "NightSky.Modifiers.AncestryAndCancellation",
+        "NightSky.Modifiers.AtomicDamageCommit",
+        "NightSky.Modifiers.AuthoringDomain",
+        "NightSky.Modifiers.Composition",
+        "NightSky.Modifiers.ConversionMeterChildren",
+        "NightSky.Modifiers.DepthFirstBranches",
+        "NightSky.Modifiers.ExactDefinitionAgreement",
+        "NightSky.Modifiers.MovementCommandsAndMomentum",
+        "NightSky.Modifiers.NumericDomain",
+        "NightSky.Modifiers.ParentCommitOrderAndOriginalAmount",
+        "NightSky.Modifiers.PlayableClockPauseFreeze",
+        "NightSky.Modifiers.PlayableContact",
+        "NightSky.Modifiers.PlayableFourRuleVictory",
+        "NightSky.Modifiers.PlayableOwnedAttackCleanup",
+        "NightSky.Modifiers.PlayableRollbackOwnedEffects",
+        "NightSky.Modifiers.RecordAndReplayRunner",
+        "NightSky.Modifiers.ReplayContentFidelity",
+        "NightSky.Modifiers.ScheduleAndRollbackState",
+        "NightSky.Modifiers.ScheduleValidation",
+        "NightSky.Modifiers.SeededArithmeticEpisodes",
+        "NightSky.Modifiers.SeededBattleRollbackReplay",
+        "NightSky.Modifiers.SeededEventInterpreter",
+        "NightSky.Modifiers.SimultaneousVictoryRoundRematch"
+      ],
+      "flags": [
+        "-Unattended",
+        "-CrashForUAT",
+        "-NoSplash",
+        "-NumClients=0",
+        "-ListenServer",
+        "-sm5",
+        "-AllowSoftwareRendering",
+        "-RenderOffScreen",
+        "-NoSound",
+        "-vulkan"
+      ]
+    }
+  ],
+  "original_tests": []
+}

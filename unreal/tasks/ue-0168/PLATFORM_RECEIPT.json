@@ -1,0 +1,22 @@
+{
+  "task_version": "0.2.1",
+  "reason": "UE5.8 UStaticMeshComponent::GetStaticMesh returns TObjectPtr<UStaticMesh>, which cannot deduce the raw pointer template parameter of FAutomationTestBase::TestNotNull on Linux Clang. Explicitly unwrap with .Get() in both copies of the same native fixture. The non-null mesh assertion, test inventory, lane requirements and score remain unchanged; source receipt, baseline and reference implementation bytes are preserved.",
+  "evidence": "Native Linux UE5.8.2 build.log: EffectsAudioTests.cpp:229 no matching TestNotNull; candidate template could not match const ValueType* against TObjectPtr<UStaticMesh>.",
+  "changes": [
+    {
+      "path": "tests/ue/EffectsAudioTests.cpp",
+      "before": "4cb971219523685122ac9b7cede4dbab88bf6d2383e4ea97d8a07f58e388a344",
+      "after": "5742dc9f84fb07ba3eb71d904e3f7fcb2433a3d3a03eade2d2f8e178ccd04d32"
+    },
+    {
+      "path": "tests/task-package/tests/EffectsAudioTests.cpp",
+      "before": "4cb971219523685122ac9b7cede4dbab88bf6d2383e4ea97d8a07f58e388a344",
+      "after": "5742dc9f84fb07ba3eb71d904e3f7fcb2433a3d3a03eade2d2f8e178ccd04d32"
+    },
+    {
+      "path": "task.toml",
+      "before": "8d3a4de4b147a37b514cebcc4cd3da8612f769fffb5f7e4019c6c94cc2938aa4",
+      "after": "af3e539e90308ce8879f6255d3cad870520256c19a7e6c1dd1ea72544c55b9b4"
+    }
+  ]
+}

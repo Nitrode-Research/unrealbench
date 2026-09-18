@@ -1,0 +1,17 @@
+// The material asset only connects typed scalar inputs to this source-owned renderer. Shape,
+// faction treatment, validity language, and animation remain reviewable here rather than in a graph.
+#ifndef RTS_OVERLAY_PRIMITIVE_USH
+#define RTS_OVERLAY_PRIMITIVE_USH
+
+float4 RTSWorldOverlay(
+	float2 UV,
+	float OverlayMode,
+	float OverlayValidity,
+	float OverlayFaction,
+	float AnimationPhase,
+	float GameTime)
+{
+	return float4(0, 0, 0, 0);
+}
+
+#endif

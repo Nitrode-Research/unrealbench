@@ -1,0 +1,42 @@
+{
+  "project": "NightSkyEngine",
+  "target": "NightSkyEngineEditor",
+  "module": "NightSkyEngineDemo",
+  "protected": [
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures",
+    "REPLAY_INTERFACE.md"
+  ],
+  "suites": [
+    {
+      "name": "behavior",
+      "filter": "UnrealBench.ReplayTakeover",
+      "expected": [
+        "UnrealBench.ReplayTakeover.BoundaryRouting",
+        "UnrealBench.ReplayTakeover.CatchupContinuation",
+        "UnrealBench.ReplayTakeover.CombatBoundary",
+        "UnrealBench.ReplayTakeover.CommonParticleFence",
+        "UnrealBench.ReplayTakeover.DirectBoundaries",
+        "UnrealBench.ReplayTakeover.DirectTakeoverAtomicity",
+        "UnrealBench.ReplayTakeover.EmptyBranchPersistence",
+        "UnrealBench.ReplayTakeover.HeadlessAudioFence",
+        "UnrealBench.ReplayTakeover.HeadlessPresentationFence",
+        "UnrealBench.ReplayTakeover.LifecycleAndRejections",
+        "UnrealBench.ReplayTakeover.MatchCompletion",
+        "UnrealBench.ReplayTakeover.NumericAtomicity",
+        "UnrealBench.ReplayTakeover.PauseAndCommands",
+        "UnrealBench.ReplayTakeover.SeededStateful",
+        "UnrealBench.ReplayTakeover.SourceFreeBattlePersistence"
+      ],
+      "flags": [
+        "-Unattended",
+        "-CrashForUAT",
+        "-NullRHI",
+        "-NoSplash",
+        "-NumClients=0",
+        "-ListenServer",
+        "-nosound"
+      ]
+    }
+  ],
+  "original_tests": []
+}

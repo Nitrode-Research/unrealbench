@@ -1,0 +1,7 @@
+// PaletteEntry row 0 supplies the authored base colour. Further source paint,
+// roughness and specular-row blending remain the A04 material work.
+float3 Encoded=Texture2DSample(Palette,PaletteSampler,float2(UV.x,0.5/32.0)).rgb;
+return float3(
+    Encoded.r<=0.04045 ? Encoded.r/12.92 : pow((Encoded.r+0.055)/1.055,2.4),
+    Encoded.g<=0.04045 ? Encoded.g/12.92 : pow((Encoded.g+0.055)/1.055,2.4),
+    Encoded.b<=0.04045 ? Encoded.b/12.92 : pow((Encoded.b+0.055)/1.055,2.4));

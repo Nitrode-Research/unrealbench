@@ -1,0 +1,20 @@
+schema_version = "1.4"
+artifacts = [{ source = "/project", destination = "project", exclude = [".git", "Binaries", "Intermediate", "Saved", "DerivedDataCache", "node_modules", ".venv", "__pycache__"] }]
+[task]
+name = "Nitrode/regrade-smoke"
+version = "1.0.0"
+description = "Credential-free installation check for recorded artifact replay"
+
+[verifier]
+user = "root"
+environment_mode = "separate"
+timeout_sec = 60
+
+[agent]
+timeout_sec = 60
+
+[environment]
+os = "linux"
+cpus = 1
+memory_mb = 512
+build_timeout_sec = 300

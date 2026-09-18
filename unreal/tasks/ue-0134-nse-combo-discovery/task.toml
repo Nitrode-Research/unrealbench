@@ -1,0 +1,28 @@
+schema_version = "1.4"
+artifacts = [{ source = "/project", destination = "project", exclude = [".git", "Binaries", "Intermediate", "Saved", "DerivedDataCache", "node_modules", ".venv", "__pycache__"] }]
+[task]
+name = "Nitrode/ue-0134-nse-combo-discovery"
+version = "0.1.0"
+description = "Bounded exhaustive combo discovery and playable trials"
+[[task.authors]]
+name = "Nitrode"
+email = "hello@nitrode.com"
+[metadata]
+benchmark = "UnrealBench"
+website_task_id = "ue-0134"
+source_task = "ue_task_0134_nse_combo_discovery"
+source_commit = "1ff51f9695b8bc0220296bd0f861f3e6f80c988d"
+requires_rendering = false
+[verifier]
+user = "root"
+environment_mode = "separate"
+timeout_sec = 14400.0
+collect = []
+[agent]
+timeout_sec = 14400.0
+[environment]
+os = "linux"
+build_timeout_sec = 2400.0
+cpus = 8
+memory_mb = 16384
+storage_mb = 40960

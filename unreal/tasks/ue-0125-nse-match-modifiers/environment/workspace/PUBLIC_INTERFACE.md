@@ -1,0 +1,25 @@
+# Match modifier authoring and controls
+
+Create `FModifierDefinition` values in Blueprint or C++. Identifiers are case-sensitive printable ASCII. Each definition supplies a revision, priority, operations and optional exclusive groups. Operations apply in their listed order and support `Add`, `Multiply`, `Cancel`, `ChildDamage` and `ChildMeter`. A child targets the victim unless `ToAttacker` is true. `MatchAmount` selects the original incoming event amount. `OwnedAttack` names an ordinary object state from the fighter's authored state collection. Activation creates the attack for both teams, and expiry removes those owned instances. `RestrictMovement`, `Drain`, `ConvertDamage` and `SuddenDeath` configure the four shipped behaviors.
+
+`UNightSkyGameInstance.AvailableModifiers` lists installed definitions. `BattleData.Modifiers` holds the selected match configuration. Each schedule entry names a required revision, round, start and duration; duration -1 means round end. `ANightSkyGameState.GetFourRulePreset()` supplies a playable configuration. `ValidateModifierContent` validates selected content and returns a reason. `ModifierSetupError` holds the setup error.
+
+`ANightSkyGameState.ConfigureModifiers` accepts a configuration and a reason output. `DeactivateModifier` requests cleanup before the next playable step. `GetActiveModifiers` returns identifier, name, revision and remaining simulation frames. `GetModifierRejection` returns the setup failure. The battle HUD's `ModifierWidget` displays active names and durations; `GetRenderedRuleText` reads its visible text.
+
+`UModifierSetupWidget` supplies rule selection, round/start/duration controls and a Start match action. Its callable methods are `ConfigureForMatch`, `SetRuleEnabled`, `SetInterval` and `StartSelectedMatch`. `GetSetupSummary` and `GetSetupError` read the displayed summary and error. Alternative internal organization is permitted within the editable project paths.
+
+Use ordinary `UpdateGameState` and `SetPaused` for simulation and pause. Fighter health, positions, meter and the battle round results describe gameplay. Hits enter through the normal collision and `HandleHitAction` path. `AddMeter` and `UseMeter` are ordinary resource operations. `SaveGameState` and `LoadGameState` save and restore a battle checkpoint. `PlayReplayFromBP`, `GetRecordedReplay`, `SaveRecordedReplay` and `HasReplayFrame` provide replay loading, recording, persistence and end-of-input access. Replays must preserve the selected configuration and validate its required definitions.
+
+The reliable `ServerModifierAgreement` and `ClientModifierAgreement` pawn RPCs exchange the selected configuration. `AcceptModifierPeer` validates the peer's configuration before battle begins. The exact storage and dispatch algorithm are implementation choices.
+
+The default `/Game/ModifierFixture/ModifierArena` contains a native playable sample. Run with `-game -ModifierSample`. Arrow keys move or jump; A attacks; A+S selects the alternate attack; D requests deterministic deactivation of Restriction; F plus an arrow dashes; A+G produces knockback; Escape returns to setup. The native fighter and character data demonstrate ordinary authored attacks and persistent replay content. Author deterministic deactivation through the recorded gameplay input path when it must survive replay and correction.
+
+`UState::Init` and `Exec` support native and Blueprint implementations. `ANightSkyPlayerController::Rematch` is the ordinary rematch action; both online players must accept through the owned-pawn handshake.
+
+`GetPlayableRoundFrame` reports the specified playable round clock, starting at zero and holding during pause, introductions and results. `GetCurrentRoundResult` reports the round award as none, player one, player two or draw. These methods expose meanings, not required storage.
+
+`IsOnlineBattleReady` reports whether online gameplay may advance. `GetConfirmedInputFrame` reports the last input frame agreed by the peers, or -1 before confirmation. These observations may be implemented using any transport that preserves the required gameplay and agreement.
+
+For an accepted damage event, commit its health change and both ordinary damage-derived meter changes, or its conversion debit, before executing any authored descendant emitted while processing that event or those meter changes. Then execute authored children and their descendants depth first in emission order.
+
+For damage caused by attacker A to victim V, both ordinary damage-derived meter events retain A as their source; their recipients are V and A respectively. A conversion debit likewise retains the damage event's source and targets its victim. Every authored child inherits its parent event's source, including ChildDamage, which uses that source as its ordinary damage attacker. Unless ToAttacker is true, a child targets its parent event's recipient; ToAttacker targets the inherited source. Receiving meter or selecting a child target does not change source attribution.

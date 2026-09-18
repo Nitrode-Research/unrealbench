@@ -1,0 +1,5 @@
+services:
+  main:
+    build:
+      context: ${CONTEXT_DIR}/..
+      dockerfile: tests/Dockerfile

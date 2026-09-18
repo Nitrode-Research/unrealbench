@@ -1,0 +1,177 @@
+task_id: ue_task_0123
+title: Persistent spectator rooms with delayed DVR and safe player succession
+tier: hard
+instruction: |
+  # Persistent spectator rooms
+
+  Provide a persistent NightSkyEngine room for two fighters, an authenticated organizer and three independent spectators, with player-facing selection and spectator controls. Viewers can join an ongoing battle, navigate delayed playback, restart/reconnect, and remain through selection, stage travel and rematches. Spectators cannot control fighters, alter results or stall combat.
+
+  Room, match and seat assignments have distinct identities. Frame 0 is initialized state; frame n follows n confirmed input pairs. The organizer chooses immutable delay D from 0–600 ticks at creation. Ticks are elapsed 1/60 seconds, including pauses, travel and downtime. Gameplay becomes available D ticks after durable confirmation; frame 0 uses match start. Outcomes use the deciding frame's confirmation for normal completion, accepted disconnect time for fighter interruption, or durable recovery time for authority interruption. Repeated events never reset these times or the terminal frame's original confirmation. Before release show buffering. No spectator input data, presentation, result, metadata or export may reveal unreleased gameplay; membership/selection notices may be immediate.
+
+  Retain the current and two latest finished matches, including interruptions. Viewers seek within 0 through the released edge, pause, resume one frame per 60 Hz playback tick, or follow live at that edge. Join starts there. Rejected requests leave the view unchanged. Reconnect restores retained match/cursor/mode; otherwise show history unavailable until a match is chosen. Match boundaries do not switch selected timelines; expiration stops playback. Seeking restores gameplay without skipped sounds or repeated effects.
+
+  Between matches fighters select characters and the organizer selects the stage. Only the organizer locks/unlocks selection, pauses/resumes combat, offers vacant seats to queued spectators, and starts when both current fighters are ready. Locked changes reject. Combat pause stops simulation and gameplay clocks while room controls and delayed viewing continue. Queue membership is unique and withdrawable. Offer acceptance transfers a seat once; decline preserves spectator role. Departure, reassignment or match start expires offers. Stale/duplicate/wrong-owner inputs cannot affect combat. Fighter departure interrupts at the last confirmed frame and vacates the seat; no mid-match promotion occurs.
+
+  Validate character, stage and gameplay-content revisions before viewing or playing. Missing/mismatched content gives a recoverable diagnostic without disrupting healthy clients. Invalid fighter content blocks readiness/start; correction and retry restore access. Transfers resume without gaps or duplicates. Display role, identities, mode, cursor/bounds, buffering, locks, pause, integrity and recovery status. Divergent history stops that viewer with an integrity error.
+
+  Export complete retained matches only after terminal frame and outcome release; earlier requests report pending. Include pre-join history, configuration/content revisions, participants, confirmed inputs and completed/interrupted outcome. Saved replays survive restart, detect corruption and reproduce offline. Authority restart restores acknowledged membership, locks, queue and completed history; an active match becomes interrupted. Reauthentication restores reserved roles without duplicate owners, and subsequent matches receive new identities.
+
+  A successful start establishes the new match identity, its start time and a reproducible initialized frame 0. Travel or live battle-world setup may still be pending; success does not merely acknowledge a queued start. If a fighter departs or authority recovery occurs after that success and before any input pair is confirmed, retain an interrupted match whose terminal frame is 0 and whose confirmed input history is empty. It remains viewable and exportable under the ordinary retention, content validation and release rules: frame 0 uses the original match start time, and the outcome uses the specified interruption time. Preparing a start may remain pending until a reproducible frame 0 is established; no particular initialization or storage sequence is required.
+
+metadata:
+  source_id: NSE-024
+  estimated_difficulty: very-hard
+  admission_status: incomplete
+hidden_requirements:
+  R1:
+    text: Validate delay and authenticated organizer controls.
+    category: core_logic
+  R2:
+    text: Seat transfer is idempotent and acknowledged membership and locks survive restart.
+    category: core_logic
+  R3:
+    text: Membership and organizer operations preserve authorization and allow healthy clients to continue.
+    category: core_logic
+  R4:
+    text: Confirmed battle history releases after the configured delay and reconstructs the selected gameplay; interruption outcomes retain their own durable release deadlines.
+    category: core_logic
+  R5:
+    text: Fighters, organizer and three independent spectators preserve authorization and delayed playback across reconnects and authority recovery; exported matches reproduce offline.
+    category: core_logic
+  R6:
+    text: Normal completion records the deciding frame and outcome before delayed export. Later matches preserve the room and retain only the current and two latest finished matches, including interruptions.
+    category: core_logic
+  R7:
+    text: A complete retained-match export preserves configuration, content revisions, participants, initial state and confirmed inputs and reproduces the match offline after restart.
+    category: core_logic
+  R8:
+    text: Player-facing room controls support creation, authentication and organizer operations with visible status.
+    category: core_logic
+  R9:
+    text: Confirmed fighter inputs reproduce authoritative combat despite corrected online play; combat pause and confirmed interruption history remain consistent.
+    category: core_logic
+  R10:
+    text: Seeking presents the destination gameplay without skipped sounds or repeated effects; presentation reveals no unreleased gameplay.
+    category: core_logic
+  R11:
+    text: Authority restart preserves acknowledged membership, locks and queue, interrupts an active match and restores usable authenticated room controls without duplicate owners.
+    category: core_logic
+  R12:
+    text: One room persists through selection, stage travel, rematches, content failure and correction, and seat replacement while rejecting stale owners and preserving independent retained views.
+    category: core_logic
+  R13:
+    text: Delayed release, independent cursors, reconnect recovery and healthy fighter progress remain consistent through room operations; spectator viewing and delay do not alter combat.
+    category: core_logic
+test_requirements:
+  NightSky.Room.EndpointWidgets:
+  - R8
+  NightSky.Room.LifecycleAndSeatTransfer:
+  - R1
+  - R2
+  - R4
+  - R6
+  - R9
+  - R12
+  NightSky.Room.FuzzMetamorphicCampaign:
+  - R3
+  - R4
+  - R5
+  - R13
+  NightSky.Room.AuthorityCrashWindows:
+  - R2
+  - R11
+  NightSky.Room.RenderedDVR:
+  - R4
+  - R10
+  NightSky.Room.GGPOPair:
+  - R9
+  NightSky.Room.WidgetControls:
+  - R1
+  - R8
+  NightSky.Room.CreationAndAuthentication:
+  - R1
+  NightSky.Room.SeatSuccessionAndRecovery:
+  - R2
+  NightSky.Room.SeededMembership:
+  - R3
+  NightSky.Room.RealBattleDelayedHistory:
+  - R1
+  - R4
+  - R9
+  NightSky.Room.FreshOfflineReplay:
+  - R4
+  - R7
+  NightSky.Room.CompletedOutcome:
+  - R4
+  - R6
+  NightSky.Room.CombinedLifecycleFuzz:
+  - R2
+  - R3
+  - R4
+  - R5
+  - R6
+  - R12
+  - R13
+  NightSky.Room.SixProcessAuthority:
+  - R13
+  - R3
+  - R1
+  - R2
+  - R4
+  - R5
+  - R7
+  - R11
+  NightSky.Room.OfferOwnershipAndExpiration:
+  - R1
+  - R2
+  - R3
+  NightSky.Room.ZeroInputSuccessfulStartInterruption:
+  - R4
+  - R6
+  - R7
+  - R9
+  - R11
+files_to_edit:
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Network/SpectatorRoom.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Network/SpectatorRoom.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Network/RoomPanel.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyPlayerController.cpp
+- Plugins/NightSkyEngine/Source/GGPOUE4/Private/backends/backend.h
+- Plugins/NightSkyEngine/Source/GGPOUE4/Private/backends/p2p.h
+- Plugins/NightSkyEngine/Source/GGPOUE4/Private/main.cpp
+- Plugins/NightSkyEngine/Source/GGPOUE4/Private/sync.h
+- Plugins/NightSkyEngine/Source/GGPOUE4/Public/include/ggponet.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Actors/ParticleManager.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Actors/ParticleManager.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/FighterRunners/FighterReplayRunner.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Misc/RandomManager.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Network/RoomPanel.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyPlayerController.h
+- Plugins/NightSkyEngine/Source/GGPOUE4/Private/network/udp_proto.cpp
+- Plugins/NightSkyEngine/Source/GGPOUE4/Private/network/udp_proto.h
+tests:
+  runner: ue_automation
+  mode: editor
+  num_clients: 5
+  filter: NightSky.Room
+  command_line:
+    remove_args:
+    - -NullRHI
+    add_args:
+    - -d3d11
+    - -sm5
+    - -AllowSoftwareRendering
+    - -RenderOffScreen
+    - -DeterministicAudio
+editable_paths:
+- Plugins/NightSkyEngine/Source
+- Source
+protected_paths:
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures

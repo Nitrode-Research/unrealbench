@@ -1,0 +1,17 @@
+# Task source receipts and native evidence require byte-stable snapshots.
+unreal/tasks/** -text
+# Shell entry points are executed in Linux containers, including from Windows checkouts.
+*.sh text eol=lf
+examples/regrade-smoke/** text eol=lf
+Dockerfile text eol=lf
+*.Dockerfile text eol=lf
+# This file is compared byte-for-byte with its packaged Linux verifier copies.
+scripts/unreal_website_verifier.py text eol=lf
+# Public instruction hashes are part of the shipped GDD receipts.
+unreal/tasks/*/instruction.md text eol=lf
+# Protected verifier inputs and their image hashes must retain committed bytes.
+unreal/tasks/*/environment/protected/** -text
+unreal/tasks/*/environment/docker-compose.yaml text eol=lf
+# Preserve upstream reference bytes and receipts, including original whitespace.
+unreal/tasks/*/solution/files/** -whitespace
+infra/harbor-pool/packer/files/harbor-pool-bootstrap text eol=lf

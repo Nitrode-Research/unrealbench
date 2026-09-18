@@ -1,0 +1,17 @@
+{
+  "triangles": 95222,
+  "vertices": 50212,
+  "materials": [
+    "AW_01_WovenGraphite",
+    "AW_02_DeepJadeEnamel",
+    "AW_03_IvoryCeramic",
+    "AW_04_ChampagneTitanium",
+    "AW_05_GraphiteGaskets",
+    "AW_06_AetherLight",
+    "AW_07_AubergineTextile"
+  ],
+  "bone_count_including_armature_root": 161,
+  "rig": "root",
+  "design": "Astral Warden: ivory mask, jade enamel, champagne metal, graphite compression suit, aubergine short coat tabs",
+  "source_body": "Existing project SKM_Manny; original rest skeleton and weighted undersuit retained. All armor/mask/tab geometry original."
+}

@@ -1,0 +1,17 @@
+{
+  "task_version": "0.2.1",
+  "reason": "Use Automation RunTests followed by Automation Quit instead of generic -TestExit. The UE5.8 Linux generic exit path force-exited with status1 after every registered oracle check passed. Require an explicit automation completion marker and process status matching native Success/Fail records, while retaining crash detection and exact test inventory checks. No assertions, expected checks, scoring weights, preparation rules, baseline, reference or source receipt bytes changed.",
+  "evidence": "Saved oracle completed5preparation+39headless+1rendered checks with45passed/0failed; both native logs ended FUnixPlatformMisc::RequestExit(1, FEngineLoop::Tick.GScopedTestExit). Existing task172 uses the same explicit automation completion protocol.",
+  "changes": [
+    {
+      "path": "tests/task-package/verification/verify_linux.py",
+      "before": "0d86cf0942c3a752b41ff74361b1ffbbd09ae8edd8cd65e13a54302dec58c6fc",
+      "after": "1d37d1c25b61d7c3a97b16d46ae07eac30b649b3dd746e6c4b4b47b88b8e67f1"
+    },
+    {
+      "path": "task.toml",
+      "before": "10091563c20ffdc1348229aefac8c0db20fdf65485fa5d67727e4e2128f1c4ac",
+      "after": "636276e739e8e4274aca3b1086ee926912e9bffd17c290852f9e2e1136c1f44d"
+    }
+  ]
+}

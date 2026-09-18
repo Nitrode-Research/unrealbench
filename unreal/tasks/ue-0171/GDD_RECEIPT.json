@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/sejoonc/mint",
+  "mint_commit": "2ff8b922b00db8436e707c4e9fae38a1c798ecae",
+  "source": "apps/data/content/tasks/ue-0171",
+  "gdd_sha256": "eb2813ad8d7a250d2d1b1c3cb717e09c68cac2841f746bc025cb5fb39d19a62a",
+  "instruction_sha256": "eba31ef831971eb59aaf7582322821e780f504c955c8ff9f436f7dbe4a7a78b1",
+  "note": "Public brief/GDD revision only. SOURCE_RECEIPT.json retains the original code/test source provenance."
+}

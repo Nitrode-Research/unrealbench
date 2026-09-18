@@ -1,0 +1,18 @@
+{
+  "scoring_revision": "ue-0172-valid-fixtures-v3",
+  "scoring_receipt_sha256": "77cbebb62e7a5a17fe321b94c6dd467b74677720016d82912309b211209890fa",
+  "adaptations": [
+    {
+      "path": "task.toml",
+      "scoring_revision_sha256": "dc8a9560f8fe18273b2e1efa3a17da1f8ad3e71b1617d79f764638ff6d0f4e1a",
+      "release_sha256": "e8222e826b797c28e58fe14dffb3b4975561b7d01af2056de647d7efb2a85841",
+      "reason": "Capture /project artifacts and run the unchanged evaluator in a separate verifier container."
+    },
+    {
+      "path": "environment/protected/gdd.md",
+      "release_sha256": "863e2cfa6bce8bf8f5bbf1d4f41b24158bd7b6a0a4fdd7b2a7ca1175ffdd8a97",
+      "reason": "Synchronize the immutable GDD baseline with the selected scoring revision."
+    }
+  ],
+  "note": "The selected evaluator, fixtures, scoring manifest and reward writer are byte-identical to SCORING_RECEIPT.json. Engine image is pinned separately in the Dockerfiles. Native qualification is recorded separately."
+}

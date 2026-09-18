@@ -1,0 +1,9 @@
+# Provenance
+
+Pinned bla-nitrode/RTS `e888377fe7ab27fe309521cf677f395792ed060d`; coherent curated UE0162 reference plus same-commit authored maps. No source gameplay changes. The existing MSVC local Mesh→PresentationMesh compatibility rename, Engine 5.8 target, removed Android connection token and no-editor/plugin solver snapshot are retained equally. Exact source/test/body hashes are in manifests. No blanket MIT/Fab/license clearance is asserted.
+
+Task 169: 187 bodies, 4377 nonblank/noncomment reference body lines. Not minimum solution LOC. Full=A∪B and A∩B=empty; all three references equal apart from TASK.md. Constructor/typed configuration/delegate/trivial accessor/spatial authoring helper scaffolding remains. Full is complete implemented gameplay restoration inside existing engine architecture, not rewriting engine construction, assets, procedural authoring or unfinished features.
+
+Unlike prior component assembly, final-version Extractor income survives brownout; production/turrets still require Power. Tests inject into editor-only RTSTests with explicit UnrealEd linkage, not runtime RTS. Known HUD Actions[0] crash is guarded after the retained required count assertion. Source-derived five-seed full match driver uses submitted strategy/placement/economy/production/orders/combat/match components without mocked counterpart implementations.
+
+2026-09-15 verifier repair: added the evaluator's direct EnhancedInput link dependency, explicit native log/JSON and terminal-exit completeness accounting, bounded production setup, and guarded brownout queue access. No prior assertion, task requirement, expected-test identity, start/solution gameplay byte, or protected boundary changed. Adapted test hashes use LF-normalized text. Native, rendered, mutation, and Harbor execution of this refreshed package remain outstanding.

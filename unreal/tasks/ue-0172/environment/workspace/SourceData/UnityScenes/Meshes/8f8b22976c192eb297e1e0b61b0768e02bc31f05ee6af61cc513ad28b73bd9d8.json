@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "key": "8f8b22976c192eb297e1e0b61b0768e02bc31f05ee6af61cc513ad28b73bd9d8",
+  "source": {
+    "id": "generated:UnityEngine.Mesh:SceneExportGeneratedMeshFixture",
+    "name": "SceneExportGeneratedMeshFixture",
+    "type": "UnityEngine.Mesh",
+    "assetPath": "",
+    "guid": "00000000000000000000000000000000",
+    "localFileId": 0
+  },
+  "vertexCount": 5,
+  "bounds": {
+    "center":[0.900000036,1.30000007,2.05],
+    "size":[1.6,2.2,3.5]
+  },
+  "vertices": [[0.1,0.2,0.3],[1.7,0.2,0.3],[0.1,2.4,0.3],[0.1,0.2,3.8],[1.7,2.4,3.8]
+  ],
+  "normals": [[0.0,0.0,1.0],[0.0,0.0,1.0],[0.0,0.0,1.0],[0.0,0.0,1.0],[0.0,0.0,1.0]
+  ],
+  "tangents": [],
+  "colors": [[1.0,0.0,0.0,1.0],[0.0,1.0,0.0,1.0],[0.0,0.0,1.0,1.0],[1.0,1.0,1.0,1.0],[0.0,0.0,0.0,1.0]
+  ],
+  "uv": [
+    [[0.0,0.0,0.0,0.0],[1.0,0.0,0.0,0.0],[0.0,1.0,0.0,0.0],[1.0,1.0,0.0,0.0],[0.25,0.75,0.0,0.0]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "submeshes": [
+    {
+      "index": 0,
+      "topology": "Triangles",
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "sourceBaseVertex": 0,
+      "bounds": {
+        "center":[0.900000036,1.30000007,0.3],
+        "size":[1.6,2.2,0.0]
+      }
+    },
+    {
+      "index": 1,
+      "topology": "Triangles",
+      "indices": [
+        0,
+        3,
+        4
+      ],
+      "sourceBaseVertex": 0,
+      "bounds": {
+        "center":[0.900000036,1.30000007,2.05],
+        "size":[1.6,2.2,3.5]
+      }
+    }
+  ],
+  "bindposes": [],
+  "boneWeights": [],
+  "blendShapeCount": 0,
+  "blendShapes": []
+}

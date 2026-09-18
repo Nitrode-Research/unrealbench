@@ -1,0 +1,167 @@
+{
+  "task": 172,
+  "static": {
+    "static_pass": true,
+    "identical_reference_trees": true,
+    "disjoint_halves": true,
+    "complete_is_exact_union": true,
+    "tasks": [
+      {
+        "task": 170,
+        "implementation_loc": 2181,
+        "hunks": 174,
+        "files": 31,
+        "protected_files": 223,
+        "protected_functions": 15,
+        "headless": 39,
+        "rendered": 1,
+        "cpu_preparation": 5
+      },
+      {
+        "task": 171,
+        "implementation_loc": 1273,
+        "hunks": 85,
+        "files": 20,
+        "protected_files": 234,
+        "protected_functions": 17,
+        "headless": 39,
+        "rendered": 1,
+        "cpu_preparation": 5
+      },
+      {
+        "task": 172,
+        "implementation_loc": 908,
+        "hunks": 89,
+        "files": 13,
+        "protected_files": 241,
+        "protected_functions": 21,
+        "headless": 39,
+        "rendered": 1,
+        "cpu_preparation": 5
+      }
+    ],
+    "native_execution": "not run",
+    "native_reward_certified": false
+  },
+  "cpu_reference": {
+    "passed": 5,
+    "failed": 0,
+    "reward": null,
+    "reward_valid": false
+  },
+  "cpu_start": {
+    "passed": 5,
+    "failed": 0,
+    "reward": null,
+    "reward_valid": false
+  },
+  "native_reference": {
+    "passed": 44,
+    "failed": 0,
+    "preparation_passed": 5,
+    "headless_passed": 39,
+    "headless_failed": 0,
+    "failed_groups": [],
+    "infrastructure_errors": [],
+    "blocked_stages": [],
+    "report_sha256": "cb3ee9dee15ce1b53b18a41e1fa0eb9692860b7d4a9e1fe2b773c141fc052325",
+    "raw_automation_sha256": "51403405ad72c16e944a26c26496e73a0e4a70f8b88c99d7481c4eb4e2bb59b7",
+    "output": "C:\\ub\\gr-20260915-02\\172v1r",
+    "controller_exit_code": 2,
+    "stages": {
+      "prepare_entry_terrain.py": {
+        "exit_code": 0,
+        "duration_seconds": 0.172
+      },
+      "prepare_entry_composition.py": {
+        "exit_code": 0,
+        "duration_seconds": 0.375
+      },
+      "compile": {
+        "exit_code": 0,
+        "duration_seconds": 97.469
+      },
+      "generate": {
+        "exit_code": 0,
+        "duration_seconds": 20.609
+      },
+      "headless": {
+        "exit_code": 0,
+        "duration_seconds": 104.61
+      }
+    },
+    "reward": null,
+    "reward_valid": false,
+    "diagnostic_execution_complete": true,
+    "full_required_coverage_complete": false
+  },
+  "native_start": {
+    "passed": 25,
+    "failed": 19,
+    "preparation_passed": 5,
+    "headless_passed": 20,
+    "headless_failed": 19,
+    "failed_groups": [
+      "Task0172.Headless.Integration.ContinuousTwoAreaSaveReload",
+      "Task0172.Headless.Interactions.PresenceReadinessAndInvalidLayout",
+      "Task0172.Headless.Interactions.WaypointAllocationAndRoles",
+      "Task0172.Headless.Progression.Docks.RepeatedEffectsPIE",
+      "Task0172.Headless.Progression.Docks.WorldEffectsPIE",
+      "Task0172.Headless.Progression.Interactions.ApproachAndRolesPIE",
+      "Task0172.Headless.Progression.Interactions.CallOtherArrivalPIE",
+      "Task0172.Headless.Progression.Inventory.SourceActionsPIE",
+      "Task0172.Headless.Progression.Puzzles.EntryGatePIE",
+      "Task0172.Headless.Progression.Puzzles.LoadingDocksPIE",
+      "Task0172.Headless.Progression.Save.ReloadWorldPIE",
+      "Task0172.Headless.Progression.Save.SessionRestoreIsolation",
+      "Task0172.Headless.Progression.Save.VersionedPayload",
+      "Task0172.Headless.Scene.GeneratedComposition",
+      "Task0172.Headless.Story.AuthoredIntroPresenceAndOnce",
+      "Task0172.Headless.Story.DispatchCycleIsBounded",
+      "Task0172.Headless.Story.EffectsDispatchAndMissingReferences",
+      "Task0172.Headless.Story.PinnedContentAndUnityOracle",
+      "Task0172.Headless.Story.ScopesPriorityAndOnce"
+    ],
+    "infrastructure_errors": [],
+    "blocked_stages": [],
+    "report_sha256": "2d6eb8434272aa12404c019c6df7ffb15bc01b2a019c200baa9294efb5e77d24",
+    "raw_automation_sha256": "1a4464c3c64695df4cfc27da3bbd013d5d411e349a4a1e7a4242cb4680a847d3",
+    "output": "C:\\ub\\gr-20260915-02\\172v1s",
+    "controller_exit_code": 2,
+    "stages": {
+      "prepare_entry_terrain.py": {
+        "exit_code": 0,
+        "duration_seconds": 0.156
+      },
+      "prepare_entry_composition.py": {
+        "exit_code": 0,
+        "duration_seconds": 0.375
+      },
+      "compile": {
+        "exit_code": 0,
+        "duration_seconds": 95.625
+      },
+      "generate": {
+        "exit_code": 0,
+        "duration_seconds": 20.031
+      },
+      "headless": {
+        "exit_code": 0,
+        "duration_seconds": 125.578
+      }
+    },
+    "reward": null,
+    "reward_valid": false,
+    "diagnostic_execution_complete": true,
+    "full_required_coverage_complete": false
+  },
+  "rendered": "not_run_incompatible_host",
+  "harbor": "not_run",
+  "revision": "reconciled-v1",
+  "native_execution": "headless_reference_and_start_complete",
+  "native_reward_certified": false,
+  "mutation_campaign": "not_run",
+  "comparison_policy": "intentional_user_matrix_only_abs_tol_1e-12_no_crossruntime_claim",
+  "source_adaptation": "preserved_user_LinkSceneLayout_Find_change_and_existing_protected_hash",
+  "evidence_controller": "C:/ub/gr-20260915-02/172v1.json"
+}

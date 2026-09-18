@@ -1,0 +1,6 @@
+**
+!environment/
+!environment/**
+!tests/
+!tests/**
+**/__pycache__/

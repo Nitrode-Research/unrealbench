@@ -1,0 +1,3861 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/View/Prefabs/PaperSlider.prefab",
+  "guid": "88b7cbca0ce13424d90538cc711aa839",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider",
+      "transformId": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider:component:0",
+      "parent": null,
+      "name": "PaperSlider",
+      "path": "0:PaperSlider",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 5,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider:component:0",
+          "type": "UnityEngine.RectTransform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider",
+                "name": "PaperSlider",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/0:Label:component:0",
+                "name": "Label",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value:component:0",
+                "name": "Value",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[2]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider:component:0",
+                "name": "Slider",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMin",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMax",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchoredPosition",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SizeDelta",
+              "kind": "Vector2",
+              "value":[0.0,3.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Pivot",
+              "kind": "Vector2",
+              "value":[0.5,0.5],
+              "prefabOverride": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/0:Label",
+      "transformId": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/0:Label:component:0",
+      "parent": {
+        "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider",
+        "name": "PaperSlider",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Label",
+      "path": "0:PaperSlider/0:Label",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 5,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[8.5,1.5,0.0],
+      "localRotation":[0.0,3.061474E-17,3.061474E-17,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,-6.122948E-17,6.122948E-17,8.5,6.122948E-17,1.0,1.87452447E-33,1.5,-6.122948E-17,1.87452447E-33,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,-6.122948E-17,6.122948E-17,8.5,6.122948E-17,1.0,1.87452447E-33,1.5,-6.122948E-17,1.87452447E-33,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[8.5,1.5,0.0],
+      "worldRotation":[0.0,3.061474E-17,3.061474E-17,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/0:Label:component:0",
+          "type": "UnityEngine.RectTransform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/0:Label",
+                "name": "Label",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,3.061474E-17,3.061474E-17,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[8.5,1.5,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider:component:0",
+                "name": "PaperSlider",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMin",
+              "kind": "Vector2",
+              "value":[0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMax",
+              "kind": "Vector2",
+              "value":[0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchoredPosition",
+              "kind": "Vector2",
+              "value":[8.5,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SizeDelta",
+              "kind": "Vector2",
+              "value":[17.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Pivot",
+              "kind": "Vector2",
+              "value":[0.5,1.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/0:Label:component:1",
+          "type": "UnityEngine.CanvasRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/0:Label",
+                "name": "Label",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CullTransparentMesh",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/0:Label:component:2",
+          "type": "TMPro.TextMeshProUGUI",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/0:Label",
+                "name": "Label",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-f4688fdb7df04437aeb418b961361dc5-11500000-0",
+                "name": "TextMeshProUGUI",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs",
+                "guid": "f4688fdb7df04437aeb418b961361dc5",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Color",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RaycastTarget",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RaycastPadding",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Maskable",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_text",
+              "kind": "String",
+              "value": "BRIGHTNESS",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isRightToLeft",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontAsset",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-b7523140b9a5af6418be9b7ec9a8b3d1-11400000-0",
+                "name": "RobotoSlab-Regular SDF",
+                "type": "TMPro.TMP_FontAsset",
+                "assetPath": "Assets/Fonts/RobotoSlab-Regular SDF.asset",
+                "guid": "b7523140b9a5af6418be9b7ec9a8b3d1",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_sharedMaterial",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-b7523140b9a5af6418be9b7ec9a8b3d1-576767017963319385-0",
+                "name": "RobotoSlab-Regular SDF Material",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Fonts/RobotoSlab-Regular SDF.asset",
+                "guid": "b7523140b9a5af6418be9b7ec9a8b3d1",
+                "localFileId": 576767017963319385
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSharedMaterials.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontMaterial",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontMaterials.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColor32",
+              "kind": "Color",
+              "value":[0.2627451,0.2509804,0.243137255,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColor",
+              "kind": "Color",
+              "value":[0.2627451,0.2509804,0.243137255,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableVertexGradient",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_colorMode",
+              "kind": "Enum",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.topLeft",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.topRight",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.bottomLeft",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.bottomRight",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradientPreset",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_spriteAsset",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_tintAllSprites",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StyleSheet",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TextStyleHashCode",
+              "kind": "Integer",
+              "value": -1183493901,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_overrideHtmlColors",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_faceColor",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSize",
+              "kind": "Float",
+              "value": 0.60000002384185791,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSizeBase",
+              "kind": "Float",
+              "value": 0.60000002384185791,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontWeight",
+              "kind": "Enum",
+              "value": 400,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableAutoSizing",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSizeMin",
+              "kind": "Float",
+              "value": 18.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSizeMax",
+              "kind": "Float",
+              "value": 72.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontStyle",
+              "kind": "Enum",
+              "value": 17,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_HorizontalAlignment",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_VerticalAlignment",
+              "kind": "Enum",
+              "value": 256,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_textAlignment",
+              "kind": "Enum",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_characterSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_wordSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_lineSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_lineSpacingMax",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_paragraphSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_charWidthMaxAdj",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableWordWrapping",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_wordWrappingRatios",
+              "kind": "Float",
+              "value": 0.40000000596046448,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_overflowMode",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_linkedTextComponent",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "parentLinkedComponent",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableKerning",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableExtraPadding",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "checkPaddingRequired",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isRichText",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_parseCtrlCharacters",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isOrthographic",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isCullingEnabled",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_horizontalMapping",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_verticalMapping",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_uvLineOffset",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_geometrySortingOrder",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTextObjectScaleStatic",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_VertexBufferAutoSizeReduction",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_useMaxVisibleDescender",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_pageToDisplay",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_margin",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isUsingLegacyAnimationComponent",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isVolumetricText",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_hasFontAssetChanged",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_baseMaterial",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_maskOffset",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value",
+      "transformId": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value:component:0",
+      "parent": {
+        "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider",
+        "name": "PaperSlider",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Value",
+      "path": "0:PaperSlider/1:Value",
+      "siblingIndex": 1,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 5,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.5,0.5,0.0],
+      "localRotation":[0.0,3.061474E-17,3.061474E-17,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,-6.122948E-17,6.122948E-17,0.5,6.122948E-17,1.0,1.87452447E-33,0.5,-6.122948E-17,1.87452447E-33,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,-6.122948E-17,6.122948E-17,0.5,6.122948E-17,1.0,1.87452447E-33,0.5,-6.122948E-17,1.87452447E-33,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.5,0.5,0.0],
+      "worldRotation":[0.0,3.061474E-17,3.061474E-17,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value:component:0",
+          "type": "UnityEngine.RectTransform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value",
+                "name": "Value",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,3.061474E-17,3.061474E-17,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.5,0.5,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider:component:0",
+                "name": "PaperSlider",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMin",
+              "kind": "Vector2",
+              "value":[0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMax",
+              "kind": "Vector2",
+              "value":[1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchoredPosition",
+              "kind": "Vector2",
+              "value":[0.5,-1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SizeDelta",
+              "kind": "Vector2",
+              "value":[-0.5,2.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Pivot",
+              "kind": "Vector2",
+              "value":[0.0,1.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value:component:1",
+          "type": "UnityEngine.CanvasRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value",
+                "name": "Value",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CullTransparentMesh",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value:component:2",
+          "type": "TMPro.TextMeshProUGUI",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value",
+                "name": "Value",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-f4688fdb7df04437aeb418b961361dc5-11500000-0",
+                "name": "TextMeshProUGUI",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs",
+                "guid": "f4688fdb7df04437aeb418b961361dc5",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Color",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RaycastTarget",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RaycastPadding",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Maskable",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_text",
+              "kind": "String",
+              "value": "{0}",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isRightToLeft",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontAsset",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-b7523140b9a5af6418be9b7ec9a8b3d1-11400000-0",
+                "name": "RobotoSlab-Regular SDF",
+                "type": "TMPro.TMP_FontAsset",
+                "assetPath": "Assets/Fonts/RobotoSlab-Regular SDF.asset",
+                "guid": "b7523140b9a5af6418be9b7ec9a8b3d1",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_sharedMaterial",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-b7523140b9a5af6418be9b7ec9a8b3d1-576767017963319385-0",
+                "name": "RobotoSlab-Regular SDF Material",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Fonts/RobotoSlab-Regular SDF.asset",
+                "guid": "b7523140b9a5af6418be9b7ec9a8b3d1",
+                "localFileId": 576767017963319385
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSharedMaterials.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontMaterial",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontMaterials.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColor32",
+              "kind": "Color",
+              "value":[0.2627451,0.2509804,0.243137255,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColor",
+              "kind": "Color",
+              "value":[0.2627451,0.2509804,0.243137255,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableVertexGradient",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_colorMode",
+              "kind": "Enum",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.topLeft",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.topRight",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.bottomLeft",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.bottomRight",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradientPreset",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_spriteAsset",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_tintAllSprites",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StyleSheet",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TextStyleHashCode",
+              "kind": "Integer",
+              "value": -1183493901,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_overrideHtmlColors",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_faceColor",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSize",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSizeBase",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontWeight",
+              "kind": "Enum",
+              "value": 400,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableAutoSizing",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSizeMin",
+              "kind": "Float",
+              "value": 18.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSizeMax",
+              "kind": "Float",
+              "value": 72.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontStyle",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_HorizontalAlignment",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_VerticalAlignment",
+              "kind": "Enum",
+              "value": 512,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_textAlignment",
+              "kind": "Enum",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_characterSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_wordSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_lineSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_lineSpacingMax",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_paragraphSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_charWidthMaxAdj",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableWordWrapping",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_wordWrappingRatios",
+              "kind": "Float",
+              "value": 0.40000000596046448,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_overflowMode",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_linkedTextComponent",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "parentLinkedComponent",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableKerning",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableExtraPadding",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "checkPaddingRequired",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isRichText",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_parseCtrlCharacters",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isOrthographic",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isCullingEnabled",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_horizontalMapping",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_verticalMapping",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_uvLineOffset",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_geometrySortingOrder",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTextObjectScaleStatic",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_VertexBufferAutoSizeReduction",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_useMaxVisibleDescender",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_pageToDisplay",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_margin",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isUsingLegacyAnimationComponent",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isVolumetricText",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_hasFontAssetChanged",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_baseMaterial",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_maskOffset",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider",
+      "transformId": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider:component:0",
+      "parent": {
+        "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider",
+        "name": "PaperSlider",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Slider",
+      "path": "0:PaperSlider/2:Slider",
+      "siblingIndex": 2,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 5,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[8.5,0.5,0.0],
+      "localRotation":[0.0,3.061474E-17,3.061474E-17,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,-6.122948E-17,6.122948E-17,8.5,6.122948E-17,1.0,1.87452447E-33,0.5,-6.122948E-17,1.87452447E-33,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,-6.122948E-17,6.122948E-17,8.5,6.122948E-17,1.0,1.87452447E-33,0.5,-6.122948E-17,1.87452447E-33,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[8.5,0.5,0.0],
+      "worldRotation":[0.0,3.061474E-17,3.061474E-17,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider:component:0",
+          "type": "UnityEngine.RectTransform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider",
+                "name": "Slider",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,3.061474E-17,3.061474E-17,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[8.5,0.5,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background:component:0",
+                "name": "Background",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area:component:0",
+                "name": "Fill Area",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider:component:0",
+                "name": "PaperSlider",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMin",
+              "kind": "Vector2",
+              "value":[0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMax",
+              "kind": "Vector2",
+              "value":[0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchoredPosition",
+              "kind": "Vector2",
+              "value":[8.5,-1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SizeDelta",
+              "kind": "Vector2",
+              "value":[17.0,2.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Pivot",
+              "kind": "Vector2",
+              "value":[0.5,1.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider:component:1",
+          "type": "View.Controls.PaperSlider",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider",
+                "name": "Slider",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-9ac3e5033936477285bca467d0096eab-11500000-0",
+                "name": "PaperSlider",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/View/Controls/PaperSlider.cs",
+                "guid": "9ac3e5033936477285bca467d0096eab",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Navigation.m_Mode",
+              "kind": "Enum",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Navigation.m_WrapAround",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Navigation.m_SelectOnUp",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Navigation.m_SelectOnDown",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Navigation.m_SelectOnLeft",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Navigation.m_SelectOnRight",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Transition",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Colors.m_NormalColor",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Colors.m_HighlightedColor",
+              "kind": "Color",
+              "value":[0.9607843,0.9607843,0.9607843,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Colors.m_PressedColor",
+              "kind": "Color",
+              "value":[0.784313738,0.784313738,0.784313738,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Colors.m_SelectedColor",
+              "kind": "Color",
+              "value":[0.9607843,0.9607843,0.9607843,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Colors.m_DisabledColor",
+              "kind": "Color",
+              "value":[0.784313738,0.784313738,0.784313738,0.5019608],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Colors.m_ColorMultiplier",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Colors.m_FadeDuration",
+              "kind": "Float",
+              "value": 0.10000000149011612,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SpriteState.m_HighlightedSprite",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SpriteState.m_PressedSprite",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SpriteState.m_SelectedSprite",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SpriteState.m_DisabledSprite",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnimationTriggers.m_NormalTrigger",
+              "kind": "String",
+              "value": "Normal",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnimationTriggers.m_HighlightedTrigger",
+              "kind": "String",
+              "value": "Highlighted",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnimationTriggers.m_PressedTrigger",
+              "kind": "String",
+              "value": "Pressed",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnimationTriggers.m_SelectedTrigger",
+              "kind": "String",
+              "value": "Selected",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnimationTriggers.m_DisabledTrigger",
+              "kind": "String",
+              "value": "Disabled",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Interactable",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TargetGraphic",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillRect",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill:component:0",
+                "name": "Fill",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_HandleRect",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Direction",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinValue",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MaxValue",
+              "kind": "Float",
+              "value": 100.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_WholeNumbers",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Value",
+              "kind": "Float",
+              "value": 50.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_min",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_max",
+              "kind": "Float",
+              "value": 100.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_default",
+              "kind": "Float",
+              "value": 50.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_step",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_labels.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "_labels.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value:component:2",
+                "name": "Value",
+                "type": "TMPro.TextMeshProUGUI",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_labels.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value:component:2",
+                "name": "Value",
+                "type": "TMPro.TextMeshProUGUI",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_labelMap._entries.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "_labelMap._entries.Array.data[0].Key",
+              "kind": "Float",
+              "value": 50.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_labelMap._entries.Array.data[0].Value",
+              "kind": "String",
+              "value": "Default",
+              "prefabOverride": false
+            },
+            {
+              "path": "_changeSound.Event",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0c6ae4262dce1a7448176a0cecfdba77-11400000-0",
+                "name": "UISliderChangeEvent",
+                "type": "Audio.Events.FMODEvent",
+                "assetPath": "Assets/Audio/Events/UI/UISliderChangeEvent.asset",
+                "guid": "0c6ae4262dce1a7448176a0cecfdba77",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider:component:2",
+          "type": "View.Controls.PaperStyle",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider",
+                "name": "Slider",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-221ada2abc444d23b4a75d495352e67b-11500000-0",
+                "name": "PaperStyle",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/View/Controls/PaperStyle.cs",
+                "guid": "221ada2abc444d23b4a75d495352e67b",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_palette",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-bca954d20e443ef40ba3a1718b406943-11400000-0",
+                "name": "OfficePalette",
+                "type": "View.Office.OfficePalette",
+                "assetPath": "Assets/View/Office/OfficePalette.asset",
+                "guid": "bca954d20e443ef40ba3a1718b406943",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_texts.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "_texts.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/0:Label:component:2",
+                "name": "Label",
+                "type": "TMPro.TextMeshProUGUI",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_texts.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value:component:2",
+                "name": "Value",
+                "type": "TMPro.TextMeshProUGUI",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_underline.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "_underline.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/1:Value:component:2",
+                "name": "Value",
+                "type": "TMPro.TextMeshProUGUI",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_underline.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value:component:2",
+                "name": "Value",
+                "type": "TMPro.TextMeshProUGUI",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_images.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "_images.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background:component:2",
+                "name": "Background",
+                "type": "UnityEngine.UI.Image",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_images.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill:component:2",
+                "name": "Fill",
+                "type": "UnityEngine.UI.Image",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_backgrounds.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider:component:3",
+          "type": "View.Controls.FocusSound",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider",
+                "name": "Slider",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-f15d253ebb0b455c9b557586cd8d814c-11500000-0",
+                "name": "FocusSound",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/View/Controls/FocusSound.cs",
+                "guid": "f15d253ebb0b455c9b557586cd8d814c",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_focusSound.Event",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-87a7bf489cb5afc49af55a4aa7836d66-11400000-0",
+                "name": "UIFocusEvent",
+                "type": "Audio.Events.FMODEvent",
+                "assetPath": "Assets/Audio/Events/UI/UIFocusEvent.asset",
+                "guid": "87a7bf489cb5afc49af55a4aa7836d66",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_blurSound.Event",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background",
+      "transformId": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background:component:0",
+      "parent": {
+        "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider",
+        "name": "Slider",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Background",
+      "path": "0:PaperSlider/2:Slider/0:Background",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 5,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,-1.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,-1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,-6.122948E-17,6.122948E-17,8.5,6.122948E-17,1.0,1.87452447E-33,-0.5,-6.122948E-17,1.87452447E-33,1.0,-1.87452447E-33,0.0,0.0,0.0,1.0],
+      "worldPosition":[8.5,-0.5,-1.87452447E-33],
+      "worldRotation":[0.0,3.061474E-17,3.061474E-17,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background:component:0",
+          "type": "UnityEngine.RectTransform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background",
+                "name": "Background",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,-1.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider:component:0",
+                "name": "Slider",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMin",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMax",
+              "kind": "Vector2",
+              "value":[1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchoredPosition",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SizeDelta",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Pivot",
+              "kind": "Vector2",
+              "value":[0.5,0.5],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background:component:1",
+          "type": "UnityEngine.CanvasRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background",
+                "name": "Background",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CullTransparentMesh",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background:component:2",
+          "type": "UnityEngine.UI.Image",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background",
+                "name": "Background",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-fe87c0e1cc204ed48ad3b37840f39efc-11500000-0",
+                "name": "Image",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.ugui/Runtime/UI/Core/Image.cs",
+                "guid": "fe87c0e1cc204ed48ad3b37840f39efc",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-cee324826696d384e9cdec982f03dfe2-2100000-0",
+                "name": "BoxSDFWorldSpace",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/BoxSDFWorldSpace.mat",
+                "guid": "cee324826696d384e9cdec982f03dfe2",
+                "localFileId": 2100000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Color",
+              "kind": "Color",
+              "value":[0.2627451,0.2509804,0.243137255,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RaycastTarget",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RaycastPadding",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Maskable",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Sprite",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Type",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveAspect",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillCenter",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillMethod",
+              "kind": "Enum",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillAmount",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillClockwise",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillOrigin",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_UseSpriteMesh",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PixelsPerUnitMultiplier",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background:component:3",
+          "type": "View.BoxSDF",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/0:Background",
+                "name": "Background",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-329c7514c4ac4f2682f7d1383021f91b-11500000-0",
+                "name": "BoxSDF",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/View/BoxSDF.cs",
+                "guid": "329c7514c4ac4f2682f7d1383021f91b",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_padding",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_strokeWidth",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_filled",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "_textureStrength",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_dash",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area",
+      "transformId": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area:component:0",
+      "parent": {
+        "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider",
+        "name": "Slider",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Fill Area",
+      "path": "0:PaperSlider/2:Slider/1:Fill Area",
+      "siblingIndex": 1,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 5,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,-1.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,-1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,-6.122948E-17,6.122948E-17,8.5,6.122948E-17,1.0,1.87452447E-33,-0.5,-6.122948E-17,1.87452447E-33,1.0,-1.87452447E-33,0.0,0.0,0.0,1.0],
+      "worldPosition":[8.5,-0.5,-1.87452447E-33],
+      "worldRotation":[0.0,3.061474E-17,3.061474E-17,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area:component:0",
+          "type": "UnityEngine.RectTransform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area",
+                "name": "Fill Area",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,-1.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill:component:0",
+                "name": "Fill",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider:component:0",
+                "name": "Slider",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMin",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMax",
+              "kind": "Vector2",
+              "value":[1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchoredPosition",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SizeDelta",
+              "kind": "Vector2",
+              "value":[-0.599999547,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Pivot",
+              "kind": "Vector2",
+              "value":[0.5,0.5],
+              "prefabOverride": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill",
+      "transformId": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill:component:0",
+      "parent": {
+        "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area",
+        "name": "Fill Area",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Fill",
+      "path": "0:PaperSlider/2:Slider/1:Fill Area/0:Fill",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 5,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[-4.1,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,-4.1,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,-6.122948E-17,6.122948E-17,4.4,6.122948E-17,1.0,1.87452447E-33,-0.5,-6.122948E-17,1.87452447E-33,1.0,2.51040846E-16,0.0,0.0,0.0,1.0],
+      "worldPosition":[4.4,-0.5,2.51040846E-16],
+      "worldRotation":[0.0,3.061474E-17,3.061474E-17,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill:component:0",
+          "type": "UnityEngine.RectTransform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill",
+                "name": "Fill",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[-4.1,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value:component:0",
+                "name": "Value",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area:component:0",
+                "name": "Fill Area",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMin",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMax",
+              "kind": "Vector2",
+              "value":[0.5,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchoredPosition",
+              "kind": "Vector2",
+              "value":[0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SizeDelta",
+              "kind": "Vector2",
+              "value":[0.599999547,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Pivot",
+              "kind": "Vector2",
+              "value":[0.5,0.5],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill:component:1",
+          "type": "UnityEngine.CanvasRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill",
+                "name": "Fill",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CullTransparentMesh",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill:component:2",
+          "type": "UnityEngine.UI.Image",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill",
+                "name": "Fill",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-fe87c0e1cc204ed48ad3b37840f39efc-11500000-0",
+                "name": "Image",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.ugui/Runtime/UI/Core/Image.cs",
+                "guid": "fe87c0e1cc204ed48ad3b37840f39efc",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-cee324826696d384e9cdec982f03dfe2-2100000-0",
+                "name": "BoxSDFWorldSpace",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/BoxSDFWorldSpace.mat",
+                "guid": "cee324826696d384e9cdec982f03dfe2",
+                "localFileId": 2100000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Color",
+              "kind": "Color",
+              "value":[0.2627451,0.2509804,0.243137255,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RaycastTarget",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RaycastPadding",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Maskable",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Sprite",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Type",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveAspect",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillCenter",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillMethod",
+              "kind": "Enum",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillAmount",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillClockwise",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FillOrigin",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_UseSpriteMesh",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PixelsPerUnitMultiplier",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill:component:3",
+          "type": "View.BoxSDF",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill",
+                "name": "Fill",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-329c7514c4ac4f2682f7d1383021f91b-11500000-0",
+                "name": "BoxSDF",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/View/BoxSDF.cs",
+                "guid": "329c7514c4ac4f2682f7d1383021f91b",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_padding",
+              "kind": "Float",
+              "value": 2.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_strokeWidth",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_filled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "_textureStrength",
+              "kind": "Float",
+              "value": 0.20000000298023224,
+              "prefabOverride": false
+            },
+            {
+              "path": "_dash",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill:component:4",
+          "type": "UnityEngine.UI.Mask",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill",
+                "name": "Fill",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-31a19414c41e5ae4aae2af33fee712f6-11500000-0",
+                "name": "Mask",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.ugui/Runtime/UI/Core/Mask.cs",
+                "guid": "31a19414c41e5ae4aae2af33fee712f6",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ShowMaskGraphic",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value",
+      "transformId": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value:component:0",
+      "parent": {
+        "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill",
+        "name": "Fill",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Value",
+      "path": "0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 5,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[-3.89999962,1.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,-3.89999962,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,-6.122948E-17,6.122948E-17,0.5000005,6.122948E-17,1.0,1.87452447E-33,0.5,-6.122948E-17,1.87452447E-33,1.0,4.89835765E-16,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.5000005,0.5,4.89835765E-16],
+      "worldRotation":[0.0,3.061474E-17,3.061474E-17,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value:component:0",
+          "type": "UnityEngine.RectTransform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value",
+                "name": "Value",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[-3.89999962,1.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill:component:0",
+                "name": "Fill",
+                "type": "UnityEngine.RectTransform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMin",
+              "kind": "Vector2",
+              "value":[0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchorMax",
+              "kind": "Vector2",
+              "value":[1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AnchoredPosition",
+              "kind": "Vector2",
+              "value":[0.5,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SizeDelta",
+              "kind": "Vector2",
+              "value":[7.5,2.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Pivot",
+              "kind": "Vector2",
+              "value":[0.0,1.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value:component:1",
+          "type": "UnityEngine.CanvasRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value",
+                "name": "Value",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CullTransparentMesh",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value:component:2",
+          "type": "TMPro.TextMeshProUGUI",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:88b7cbca0ce13424d90538cc711aa839:0:PaperSlider/2:Slider/1:Fill Area/0:Fill/0:Value",
+                "name": "Value",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-f4688fdb7df04437aeb418b961361dc5-11500000-0",
+                "name": "TextMeshProUGUI",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs",
+                "guid": "f4688fdb7df04437aeb418b961361dc5",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Color",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RaycastTarget",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RaycastPadding",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Maskable",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_text",
+              "kind": "String",
+              "value": "Default",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isRightToLeft",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontAsset",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-b7523140b9a5af6418be9b7ec9a8b3d1-11400000-0",
+                "name": "RobotoSlab-Regular SDF",
+                "type": "TMPro.TMP_FontAsset",
+                "assetPath": "Assets/Fonts/RobotoSlab-Regular SDF.asset",
+                "guid": "b7523140b9a5af6418be9b7ec9a8b3d1",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_sharedMaterial",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-b7523140b9a5af6418be9b7ec9a8b3d1-576767017963319385-0",
+                "name": "RobotoSlab-Regular SDF Material",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Fonts/RobotoSlab-Regular SDF.asset",
+                "guid": "b7523140b9a5af6418be9b7ec9a8b3d1",
+                "localFileId": 576767017963319385
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSharedMaterials.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontMaterial",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontMaterials.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColor32",
+              "kind": "Color",
+              "value":[0.819607854,0.7764706,0.7372549,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColor",
+              "kind": "Color",
+              "value":[0.819607854,0.7764706,0.7372549,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableVertexGradient",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_colorMode",
+              "kind": "Enum",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.topLeft",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.topRight",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.bottomLeft",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradient.bottomRight",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontColorGradientPreset",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_spriteAsset",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_tintAllSprites",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StyleSheet",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TextStyleHashCode",
+              "kind": "Integer",
+              "value": -1183493901,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_overrideHtmlColors",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_faceColor",
+              "kind": "Color",
+              "value":[1.0,1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSize",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSizeBase",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontWeight",
+              "kind": "Enum",
+              "value": 400,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableAutoSizing",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSizeMin",
+              "kind": "Float",
+              "value": 18.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontSizeMax",
+              "kind": "Float",
+              "value": 72.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_fontStyle",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_HorizontalAlignment",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_VerticalAlignment",
+              "kind": "Enum",
+              "value": 512,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_textAlignment",
+              "kind": "Enum",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_characterSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_wordSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_lineSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_lineSpacingMax",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_paragraphSpacing",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_charWidthMaxAdj",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableWordWrapping",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_wordWrappingRatios",
+              "kind": "Float",
+              "value": 0.40000000596046448,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_overflowMode",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_linkedTextComponent",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "parentLinkedComponent",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableKerning",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_enableExtraPadding",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "checkPaddingRequired",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isRichText",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_parseCtrlCharacters",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isOrthographic",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isCullingEnabled",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_horizontalMapping",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_verticalMapping",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_uvLineOffset",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_geometrySortingOrder",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTextObjectScaleStatic",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_VertexBufferAutoSizeReduction",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_useMaxVisibleDescender",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_pageToDisplay",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_margin",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isUsingLegacyAnimationComponent",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_isVolumetricText",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_hasFontAssetChanged",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_baseMaterial",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_maskOffset",
+              "kind": "Vector4",
+              "value":[0.0,0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

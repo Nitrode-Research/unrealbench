@@ -1,0 +1,125 @@
+task_id: ue_task_0168
+title: "RTS faction simulation and strategy —"
+tier: hard
+instruction: "Implement the faction simulation and AI strategy for the supplied two-faction RTS. Each faction should deploy its command vehicle, build an economy and base, produce an army, reclaim wrecks, and fight toward a single match outcome. Read `/project/gdd.md` for the game design, implementation details and editable files. Unit combat, controls and presentation are supplied; connect your systems to them and preserve their behavior. Use the existing native subsystems and configured costs, timings and limits. Validate through local builds and tests, then submit changes only to the listed files."
+files_to_edit: ["Source/RTS/Private/AI/RTSAIStrategyBootstrap.cpp", "Source/RTS/Private/AI/RTSAIStrategySubsystem.cpp", "Source/RTS/Private/Economy/RTSEconomySubsystem.cpp", "Source/RTS/Private/Match/RTSMatchSubsystem.cpp", "Source/RTS/Private/Production/RTSProductionComponent.cpp", "Source/RTS/Private/Production/RTSProductionSubsystem.cpp", "Source/RTS/Private/Reclaim/RTSReclaimComponent.cpp", "Source/RTS/Private/Reclaim/RTSWreckage.cpp", "Source/RTS/Private/Reclaim/RTSWreckageSubsystem.cpp", "Source/RTS/Private/Structures/RTSStructure.cpp", "Source/RTS/Private/Structures/RTSStructureSubsystem.cpp"]
+tests:
+  runner: ue_automation
+  mode: listen_server
+  num_clients: 1
+  filter: Task0168
+  evaluator_entrypoint: verify.py
+  injection_module: RTSTests
+  suites:
+    - name: headless
+      filter: Task0168.Headless
+    - name: rendered
+      filter: Task0168.Rendered
+      command_line:
+        remove_args: ["-NullRHI"]
+        add_args: ["-RenderOffScreen"]
+hidden_requirements:
+  GAME:
+    text: "Both real faction loops complete through submitted gameplay and produce one immutable outcome."
+    category: core_logic
+  ECONOMY:
+    text: "Atomic ledgers, shared reservations, destruction and once-only production/reclaim accounting follow the public contract."
+    category: core_logic
+  WORLD:
+    text: "Deployment, valid placement, construction and navigable production exits drive real world state."
+    category: core_logic
+  STRATEGY:
+    text: "Seeded paid AI deployment, economy, roster, bounded tactical commitments and recovery use shared authorities."
+    category: core_logic
+  COMBAT:
+    text: "Health, movement, order replacement, real damage, death and wreck integration follow the public contract."
+    category: core_logic
+  VIEW:
+    text: "Local selection, camera, input, HUD snapshots, warnings and preview/overlay ownership reflect authoritative state."
+    category: core_logic
+  PRESENTATION:
+    text: "Real event adapters, bounded typed effects/audio and lifetime behavior follow the public contract."
+    category: core_logic
+  RENDER:
+    text: "Required real-RHI HUD/overlay/deployment captures and material pixels execute, not headless skips."
+    category: core_logic
+test_requirements:
+  Task0168.Headless.GameEngineBench.UE0159.Combat.ChaseAndFire: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Combat.Cooldown: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Combat.OrderPriority: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Combat.TargetLost: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Combat.TypedStructureExecution: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Formation.Assign: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Movement.Arrival: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Movement.Blocked: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Movement.Failure: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Orders.AttackDispatch: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Orders.Dispatch: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0159.Orders.Replace: ["COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0160.AtomicTransactions: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0160.DeathAndWreckRegistry: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0160.DeathToReclaimPayout: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0160.HeadquartersPromotion: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0160.LeaseOwnership: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0160.MatchStatistics: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0160.MobileCommandResolution: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0160.ReclaimProgressAndInterrupt: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0160.RefusalAndCapacity: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0160.ReservationLifecycle: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.GameEngineBench.UE0162.Bounds: ["PRESENTATION"]
+  Task0168.Headless.GameEngineBench.UE0162.Cues: ["PRESENTATION"]
+  Task0168.Headless.GameEngineBench.UE0162.Expiry: ["PRESENTATION"]
+  Task0168.Headless.GameEngineBench.UE0162.GameplaySequence: ["PRESENTATION"]
+  Task0168.Headless.GameEngineBench.UE0162.Geometry: ["PRESENTATION"]
+  Task0168.Headless.GameEngineBench.UE0162.Identity: ["PRESENTATION"]
+  Task0168.Headless.GameEngineBench.UE0162.ProducerAdapters: ["PRESENTATION"]
+  Task0168.Headless.GameEngineBench.UE0162.Selection: ["PRESENTATION"]
+  Task0168.Headless.GameEngineBench.UE0162.Teardown: ["PRESENTATION"]
+  Task0168.Headless.GameEngineBench.UE0162.Validation: ["PRESENTATION"]
+  Task0168.Headless.RTS.Milestone1.Baseline.PIEPossession: ["VIEW"]
+  Task0168.Headless.RTS.Milestone1.Camera.Bounds: ["VIEW"]
+  Task0168.Headless.RTS.Milestone1.Camera.ScreenRelativePan: ["VIEW"]
+  Task0168.Headless.RTS.Milestone1.Selection.Clear: ["VIEW"]
+  Task0168.Headless.RTS.Milestone1.Selection.Death: ["VIEW"]
+  Task0168.Headless.RTS.Milestone1.Selection.Replace: ["VIEW"]
+  Task0168.Headless.RTS.Milestone1.Selection.Toggle: ["VIEW"]
+  Task0168.Headless.RTS.Milestone2.Deployment.EdgePreviewFeedback: ["WORLD", "ECONOMY"]
+  Task0168.Headless.RTS.Milestone2.Deployment.Headquarters: ["WORLD", "ECONOMY"]
+  Task0168.Headless.RTS.Milestone2.Economy.AtomicAccounting: ["ECONOMY", "COMBAT"]
+  Task0168.Headless.RTS.Milestone2.Movement.GroupPathsAroundHeadquarters: ["WORLD", "ECONOMY"]
+  Task0168.Headless.RTS.Milestone2.Production.QueuePowerAndTurret: ["WORLD", "ECONOMY"]
+  Task0168.Headless.RTS.Milestone2.Structures.PlacementConstructionAndRemoval: ["WORLD", "ECONOMY"]
+  Task0168.Headless.RTS.Milestone3.AI.AttackGroup: ["STRATEGY", "WORLD"]
+  Task0168.Headless.RTS.Milestone3.AI.Defense: ["STRATEGY", "WORLD"]
+  Task0168.Headless.RTS.Milestone3.AI.Deployment: ["STRATEGY", "WORLD"]
+  Task0168.Headless.RTS.Milestone3.AI.Economy: ["STRATEGY", "WORLD"]
+  Task0168.Headless.RTS.Milestone3.AI.Fairness: ["STRATEGY", "WORLD"]
+  Task0168.Headless.RTS.Milestone3.AI.HQCandidate: ["STRATEGY", "WORLD"]
+  Task0168.Headless.RTS.Milestone3.AI.Production: ["STRATEGY", "WORLD"]
+  Task0168.Headless.RTS.Milestone3.AI.Reclaim: ["STRATEGY", "WORLD"]
+  Task0168.Headless.RTS.Milestone3.AI.Recovery: ["STRATEGY", "WORLD"]
+  Task0168.Headless.RTS.Milestone3.AI.Turrets: ["STRATEGY", "WORLD"]
+  Task0168.Headless.RTS.Milestone3.Match.Normal.Seed1337: ["GAME", "ECONOMY", "WORLD", "STRATEGY", "COMBAT"]
+  Task0168.Headless.RTS.Milestone3.Match.Normal.Seed2027: ["GAME", "ECONOMY", "WORLD", "STRATEGY", "COMBAT"]
+  Task0168.Headless.RTS.Milestone3.Match.Normal.Seed4099: ["GAME", "ECONOMY", "WORLD", "STRATEGY", "COMBAT"]
+  Task0168.Headless.RTS.Milestone3.Match.Normal.Seed6151: ["GAME", "ECONOMY", "WORLD", "STRATEGY", "COMBAT"]
+  Task0168.Headless.RTS.Milestone3.Match.Normal.Seed8191: ["GAME", "ECONOMY", "WORLD", "STRATEGY", "COMBAT"]
+  Task0168.Headless.RTS.Milestone3.Match.Smoke: ["GAME", "ECONOMY", "WORLD", "STRATEGY", "COMBAT"]
+  Task0168.Headless.RTS.Triplet.Health.Lifecycle: ["COMBAT"]
+  Task0168.Headless.Task0161.HUD.LayoutStates: ["VIEW"]
+  Task0168.Headless.Task0161.HUD.SnapshotAdapter: ["VIEW"]
+  Task0168.Headless.Task0161.HUD.WarningPrecedence: ["VIEW"]
+  Task0168.Headless.Task0161.Overlay.Descriptors: ["VIEW"]
+  Task0168.Headless.Task0161.Overlay.PreviewLifecycle: ["VIEW"]
+  Task0168.Headless.Task0161.Overlay.RefusalsAndOwnership: ["VIEW"]
+  Task0168.Rendered.RTS.Milestone3.AI.DeploymentRendered: ["RENDER", "VIEW"]
+  Task0168.Rendered.Task0161.HUD.RenderedMatrix: ["RENDER", "VIEW"]
+  Task0168.Rendered.Task0161.Input.ScreenRouting: ["RENDER", "VIEW"]
+  Task0168.Rendered.Task0161.Overlay.MaterialPixels: ["RENDER", "VIEW"]
+  Task0168.Rendered.Task0161.Overlay.Showcase: ["RENDER", "VIEW"]
+draft_metadata:
+  status: authored_static_only_native_pending
+  reference_commit: e888377fe7ab27fe309521cf677f395792ed060d
+  score_policy: fraction_of_required_groups
+  strict_success: all_required_groups_pass
+  shared_runner_not_certified: true

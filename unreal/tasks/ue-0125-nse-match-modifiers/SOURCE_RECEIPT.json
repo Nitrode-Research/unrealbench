@@ -1,0 +1,119 @@
+{
+  "repository": "https://github.com/brianyla/unrealbench",
+  "commit": "1ff51f9695b8bc0220296bd0f861f3e6f80c988d",
+  "source_task": "ue_task_0125_nse_match_modifiers",
+  "source_files": {
+    "spec.yaml": "2bfaff4c8c8a3b774ba88dca1ab44789d96aec665677c500107a73c1f2e88bde",
+    "tests/heldout_seeds.json": "62188474f9234360f48dafd0148b603e42a1628d3f98d1c75b8625e48a4756ab",
+    "tests/MatchModifierTests.cpp": "0cfa7d46cb6a812d3134d263651a57273be57d877799a1bf73ee817b01b4ed12",
+    "tests/ModifierOracle.h": "d3441f99276ecfd2dff53506f6d401ad192c8ce43ce2aa9072054dbf5792ffe8",
+    "tests/ModifierPythonAutomation.h": "4c34f22c485d9949ec3d838df903342292fb6dbc1f785b177e32dcd2b9dc5cda",
+    "tests/ModifierPythonRuntime.h": "8369cffd9fb164b9c4589af2978469b234707af7a31b5e29dc6bf4ff1a107c1d",
+    "tests/ModifierVisualReview.h": "8519ee8ba389576ca5a9676b905320a946799ac964ed5db064472dabb6c44e21",
+    "tests/modifier_ggpo_peers.py": "d460edce7eea570e9d93a1e736888e95ded5c0dbe4692c33b8906aefae7af9ef",
+    "tests/modifier_visual_reader.py": "c48dd6eb4076597e9ec61cb40b95a82023d0ca632b1646b1112e9377cca7aa13",
+    "tests/test_modifier_observations.py": "61920ab01b4eec909247f560890f7d29194d1d274b100e5087825a899670d21e",
+    "tests/test_modifier_ui_parser.py": "043e74a1e4613aa12aa37c0443a5616dd5129801718b6f13ebcc39502448c0d1",
+    "tests/test_modifier_visual_reader.py": "9c1f3855f49ff68ec18e39897f8f8262d33e891c59522e5d66fe20feba9182b5",
+    "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierArenaProbe.cpp": "1626fbc4e63250d57c56f6f0185fa6f991177c4d0cee1f2caf2d6fcb9c172fe5",
+    "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierArenaProbe.h": "0a74910a0dc8de9ee917710fb3a3db9d5e0ac01f83b0d7e7951d144a71ff2dce",
+    "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierCapture.h": "3391b6a910bb030ef49bde12a68d18cd7d9fe112de0903f1c6fd733da8ffdf26",
+    "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierScenarioWorker.cpp": "ac96e243d131227c084863f1bcaaa4b37a34aec037e9755c59b6e8bf3da99aee",
+    "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierScenarioWorker.h": "552cadc14684cc8c7b497049356d9336457a1c6b8a007500c8e807e686a67ea1"
+  },
+  "adaptations": [
+    "Linux Vulkan flags replace Windows D3D flags",
+    "Harbor verifier runs every declared suite",
+    "Restore complete committed oracle delta within source editable paths; resolve and hash-check LFS assets",
+    "Omit duplicate task125 reference fixture helpers; retain identical verifier-owned fixtures"
+  ],
+  "oracle_files": {
+    "Config/DefaultEngine.ini": "8637b6857b9f5e1912d4f55118e57ef7e1dc162da3cbaf9aa7359271818bfb56",
+    "Config/DefaultGame.ini": "51900c216e4028a267ecccd111dd4e4a837383bc6d849242657e8308eca314cc",
+    "Content/ModifierFixture/ModifierArena.umap": "8d168ef6bba898fc22394b073b3ec2b349b8b661416ee99d3783f3541e04b5c0",
+    "Plugins/CommonLoadingScreen/Source/CommonLoadingScreen/Public/LoadingScreenManager.h": "ddbe2b1a10f48b496448a6aec604db3f4a781d621c80a1bfaefbe791fb654e06",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/FighterRunners/FighterReplayRunner.cpp": "88f6394bf4be78fd0a187057c8d2910e4bf99b047f83e6c1a7d17566e7c2415c",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/MatchModifiers.cpp": "10f2d802af86e49856a9d812f83e86a52645f981399de28f3bf07331bdb69457",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/MatchModifiers.h": "69d2c95049e298d450c61451889007ed4e7c88f009cdd0c5575ab20cbc46ef20",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Misc/RandomManager.h": "40e9db134965f4a137d3a69732107f3fdf36233e4182e9505fcffe19552a662a",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/ModifierInteger.h": "bb77266cfb731a780e8aeedd1a8da751795ca6493d7def94213475ae15ffe04f",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.cpp": "3c0ff77460bc333a79ef0d3145de726d6666ea292f2ae2006e73895f99b582c3",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.h": "9a506c438ef5c7a2d79ab174c7bd5649b24cb7b408e5ab8ea9231921487ce529",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyPlayerController.h": "f486f22e7090297e2ae4be42fe1da5d41a05198442195c24858e869d8a44899e",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.cpp": "77d6796cdb9bea4f6044f70d7bef50bbdcf9be15e72c622d40b14b6ad984010e",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.cpp": "ee3900257371becae4c98a519299e8ae6b460f27a9a0ee3d9f3d808ae4592b03",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.h": "4e6494cbdf73090605c5fa1e54f0be6cfa5a3c2404711671334b3de78223d416",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.cpp": "7f927f8f79dcf86e45a2c130be45c85c875e92287b8ee50743bc0465cf992923",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Network/NetworkPawn.cpp": "a46a69a47422fcc30f8b990e60c86772250435d602ec46e968da7f887438f9b6",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/NightSkyEngine.Build.cs": "cb909843dca7894c06b0b24cbf984a4279e2efc6144e6f8670d38942daeb8df3",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/UI/ModifierSetupWidget.cpp": "1418c1fdc8e269ae756bee4f2b8a3cc45a93825da6ddadf7fa869aaaddb5b19f",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/UI/ModifierSetupWidget.h": "445aaa5bf7bcf2fd6fbb16d2f1f524abf2a241859df30a997397b07194a76413",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/UI/NightSkyModifierWidget.cpp": "15b872d1ebc4709149b0bf92cf7f44697cc14843f7e5b4c43a6e838b0db5d16a",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/UI/NightSkyModifierWidget.h": "fd9e56b60c2e336f27983f0f28834f96b47259fd630ccb1258993207e501fb9c",
+    "Source/NightSkyEngineDemo/Modifiers/ModifierArena.cpp": "9743b907c873dc14076896369df2daeead6feb1cec3d6c48f0d44509b7a3b00c",
+    "Source/NightSkyEngineDemo/Modifiers/ModifierArena.h": "6c00fd56db05df422f176c4b3a53a16dbad6882d79aab2fc7e1753f9fa03d768",
+    "Source/NightSkyEngineDemo/Tests/MatchModifierTests.cpp": "ab651ad242d55ddb686445979f16fbf3aed0dd13b00cb4b1a930ecc213f952ec",
+    "Source/NightSkyEngineDemo/Tests/ModifierArenaTests.cpp": "d8e7e8a1b525d3682d38d34ad3491e88f63b1c0e21398d5067c73d4e4aba4655",
+    "Source/NightSkyEngineDemo/Tests/ModifierOracle.h": "f8d21ce8c1be7272f2417d0b73ae99addd8ad624661a1009fbe25b62e1571690",
+    "Source/NightSkyEngineDemo/Tests/ModifierPythonAutomation.h": "c848bb925768f3373811843cdbbe8eea3b3b1b008e2e336861c0c5124524091b",
+    "Source/NightSkyEngineDemo/Tests/ModifierPythonRuntime.h": "901c1f1ec4a6d4e5420d454775036d9b49c5d2c8546af5123ef9c9ee26c6b8df",
+    "Source/NightSkyEngineDemo/Tests/ModifierVisualReview.h": "291b2bbe2722d6b78e16d67c2330d5e648438a4ad222296ebc1867196918e516",
+    "Source/NightSkyEngineDemo/Tests/heldout_seeds.json": "8536012ac7aeb7ed4d9ddd87ebeece3234d70bc7cc16601abde9dd718edc7634",
+    "Source/NightSkyEngineDemo/Tests/modifier_ggpo_peers.py": "37877c2965d8485bea8d77cd677a481efd3f2c56e133a71f06727beffd610ed8",
+    "Source/NightSkyEngineDemo/Tests/modifier_visual_reader.py": "af996c4a2dd91587be1df382d1f6ec873d882f6fd691dbcc380ab5c6b04c036a",
+    "Source/NightSkyEngineDemo/Tests/test_modifier_observations.py": "218fa05a0b1eda341adf083aade5dc63b7bbe7b96ffee725289d408d290b4048",
+    "Source/NightSkyEngineDemo/Tests/test_modifier_ui_parser.py": "1f096f32ca2ff3417d262d45461e2f86c908045399abea8992497e25e7fc8e68",
+    "Source/NightSkyEngineDemo/Tests/test_modifier_visual_reader.py": "54fbc7fccbff7de12c7feaf90852973c43ba58581201025daa3a1a2a48d30d04",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.h": "63563ea9ab6b65217c47ae53fad4e60594554b29015c1c111d5f03aa822159d5",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.h": "bcd4cec9a4f9c37e1476f91e7758d300c3bdad67b5ad403c9841dce15aae170a",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/ReplayInfo.h": "137528a7a6762260425af1ff9c90de07ea3e319ba8a543c71512d05bc9396b87",
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/Network/NetworkPawn.h": "eba913ed51bf835718f049ddeaa897951e36dc4c60a5558c47fbd59c4c2940f1"
+  },
+  "oracle_omitted_outside_editable_scope": [
+    "LOG.md",
+    "README.md",
+    "docs/ASSETS.md"
+  ],
+  "oracle_omitted_duplicate_fixtures": {
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/TestSupport/NightSkyEngine/Fixtures/ModifierArenaProbe.cpp": {
+      "oracle_sha256": "392a6b154665d08ce0a932f71a1e6381f79088d127c4b7ff17c101ebecaccbc0",
+      "fixture_source_path": "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierArenaProbe.cpp",
+      "fixture_source_sha256": "392a6b154665d08ce0a932f71a1e6381f79088d127c4b7ff17c101ebecaccbc0",
+      "fixture_package_path": "tests/fixture_overlay/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierArenaProbe.cpp",
+      "comparison": "Exact bytes after CRLF-to-LF normalization",
+      "fixture_package_sha256": "1626fbc4e63250d57c56f6f0185fa6f991177c4d0cee1f2caf2d6fcb9c172fe5"
+    },
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/TestSupport/NightSkyEngine/Fixtures/ModifierArenaProbe.h": {
+      "oracle_sha256": "4088698bc9d9d4eafe146b0873c92f8b0eb4ff5b8b4952d423fab5495b3c2ef5",
+      "fixture_source_path": "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierArenaProbe.h",
+      "fixture_source_sha256": "4088698bc9d9d4eafe146b0873c92f8b0eb4ff5b8b4952d423fab5495b3c2ef5",
+      "fixture_package_path": "tests/fixture_overlay/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierArenaProbe.h",
+      "comparison": "Exact bytes after CRLF-to-LF normalization",
+      "fixture_package_sha256": "0a74910a0dc8de9ee917710fb3a3db9d5e0ac01f83b0d7e7951d144a71ff2dce"
+    },
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/TestSupport/NightSkyEngine/Fixtures/ModifierCapture.h": {
+      "oracle_sha256": "38b616aa24d05d62dd7ada69438cbb45dbd9219dc40c8d435979576687e75d89",
+      "fixture_source_path": "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierCapture.h",
+      "fixture_source_sha256": "38b616aa24d05d62dd7ada69438cbb45dbd9219dc40c8d435979576687e75d89",
+      "fixture_package_path": "tests/fixture_overlay/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierCapture.h",
+      "comparison": "Exact bytes after CRLF-to-LF normalization",
+      "fixture_package_sha256": "3391b6a910bb030ef49bde12a68d18cd7d9fe112de0903f1c6fd733da8ffdf26"
+    },
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/TestSupport/NightSkyEngine/Fixtures/ModifierScenarioWorker.cpp": {
+      "oracle_sha256": "9171bfff4c44215c960b23d987e0a2caac28560dc09935585390ef84d3364cab",
+      "fixture_source_path": "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierScenarioWorker.cpp",
+      "fixture_source_sha256": "9171bfff4c44215c960b23d987e0a2caac28560dc09935585390ef84d3364cab",
+      "fixture_package_path": "tests/fixture_overlay/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierScenarioWorker.cpp",
+      "comparison": "Exact bytes after CRLF-to-LF normalization",
+      "fixture_package_sha256": "ac96e243d131227c084863f1bcaaa4b37a34aec037e9755c59b6e8bf3da99aee"
+    },
+    "Plugins/NightSkyEngine/Source/NightSkyEngine/TestSupport/NightSkyEngine/Fixtures/ModifierScenarioWorker.h": {
+      "oracle_sha256": "a55b190bcee1fb8de6050c2d1cc25405da89ac9ba194d902c5a4e9cbab3493c2",
+      "fixture_source_path": "tests_fixture/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierScenarioWorker.h",
+      "fixture_source_sha256": "a55b190bcee1fb8de6050c2d1cc25405da89ac9ba194d902c5a4e9cbab3493c2",
+      "fixture_package_path": "tests/fixture_overlay/Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures/ModifierScenarioWorker.h",
+      "comparison": "Exact bytes after CRLF-to-LF normalization",
+      "fixture_package_sha256": "552cadc14684cc8c7b497049356d9336457a1c6b8a007500c8e807e686a67ea1"
+    }
+  }
+}

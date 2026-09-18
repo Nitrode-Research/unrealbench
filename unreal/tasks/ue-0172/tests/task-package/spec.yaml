@@ -1,0 +1,123 @@
+task_id: ue_task_0172
+scoring_revision: ue-0172-valid-fixtures-v3
+title: "Foundations story and progression —"
+tier: hard
+instruction: "Implement story and progression for the supplied Foundations puzzle game. Players should be able to complete EntryGate and LoadingDocks using dialogue, interactions and inventory, save and resume progress, and reach the completion screen. Read `/project/gdd.md` for the game design, narrative rules, save format, HUD behavior and editable files. World generation, movement, cable physics and camera systems are supplied. Preserve them, including their functions in shared files, and connect the story systems to the existing architecture. Use local builds and tests to check your work; submit only the listed implementation changes."
+files_to_edit:
+- Source/foundations_ue/Gameplay/LinkGameMode.cpp
+- Source/foundations_ue/Gameplay/LinkInteractionActor.cpp
+- Source/foundations_ue/Gameplay/LinkInteractionView.cpp
+- Source/foundations_ue/Gameplay/LinkPersistence.cpp
+- Source/foundations_ue/Gameplay/LinkPlayerController.cpp
+- Source/foundations_ue/Gameplay/LinkSession.cpp
+- Source/foundations_ue/Gameplay/LinkWorldEffect.cpp
+- Source/foundations_ue/Rules/LinkInteraction.cpp
+- Source/foundations_ue/Rules/LinkSave.cpp
+- Source/foundations_ue/Rules/LinkStory.cpp
+- Source/foundations_ue/Rules/LinkStoryJson.cpp
+- Source/foundations_ue/UI/LinkHUD.cpp
+- Source/foundations_ue/UI/LinkWorldHints.cpp
+tests:
+  runner: ue_automation
+  mode: standalone
+  num_clients: 1
+  filter: Task0172
+verification_entrypoint: verification/verify.py
+runner_compatibility: task-local-generation-driver-required
+hidden_requirements:
+  R1:
+    text: Fresh affine mesh, collision/navigation, layout and chain reconstruction.
+    category: integration
+  R2:
+    text: Native paired commands, navigation, camera and runtime lifecycle.
+    category: integration
+  R3:
+    text: Data-driven story, inventory, interactions, effects and atomic persistence.
+    category: integration
+  R4:
+    text: Continuous two-area gameplay, completed disk reload and restart.
+    category: integration
+  R6:
+    text: Preserve supplied C++ source and function bodies; scored independently of execution.
+    category: integration
+test_requirements:
+  Task0172.Submission.SuppliedCodePreservation:
+  - R6
+  Task0172.Headless.Camera.SourceResponseOracle:
+  - R2
+  Task0172.Headless.Camera.SourceResponseEdges:
+  - R2
+  Task0172.Headless.Camera.SharedFramingAndStableSmoothing:
+  - R2
+  Task0172.Headless.Commands.HoldAndGrace:
+  - R2
+  Task0172.Headless.Commands.SimultaneousAndInvalidTargets:
+  - R2
+  Task0172.Headless.Integration.ContinuousTwoAreaSaveReload:
+  - R4
+  Task0172.Headless.Camera.InteractionTransitionOracle:
+  - R2
+  Task0172.Headless.Camera.InteractionTransitionEdges:
+  - R2
+  Task0172.Headless.Interactions.WaypointAllocationAndRoles:
+  - R2
+  Task0172.Headless.Interactions.PresenceReadinessAndInvalidLayout:
+  - R2
+  Task0172.Headless.Runtime.LocomotionClockAndEvents:
+  - R2
+  Task0172.Headless.Navigation.PathDistanceLimit:
+  - R2
+  Task0172.Headless.Navigation.FollowSpacingAndAvoidance:
+  - R2
+  Task0172.Headless.Progression.Interactions.ApproachAndRolesPIE:
+  - R3
+  Task0172.Headless.Progression.Interactions.CallOtherArrivalPIE:
+  - R3
+  Task0172.Headless.Progression.Inventory.SourceActionsPIE:
+  - R3
+  Task0172.Headless.Progression.Puzzles.EntryGatePIE:
+  - R3
+  Task0172.Headless.Progression.Puzzles.LoadingDocksPIE:
+  - R3
+  Task0172.Headless.Progression.Docks.WorldEffectsPIE:
+  - R3
+  Task0172.Headless.Progression.Save.VersionedPayload:
+  - R3
+  Task0172.Headless.Progression.Save.ReloadWorldPIE:
+  - R3
+  Task0172.Headless.Progression.Save.SessionRestoreIsolation:
+  - R3
+  Task0172.Headless.Progression.Docks.RepeatedEffectsPIE:
+  - R3
+  Task0172.Headless.Story.PinnedContentAndUnityOracle:
+  - R3
+  Task0172.Headless.Story.AuthoredIntroPresenceAndOnce:
+  - R3
+  Task0172.Headless.Story.ScopesPriorityAndOnce:
+  - R3
+  Task0172.Headless.Story.EffectsDispatchAndMissingReferences:
+  - R3
+  Task0172.Headless.Story.DispatchCycleIsBounded:
+  - R3
+  Task0172.Headless.Scene.Coordinates:
+  - R1
+  Task0172.Headless.Scene.InvalidAffine:
+  - R1
+  Task0172.Headless.Scene.MeshAttributes:
+  - R1
+  Task0172.Headless.Scene.ReflectionWinding:
+  - R1
+  Task0172.Headless.Scene.BoxPlacement:
+  - R1
+  Task0172.Headless.Scene.NavigationPolicy:
+  - R1
+  Task0172.Headless.Scene.AuthoredChain:
+  - R1
+  Task0172.Headless.Scene.Layout:
+  - R1
+  Task0172.Headless.Scene.NativeAuthoredChain:
+  - R1
+  Task0172.Headless.Scene.GeneratedWorldPhysicsNavigation:
+  - R1
+  Task0172.Headless.Scene.GeneratedComposition:
+  - R1

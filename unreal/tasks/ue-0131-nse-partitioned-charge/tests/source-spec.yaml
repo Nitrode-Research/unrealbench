@@ -1,0 +1,81 @@
+task_id: ue_task_0131
+title: Partitioned charge and charge-on-release commands
+tier: hard
+instruction: |
+  Add partitioned charge commands to the battle input system, which today matches only contiguous holds. A state may carry any number of them beside its ordinary input condition lists and is entered when either kind succeeds; ordinary commands must behave exactly as today. A command has a charge input, hold requirement, gap limit, lifetime and trigger: release of the charged input or a press of a trigger input. An input is held when all its bits are in the frame's facing-relative input.
+
+  Each command accumulates independently, one per held frame; an interruption longer than the gap limit, or an age (unfrozen frames from and including its first held frame) beyond the lifetime, clears the charge. A cleared charge starts again from zero on the next held frame; the clearing frame never begins one. Frozen frames (hitstop, super freeze) count as nothing; edges are read between consecutive unfrozen frames. A command is satisfied when its trigger fires with charge through the previous unfrozen frame at least the requirement. A side switch keeps the charge and re-reads the previous sample under the new facing, so a stick that stays put is no edge.
+
+  Charge commands share the engine's entry gates and state priority with ordinary commands; a satisfied command starts its move only if the move wins entry. Entry consumes every satisfied command of the started move, whichever input caused it; a consumed command leaves that frame at zero. Every other command accumulates and expires that frame as usual; a satisfied command whose move did not start is not remembered.
+
+  Only primary state machines are in scope. A command with an empty charge input, a requirement below one or a press trigger without a trigger input never activates; a negative gap limit means zero. Battle start and round reset begin with no charge and nothing previously held. Save and restore must carry everything these rules depend on: an identical replay after a restore reproduces the same move starts; a different continuation inherits nothing from the discarded future.
+files_to_edit:
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Script/State.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Misc/InputBuffer.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Misc/InputBuffer.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.cpp
+tests:
+  runner: ue_automation
+  mode: editor
+  num_clients: 0
+  filter: UnrealBench.NSE004
+hidden_requirements:
+  R1:
+    text: "A charge command activates only when the charge accumulated through the previous unfrozen frame reaches the requirement, held frames from separately held segments add up, and ordinary input-condition commands keep their existing behavior, also on a state that carries both kinds."
+    category: core_logic
+  R2:
+    text: "A run of unfrozen non-held frames longer than the interruption limit clears the charge on the frame that exceeds it, a run of exactly the limit is kept, and a cleared charge rebuilds from zero."
+    category: core_logic
+  R3:
+    text: "Activation requires the age, counted in unfrozen frames from and including the first held frame through the previous unfrozen frame, to be at most the lifetime, and the frame on which the age exceeds it clears the charge."
+    category: core_logic
+  R4:
+    text: "Triggers are edges between consecutive unfrozen frames with superset input matching, a trigger that stays held does not fire again, activation consumes the charge so a repeated trigger does not re-activate, and the activation frame contributes nothing to the next charge."
+    category: core_logic
+  R5:
+    text: "Frozen frames count neither as held nor as interruption nor toward lifetime, no move starts on them, and an input change made during a freeze is seen as an edge on the first unfrozen frame after it."
+    category: core_logic
+  R6:
+    text: "Charge belongs to the command: a trigger while the move cannot be entered neither activates, consumes, nor is remembered, and that frame accumulates like any other; when several moves could start on one frame, through ordinary lists or charge commands on any states, or several commands of one move are satisfied, the engine's state priority picks the move that starts, only that move's satisfied commands are consumed, and every other command accumulates on that frame, including commands on states the engine's walk never reached; commands of the two players and every command of a state, however many, are tracked independently."
+    category: core_logic
+  R7:
+    text: "Charge is facing-relative and survives a side switch, the previous frame's held status is re-read under the new facing so a stick that stays put across a switch is no edge, and a mirrored input trace with mirrored facing produces identical move starts."
+    category: core_logic
+  R8:
+    text: "A round reset clears all charge and the previous-frame memory, an empty charge input, a requirement below one or a press trigger without a trigger input never activates, a negative interruption limit allows no interruption, and a lifetime below the requirement can never activate because the charge expires first."
+    category: core_logic
+  R9:
+    text: "Save and restore carry charge state and the previous-frame memory so that replaying identical inputs after a restore reproduces identical move starts and a different continuation keeps nothing from the discarded future, including consumption and clearing."
+    category: core_logic
+test_requirements:
+  UnrealBench.NSE004.V1:
+  - R1
+  UnrealBench.NSE004.V2:
+  - R2
+  - R3
+  - R8
+  UnrealBench.NSE004.V3:
+  - R4
+  - R8
+  UnrealBench.NSE004.V4:
+  - R5
+  UnrealBench.NSE004.V5:
+  - R6
+  UnrealBench.NSE004.V6:
+  - R7
+  - R8
+  UnrealBench.NSE004.V7:
+  - R9
+  UnrealBench.NSE004.V8:
+  - R1
+  - R2
+  - R3
+  - R4
+  - R5
+  - R6
+  - R7
+  - R8
+  - R9

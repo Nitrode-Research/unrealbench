@@ -1,0 +1,111 @@
+{
+  "task": 171,
+  "static": {
+    "static_pass": true,
+    "identical_reference_trees": true,
+    "disjoint_halves": true,
+    "complete_is_exact_union": true,
+    "tasks": [
+      {
+        "task": 170,
+        "implementation_loc": 2181,
+        "hunks": 174,
+        "files": 31,
+        "protected_files": 223,
+        "protected_functions": 15,
+        "headless": 39,
+        "rendered": 1,
+        "cpu_preparation": 5
+      },
+      {
+        "task": 171,
+        "implementation_loc": 1273,
+        "hunks": 85,
+        "files": 20,
+        "protected_files": 234,
+        "protected_functions": 17,
+        "headless": 39,
+        "rendered": 1,
+        "cpu_preparation": 5
+      },
+      {
+        "task": 172,
+        "implementation_loc": 908,
+        "hunks": 89,
+        "files": 13,
+        "protected_files": 241,
+        "protected_functions": 21,
+        "headless": 39,
+        "rendered": 1,
+        "cpu_preparation": 5
+      }
+    ],
+    "native_execution": "reconciled reference/start headless diagnostics completed; full required coverage not certified",
+    "native_reward_certified": false
+  },
+  "cpu_reference": {
+    "passed": 5,
+    "failed": 0,
+    "reward": null,
+    "reward_valid": false
+  },
+  "cpu_start": {
+    "passed": 0,
+    "failed": 5,
+    "reward": null,
+    "reward_valid": false
+  },
+  "native_reference": {
+    "status": "headless_diagnostic_passed",
+    "evidence": "C:/ub/gr-20260915-02/171v2r",
+    "compiled": true,
+    "fresh_generation": true,
+    "preparation_passed": 5,
+    "preparation_failed": 0,
+    "headless_passed": 39,
+    "headless_failed": 0,
+    "diagnostic_records": 44,
+    "diagnostic_execution_complete": true,
+    "full_required_coverage_complete": false,
+    "infrastructure_errors": [],
+    "reward": null,
+    "reward_valid": false
+  },
+  "native_start": {
+    "status": "headless_diagnostic_failed_submission",
+    "evidence": "C:/ub/gr-20260915-02/171v2s",
+    "compiled": true,
+    "preparation_passed": 0,
+    "preparation_failed": 5,
+    "headless_passed": 10,
+    "headless_failed": 29,
+    "diagnostic_records": 44,
+    "diagnostic_execution_complete": true,
+    "full_required_coverage_complete": false,
+    "blocked_stages": [{"name": "generate", "reason": "submitted_preparation_failed"}],
+    "infrastructure_errors": [],
+    "reward": null,
+    "reward_valid": false
+  },
+  "rendered": "not_run_no_compatible_graphics_host",
+  "harbor": "not_run",
+  "mutation_campaign": "not_run",
+  "repeated_timing_trials": "not_run",
+  "reconciliation": {
+    "revision": "ue0171-reconciled-v1",
+    "source_adaptation": "Intentional null-world guard in supplied ALinkSceneLayout::Find; both snapshots preserved",
+    "source_and_test_bytes_match_current_canonical_snapshot": true,
+    "protected_checks_both_snapshots": "passed",
+    "removed_body_and_stub_reconstruction": "passed",
+    "current_triplet_reference_parity_and_exact_partition": "passed",
+    "required_checks": {"preparation": 5, "headless": 39, "rendered": 1},
+    "numeric_policy": "User matrix-only math.isclose rel_tol=0 abs_tol=1e-12 explicitly retained as new evaluator revision; original captured fixture unchanged",
+    "local_interpreter": "UE 5.8 bundled Windows Python 3.11.8",
+    "cross_runtime_certified": false,
+    "native_validation_of_this_revision": "reconciled reference/start headless pair 171v2r/171v2s; diagnostic only",
+    "frozen_package": "C:/ub/gr-20260915-02/t171v2",
+    "controller_receipt": "C:/ub/gr-20260915-02/171v2.json",
+    "frozen_and_canonical_inputs_unchanged_during_pair": true,
+    "prior_frozen_reference": "171v1r passed 44/44, but prior source/evaluator bytes; evidence not inherited"
+  }
+}

@@ -1,0 +1,85 @@
+task_id: ue_task_0133
+title: Portable canonical battle checkpoints
+tier: hard
+instruction: |
+  NightSkyEngine's rollback snapshots are raw process memory that cannot leave the process. Implement the declared export, a byte array from a live battle, and import, replacing a battle's whole gameplay state from one. A checkpoint is a pure function of gameplay state: instances with the same configuration and state export identical bytes; any state difference changes them; exporting changes nothing. Presentation (audio, camera, HUD, particles, colours, drawing transforms) and process identity do not count. The array starts with the ASCII bytes NSKYCKPT and the schema version, a little-endian uint32, currently 1.
+
+  State includes the SaveGame-tagged fields of players, of every registered player state (current or not, on screen or not) and of every battle extension, each active pooled object's slot and script, and every pool slot's update order, active or inactive. References to battle objects, players and registered states resolve to the target's own, inactive slots included. Configuration (rules, registrations, templates, collision data) stays the target's.
+
+  After an import the target behaves on every later frame, under the same inputs, exactly as the source, with no prior state surviving, and re-exporting reproduces the bytes. Import runs no gameplay (nothing executes, no callback fires); importing the same bytes twice equals once. Each active object returns to its source slot with the checkpoint's saved script fields over a fresh spawn's settings from the owner's template; later spawns, even there, use the target's unchanged templates.
+
+  Import rejects without touching the battle: damaged bytes (altered, truncated or extended) are malformed; the right magic with another version is unsupported, whatever follows; a different lineup (players per side and their classes, pool capacity, extensions by class and name, ordered) or a registration the target lacks is a lineup mismatch. Arbitrary bytes never crash. A newly activated pooled object has no collision boxes until its script sets a cel, whatever its slot held before. Rollback keeps its behaviour; storage, transfer and UI are out of scope.
+files_to_edit:
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/BattleCheckpoint.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Script/StateMachine.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Script/StateMachine.cpp
+tests:
+  runner: ue_automation
+  mode: editor
+  num_clients: 0
+  filter: UnrealBench.NSE010
+hidden_requirements:
+  R1:
+    text: "Every export begins with the ASCII magic NSKYCKPT and little-endian schema version 1; an array with that magic and any other version is rejected as unsupported, whatever follows, without changing the battle."
+    category: core_logic
+  R2:
+    text: "Battles of the same configuration and gameplay state in independent worlds export byte-identical non-empty arrays, unaffected by addresses, names, presentation state, freed pool slots or how often export is called, and export has no effect on the battle."
+    category: core_logic
+  R3:
+    text: "Any gameplay difference (battle values, player fields, input history, script fields of current or non-current registered states, off-screen players, runtime collision boxes, references, active objects, extension state, pool slot order) produces different bytes."
+    category: core_logic
+  R4:
+    text: "After import the target reproduces the source battle observations on every later frame under the same inputs, forward or backward in frame number, with no residue from its prior state (non-current registered states included); the target keeps its own configuration; an immediate re-export returns the imported bytes; import runs no gameplay and fires no callback, and importing the same bytes twice equals importing them once."
+    category: core_logic
+  R5:
+    text: "Main players, super freeze caller, owners, attack and ignore-hit links, position and stop links, stored child objects, camera targets (including references to inactive slots) and every player current state (on screen or not, bound to the target's registered state of that name) are restored to the target instance objects; object scripts carry the checkpoint saved fields rather than template values; templates stay the target's and later spawns, even into a restored object's slot, use them; slots inactive in the checkpoint are inactive afterwards."
+    category: core_logic
+  R6:
+    text: "The update order of every pool slot, the slot each active object occupies and battle extension state are restored, and exports of different pool capacities differ."
+    category: core_logic
+  R7:
+    text: "Damaged arrays (short, wrong magic, altered, truncated, extended) are rejected as malformed (a version-field edit as unsupported), differing lineups (team size, class, capacity, extensions by class and name in order, a state the target has not registered) as lineup mismatches, arbitrary bytes never crash, and every rejection leaves the battle unchanged in bytes and in later frames."
+    category: error_handling
+  R8:
+    text: "The existing rollback snapshot save and load still round-trip an identical-input replay to exact integer state."
+    category: regression
+  R9:
+    text: "A newly activated pooled object has no collision boxes until its script sets a cel, so it carries none right after activation and a fresh spawn into a freed slot cannot be hit on its spawn frame."
+    category: core_logic
+test_requirements:
+  UnrealBench.NSE010.Header:
+  - R1
+  - R7
+  UnrealBench.NSE010.Equality:
+  - R2
+  UnrealBench.NSE010.Discrimination:
+  - R3
+  UnrealBench.NSE010.Restore:
+  - R4
+  - R5
+  UnrealBench.NSE010.References:
+  - R5
+  - R4
+  - R7
+  UnrealBench.NSE010.Order:
+  - R6
+  - R7
+  UnrealBench.NSE010.Rejection:
+  - R7
+  UnrealBench.NSE010.Rollback:
+  - R8
+  UnrealBench.NSE010.FreshSpawn:
+  - R9
+  UnrealBench.NSE010.Fuzz:
+  - R2
+  - R3
+  - R4
+  - R5
+  - R6
+  - R7

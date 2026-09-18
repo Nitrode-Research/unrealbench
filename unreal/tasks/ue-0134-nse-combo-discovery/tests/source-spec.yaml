@@ -1,0 +1,99 @@
+task_id: ue_task_0134
+title: Bounded exhaustive combo discovery and playable trials
+tier: hard
+instruction: |
+  NightSkyEngine has no combo lab; implement the one declared in ComboDiscovery.h. Discovery finds every combo route the declared moves allow from the current situation within the step and last-hit limits, prefixes included, returning the best as trials; validation replays a trial's tape. Both step the real battle and leave its gameplay state exactly as found, even after running out of budget or failing. Routes rank by highest total step damage, then fewer steps, earlier last hit, then per step lower move index, cancel before link. Every simulated update counts against the budget; an unfinished search says so and returns only valid routes in order; more budget never worsens any returned rank. Requests naming an unknown or repeated state are rejected.
+
+  A step presses its move's input on one frame, neutral otherwise, and the move starts that frame. Each move and kind takes its earliest start: a cancel after the previous move's hit while that move still runs, a link once player 1 is idle, judged at the frame's end under neutral input. The first step continues the action underway at the situation or links from idle. Every step lands its unblocked hits that continue the combo: the opponent has been unable to act since the latest earlier hit, even one landed before the situation; regaining control on the hit frame is an escape. A first step with no earlier hit is exempt. A step's HitFrame is its first contact; its damage is the sum of its contacts.
+
+  Validation replays the tape, lets attacks it began resolve, and completes only if player 1's contacts are exactly the trial's steps in order, each an unblocked, combo-continuing hit by that step's state removing that step's damage; other recorded fields are ignored. A hit by the action underway at the situation is an earlier hit, not a step.
+
+  Scope: health-removing moves on single-frame button inputs, an unstunned player 1, an opponent whose only escape is the supplied input; no projectiles or assists.
+files_to_edit:
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Lab/ComboDiscovery.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Lab/ComboDiscovery.cpp
+tests:
+  runner: ue_automation
+  mode: editor
+  num_clients: 0
+  filter: UnrealBench.NSE025
+hidden_requirements:
+  R1:
+    text: >-
+      Routes are sequences of declared moves with cancel or link kinds, each step begun by a
+      single-frame press with neutral before it and the move starting on that frame; every
+      move and kind takes its earliest start: a cancel after the previous move's hit while
+      that move still runs, a link once player 1 is idle, both judged at the end of the
+      frame under neutral input; the first step continues the action underway at the
+      situation or links from idle; routes obey the step and last-hit limits and every
+      prefix of a route is a route.
+    category: core_logic
+  R2:
+    text: >-
+      Every step lands exactly one unblocked hit that continues the combo: the opponent has
+      been unable to act since the latest earlier hit, including a hit landed before the
+      situation that still holds it (blockstun at the situation anchors nothing), and an
+      opponent that regains control on the frame a hit lands has escaped; only a first step
+      with no earlier hit is exempt; whiffed and blocked steps invalidate the route; player
+      2 receives the request's opponent input on every simulated frame.
+    category: core_logic
+  R3:
+    text: >-
+      Cancel options, chain limits, reverse beat, chain resets through links, the frame a
+      cancel window opens, hitstop, pushback spacing, distance and the corner come from the
+      live simulation: situations that differ only in distance or move parameters yield
+      different routes, and the corner yields exactly the routes the simulation allows
+      there.
+    category: runtime_integration
+  R4:
+    text: >-
+      Trials are ordered by highest total step damage, fewer steps, earlier last hit, then
+      per step by lower move index with cancel before link; move indices are positions in
+      the request's move list; at most MaxResults are returned; a complete search returns
+      exactly that prefix of the full domain ranking.
+    category: core_logic
+  R5:
+    text: >-
+      Each trial reports per-step begin frame, hit frame and damage, the total, and an input
+      tape covering frames 1 through the last hit with the move's input on begin frames and
+      INP_Neutral elsewhere; replaying the tape reproduces the recorded hits and damage;
+      discovering again from the situation reached after a route's first hit finds the rest
+      of that route with frames counted from the new start and the same per-step damage.
+    category: core_logic
+  R6:
+    text: >-
+      Validation replays the tape with the supplied opponent input, lets attacks the tape
+      began resolve, and completes only if player 1's contacts are exactly the trial's steps
+      in order, each an unblocked, combo-continuing hit by the step's State removing the
+      step's Damage; the other recorded fields are ignored; a hit by the action underway at
+      the situation is an earlier hit but not a step; near-miss timing, escapes, blocks,
+      whiffs, wrong damage and extra contacts fail, with FailedStep and ObservedDamage as
+      the header documents.
+    category: core_logic
+  R7:
+    text: >-
+      Every simulated update counts against MaxSimulatedFrames and none runs past it; an
+      unfinished search reports bComplete false and returns only valid routes in ranking
+      order; a searched domain that is exhausted reports bComplete true; for otherwise
+      identical requests a larger budget never returns fewer trials or a worse trial at any
+      filled rank; requests naming an unknown or repeated state, and requests with no moves
+      or a step, result or frame limit below one, return no routes.
+    category: edge_case
+  R8:
+    text: >-
+      Discovery and validation leave the battle's gameplay state unchanged: frame number,
+      health, positions, states, stun, combo counters and input history match an untouched
+      control and continued stepping agrees, including after a search cut off by its budget,
+      a failed validation and interleaved calls; LocalFrame alone advances, by the frame
+      updates the call ran.
+    category: runtime_integration
+test_requirements:
+  UnrealBench.NSE025.SingleStep: [R1, R5, R7]
+  UnrealBench.NSE025.CancelsAndLinks: [R1, R3, R4]
+  UnrealBench.NSE025.EscapeRule: [R2, R6, R8]
+  UnrealBench.NSE025.SpacingAndCorner: [R3, R4]
+  UnrealBench.NSE025.RankingAndCompleteness: [R4, R7]
+  UnrealBench.NSE025.TrialsAndIntegrity: [R5, R6, R8]
+  UnrealBench.NSE025.SeededDomains: [R1, R2, R3, R4, R5, R7]
+  UnrealBench.NSE025.MidComboSituations: [R1, R2, R6, R8]
+  UnrealBench.NSE025.AirSituation: [R2, R5, R6, R8]

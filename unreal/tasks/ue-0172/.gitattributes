@@ -1,0 +1,10 @@
+environment/workspace/** -text
+solution/files/** -text
+gdd.md text eol=lf
+environment/protected/gdd.md -text
+# Scoring receipts hash these evaluator bytes across platforms.
+tests/task-package/** -text
+tests/ue/** -text
+GDD_RECEIPT.json text eol=lf
+SCORING_RECEIPT.json text eol=lf
+task.toml text eol=lf

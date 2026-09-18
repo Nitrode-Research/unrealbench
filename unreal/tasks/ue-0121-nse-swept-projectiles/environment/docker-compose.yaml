@@ -1,0 +1,12 @@
+services:
+  main:
+    gpus: all
+    environment:
+      NVIDIA_DRIVER_CAPABILITIES: graphics,utility,compute,display
+    volumes:
+      - type: bind
+        source: ${NVIDIA_VULKAN_ICD:-/usr/share/vulkan/icd.d/nvidia_icd.json}
+        target: /etc/vulkan/icd.d/nvidia_icd.json
+        read_only: true
+        bind:
+          create_host_path: false

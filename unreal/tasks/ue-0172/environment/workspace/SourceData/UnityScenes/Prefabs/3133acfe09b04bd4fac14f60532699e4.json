@@ -1,0 +1,2577 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Environment/Prefabs/Kiosk.prefab",
+  "guid": "3133acfe09b04bd4fac14f60532699e4",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk",
+      "transformId": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk:component:0",
+      "parent": null,
+      "name": "Kiosk",
+      "path": "0:Kiosk",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[-14.6253834,0.0,-15.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,-14.6253834,0.0,1.0,0.0,0.0,0.0,0.0,1.0,-15.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,-14.6253834,0.0,1.0,0.0,0.0,0.0,0.0,1.0,-15.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[-14.6253834,0.0,-15.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk",
+                "name": "Kiosk",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[-14.6253834,0.0,-15.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk:component:0",
+                "name": "Kiosk",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+      "transformId": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk:component:0",
+      "parent": {
+        "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk",
+        "name": "Kiosk",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Kiosk",
+      "path": "0:Kiosk/0:Kiosk",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[-0.574616432,0.0,-2.20000076],
+      "localRotation":[0.0,1.0,0.0,0.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[-1.0,0.0,0.0,-0.574616432,0.0,1.0,0.0,0.0,0.0,0.0,-1.0,-2.20000076,0.0,0.0,0.0,1.0],
+      "worldMatrix":[-1.0,0.0,0.0,-15.2,0.0,1.0,0.0,0.0,0.0,0.0,-1.0,-17.2,0.0,0.0,0.0,1.0],
+      "worldPosition":[-15.2,0.0,-17.2],
+      "worldRotation":[0.0,1.0,0.0,0.0],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-919132149155446097-0",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+          "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+          "localFileId": 919132149155446097
+        },
+        "instanceRoot": {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_RootOrder",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.x",
+            "value": "-0.57461643",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.z",
+            "value": "-2.2000008",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.w",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.y",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "180",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-9766822690554734571-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-16251336969238330304-0",
+              "name": "Foundation",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -2195407104471221312
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-18141652188022276828-0",
+              "name": "Door",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": -305091885687274788
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-919132149155446097-0",
+              "name": "Kiosk",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Name",
+            "value": "Kiosk",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-1954859237364998489-0",
+              "name": "Gate",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": 1954859237364998489
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-6824241290725859361-0",
+              "name": "Building",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+              "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+              "localFileId": 6824241290725859361
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": null
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+                "name": "Kiosk",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,1.0,0.0,0.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[-0.574616432,0.0,-2.20000076],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building:component:0",
+                "name": "Building",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/1:Door:component:0",
+                "name": "Door",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[2]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/2:Foundation:component:0",
+                "name": "Foundation",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[3]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate:component:0",
+                "name": "Gate",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk:component:0",
+                "name": "Kiosk",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,180.0,0.0],
+              "prefabOverride": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building",
+      "transformId": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building:component:0",
+      "parent": {
+        "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+        "name": "Kiosk",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Building",
+      "path": "0:Kiosk/0:Kiosk/0:Building",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[-1.0,-1.22464685E-16,-1.49975976E-32,0.0,-1.22464685E-16,1.0,1.22464685E-16,0.0,-7.34684E-40,1.22464685E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,1.22464685E-16,1.49975976E-32,-15.2,-1.22464685E-16,1.0,1.22464685E-16,0.0,7.34684E-40,-1.22464685E-16,1.0,-17.2,0.0,0.0,0.0,1.0],
+      "worldPosition":[-15.2,0.0,-17.2],
+      "worldRotation":[6.123234E-17,-3.74939939E-33,6.123234E-17,-1.0],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-8531084230230199607-0",
+          "name": "Building",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+          "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+          "localFileId": 8531084230230199607
+        },
+        "instanceRoot": {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building",
+                "name": "Building",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk:component:0",
+                "name": "Kiosk",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building",
+                "name": "Building",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-14239300350892095587-0",
+                "name": "Building",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+                "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+                "localFileId": -4207443722817456029
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "aa20559e17d524e0cb4f02f154be329bb8ecf14b0273a8b78460eb31fb0a5adc"
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building",
+                "name": "Building",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-15.2,0.799999952,-17.2],
+              "size":[1.5999999,3.6,1.5999999]
+            },
+            "materials": [
+              null
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building:component:3",
+          "type": "UnityEngine.BoxCollider",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building",
+                "name": "Building",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LayerOverridePriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTrigger",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProvidesContacts",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Size",
+              "kind": "Vector3",
+              "value":[1.6,3.6,1.5999999],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Center",
+              "kind": "Vector3",
+              "value":[0.0,0.799999952,0.0],
+              "prefabOverride": false
+            }
+          ],
+          "collider": {
+            "enabled": true,
+            "isTrigger": false,
+            "material": null,
+            "center":[0.0,0.799999952,0.0],
+            "size":[1.6,3.6,1.5999999]
+          }
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building:component:4",
+          "type": "Unity.AI.Navigation.NavMeshModifier",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/0:Building",
+                "name": "Building",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-1e3fdca004f2d45fe8abbed571a8abd5-11500000-0",
+                "name": "NavMeshModifier",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.ai.navigation/Runtime/NavMeshModifier.cs",
+                "guid": "1e3fdca004f2d45fe8abbed571a8abd5",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OverrideArea",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Area",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OverrideGenerateLinks",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GenerateLinks",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreFromBuild",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ApplyToChildren",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AffectedAgents.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AffectedAgents.Array.data[0]",
+              "kind": "Integer",
+              "value": -1,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/1:Door",
+      "transformId": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/1:Door:component:0",
+      "parent": {
+        "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+        "name": "Kiosk",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Door",
+      "path": "0:Kiosk/0:Kiosk/1:Door",
+      "siblingIndex": 1,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.65,0.099999994,0.55],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[-1.0,-1.22464685E-16,-1.49975976E-32,0.65,-1.22464685E-16,1.0,1.22464685E-16,0.099999994,-7.34684E-40,1.22464685E-16,-1.0,0.55,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,1.22464685E-16,1.49975976E-32,-15.8499994,-1.22464685E-16,1.0,1.22464685E-16,0.099999994,7.34684E-40,-1.22464685E-16,1.0,-17.75,0.0,0.0,0.0,1.0],
+      "worldPosition":[-15.8499994,0.099999994,-17.75],
+      "worldRotation":[6.123234E-17,-3.74939939E-33,6.123234E-17,-1.0],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-10378670547525620461-0",
+          "name": "Door",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+          "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+          "localFileId": -8068073526183931155
+        },
+        "instanceRoot": {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/1:Door:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/1:Door",
+                "name": "Door",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.65,0.099999994,0.55],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk:component:0",
+                "name": "Kiosk",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/1:Door:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/1:Door",
+                "name": "Door",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-2619086233303812490-0",
+                "name": "Door",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+                "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+                "localFileId": 2619086233303812490
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "2b20683782cb5a241e2f2f68a703a8fb4290ca4cb237a11c562eddba76925286"
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/1:Door:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/1:Door",
+                "name": "Door",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-15.8499994,1.10000014,-17.2],
+              "size":[0.0999999642,2.00000024,1.20000017]
+            },
+            "materials": [
+              null
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/2:Foundation",
+      "transformId": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/2:Foundation:component:0",
+      "parent": {
+        "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+        "name": "Kiosk",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Foundation",
+      "path": "0:Kiosk/0:Kiosk/2:Foundation",
+      "siblingIndex": 2,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[-1.0,-1.22464685E-16,-1.49975976E-32,0.0,-1.22464685E-16,1.0,1.22464685E-16,0.0,-7.34684E-40,1.22464685E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,1.22464685E-16,1.49975976E-32,-15.2,-1.22464685E-16,1.0,1.22464685E-16,0.0,7.34684E-40,-1.22464685E-16,1.0,-17.2,0.0,0.0,0.0,1.0],
+      "worldPosition":[-15.2,0.0,-17.2],
+      "worldRotation":[6.123234E-17,-3.74939939E-33,6.123234E-17,-1.0],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-14692135165665588109-0",
+          "name": "Foundation",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+          "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+          "localFileId": -3754608908043963507
+        },
+        "instanceRoot": {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/2:Foundation:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/2:Foundation",
+                "name": "Foundation",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk:component:0",
+                "name": "Kiosk",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/2:Foundation:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/2:Foundation",
+                "name": "Foundation",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-48619220562948502-0",
+                "name": "Foundation",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+                "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+                "localFileId": 48619220562948502
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "beed31bf9628cceeeea56e9d958c4cd88297fc59e3eeb9f746277ae8f2eac1ba"
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/2:Foundation:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/2:Foundation",
+                "name": "Foundation",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-4.72499943,-0.45,-17.8000011],
+              "size":[19.45,1.1,0.3]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate",
+      "transformId": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate:component:0",
+      "parent": {
+        "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+        "name": "Kiosk",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Gate",
+      "path": "0:Kiosk/0:Kiosk/3:Gate",
+      "siblingIndex": 3,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[-1.19999981,0.6,0.6],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[-1.0,-1.22464685E-16,-1.49975976E-32,-1.19999981,-1.22464685E-16,1.0,1.22464685E-16,0.6,-7.34684E-40,1.22464685E-16,-1.0,0.6,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,1.22464685E-16,1.49975976E-32,-14.0,-1.22464685E-16,1.0,1.22464685E-16,0.6,7.34684E-40,-1.22464685E-16,1.0,-17.8000011,0.0,0.0,0.0,1.0],
+      "worldPosition":[-14.0,0.6,-17.8000011],
+      "worldRotation":[6.123234E-17,-3.74939939E-33,6.123234E-17,-1.0],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-11447856006249768247-0",
+          "name": "Gate",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+          "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+          "localFileId": -6998888067459783369
+        },
+        "instanceRoot": {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk",
+          "name": "Kiosk",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate",
+                "name": "Gate",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[-1.19999981,0.6,0.6],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk:component:0",
+                "name": "Kiosk",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate",
+                "name": "Gate",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-962209921104072034-0",
+                "name": "Gate",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+                "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+                "localFileId": 962209921104072034
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "0b08f2d6989ae736a362af235a5751259c4a1cb1c91fed1199a3b103ab9ef698"
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate",
+                "name": "Gate",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-9.325,1.10000014,-17.8000011],
+              "size":[10.25,2.0,0.199999973]
+            },
+            "materials": [
+              null
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate:component:3",
+          "type": "UnityEngine.BoxCollider",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate",
+                "name": "Gate",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LayerOverridePriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTrigger",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProvidesContacts",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Size",
+              "kind": "Vector3",
+              "value":[10.25,2.0,0.199999973],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Center",
+              "kind": "Vector3",
+              "value":[4.675,0.50000006,-3.434647E-39],
+              "prefabOverride": false
+            }
+          ],
+          "collider": {
+            "enabled": true,
+            "isTrigger": false,
+            "material": null,
+            "center":[4.675,0.50000006,-3.434647E-39],
+            "size":[10.25,2.0,0.199999973]
+          }
+        },
+        {
+          "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate:component:4",
+          "type": "Unity.AI.Navigation.NavMeshModifier",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3133acfe09b04bd4fac14f60532699e4:0:Kiosk/0:Kiosk/3:Gate",
+                "name": "Gate",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-1e3fdca004f2d45fe8abbed571a8abd5-11500000-0",
+                "name": "NavMeshModifier",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.ai.navigation/Runtime/NavMeshModifier.cs",
+                "guid": "1e3fdca004f2d45fe8abbed571a8abd5",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OverrideArea",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Area",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OverrideGenerateLinks",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GenerateLinks",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreFromBuild",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ApplyToChildren",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AffectedAgents.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AffectedAgents.Array.data[0]",
+              "kind": "Integer",
+              "value": -1,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

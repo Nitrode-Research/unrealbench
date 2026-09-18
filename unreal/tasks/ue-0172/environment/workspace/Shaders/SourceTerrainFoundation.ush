@@ -1,0 +1,8 @@
+// E01 material cue from Terrain.mat's authored R/G/B colours and vertex paint.
+// Source world projection, detail noise, lighting and material matching are A04/E05.
+const float3 Grass = float3(0.29579857, 0.339622617, 0.261124939);
+const float3 Dirt = float3(0.386792481, 0.360052228, 0.264551461);
+const float3 Concrete = float3(0.6792453, 0.6463043, 0.5286579);
+float3 Weights = max(Paint, 0.0);
+Weights /= max(dot(Weights, 1.0.xxx), 0.0001);
+return Grass * Weights.r + Dirt * Weights.g + Concrete * Weights.b;

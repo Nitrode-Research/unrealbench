@@ -1,0 +1,87 @@
+[
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkSourceItemDisplay.cpp",
+    "signature": "void ALinkSourceItemDisplay::BeginPlay()",
+    "sha256": "dbb47604342279c66b109496d786cf34cd9dd12a145c3f4e0749d0bd6aed6fc5"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkSourceItemDisplay.cpp",
+    "signature": "void ALinkSourceItemDisplay::Tick(float DeltaSeconds)",
+    "sha256": "5ca0b81a0f3275acd499d3ed2807e5e49942ab2af0da82d2943bf79c1428329b"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkSourceItemDisplay.cpp",
+    "signature": "ALinkSourceItemDisplay::ALinkSourceItemDisplay()",
+    "sha256": "d46fe2a5c9052ef6cb486e1c5a8b2c9d13a1420dba3cc9b2ddaff175c1a10498"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "ALinkInteractionActor* ALinkPlayerController::GetInteractionFor(int32 PlayerIndex) const",
+    "sha256": "4704a5104d6e306ed3f18d5e7a067f1a5888e4f083935f6f009d55ca4e346ae4"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::LeaveInteraction(int32 PlayerIndex)",
+    "sha256": "17084e90e176dbf3191aca7f6b5a0e5154a66bcb26ef83f474539d453c1634e1"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "bool ALinkPlayerController::InteractWith(ALinkInteractionActor* Target,int32 PlayerIndex)",
+    "sha256": "a7f98d577efe6d7f8fe743c91c67cc2ebfd3dfebab3c1409f727fd632a63247f"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "ALinkPlayerController::ALinkPlayerController()",
+    "sha256": "ff63cbd5d4973f5c63550fd3bb9d31991006646f0820da31fb1413e84c12d37e"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkChain.cpp",
+    "signature": "ALinkChain::ALinkChain()",
+    "sha256": "a317cda63ed9e8d02c57e363a3e2cf6223ecf1a5736a1ab4a0af46a222115582"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkGameMode.cpp",
+    "signature": "void ALinkGameMode::InitGame(const FString& MapName,const FString& Options,FString& ErrorMessage)",
+    "sha256": "0ead8414ca057c31546d3f8b2ad8dcd54ca4071bffea88251d7bcb0cc9174c62"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkGameMode.cpp",
+    "signature": "ALinkGameMode::ALinkGameMode()",
+    "sha256": "c1f45e93c5aaf693e959b5f9699cc1b2dcf4c1e55657e6304827014c0bbf180b"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkCharacter.cpp",
+    "signature": "FVector ReferencePosition(const FReferenceSkeleton& Skeleton, int32 Index)",
+    "sha256": "75fd260829f567e7128ae463cf4c24bcce4c0a2e4cf2ff8fb8a0337113020d13"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkCharacter.cpp",
+    "signature": "float FacingCorrection(const USkeletalMesh* Mesh)",
+    "sha256": "3bdb86d2ace5d2bd877f1920e1a7635e37419dcc63a458a3b88854be83da037c"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkCharacter.cpp",
+    "signature": "ALinkCharacter::ALinkCharacter()",
+    "sha256": "0092f59348aec0a5bc7c8475cccc1682a0e33d069f2c857d2e8789a79fb15d06"
+  },
+  {
+    "file": "Source/foundations_ue/Editor/LinkSceneMeshTools.cpp",
+    "signature": "FVector Vector(const TSharedPtr<FJsonValue>& Value)",
+    "sha256": "1bf23dafb615baa9d0177db5344a9319a966f97aaa17bc488b84a9288e4014d4"
+  },
+  {
+    "file": "Source/foundations_ue/Editor/LinkSceneMeshTools.cpp",
+    "signature": "FString ULinkAssetTools::InspectSourceMesh(UStaticMesh* Mesh)",
+    "sha256": "7da8dd910a68b861825ffad7aef4bca01e77b9793d2906790dcd83248bce5549"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkSceneLayout.cpp",
+    "signature": "ALinkSceneLayout* ALinkSceneLayout::Find(const UWorld* World)",
+    "sha256": "d93f9f70e25d62c1265bf11baa67a420d021d04c644f70011a424a54ec12efd6"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkSceneLayout.cpp",
+    "signature": "ALinkSceneLayout::ALinkSceneLayout()",
+    "sha256": "574eea9a3b57f5fbeab128c620b08ac47e4a06dc9b431e52a245af00c25fc3a0"
+  }
+]

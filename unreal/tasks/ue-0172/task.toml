@@ -1,0 +1,39 @@
+schema_version = "1.4"
+artifacts = [{ source = "/project", destination = "project", exclude = [".git", "Binaries", "Intermediate", "Saved", "DerivedDataCache", "node_modules", ".venv", "__pycache__"] }]
+[task]
+name = "Nitrode/ue-0172"
+version = "0.5.0"
+description = "Frozen GameEngineBench ue_task_0172_foundations_story_progression on Unreal Engine 5.8.2"
+
+[[task.authors]]
+name = "Nitrode"
+email = "hello@nitrode.com"
+
+[metadata]
+benchmark = "GameEngineBench"
+task_id = "UE-0172"
+category = "Software"
+engine_version = "5.8.2"
+graphics_required_for_full_reward = false
+
+[verifier]
+user = "root"
+environment_mode = "separate"
+timeout_sec = 14400.0
+collect = []
+
+[agent]
+timeout_sec = 14400.0
+
+[environment]
+os = "linux"
+network_mode = "public"
+build_timeout_sec = 2400.0
+cpus = 8
+memory_mb = 24576
+storage_mb = 32768
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]

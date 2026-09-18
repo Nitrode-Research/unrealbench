@@ -1,0 +1,36 @@
+{
+  "project": "NightSkyEngine",
+  "target": "NightSkyEngineEditor",
+  "module": "NightSkyEngineDemo",
+  "protected": [],
+  "suites": [
+    {
+      "name": "behavior",
+      "filter": "UnrealBench.NSE025",
+      "expected": [
+        "UnrealBench.NSE025.AirSituation",
+        "UnrealBench.NSE025.CancelsAndLinks",
+        "UnrealBench.NSE025.EscapeRule",
+        "UnrealBench.NSE025.MidComboSituations",
+        "UnrealBench.NSE025.RankingAndCompleteness",
+        "UnrealBench.NSE025.SeededDomains",
+        "UnrealBench.NSE025.SingleStep",
+        "UnrealBench.NSE025.SpacingAndCorner",
+        "UnrealBench.NSE025.TrialsAndIntegrity"
+      ],
+      "flags": [
+        "-Unattended",
+        "-CrashForUAT",
+        "-NullRHI",
+        "-NoSplash",
+        "-NumClients=0",
+        "-ListenServer",
+        "-nosound"
+      ]
+    }
+  ],
+  "original_tests": [
+    "Source/NightSkyEngineDemo/Tests/AstralWardenTest.cpp",
+    "Source/NightSkyEngineDemo/Tests/JadeAscensionTest.cpp"
+  ]
+}

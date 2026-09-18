@@ -1,0 +1,13 @@
+UnrealBench
+Copyright 2026 Nitrode contributors
+
+Nitrode-owned code and task content are licensed under the Apache License,
+Version 2.0. See LICENSE for the full terms.
+
+This benchmark also includes material from UnrealBench / GameEngineBench,
+NightSkyEngine, and bundled third-party components. Existing third-party
+copyright notices and licenses are retained in their respective task paths.
+See PROVENANCE.md and THIRD-PARTY.md for the scope and source records.
+
+Unreal Engine is obtained separately from Epic and remains subject to Epic's
+terms. This source release does not distribute Unreal Engine images or binaries.

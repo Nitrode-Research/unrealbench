@@ -1,0 +1,521 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "NightSkyEngine/Battle/Misc/Bitflags.h"
+#include "GameplayTagContainer.h"
+#include "NightSkyEngine/Battle/Misc/SerializableObj.h"
+#include "NightSkyEngine/Battle/Objects/BattleObject.h"
+#include "State.generated.h"
+
+class APlayerObject;
+class ABattleObject;
+
+/**
+ * What stance the character must be in to enter this state.
+ * Upon entering the state, the character will take this stance.
+ */
+UENUM(BlueprintType)
+enum class EEntryStance : uint8
+{
+	/**
+	 * No stance requirement; any state can enter.
+	 */
+	None,
+	/**
+	 * Must be grounded, and forces standing.
+	 */
+	Standing,
+	/**
+	 * Must be grounded, and forces crouching.
+	 */
+	Crouching,
+	/**
+	 * Must be airborne, and forces jumping.
+	 */
+	Jumping,
+};
+
+/**
+ * The type of state. 
+ * State types can have the ability to enter them toggled on and off.
+ */
+UENUM(BlueprintType)
+enum class EStateType : uint8
+{
+	Standing,
+	Crouching,
+	NeutralJump,
+	ForwardJump,
+	BackwardJump,
+	ForwardWalk,
+	BackwardWalk,
+	ForwardDash,
+	BackwardDash,
+	ForwardAirDash,
+	BackwardAirDash,
+	NormalAttack,
+	SpecialAttack,
+	SuperAttack,
+	Hitstun,
+	Blockstun,
+	Tech,
+	Burst,
+	Tag,
+	Assist,
+	Custom,
+};
+
+/**
+ * A condition to enter the state.
+ * 
+ * @see APlayerObject::HandleStateCondition
+ */
+UENUM(BlueprintType)
+enum class EStateCondition : uint8
+{
+	None,
+	AirJumpOk,
+	AirJumpMinimumHeight,
+	AirDashOk,
+	AirDashMinimumHeight,
+	IsAttacking,
+	HitstopCancel,
+	IsStunned,
+	CloseNormal,
+	FarNormal,
+	CanTag2nd,
+	CanTag3rd,
+	MeterNotZero,
+	MeterQuarterBar,
+	MeterHalfBar,
+	MeterOneBar,
+	MeterTwoBars,
+	MeterThreeBars,
+	MeterFourBars,
+	MeterFiveBars,
+	PlayerReg1True,
+	PlayerReg2True,
+	PlayerReg3True,
+	PlayerReg4True,
+	PlayerReg5True,
+	PlayerReg6True,
+	PlayerReg7True,
+	PlayerReg8True,
+	PlayerReg1False,
+	PlayerReg2False,
+	PlayerReg3False,
+	PlayerReg4False,
+	PlayerReg5False,
+	PlayerReg6False,
+	PlayerReg7False,
+	PlayerReg8False,
+};
+
+/**
+ * Determines the method of which the input will be read.
+ */
+UENUM()
+enum class EInputMethod : uint8
+{
+	/*
+	 * The button or direction may be held indefinitely.
+	 * Diagonal directions are counted as both of the cardinal directions it represents.
+	 */
+	Normal,
+	/*
+	 * The button or direction may be held indefinitely.
+	 * Diagonal directions are not counted as either of the cardinal directions it represents.
+	 */
+	Strict,
+	/*
+	 * The button or direction will only be counted on first press until release.
+	  * Diagonal directions are counted as both of the cardinal directions it represents.
+	 */
+	Once,
+	/*
+	 * The button or direction will only be counted on first press until release.
+	 * Diagonal directions are not counted as either of the cardinal directions it represents.
+	 * This is a combination of the Once and Strict methods.
+	 */
+	OnceStrict,
+	/*
+	 * The button or direction will only be counted when first pressed, then released.
+	  * Diagonal directions are counted as both of the cardinal directions it represents.
+	 */
+	PressAndRelease,
+	/*
+	 * The button or direction will only be counted when first pressed, then released.
+	 * Diagonal directions are not counted as either of the cardinal directions it represents.
+	 * This is a combination of the Once and Strict methods.
+	 */
+	PressAndReleaseStrict,
+	/*
+	 * The button or direction will only be counted at the moment of release.
+	  * Diagonal directions are counted as both of the cardinal directions it represents.
+	 */
+	Negative,
+	/*
+	 * The button or direction will only be counted at the moment of release.
+	 * Diagonal directions are not counted as either of the cardinal directions it represents.
+	 * This is a combination of the Negative and Strict methods.
+	 */
+	NegativeStrict,
+};
+
+/**
+ * A container struct for input bitmasks.
+ */
+USTRUCT(BlueprintType)
+struct FInputBitmask
+{
+	GENERATED_BODY()
+
+	FInputBitmask()
+	{
+		InputFlag = INP_None;
+	};
+	FInputBitmask(EInputFlags Input)
+	{
+		InputFlag = Input;
+	};
+
+	/**
+	 * The input flag.
+	 *
+	 * @see EInputFlags
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (Bitmask, BitmaskEnum = "/Script/NightSkyEngine.EInputFlags"))
+	int InputFlag;
+	
+	/**
+	 * How much buffer time there is for the input.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 Lenience = 3;
+	
+	/**
+	 * How long the input must be held for. Unless you're creating a charge/hold input, leave as zero.
+	 * Does not work with the Negative or Negative Strict input methods.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 Hold = 0;
+	
+	/**
+	 * Disallowed inputs. If any inputs in this array are detected, this input is invalidated.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TEnumAsByte<EInputFlags>> DisallowedInputs;
+};
+
+/**
+ * Contains an input condition.
+ */
+USTRUCT(BlueprintType)
+struct FInputCondition
+{
+	GENERATED_BODY()
+
+	/**
+	 * A sequence of input bitmasks.
+	 * Depending on lenience, the amount of time between inputs is increased or decreased.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<FInputBitmask> Sequence;
+	/**
+	 * Disallowed inputs. If any inputs in this array are detected, the entire condition is invalidated.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TEnumAsByte<EInputFlags>> DisallowedInputs;
+	/**
+	 * This value determines how many imprecise inputs are allowed in this condition.
+	 * An imprecise input is a diagonal input that matches the cardinal direction.
+	 * For use with the Strict or Once Strict input methods.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int ImpreciseInputCount = 0;
+	/**
+	 * The input method used for this condition. 
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	EInputMethod Method = EInputMethod::Normal;
+};
+
+/**
+ * A list of input conditions.
+ * Every condition in this list must be met for the state to be entered.
+ */
+USTRUCT(BlueprintType)
+struct FInputConditionList
+{
+	GENERATED_BODY()
+	
+	UPROPERTY(EditAnywhere)
+	TArray<FInputCondition> InputConditions;
+};
+
+/**
+ * How a partitioned charge command activates once enough charge has been accumulated.
+ */
+UENUM(BlueprintType)
+enum class EChargeTrigger : uint8
+{
+	/*
+	 * Activates when the charged input is released.
+	 */
+	Release,
+	/*
+	 * Activates when the trigger input is pressed.
+	 */
+	Press,
+};
+
+/**
+ * A charge command whose hold time may be accumulated across separately held segments.
+ * Attached to a player state; the state is entered when the command activates.
+ */
+USTRUCT(BlueprintType)
+struct FChargeCommand
+{
+	GENERATED_BODY()
+
+	/**
+	 * The direction or button to charge, as direction and button flags; the neutral flag is never part of a command.
+	 * Diagonal directions count as both cardinal directions.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (Bitmask, BitmaskEnum = "/Script/NightSkyEngine.EInputFlags"))
+	int32 ChargeInput = INP_None;
+	/**
+	 * Total number of held frames required before the command can activate.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 RequiredFrames = 0;
+	/**
+	 * Longest run of frames the charged input may be let go without losing the charge.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 MaxGapFrames = 0;
+	/**
+	 * Longest age of a charge, in unfrozen frames counted from and including its first held frame, at which it
+	 * can still activate: the age through the frame before the trigger must be at most this.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 LifetimeFrames = 0;
+	/**
+	 * How the command activates.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	EChargeTrigger Trigger = EChargeTrigger::Release;
+	/**
+	 * The direction or button whose press activates the command. Only used with the Press trigger.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (Bitmask, BitmaskEnum = "/Script/NightSkyEngine.EInputFlags"))
+	int32 TriggerInput = INP_None;
+};
+
+/**
+ * A range used for CPU behavior.
+ */
+UENUM()
+enum ERangeType
+{
+	RAN_Near,
+	RAN_Mid,
+	RAN_Far,
+};
+
+/**
+ * Attack speed used for CPU behavior.
+ */
+UENUM()
+enum EAttackSpeed
+{
+	ASPD_Fast,
+	ASPD_Medium,
+	ASPD_Slow,
+};
+
+/**
+ * Data for the CPU to use when deciding which state to enter.
+ */
+USTRUCT()
+struct FStateCPUData
+{
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere)
+	int32 AttackXBeginRange = 0;
+	UPROPERTY(EditAnywhere)
+	int32 AttackXEndRange = 300000;
+	UPROPERTY(EditAnywhere)
+	int32 AttackYBeginRange = 120000;
+	UPROPERTY(EditAnywhere)
+	int32 AttackYEndRange = 360000;
+	UPROPERTY(EditAnywhere)
+	bool bAttack = false;
+	UPROPERTY(EditAnywhere)
+	bool bCombo = false;
+	UPROPERTY(EditAnywhere)
+	bool bNoCombo = false;
+	UPROPERTY(EditAnywhere)
+	bool bBlockstring = false;
+	UPROPERTY(EditAnywhere)
+	bool bPunish = false;
+	UPROPERTY(EditAnywhere)
+	bool bAntiAir = false;
+	UPROPERTY(EditAnywhere)
+	bool bThrow = false;
+	UPROPERTY(EditAnywhere)
+	bool bProjectile = false;
+	UPROPERTY(EditAnywhere)
+	TEnumAsByte<ERangeType> PunishRange = RAN_Near;
+	UPROPERTY(EditAnywhere)
+	TEnumAsByte<EBlockType> BlockType = BLK_Mid;
+	UPROPERTY(EditAnywhere)
+	TEnumAsByte<EAttackSpeed> AttackSpeed = ASPD_Fast;
+	UPROPERTY(EditAnywhere)
+	bool bBigDamage = false;
+	UPROPERTY(EditAnywhere)
+	bool bUsesResource = false;
+	UPROPERTY(EditAnywhere)
+	bool bInvuln = false;
+};
+
+/**
+ * @brief A character state that determines behavior.
+ *
+ * Provides functionality for the current character behavior, such as frame data, animations, and more.
+ */
+UCLASS(BlueprintType, Blueprintable)
+class NIGHTSKYENGINE_API UState : public USerializableObj
+{
+	GENERATED_BODY()
+
+public:
+	/**
+	 * The object that owns this state instance.
+	 * For player states, this will always be the owning player.
+	 * For object states, this value will change when a new object is activated and takes over this state.
+	 */
+	UPROPERTY(BlueprintReadOnly)
+	ABattleObject* Parent;
+	/**
+	 * The current cel index.
+	 * Used in Blueprint macros to determine which code to execute.
+	 */
+	UPROPERTY(BlueprintReadWrite)
+	int32 CelIndex;
+	/**
+	 * The name of this state.
+	 * For player states, this is used to jump to states directly.
+	 * For object states, this is used to create an object by name.
+	 */
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	FGameplayTag Name;
+	/**
+	 * The state name to share a max chain with.
+	 */
+	UPROPERTY(EditAnywhere)
+	FGameplayTag ShareChainName;
+	/**
+	 * The required stance to enter this state.
+	 * Only used on player states.
+	 */
+	UPROPERTY(EditAnywhere)
+	EEntryStance EntryStance;
+	/**
+	 * An array of input condition lists.
+	 * Only the success of one input condition list is required to enter the state.
+	 */
+	UPROPERTY(EditAnywhere)
+	TArray<FInputConditionList> InputConditionLists;
+	/**
+	 * Charge commands that enter this state. Checked alongside the input condition lists.
+	 * Only used on states of a player's primary state machine.
+	 */
+	UPROPERTY(EditAnywhere)
+	TArray<FChargeCommand> ChargeCommands;
+	/**
+	 * The type of this state.
+	 */
+	UPROPERTY(EditAnywhere)
+	EStateType StateType;
+	/**
+	 * The custom state type. Only used if the base state type is set to Custom.
+	 */
+	UPROPERTY(EditAnywhere)
+	FGameplayTag CustomStateType;
+	/**
+	 * An array of state conditions.
+	 * All state conditions must be successful to enter this state.
+	 */
+	UPROPERTY(EditAnywhere)
+	TArray<EStateCondition> StateConditions;
+	/**
+	 * A value that determines if this state can be entered directly, or must be canceled into. 
+	 */
+	UPROPERTY(EditAnywhere)
+	bool IsFollowupState;
+	/**
+	 * A value that's set to match with spawned objects.
+	 * If an owned object with this ID is active, this state can't be entered.
+	 * For use with states that you do not wish to enter while the projectile is active.
+	 * Only used on player states.
+	 */
+	UPROPERTY(EditAnywhere)
+	int32 ObjectID;
+	/**
+	 * The maximum number of times this state can be used in a chain.
+	 * For use with moves used in a combo that you wish to prevent cancelling into multiple times in sequence. 
+	 */
+	UPROPERTY(EditAnywhere)
+	int32 MaxChain = -1;
+	/**
+	 * The maximum number of times this state can be used in a reverse beat chain.
+	 * For use with normal attacks that you don't want to use in reverse beat. 
+	 */
+	UPROPERTY(EditAnywhere)
+	bool bEnableReverseBeat = true;
+	/**
+	 * Determines how many of this state will be spawned.
+	 * Only used on object states. Player states will ignore this value and always spawn one instance.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	int32 MaxInstances = 1;
+	/**
+	 * Data for the CPU to determine when to enter the state.
+	 */
+	UPROPERTY(EditAnywhere)
+	FStateCPUData CPUData;
+	/**
+	 * If a human player should be able to enter the state. Not used with object states.
+	 */
+	UPROPERTY(EditAnywhere)
+	bool bHumanUsable = true;
+	/**
+	 * If a CPU player should be able to enter the state. Not used with object states.
+	 */
+	UPROPERTY(EditAnywhere)
+	bool bCPUUsable = true;
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void Init();
+	
+	/**
+	 * Wrapper for Exec function that sets CelIndex to zero.
+	 */
+	virtual void CallExec();
+
+	/**
+	 * Called every frame to update the state.
+	 */
+	UFUNCTION(BlueprintNativeEvent)
+	void Exec();
+	
+	/**
+	 * Called to check if the state may be entered.
+	 */
+	UFUNCTION(BlueprintNativeEvent)
+	bool CanEnterState();
+};

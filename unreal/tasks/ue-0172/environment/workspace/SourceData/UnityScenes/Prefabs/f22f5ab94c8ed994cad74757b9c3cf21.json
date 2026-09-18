@@ -1,0 +1,1990 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Environment/Prefabs/FenceMesh.prefab",
+  "guid": "f22f5ab94c8ed994cad74757b9c3cf21",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh",
+      "transformId": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh:component:0",
+      "parent": null,
+      "name": "FenceMesh",
+      "path": "0:FenceMesh",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh",
+                "name": "FenceMesh",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh:component:0",
+                "name": "Fence.fbx_Mesh",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh:component:1",
+          "type": "UnityEngine.BoxCollider",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh",
+                "name": "FenceMesh",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LayerOverridePriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTrigger",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProvidesContacts",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Size",
+              "kind": "Vector3",
+              "value":[4.0,4.0,0.2],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Center",
+              "kind": "Vector3",
+              "value":[0.0,1.0,0.0],
+              "prefabOverride": false
+            }
+          ],
+          "collider": {
+            "enabled": true,
+            "isTrigger": false,
+            "material": null,
+            "center":[0.0,1.0,0.0],
+            "size":[4.0,4.0,0.2]
+          }
+        },
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh:component:2",
+          "type": "Unity.AI.Navigation.NavMeshModifier",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh",
+                "name": "FenceMesh",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-1e3fdca004f2d45fe8abbed571a8abd5-11500000-0",
+                "name": "NavMeshModifier",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.ai.navigation/Runtime/NavMeshModifier.cs",
+                "guid": "1e3fdca004f2d45fe8abbed571a8abd5",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OverrideArea",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Area",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OverrideGenerateLinks",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GenerateLinks",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreFromBuild",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ApplyToChildren",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AffectedAgents.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AffectedAgents.Array.data[0]",
+              "kind": "Integer",
+              "value": -1,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+      "transformId": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh:component:0",
+      "parent": {
+        "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh",
+        "name": "FenceMesh",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Fence.fbx_Mesh",
+      "path": "0:FenceMesh/0:Fence.fbx_Mesh",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-919132149155446097-0",
+          "name": "Fence.fbx_Mesh",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+          "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+          "localFileId": 919132149155446097
+        },
+        "instanceRoot": {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+          "name": "Fence.fbx_Mesh",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+          "name": "Fence.fbx_Mesh",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_RootOrder",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.w",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-9766822690554734571-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": null,
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-225126528925094426-0",
+              "name": "BarbedWire",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": 225126528925094426
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-919132149155446097-0",
+              "name": "Fence.fbx_Mesh",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Name",
+            "value": "Fence.fbx_Mesh",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-3632106087476423621-0",
+              "name": "Wires",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": 3632106087476423621
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-4966409665695033816-0",
+              "name": "Mesh",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+              "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+              "localFileId": 4966409665695033816
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+                "name": "Fence.fbx_Mesh",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire:component:0",
+                "name": "BarbedWire",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/1:Mesh:component:0",
+                "name": "Mesh",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[2]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/2:Wires:component:0",
+                "name": "Wires",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh:component:0",
+                "name": "FenceMesh",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire",
+      "transformId": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire:component:0",
+      "parent": {
+        "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+        "name": "Fence.fbx_Mesh",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "BarbedWire",
+      "path": "0:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[2.0,3.34,0.34],
+      "localRotation":[0.653281569,-0.6532814,-0.270598084,-0.270598024],
+      "localScale":[0.99999994,1.0,0.99999994],
+      "localMatrix":[1.7881392E-07,-1.0,-1.7881392E-07,2.0,-0.70710665,-2.38418579E-07,0.707106769,3.34,-0.7071067,-2.98023224E-08,-0.707106769,0.34,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.7881392E-07,-1.0,-1.7881392E-07,2.0,-0.70710665,-2.38418579E-07,0.707106769,3.34,-0.7071067,-2.98023224E-08,-0.707106769,0.34,0.0,0.0,0.0,1.0],
+      "worldPosition":[2.0,3.34,0.34],
+      "worldRotation":[0.653281569,-0.6532814,-0.270598084,-0.270598024],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-17573413217595329403-0",
+          "name": "BarbedWire",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+          "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+          "localFileId": -873330856114222213
+        },
+        "instanceRoot": {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+          "name": "Fence.fbx_Mesh",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+          "name": "Fence.fbx_Mesh",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire",
+                "name": "BarbedWire",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.653281569,-0.6532814,-0.270598084,-0.270598024],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[2.0,3.34,0.34],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[0.99999994,1.0,0.99999994],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh:component:0",
+                "name": "Fence.fbx_Mesh",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire",
+                "name": "BarbedWire",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-7121584756871417403-0",
+                "name": "BarbedWire",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+                "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+                "localFileId": 7121584756871417403
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55"
+        },
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire",
+                "name": "BarbedWire",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[0.0,3.33759141,0.337592],
+              "size":[4.05,1.12414241,1.12414145]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/1:Mesh",
+      "transformId": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/1:Mesh:component:0",
+      "parent": {
+        "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+        "name": "Fence.fbx_Mesh",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Mesh",
+      "path": "0:FenceMesh/0:Fence.fbx_Mesh/1:Mesh",
+      "siblingIndex": 1,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[3.0,1.0,0.0],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[-1.0,-1.22464685E-16,-1.49975976E-32,3.0,-1.22464685E-16,1.0,1.22464685E-16,1.0,-7.34684E-40,1.22464685E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[-1.0,-1.22464685E-16,-1.49975976E-32,3.0,-1.22464685E-16,1.0,1.22464685E-16,1.0,-7.34684E-40,1.22464685E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[3.0,1.0,0.0],
+      "worldRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-3743993344710040121-0",
+          "name": "Mesh",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+          "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+          "localFileId": 3743993344710040121
+        },
+        "instanceRoot": {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+          "name": "Fence.fbx_Mesh",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+          "name": "Fence.fbx_Mesh",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/1:Mesh:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/1:Mesh",
+                "name": "Mesh",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[3.0,1.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh:component:0",
+                "name": "Fence.fbx_Mesh",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/1:Mesh:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/1:Mesh",
+                "name": "Mesh",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-12923466412529977364-0",
+                "name": "Mesh",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+                "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+                "localFileId": -5523277661179574252
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03"
+        },
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/1:Mesh:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/1:Mesh",
+                "name": "Mesh",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[0.0,1.00000012,5.16418368E-07],
+              "size":[4.000001,4.0,0.0202166587]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/2:Wires",
+      "transformId": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/2:Wires:component:0",
+      "parent": {
+        "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+        "name": "Fence.fbx_Mesh",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Wires",
+      "path": "0:FenceMesh/0:Fence.fbx_Mesh/2:Wires",
+      "siblingIndex": 2,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,3.0,0.0],
+      "localRotation":[-5.65713056E-17,0.9238795,0.382683456,-2.34326023E-17],
+      "localScale":[1.0,0.99999994,0.99999994],
+      "localMatrix":[-1.0,-8.659559E-17,-8.65956E-17,0.0,-1.22464672E-16,0.70710665,0.707106769,3.0,-3.30872245E-24,0.707106769,-0.70710665,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[-1.0,-8.659559E-17,-8.65956E-17,0.0,-1.22464672E-16,0.70710665,0.707106769,3.0,-3.30872245E-24,0.707106769,-0.70710665,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,3.0,0.0],
+      "worldRotation":[-5.65713056E-17,0.9238795,0.382683456,-2.34326023E-17],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-16145061600421338941-0",
+          "name": "Wires",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+          "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+          "localFileId": -2301682473288212675
+        },
+        "instanceRoot": {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+          "name": "Fence.fbx_Mesh",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh",
+          "name": "Fence.fbx_Mesh",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/2:Wires:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/2:Wires",
+                "name": "Wires",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-5.65713056E-17,0.9238795,0.382683456,-2.34326023E-17],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,3.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,0.99999994,0.99999994],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh:component:0",
+                "name": "Fence.fbx_Mesh",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/2:Wires:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/2:Wires",
+                "name": "Wires",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-14844643716770389032-0",
+                "name": "Wires",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+                "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+                "localFileId": -3602100356939162584
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883"
+        },
+        {
+          "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/2:Wires:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:f22f5ab94c8ed994cad74757b9c3cf21:0:FenceMesh/0:Fence.fbx_Mesh/2:Wires",
+                "name": "Wires",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-2.85765458E-17,3.23334527,0.233345225],
+              "size":[4.0,0.5727404,0.572740436]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        }
+      ]
+    }
+  ]
+}

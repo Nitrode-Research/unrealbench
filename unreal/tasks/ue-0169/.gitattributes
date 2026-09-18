@@ -1,0 +1,4 @@
+environment/workspace/** -text
+solution/files/** -text
+gdd.md text eol=lf
+environment/protected/gdd.md -text

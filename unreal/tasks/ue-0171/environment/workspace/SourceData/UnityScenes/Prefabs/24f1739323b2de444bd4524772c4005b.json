@@ -1,0 +1,781 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Environment/Prefabs/HighwayBarrier.prefab",
+  "guid": "24f1739323b2de444bd4524772c4005b",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier",
+      "transformId": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier:component:0",
+      "parent": null,
+      "name": "HighwayBarrier",
+      "path": "0:HighwayBarrier",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[-1.0,-1.22464685E-16,-1.49975976E-32,0.0,-1.22464685E-16,1.0,1.22464685E-16,0.0,-7.34684E-40,1.22464685E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[-1.0,-1.22464685E-16,-1.49975976E-32,0.0,-1.22464685E-16,1.0,1.22464685E-16,0.0,-7.34684E-40,1.22464685E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-919132149155446097-0",
+          "name": "HighwayBarrier",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+          "guid": "33280f180a9b15045bfdb71c77f68831",
+          "localFileId": 919132149155446097
+        },
+        "instanceRoot": {
+          "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier",
+          "name": "HighwayBarrier",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier",
+          "name": "HighwayBarrier",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-9766822690554734571-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-9766822690554734571-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-9766822690554734571-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-9766822690554734571-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.w",
+            "value": "-3.7493994e-33",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-9766822690554734571-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.x",
+            "value": "-6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-9766822690554734571-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.y",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-9766822690554734571-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.z",
+            "value": "6.123234e-17",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-9766822690554734571-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-9766822690554734571-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-9766822690554734571-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-10935185892488420484-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.MeshRenderer",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": -7511558181221131132
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+              "name": "Palette",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/Palette.mat",
+              "guid": "0f3812287e117cb42ae838938ac30dae",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-919132149155446097-0",
+              "name": "HighwayBarrier",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+              "guid": "33280f180a9b15045bfdb71c77f68831",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Name",
+            "value": "HighwayBarrier",
+            "objectReference": null
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier",
+                "name": "HighwayBarrier",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            }
+          ]
+        },
+        {
+          "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier:component:1",
+          "type": "UnityEngine.MeshFilter",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier",
+                "name": "HighwayBarrier",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-1042801323994665371-0",
+                "name": "Barrier",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+                "guid": "33280f180a9b15045bfdb71c77f68831",
+                "localFileId": 1042801323994665371
+              },
+              "prefabOverride": false
+            }
+          ],
+          "mesh": "67eeb921621d751606494f1004bb8e4cf95e048d23ba5874dd5e4e970d2ffcc5"
+        },
+        {
+          "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier:component:2",
+          "type": "UnityEngine.MeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier",
+                "name": "HighwayBarrier",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AdditionalVertexStreams",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EnlightenVertexStream",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[-5.51091117E-17,0.450000018,5.51091117E-17],
+              "size":[0.68,1.5,3.0]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+                "name": "Palette",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/Palette.mat",
+                "guid": "0f3812287e117cb42ae838938ac30dae",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          }
+        },
+        {
+          "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier:component:3",
+          "type": "UnityEngine.BoxCollider",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier",
+                "name": "HighwayBarrier",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Material",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IncludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ExcludeLayers",
+              "kind": "LayerMask",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LayerOverridePriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsTrigger",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProvidesContacts",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Size",
+              "kind": "Vector3",
+              "value":[0.679999948,1.5,2.99999976],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Center",
+              "kind": "Vector3",
+              "value":[0.0,0.45,-1.04773794E-10],
+              "prefabOverride": false
+            }
+          ],
+          "collider": {
+            "enabled": true,
+            "isTrigger": false,
+            "material": null,
+            "center":[0.0,0.45,-1.04773794E-10],
+            "size":[0.679999948,1.5,2.99999976]
+          }
+        },
+        {
+          "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier:component:4",
+          "type": "Unity.AI.Navigation.NavMeshModifier",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:24f1739323b2de444bd4524772c4005b:0:HighwayBarrier",
+                "name": "HighwayBarrier",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-1e3fdca004f2d45fe8abbed571a8abd5-11500000-0",
+                "name": "NavMeshModifier",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.ai.navigation/Runtime/NavMeshModifier.cs",
+                "guid": "1e3fdca004f2d45fe8abbed571a8abd5",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OverrideArea",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Area",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_OverrideGenerateLinks",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_GenerateLinks",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreFromBuild",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ApplyToChildren",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AffectedAgents.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AffectedAgents.Array.data[0]",
+              "kind": "Integer",
+              "value": -1,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

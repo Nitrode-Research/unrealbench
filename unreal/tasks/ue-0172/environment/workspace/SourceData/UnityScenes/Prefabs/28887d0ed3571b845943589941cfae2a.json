@@ -1,0 +1,1137 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Resources/App.prefab",
+  "guid": "28887d0ed3571b845943589941cfae2a",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App",
+      "transformId": "prefab:28887d0ed3571b845943589941cfae2a:0:App:component:0",
+      "parent": null,
+      "name": "App",
+      "path": "0:App",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App",
+                "name": "App",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/0:EventSystem:component:0",
+                "name": "EventSystem",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/1:GlobalVolume:component:0",
+                "name": "GlobalVolume",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App:component:1",
+          "type": "Framework.GameManager",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App",
+                "name": "App",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-a63da3d3b6ef4429921f40226ccdd948-11500000-0",
+                "name": "GameManager",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Framework/GameManager.cs",
+                "guid": "a63da3d3b6ef4429921f40226ccdd948",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App:component:2",
+          "type": "Audio.AudioManager",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App",
+                "name": "App",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-3652f152cd634f7697e2cd512b8f7ea5-11500000-0",
+                "name": "AudioManager",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Audio/AudioManager.cs",
+                "guid": "3652f152cd634f7697e2cd512b8f7ea5",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_bundle",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-4ca15592e6d0dd645af1e47645da2bb2-11400000-0",
+                "name": "AudioSettingsBundle",
+                "type": "Settings.Bundles.AudioSettingsBundle",
+                "assetPath": "Assets/Settings/Bundles/AudioSettingsBundle.asset",
+                "guid": "4ca15592e6d0dd645af1e47645da2bb2",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_ambientSound.Event",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-2668f83afc689754ba6349f9f42aecce-11400000-0",
+                "name": "AmbienceMusic",
+                "type": "Audio.Events.FMODEvent",
+                "assetPath": "Assets/Audio/Events/LoadingDocs/AmbienceMusic.asset",
+                "guid": "2668f83afc689754ba6349f9f42aecce",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_music.Event",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-6777e29723910004da1a0456c60a12d3-11400000-0",
+                "name": "Music",
+                "type": "Audio.Events.FMODEvent",
+                "assetPath": "Assets/Audio/Events/Music.asset",
+                "guid": "6777e29723910004da1a0456c60a12d3",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_sceneParam._parameter",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-0450059727b268f4daba7c42735d0b23-11400000-0",
+                "name": "SceneParameter",
+                "type": "Audio.Parameters.FMODParameter",
+                "assetPath": "Assets/Audio/Parameters/SceneParameter.asset",
+                "guid": "0450059727b268f4daba7c42735d0b23",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App:component:3",
+          "type": "Input.InputManager",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App",
+                "name": "App",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-d835f4a9d871485289cb05142bd3e409-11500000-0",
+                "name": "InputManager",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Input/InputManager.cs",
+                "guid": "d835f4a9d871485289cb05142bd3e409",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "Actions",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-c03d08c6be790684a8ab43f0564ffedd-11400000-0",
+                "name": "InputActions",
+                "type": "Input.InputActions",
+                "assetPath": "Assets/Input/InputActions.asset",
+                "guid": "c03d08c6be790684a8ab43f0564ffedd",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_actions",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-17502115434096073164-0",
+                "name": "PlayerActions",
+                "type": "UnityEngine.InputSystem.InputActionAsset",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": -944628639613478452
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App:component:4",
+          "type": "Saves.SaveManager",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App",
+                "name": "App",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-2925719610db44fc8be47a9db204787b-11500000-0",
+                "name": "SaveManager",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Saves/SaveManager.cs",
+                "guid": "2925719610db44fc8be47a9db204787b",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_defaultSceneName",
+              "kind": "String",
+              "value": "EntryGate",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App:component:5",
+          "type": "Framework.MenuState",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App",
+                "name": "App",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-c6995fd925ee46629958425ddb149eb4-11500000-0",
+                "name": "MenuState",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Framework/MenuState.cs",
+                "guid": "c6995fd925ee46629958425ddb149eb4",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App:component:6",
+          "type": "Framework.StoryState",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App",
+                "name": "App",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-2b50cc3bfe2a48acb3c57eb6b6004f7d-11500000-0",
+                "name": "StoryState",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Framework/StoryState.cs",
+                "guid": "2b50cc3bfe2a48acb3c57eb6b6004f7d",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/0:EventSystem",
+      "transformId": "prefab:28887d0ed3571b845943589941cfae2a:0:App/0:EventSystem:component:0",
+      "parent": {
+        "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App",
+        "name": "App",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "EventSystem",
+      "path": "0:App/0:EventSystem",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/0:EventSystem:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/0:EventSystem",
+                "name": "EventSystem",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App:component:0",
+                "name": "App",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/0:EventSystem:component:1",
+          "type": "UnityEngine.EventSystems.EventSystem",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/0:EventSystem",
+                "name": "EventSystem",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-76c392e42b5098c458856cdf6ecaaaa1-11500000-0",
+                "name": "EventSystem",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs",
+                "guid": "76c392e42b5098c458856cdf6ecaaaa1",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_FirstSelected",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_sendNavigationEvents",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DragThreshold",
+              "kind": "Integer",
+              "value": 10,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/0:EventSystem:component:2",
+          "type": "UnityEngine.InputSystem.UI.InputSystemUIInputModule",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/0:EventSystem",
+                "name": "EventSystem",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-01614664b831546d2ae94a42149d80ac-11500000-0",
+                "name": "InputSystemUIInputModule",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.inputsystem/InputSystem/Plugins/UI/InputSystemUIInputModule.cs",
+                "guid": "01614664b831546d2ae94a42149d80ac",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SendPointerHoverToParent",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MoveRepeatDelay",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MoveRepeatRate",
+              "kind": "Float",
+              "value": 0.10000000149011612,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_XRTrackingOrigin",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ActionsAsset",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-17502115434096073164-0",
+                "name": "PlayerActions",
+                "type": "UnityEngine.InputSystem.InputActionAsset",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": -944628639613478452
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PointAction",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-8969022858353728413-0",
+                "name": "Pointing/Point",
+                "type": "UnityEngine.InputSystem.InputActionReference",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": 8969022858353728413
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MoveAction",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-9703500880383860529-0",
+                "name": "UI/Navigate",
+                "type": "UnityEngine.InputSystem.InputActionReference",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": -8743243193325691087
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SubmitAction",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-14044757193364309433-0",
+                "name": "UI/Submit",
+                "type": "UnityEngine.InputSystem.InputActionReference",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": -4401986880345242183
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CancelAction",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-14766982187835558787-0",
+                "name": "UI/Cancel",
+                "type": "UnityEngine.InputSystem.InputActionReference",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": -3679761885873992829
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LeftClickAction",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-3238672311405781525-0",
+                "name": "Pointing/Click",
+                "type": "UnityEngine.InputSystem.InputActionReference",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": 3238672311405781525
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MiddleClickAction",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-2235118134016269962-0",
+                "name": "UI/MiddleClick",
+                "type": "UnityEngine.InputSystem.InputActionReference",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": 2235118134016269962
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RightClickAction",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-13970736677235962145-0",
+                "name": "UI/RightClick",
+                "type": "UnityEngine.InputSystem.InputActionReference",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": -4476007396473589471
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScrollWheelAction",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-3674765547233274736-0",
+                "name": "Pointing/ScrollWheel",
+                "type": "UnityEngine.InputSystem.InputActionReference",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": 3674765547233274736
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TrackedDevicePositionAction",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_TrackedDeviceOrientationAction",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DeselectOnBackgroundClick",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PointerBehavior",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CursorLockBehavior",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/1:GlobalVolume",
+      "transformId": "prefab:28887d0ed3571b845943589941cfae2a:0:App/1:GlobalVolume:component:0",
+      "parent": {
+        "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App",
+        "name": "App",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "GlobalVolume",
+      "path": "0:App/1:GlobalVolume",
+      "siblingIndex": 1,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 11,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[3.80581784,-14.9212961,9.41309],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,3.80581784,0.0,1.0,0.0,-14.9212961,0.0,0.0,1.0,9.41309,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,3.80581784,0.0,1.0,0.0,-14.9212961,0.0,0.0,1.0,9.41309,0.0,0.0,0.0,1.0],
+      "worldPosition":[3.80581784,-14.9212961,9.41309],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/1:GlobalVolume:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/1:GlobalVolume",
+                "name": "GlobalVolume",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[3.80581784,-14.9212961,9.41309],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App:component:0",
+                "name": "App",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/1:GlobalVolume:component:1",
+          "type": "UnityEngine.Rendering.Volume",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:28887d0ed3571b845943589941cfae2a:0:App/1:GlobalVolume",
+                "name": "GlobalVolume",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-172515602e62fb746b5d573b38a5fe58-11500000-0",
+                "name": "Volume",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.render-pipelines.core/Runtime/Volume/Volume.cs",
+                "guid": "172515602e62fb746b5d573b38a5fe58",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsGlobal",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "priority",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "blendDistance",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "weight",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "sharedProfile",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-87ede70579694954da92d072cef9939e-11400000-0",
+                "name": "GlobalVolume Profile",
+                "type": "UnityEngine.Rendering.VolumeProfile",
+                "assetPath": "Assets/Scenes/App/GlobalVolume Profile.asset",
+                "guid": "87ede70579694954da92d072cef9939e",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

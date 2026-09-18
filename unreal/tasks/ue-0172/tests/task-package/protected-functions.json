@@ -1,0 +1,107 @@
+[
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkWorldEffect.cpp",
+    "signature": "ALinkWorldEffect::ALinkWorldEffect()",
+    "sha256": "65f5943605eede8e9b344afc7f0b3936210c34ca05a5d9500713d9b8fdb16044"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::BeginPlay()",
+    "sha256": "4b298396c8b46b990dd39d9e96da071f0a64f86be470d31eab522f379d77e0f4"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::PlayerTick(float DeltaTime)",
+    "sha256": "aad44ee8567ef4859ee2941ac61cb80dcb6cddc8057f96c89f8f88a446a8b4fd"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::UpdateCameraManager(float DeltaSeconds)",
+    "sha256": "b8715cbfc3540b1db64d245d7ce94b5f4b9495d0d6efa586b1eae452c4258bc7"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::SetCameraWeight(int32 Percent)",
+    "sha256": "5fd321f827c29e80e52a40f13d40d2b2fcf2d3ca678d82f2431aaa1a12ddbd73"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::PreviewInteractionCamera(FName Id)",
+    "sha256": "531af2d853f06e9bd9ffe0274a4e01bc0e740ca5f9563ecf23d9066ec47355df"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::UpdateSharedView(float DeltaTime, bool bSnap)",
+    "sha256": "5d766b5c8158f96c49ffd21f63b36a30f34c6519f9c22a71cf411c76d427c7ef"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::SetupInputComponent()",
+    "sha256": "6770a2bd065be14fbc517c9ef36af57473874828c39917cb1ba4d97dab787376"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "ALinkCharacter* ALinkPlayerController::GetCharacterAt(int32 Index) const",
+    "sha256": "fe97c1114fe2ba3522de8e73aad80d07f9fbd3b1a20a67164500e13eeb9e0c6d"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "bool ALinkPlayerController::CommandMove(int32 Index, const FVector& Target)",
+    "sha256": "2147b7195250783bc8cc8ad882a29cfe8dc6cc4f9524e77e449ec6f6abc24c94"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "bool ALinkPlayerController::NavigateCharacter(int32 Index, const FVector& Target)",
+    "sha256": "61e4e0014e33f18158a2aacb9487ca33ee661c68e8b4111f0e8bdcaf3b815ac6"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::ApplyCommandFrame(const FLinkCommandFrame& Frame, const FVector& Target)",
+    "sha256": "27232b2e7a0c62fad7111c2e27287ac437717247a72a048c3b77d4532ffe41c8"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::UpdateCommands()",
+    "sha256": "69cc29ea67eaf647492bc10995d486eec191b82f670b19c79df5907551c93e1a"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "bool ALinkPlayerController::FindRoute(ALinkCharacter* From, const FVector& Target, TArray<FVector>& OutCorners) const",
+    "sha256": "b0d059d15a8ea74075c39b6f3df719bbbd916df0bbfe9be41e70236b9f7d42de"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::UpdateMovement()",
+    "sha256": "55b78b0d86230bb72bca9e07bd7d64c8fe014791b50af70ae68789adece3ae23"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::CommandLeft()",
+    "sha256": "13c43f7921608d5dabce98ab5916411182d539f466b4510ba729548f64231746"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "void ALinkPlayerController::CommandRight()",
+    "sha256": "c2fc7a69d64590546f45dee0dfa0163f5dc8207cbb3ca1134c6e5dbe6ec01a12"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkPlayerController.cpp",
+    "signature": "ALinkPlayerController::ALinkPlayerController()",
+    "sha256": "ff63cbd5d4973f5c63550fd3bb9d31991006646f0820da31fb1413e84c12d37e"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkInteractionActor.cpp",
+    "signature": "ALinkInteractionActor::ALinkInteractionActor()",
+    "sha256": "cc425ed6e19a6c1f46cf8329fa83f16cd1bc7f9ee90f30003137035a0c719451"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkGameMode.cpp",
+    "signature": "void ALinkGameMode::StartPlay()",
+    "sha256": "c387448fe08201941025d1777cbbec8c2de06fc330dc74a50bf02b852847eed4"
+  },
+  {
+    "file": "Source/foundations_ue/Gameplay/LinkGameMode.cpp",
+    "signature": "ALinkGameMode::ALinkGameMode()",
+    "sha256": "c1f45e93c5aaf693e959b5f9699cc1b2dcf4c1e55657e6304827014c0bbf180b"
+  }
+]

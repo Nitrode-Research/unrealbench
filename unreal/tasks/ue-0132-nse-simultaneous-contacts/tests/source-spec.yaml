@@ -1,0 +1,148 @@
+task_id: ue_task_0132
+title: Order-independent simultaneous combat contacts
+tier: hard
+instruction: |
+  NightSkyEngine applies each hit as its collision walk reaches it, so pool order decides trades, armor and clashes. Decide every contact and clash of a frame from the state at the start of the collision phase, so equivalent encounters end the same in any spawn order or pool slots. Each contact applies with today's damage rules and callbacks, reading hit data and armor as it applies. A landing hit on a fighter attacking at phase start is a counter hit with the strike's counter-hit data, so mutual strikes trade.
+
+  Clashes resolve first, as today. A clashing strike contacts nothing that frame yet remains a target for others. Contacts on one target apply in order: higher authored priority, then fighter strikes before other objects', then higher normal-hit damage, then the horizontally nearer attacker. Guard held at phase start blocks every contact it covers before armor is consulted; armor absorbs each covered contact while its hit budget lasts, one unit each; everything else lands. Landing hits extend the attacking side's combo as consecutive hits. Reaction and stun follow the last landing hit, or the last block if nothing landed; absorption never changes them. Each object's hitstop afterwards is the largest value any contact or clash assigned it, as attacker or target, replacing its countdown.
+
+  Every battle object gets an authored contact priority: an integer, zero by default and after reset or reuse. An attacker contacts each target (landed, blocked or absorbed) once per hit activation; enabling its hit, even one already active, forgets that history, and a reset object is forgotten in both directions. A hit re-enabled while contacts are being applied forgets as usual; the frame's remaining contacts still belong to the old activation. Priorities and history are part of the battle snapshot, so a restore and identical inputs replay the same contacts.
+
+  Throws, hitgrabs, hits that reposition the target, dodge armor and lethal contacts stay out of scope and unchanged.
+files_to_edit:
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/ContactResolution.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.cpp
+tests:
+  runner: ue_automation
+  mode: editor
+  num_clients: 0
+  filter: UnrealBench.NSE006
+hidden_requirements:
+  R1:
+    text: Every contact and clash of a frame is decided from the state at the start of the
+      collision phase (eligibility, attack status, clash pairing, counter-hit status,
+      guard and the ordering keys), so nothing applied during the phase changes what
+      else is detected that frame or how it is ordered; the hit data and armor a
+      contact applies with are read as it applies.
+    category: core_logic
+  R2:
+    text: Both directions of a mutual strike land; a landing hit on a fighter that was
+      attacking at phase start is a counter hit using the strike's counter-hit data.
+    category: core_logic
+  R3:
+    text: Clashes resolve first with today's clash effects; a clashing strike contacts
+      nothing that frame on any target and remains a target for every other contact of
+      the frame.
+    category: core_logic
+  R4:
+    text: Contacts on one target apply by authored priority, then fighter before non-
+      fighter, then higher normal-hit damage, then nearer horizontal distance; landing
+      hits extend the attacking side's combo as consecutive hits; the reaction and
+      stun are those of the last landing hit, or of the last block if nothing landed,
+      and an absorption never changes them.
+    category: core_logic
+  R5:
+    text: Armor absorbs covered contacts in that order, one budget unit each, while the
+      budget lasts, and the rest land; uncovered contacts land without consuming a
+      unit; absorption keeps today's chip and armor-damage effects.
+    category: core_logic
+  R6:
+    text: A target guarding at phase start blocks every contact its guard covers before
+      its armor is consulted; a contact its guard does not cover is offered to its
+      armor and lands only if armor does not absorb it.
+    category: core_logic
+  R7:
+    text: After the phase each object's hitstop is the largest value any contact or clash
+      of the frame assigned it, as attacker or target, replacing its countdown.
+    category: core_logic
+  R8:
+    text: Effects requested by callbacks during the phase (hit disables, deactivation,
+      invulnerability, spawns) keep today's behavior but change nothing detected in
+      the current frame; a follow-up spawned during the phase contacts nothing that
+      frame and participates from the next.
+    category: core_logic
+  R9:
+    text: An attacker contacts a target (landed, blocked or absorbed) once per hit
+      activation; every hit enable, even of an already active hit, forgets that
+      history; priority persists across fighter state changes; a reset or reused
+      object has no history in either direction and priority zero.
+    category: core_logic
+  R10:
+    text: Equivalent encounters built in any spawn order and pool slot assignment give
+      identical health, armor budgets, combo counters, hitstop, reactions and
+      callbacks after mapping objects by authored identity.
+    category: determinism
+  R11:
+    text: Priorities and contact history are part of the battle snapshot; restore plus
+      identical inputs reproduces every contact; contacts from the discarded future
+      are forgotten and contacts before the snapshot stay remembered, including when
+      the pool slot was reused after the snapshot.
+    category: rollback
+  R12:
+    text: A hit re-enabled while a frame's contacts are being applied forgets its history
+      as usual, and the frame's remaining contacts belong to the old activation, so
+      after the frame the new activation has contacted no one and every overlapped
+      target is contacted again on the next frame.
+    category: core_logic
+test_requirements:
+  UnrealBench.NSE006.Trades:
+  - R1
+  - R2
+  - R7
+  UnrealBench.NSE006.FrozenDetection:
+  - R1
+  - R8
+  UnrealBench.NSE006.Clashes:
+  - R3
+  - R7
+  UnrealBench.NSE006.SameTargetOrder:
+  - R4
+  UnrealBench.NSE006.ArmorBudget:
+  - R4
+  - R5
+  UnrealBench.NSE006.Guard:
+  - R4
+  - R6
+  UnrealBench.NSE006.Hitstop:
+  - R2
+  - R7
+  UnrealBench.NSE006.CallbackDeferral:
+  - R4
+  - R8
+  UnrealBench.NSE006.LiveApplicationData:
+  - R1
+  - R4
+  - R5
+  UnrealBench.NSE006.ContactHistory:
+  - R9
+  UnrealBench.NSE006.ReenableDuringPhase:
+  - R9
+  - R10
+  - R12
+  UnrealBench.NSE006.Permutations:
+  - R10
+  UnrealBench.NSE006.Rollback:
+  - R11
+  UnrealBench.NSE006.ReuseRollback:
+  - R9
+  - R11
+  UnrealBench.NSE006.FuzzSingleFrame:
+  - R1
+  - R2
+  - R3
+  - R4
+  - R5
+  - R6
+  - R7
+  - R10
+  UnrealBench.NSE006.FuzzPermutations:
+  - R10
+  UnrealBench.NSE006.FuzzStateful:
+  - R8
+  - R9
+  - R11

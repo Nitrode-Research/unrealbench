@@ -1,0 +1,1553 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Player/Prefab/Target.prefab",
+  "guid": "3ee265cd1d7910f458699d94b5fa0948",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target",
+      "transformId": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target:component:0",
+      "parent": null,
+      "name": "Target",
+      "path": "0:Target",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 9,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target",
+                "name": "Target",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target:component:0",
+                "name": "Target",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target:component:1",
+          "type": "Player.TargetController",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target",
+                "name": "Target",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-88a3712c3c3048a28d52f036ad4ac583-11500000-0",
+                "name": "TargetController",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/TargetController.cs",
+                "guid": "88a3712c3c3048a28d52f036ad4ac583",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/1:Torus:component:1",
+                "name": "Torus",
+                "type": "UnityEngine.SkinnedMeshRenderer",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_bone",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone/0:Bone.001:component:0",
+                "name": "Bone.001",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+      "transformId": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target:component:0",
+      "parent": {
+        "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target",
+        "name": "Target",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Target",
+      "path": "0:Target/0:Target",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 9,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-919132149155446097-0",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Target.fbx",
+          "guid": "51b4bad2528138b4b87dda8bac08f053",
+          "localFileId": 919132149155446097
+        },
+        "instanceRoot": {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": [
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalScale.x",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalScale.y",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalScale.z",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.x",
+            "value": "-0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.w",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalRotation.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9766822690554734571-0",
+              "name": "Target",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -8679921383154817045
+            },
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-18055475753155856415-0",
+              "name": "Torus",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": -391268320553695201
+            },
+            "property": "m_Layer",
+            "value": "9",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-919132149155446097-0",
+              "name": "Target",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Name",
+            "value": "Target",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-919132149155446097-0",
+              "name": "Target",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": 919132149155446097
+            },
+            "property": "m_Layer",
+            "value": "9",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-1790183945725220954-0",
+              "name": "Bone.001",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": 1790183945725220954
+            },
+            "property": "m_Layer",
+            "value": "9",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-2854563699051640978-0",
+              "name": "Bone.001",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": 2854563699051640978
+            },
+            "property": "m_LocalScale.x",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-2854563699051640978-0",
+              "name": "Bone.001",
+              "type": "UnityEngine.Transform",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": 2854563699051640978
+            },
+            "property": "m_LocalScale.z",
+            "value": "1",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-6095549738645645947-0",
+              "name": "Torus",
+              "type": "UnityEngine.SkinnedMeshRenderer",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": 6095549738645645947
+            },
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "objectReference": {
+              "id": "GlobalObjectId_V1-3-233fb6af25808134d90362bd71a76d3d-2100000-0",
+              "name": "NavigationGizmo",
+              "type": "UnityEngine.Material",
+              "assetPath": "Assets/Environment/Materials/NavigationGizmo.mat",
+              "guid": "233fb6af25808134d90362bd71a76d3d",
+              "localFileId": 2100000
+            }
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-6905609870639353253-0",
+              "name": "Bone",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": 6905609870639353253
+            },
+            "property": "m_Layer",
+            "value": "9",
+            "objectReference": null
+          },
+          {
+            "target": {
+              "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-7036213049465896255-0",
+              "name": "Armature",
+              "type": "UnityEngine.GameObject",
+              "assetPath": "Assets/Environment/Models/Target.fbx",
+              "guid": "51b4bad2528138b4b87dda8bac08f053",
+              "localFileId": 7036213049465896255
+            },
+            "property": "m_Layer",
+            "value": "9",
+            "objectReference": null
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+                "name": "Target",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature:component:0",
+                "name": "Armature",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/1:Torus:component:0",
+                "name": "Torus",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target:component:0",
+                "name": "Target",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature",
+      "transformId": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature:component:0",
+      "parent": {
+        "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+        "name": "Target",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Armature",
+      "path": "0:Target/0:Target/0:Armature",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 9,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[-0.7071067,-3.09086161E-08,3.09086232E-08,0.7071068],
+      "localScale":[100.0,100.0,100.0],
+      "localMatrix":[100.0,-1.42108547E-12,-8.742278E-06,0.0,8.742278E-06,1.78813934E-05,99.99999,0.0,0.0,-99.99999,1.78813934E-05,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[100.0,-1.42108547E-12,-8.742278E-06,0.0,8.742278E-06,1.78813934E-05,99.99999,0.0,0.0,-99.99999,1.78813934E-05,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[-0.7071067,-3.09086161E-08,3.09086232E-08,0.7071068],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-7036213049465896255-0",
+          "name": "Armature",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Target.fbx",
+          "guid": "51b4bad2528138b4b87dda8bac08f053",
+          "localFileId": 7036213049465896255
+        },
+        "instanceRoot": {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature",
+                "name": "Armature",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-0.7071067,-3.09086161E-08,3.09086232E-08,0.7071068],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[100.0,100.0,100.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone:component:0",
+                "name": "Bone",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target:component:0",
+                "name": "Target",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone",
+      "transformId": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone:component:0",
+      "parent": {
+        "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature",
+        "name": "Armature",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Bone",
+      "path": "0:Target/0:Target/0:Armature/0:Bone",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 9,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,-0.001],
+      "localRotation":[0.7071067,-8.429368E-08,-8.429368E-08,0.7071068],
+      "localScale":[1.0,0.99999994,0.99999994],
+      "localMatrix":[1.0,2.131628E-14,-2.38418508E-07,0.0,-2.38418522E-07,1.7881392E-07,-0.9999999,0.0,2.13162821E-14,0.9999999,1.7881392E-07,-0.001,0.0,0.0,0.0,1.0],
+      "worldMatrix":[100.0,-8.742275E-06,-2.384185E-05,8.742278E-09,8.742276E-06,99.99998,-3.90331E-12,-0.099999994,2.384185E-05,1.8189894E-12,99.99998,-1.78813941E-08,0.0,0.0,0.0,1.0],
+      "worldPosition":[8.742278E-09,-0.099999994,-1.49011612E-08],
+      "worldRotation":[0.0,-1.19209261E-07,4.37113776E-08,1.0],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-6905609870639353253-0",
+          "name": "Bone",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Target.fbx",
+          "guid": "51b4bad2528138b4b87dda8bac08f053",
+          "localFileId": 6905609870639353253
+        },
+        "instanceRoot": {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone",
+                "name": "Bone",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.7071067,-8.429368E-08,-8.429368E-08,0.7071068],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,-0.001],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,0.99999994,0.99999994],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone/0:Bone.001:component:0",
+                "name": "Bone.001",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature:component:0",
+                "name": "Armature",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone/0:Bone.001",
+      "transformId": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone/0:Bone.001:component:0",
+      "parent": {
+        "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone",
+        "name": "Bone",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Bone.001",
+      "path": "0:Target/0:Target/0:Armature/0:Bone/0:Bone.001",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 9,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0009999998,0.0],
+      "localRotation":[-3.55271368E-15,1.19209275E-07,-4.235165E-22,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,2.019484E-28,2.38418551E-07,0.0,-1.69406589E-21,1.0,7.10542736E-15,0.0009999998,-2.38418551E-07,-7.10542736E-15,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[100.0,-8.742275E-06,4.1211006E-12,5.18483267E-15,8.742276E-06,99.99998,-1.81898908E-12,-3.492459E-08,-3.811647E-19,1.8189894E-12,99.99998,-1.78813941E-08,0.0,0.0,0.0,1.0],
+      "worldPosition":[6.20256732E-15,-4.656612E-08,-2.328307E-08],
+      "worldRotation":[0.0,1.0658141E-14,4.37113776E-08,1.0],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-1790183945725220954-0",
+          "name": "Bone.001",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Target.fbx",
+          "guid": "51b4bad2528138b4b87dda8bac08f053",
+          "localFileId": 1790183945725220954
+        },
+        "instanceRoot": {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone/0:Bone.001:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone/0:Bone.001",
+                "name": "Bone.001",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-3.55271368E-15,1.19209275E-07,-4.235165E-22,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0009999998,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": true
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone:component:0",
+                "name": "Bone",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/1:Torus",
+      "transformId": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/1:Torus:component:0",
+      "parent": {
+        "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+        "name": "Target",
+        "type": "UnityEngine.GameObject",
+        "assetPath": "",
+        "guid": "00000000000000000000000000000000",
+        "localFileId": 0
+      },
+      "name": "Torus",
+      "path": "0:Target/0:Target/1:Torus",
+      "siblingIndex": 1,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 9,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[-1.0,-1.22464685E-16,-1.49975976E-32,0.0,-1.22464685E-16,1.0,1.22464685E-16,0.0,-7.34684E-40,1.22464685E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[-1.0,-1.22464685E-16,-1.49975976E-32,0.0,-1.22464685E-16,1.0,1.22464685E-16,0.0,-7.34684E-40,1.22464685E-16,-1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+      "prefab": {
+        "source": {
+          "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-18055475753155856415-0",
+          "name": "Torus",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "Assets/Environment/Models/Target.fbx",
+          "guid": "51b4bad2528138b4b87dda8bac08f053",
+          "localFileId": -391268320553695201
+        },
+        "instanceRoot": {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "overrideOwner": {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target",
+          "name": "Target",
+          "type": "UnityEngine.GameObject",
+          "assetPath": "",
+          "guid": "00000000000000000000000000000000",
+          "localFileId": 0
+        },
+        "modifications": []
+      },
+      "components": [
+        {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/1:Torus:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/1:Torus",
+                "name": "Torus",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[-6.123234E-17,1.0,6.123234E-17,-3.74939939E-33],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target:component:0",
+                "name": "Target",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/1:Torus:component:1",
+          "type": "UnityEngine.SkinnedMeshRenderer",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/1:Torus",
+                "name": "Torus",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_CastShadows",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveShadows",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DynamicOccludee",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticShadowCaster",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MotionVectors",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReflectionProbeUsage",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTracingMode",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RayTraceProcedural",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RenderingLayerMask",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RendererPriority",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndex",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapIndexDynamic",
+              "kind": "Integer",
+              "value": 65535,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffset",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapTilingOffsetDynamic",
+              "kind": "Vector4",
+              "value":[1.0,1.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.size",
+              "kind": "ArraySize",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Materials.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-233fb6af25808134d90362bd71a76d3d-2100000-0",
+                "name": "NavigationGizmo",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/NavigationGizmo.mat",
+                "guid": "233fb6af25808134d90362bd71a76d3d",
+                "localFileId": 2100000
+              },
+              "prefabOverride": true
+            },
+            {
+              "path": "m_StaticBatchInfo.firstSubMesh",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchInfo.subMeshCount",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StaticBatchRoot",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ProbeAnchor",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightProbeVolumeOverride",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ScaleInLightmap",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ReceiveGI",
+              "kind": "Integer",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PreserveUVs",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IgnoreNormalsForChartDetection",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ImportantGI",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_StitchLightmapSeams",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SelectedEditorRenderState",
+              "kind": "Integer",
+              "value": 3,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_MinimumChartSize",
+              "kind": "Integer",
+              "value": 4,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxDistance",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AutoUVMaxAngle",
+              "kind": "Float",
+              "value": 89.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LightmapParameters",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayerID",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingLayer",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SortingOrder",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Quality",
+              "kind": "Enum",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_UpdateWhenOffscreen",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_SkinnedMotionVectors",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Mesh",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-51b4bad2528138b4b87dda8bac08f053-9642806546131441263-0",
+                "name": "Torus",
+                "type": "UnityEngine.Mesh",
+                "assetPath": "Assets/Environment/Models/Target.fbx",
+                "guid": "51b4bad2528138b4b87dda8bac08f053",
+                "localFileId": -8803937527578110353
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Bones.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Bones.Array.data[0]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone:component:0",
+                "name": "Bone",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Bones.Array.data[1]",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone/0:Bone.001:component:0",
+                "name": "Bone.001",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_BlendShapeWeights.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RootBone",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone:component:0",
+                "name": "Bone",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_AABB",
+              "kind": "Bounds",
+              "value": {
+                "center":[0.0,0.0009999999,0.0],
+                "size":[0.0105000017,0.000499999849,0.0104999989]
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_DirtyAABB",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            }
+          ],
+          "renderer": {
+            "enabled": true,
+            "bounds": {
+              "center":[3.55271368E-15,-2.23517418E-08,-1.78813924E-08],
+              "size":[1.05000043,0.0500000678,1.04999983]
+            },
+            "materials": [
+              {
+                "id": "GlobalObjectId_V1-3-233fb6af25808134d90362bd71a76d3d-2100000-0",
+                "name": "NavigationGizmo",
+                "type": "UnityEngine.Material",
+                "assetPath": "Assets/Environment/Materials/NavigationGizmo.mat",
+                "guid": "233fb6af25808134d90362bd71a76d3d",
+                "localFileId": 2100000
+              }
+            ],
+            "shadowCastingMode": "On",
+            "receiveShadows": true,
+            "lightmapIndex": -1,
+            "lightmapScaleOffset":[1.0,1.0,0.0,0.0]
+          },
+          "skin": {
+            "mesh": "713a77e14019091bc212f92b292edf32cefd91668326410863b2bea7ec29ca3b",
+            "rootBone": {
+              "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone:component:0",
+              "name": "Bone",
+              "type": "UnityEngine.Transform",
+              "assetPath": "",
+              "guid": "00000000000000000000000000000000",
+              "localFileId": 0
+            },
+            "bones": [
+              {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone:component:0",
+                "name": "Bone",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              {
+                "id": "prefab:3ee265cd1d7910f458699d94b5fa0948:0:Target/0:Target/0:Armature/0:Bone/0:Bone.001:component:0",
+                "name": "Bone.001",
+                "type": "UnityEngine.Transform",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              }
+            ],
+            "localBounds": {
+              "center":[0.0,0.0009999999,0.0],
+              "size":[0.0105000017,0.000499999849,0.0104999989]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

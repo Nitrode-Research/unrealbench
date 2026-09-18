@@ -1,0 +1,13 @@
+[project]
+name = "nitrode-envs"
+version = "0.1.0"
+description = "Local tooling for Nitrode training environments"
+requires-python = ">=3.12"
+dependencies = [
+    "harbor==0.23.0",
+    "boto3==1.43.94",
+]
+
+[tool.uv]
+package = false
+required-version = "==0.12.13"

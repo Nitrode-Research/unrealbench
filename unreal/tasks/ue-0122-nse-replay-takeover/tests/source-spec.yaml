@@ -1,0 +1,121 @@
+task_id: ue_task_0122
+title: Replay takeover with independent branch recording
+tier: hard
+instruction: |
+  # Replay takeover with independent branch recording
+
+  While watching a valid NightSkyEngine replay locally—for example, during training—let the user take control of P1 or P2 and save the continuation as a separate playable replay. Support takeover at the current position or a requested position reached without intermediate presentation. Position K means K recorded input pairs have run; takeover changes frame K before it runs. For a source of L >= 0 pairs with compatible version and available assets, accept integer positions 0 through L. Invalid positions/sides, repeated takeover, and seeking after takeover reject without changing playback, ownership or recordings.
+
+  Before K, both sides use recorded inputs. From K, only the selected side uses its local controller; the other uses the source until L, then no input at all (`INP_None`, zero — not the named `INP_Neutral` flag). Preserve the battle at K, including buffered combat inputs and subsequent random outcomes. After takeover, strip rematch/training-reset commands from both sides' effective inputs, including inputs still fed from the source, and never record them in the branch's input pairs; preserve ordinary held combat buttons. Ordinary playback stops in-world at L and remains available for takeover. Branch play continues until finish or match end. Pause advances neither battle nor recording; finishing is idempotent, saves once, and stops advancement. Fresh sessions clear takeover ownership.
+
+  Save the original initialization and input prefix, the effective input pairs after K, and K/side metadata under an unused replay identity. Never replace an existing save: if no unused identity is available, finishing rejects instead of overwriting. Preserve the source in memory and on disk. The saved branch must play independently without the source. Catch-up produces the same destination and subsequent gameplay as ordinary playback, displays only the destination, resumes normal presentation, and emits no skipped or repeated visuals, camera/HUD updates, collision debug drawing or audio. The destination presentation it restores includes the collision debug view when that view is enabled. Effects already alive before a seek remain at the destination, aged as in ordinary playback; only effects that would have started in skipped frames are omitted.
+
+  Edit only files inside the task's editable scope. An attempt that changes anything outside it is rejected without being scored.
+hidden_requirements:
+  R1:
+    text: "Takeover applies before frame K for either selected side; preserve battle state and route only that side to its controller."
+    category: core_logic
+  R2:
+    text: "Validate positions and sides; reject second takeover and post-takeover seek without changes."
+    category: core_logic
+  R3:
+    text: "Source is immutable; saving never overwrites an existing identity; independent branch preserves initialization and prefix, records effective suffix, K and side, and replays without source."
+    category: core_logic
+  R4:
+    text: "Playback stops at L in-world; branch continues with no unselected input (INP_None) beyond L until finish or match end."
+    category: core_logic
+  R5:
+    text: "Pause stops simulation and recording; finish saves once and stops advancement; fresh sessions clear takeover ownership."
+    category: core_logic
+  R6:
+    text: "Strip rematch/reset commands from both sides' effective and recorded inputs after takeover while preserving ordinary held combat buttons."
+    category: core_logic
+  R7:
+    text: "Catch-up preserves destination and subsequent gameplay, suppresses intermediate presentation including camera motion and audio, restores destination presentation, retains one-shot effects that were already alive and excludes skipped one-shot effects."
+    category: core_logic
+test_requirements:
+  UnrealBench.ReplayTakeover.EmptyBranchPersistence: [R2, R3, R5]
+  UnrealBench.ReplayTakeover.BoundaryRouting: [R1, R3, R4, R6]
+  UnrealBench.ReplayTakeover.LifecycleAndRejections: [R2, R4, R5]
+  UnrealBench.ReplayTakeover.CatchupContinuation: [R1, R7]
+  UnrealBench.ReplayTakeover.SeededStateful: [R1, R2, R3, R4, R5, R6]
+  UnrealBench.ReplayTakeover.SourceFreeBattlePersistence: [R3, R5]
+  UnrealBench.ReplayTakeover.CombatBoundary: [R1, R6]
+  UnrealBench.ReplayTakeover.MatchCompletion: [R3, R4, R5]
+  UnrealBench.ReplayTakeover.DirectTakeoverAtomicity: [R1, R2, R7]
+  UnrealBench.ReplayTakeover.HeadlessPresentationFence: [R7]
+  UnrealBench.ReplayTakeover.CommonParticleFence: [R7]
+  UnrealBench.ReplayTakeover.HeadlessAudioFence: [R7]
+  UnrealBench.ReplayTakeover.DirectBoundaries:
+  - R1
+  - R3
+  - R7
+  UnrealBench.ReplayTakeover.NumericAtomicity:
+  - R2
+  - R3
+  UnrealBench.ReplayTakeover.PauseAndCommands:
+  - R3
+  - R5
+  - R6
+# Integration-only tests: excluded from the RLVR reward filter (renamed to the
+# UnrealBenchIntegration.* namespace in the test source so the reward filter
+# `UnrealBench.ReplayTakeover` no longer matches them). Run separately with
+# filter `UnrealBenchIntegration.ReplayTakeover` as a non-reward correctness gate.
+# FreshProcessPersistence boots a second editor and AddError-fails (not skips)
+# when the host lacks two-editor capacity, so its verdict depends on infra, not
+# the solution. R3/R5 remain fully covered by the reward tests above.
+# PresentationFence does SceneCapture/ReadPixels and needs a real RHI (SIGSEGVs
+# under -NullRHI), so it is eval-only on a CPU RLVR fleet. Every presentation
+# channel it observes that does not need real hardware is now graded:
+# HeadlessPresentationFence covers HUD, collision debug and intermediate
+# fighter/camera transforms (USceneComponent::TransformUpdated needs no RHI),
+# HeadlessAudioFence covers started/stopped common audio through AAudioManager's
+# native observer (which reports under -NoSound), and CommonParticleFence covers
+# the native common-effect boundary and lifetime. What stays integration-only is
+# the positive controls that do need hardware: actual pixels (HlslParticleFence)
+# and real-device audio playback.
+integration_tests:
+  UnrealBenchIntegration.ReplayTakeover.FreshProcessPersistence: [R3, R5]
+  UnrealBenchIntegration.ReplayTakeover.PresentationFence: [R7]
+  UnrealBenchIntegration.ReplayTakeover.HlslParticleFence: [R7]
+files_to_edit:
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Misc/RandomManager.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/NightSkyGameInstance.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Miscellaneous/ReplayInfo.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/FighterRunners/FighterReplayRunner.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.h
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/NightSkyGameState.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/BattleObject.cpp
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Battle/Objects/PlayerObject.cpp
+tests:
+  runner: ue_automation
+  mode: editor
+  num_clients: 0
+  filter: UnrealBench.ReplayTakeover
+  expected_tests:
+  - UnrealBench.ReplayTakeover.EmptyBranchPersistence
+  - UnrealBench.ReplayTakeover.BoundaryRouting
+  - UnrealBench.ReplayTakeover.LifecycleAndRejections
+  - UnrealBench.ReplayTakeover.CatchupContinuation
+  - UnrealBench.ReplayTakeover.SeededStateful
+  - UnrealBench.ReplayTakeover.SourceFreeBattlePersistence
+  - UnrealBench.ReplayTakeover.CombatBoundary
+  - UnrealBench.ReplayTakeover.MatchCompletion
+  - UnrealBench.ReplayTakeover.DirectTakeoverAtomicity
+  - UnrealBench.ReplayTakeover.HeadlessPresentationFence
+  - UnrealBench.ReplayTakeover.CommonParticleFence
+  - UnrealBench.ReplayTakeover.HeadlessAudioFence
+  - UnrealBench.ReplayTakeover.DirectBoundaries
+  - UnrealBench.ReplayTakeover.NumericAtomicity
+  - UnrealBench.ReplayTakeover.PauseAndCommands
+
+editable_paths:
+- Source
+- Config
+- Content
+- Plugins
+- NightSkyEngine.uproject
+protected_paths:
+- Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures
+- REPLAY_INTERFACE.md

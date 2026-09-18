@@ -1,0 +1,241 @@
+{
+  "scoringRevision": "ue-0172-valid-fixtures-v3",
+  "taskVersion": "0.5.0",
+  "requiredChecks": 45,
+  "changedCpp": [
+    "ProgressionTests.cpp",
+    "StoryRuleTests.cpp"
+  ],
+  "priorRevision": {
+    "scoringRevision": "ue-0172-scored-preservation-v2",
+    "taskVersion": "0.4.0",
+    "requiredChecks": 45,
+    "addedChecks": [
+      "Task0172.Submission.SuppliedCodePreservation"
+    ],
+    "priorRevision": {
+      "scoringRevision": "ue-0172-no-hud-v1",
+      "taskVersion": "0.3.0",
+      "method": "scoring-policy-change",
+      "excludedChecks": [
+        "Task0172.Rendered.HUD.StateTransitionPixels"
+      ],
+      "requiredChecks": 44,
+      "sourceReceiptSha256": "3e4fb2b1a20b37d5cc736d46ff83de181084c11d70b5d7e9d6c683b99c17ae08",
+      "files": [
+        {
+          "path": "tests/task-package/verification/checks.json",
+          "originalSha256": "080d780d643b3e31143de16c433fb92863498180eca7db4e29907efcd9ea02b4",
+          "sha256": "e98f6e5227914b8848ac292738cec766ffe04a727003f8a96d775ad95dfc9559"
+        },
+        {
+          "path": "tests/task-package/verification/verify.py",
+          "originalSha256": "da96c2452aa3c0d449dee5c60ce0549359968e630be8c310c93dd73306b6dce9",
+          "sha256": "aa0736a8dc0f4b98bcc9d5918e182a3277ae0535707a54d451fc8dd2160bcfc7"
+        },
+        {
+          "path": "tests/task-package/verification/verify_linux.py",
+          "originalSha256": "0733f17481ed54d9016435a3db7ae328ce49ab16951d19bd669b7a96e8ffc648",
+          "sha256": "dc823e3c7916b6398808e376149c99ca3014699f1142a98df12cdce67abf6266"
+        },
+        {
+          "path": "tests/test.sh",
+          "originalSha256": "02e3d8e5fdc02342dc157b16f627db2bff2fc2c84401ff80623151e1716b8276",
+          "sha256": "5bd0c5241bd79a2575806cfb00f30ba7157cbfcf59092de6707ac213ce07ebb5"
+        },
+        {
+          "path": "task.toml",
+          "originalSha256": "a5863fb2eca6b92888aaa030d872cf2365d8eb0e1ae8b9c64d25d2542f329dee",
+          "sha256": "b69bc82a0a8bc91b16c9a165aa9b2228f86dd764db939e3be78d3cbd9ba6b256"
+        },
+        {
+          "path": "gdd.md",
+          "originalSha256": "4f79cd794809a674a80069d3c3cfedc350462c1989b7f0684af081797bf587d8",
+          "sha256": "50cafc80b79323b6ed1c401220b76e65718d6d9e6f828cffce064a54df7d0b2a"
+        },
+        {
+          "path": "environment/workspace/gdd.md",
+          "originalSha256": "4f79cd794809a674a80069d3c3cfedc350462c1989b7f0684af081797bf587d8",
+          "sha256": "50cafc80b79323b6ed1c401220b76e65718d6d9e6f828cffce064a54df7d0b2a"
+        },
+        {
+          "path": "GDD_RECEIPT.json",
+          "originalSha256": "fcbb8bf2f290c877a1ac214a7dac8a536e95459849819e9a81442a56fd4cf600",
+          "sha256": "7a93239f30e7026859fb91f54ec8de64dc1bebc41d5f59eb441e9a9a59097198"
+        },
+        {
+          "path": "tests/task-package/README.md",
+          "originalSha256": "ec38df441986e3caddafc6e40c83e3c8cc617ed35002499462b85d4618c623ea",
+          "sha256": "824cff3a9fac9fc167e0aa58ec6bf579aa8170630e72d04e76f32c09da3ba56e"
+        },
+        {
+          "path": "tests/task-package/spec.yaml",
+          "originalSha256": "f2b07e16866515243e9d1aa744d4d0d0ff03731cf1d7327ea07c16cbd89a75f7",
+          "sha256": "ed71ae3c1cc4131280e3fc344c1e0c50e9a47e0ea9e4c163aaf7ca2f0fab2015"
+        },
+        {
+          "path": "tests/task-package/VALIDATION.md",
+          "originalSha256": "23bacfd26a0fa8e3c90043a298bbc73d75ae23566dcc0b7e20ce529efcb4a48c",
+          "sha256": "6934ab7599a65f39c3c94cf9d97519870560c40d11920dd621ef6bd1212c919d"
+        },
+        {
+          "path": "environment/workspace/TASK.md",
+          "originalSha256": "ed4ccd12580a2cb3a9f6b60165f671a72f2dcb08db92df32b831741e56b2ac2c",
+          "sha256": "1657513a18b2b01b396fa73ba259686b274ad5e30e3ae55e77d46380ab9c96bd"
+        }
+      ],
+      "note": "Original C++ assertions and historical validation reports are retained. Only preparation/headless checks enter reward; no new native engine execution is claimed."
+    },
+    "files": [
+      {
+        "path": "tests/task-package/verification/checks.json",
+        "originalSha256": "e98f6e5227914b8848ac292738cec766ffe04a727003f8a96d775ad95dfc9559",
+        "sha256": "3643aac57a5de89de959599775ad4639269cee5fb13bff9200f45264c83b71ae"
+      },
+      {
+        "path": "tests/task-package/verification/verify.py",
+        "originalSha256": "aa0736a8dc0f4b98bcc9d5918e182a3277ae0535707a54d451fc8dd2160bcfc7",
+        "sha256": "47c0a4d166d48ffe67e8b584c0cda694a68e251e648572afba9a6ababe2852ee"
+      },
+      {
+        "path": "tests/task-package/verification/verify_linux.py",
+        "originalSha256": "dc823e3c7916b6398808e376149c99ca3014699f1142a98df12cdce67abf6266",
+        "sha256": "a774c3748d8a07e1ece49f7d7f4093d9daabd09bed1d96a08f14b3c2a7b55f3f"
+      },
+      {
+        "path": "tests/test.sh",
+        "originalSha256": "5bd0c5241bd79a2575806cfb00f30ba7157cbfcf59092de6707ac213ce07ebb5",
+        "sha256": "75f90372cf3371e9a84ff6235eebe673f6f40afa423db84151939eef29082c3d"
+      },
+      {
+        "path": "task.toml",
+        "originalSha256": "b69bc82a0a8bc91b16c9a165aa9b2228f86dd764db939e3be78d3cbd9ba6b256",
+        "sha256": "b1cdb9452688b497d266380faf62380b38366ee92b6d3bb8521671cfa05cc5db"
+      },
+      {
+        "path": "gdd.md",
+        "originalSha256": "50cafc80b79323b6ed1c401220b76e65718d6d9e6f828cffce064a54df7d0b2a",
+        "sha256": "9bc252008787d3df351882a813fe55b40829e4c85f56d438177e535061f41627"
+      },
+      {
+        "path": "environment/workspace/gdd.md",
+        "originalSha256": "50cafc80b79323b6ed1c401220b76e65718d6d9e6f828cffce064a54df7d0b2a",
+        "sha256": "9bc252008787d3df351882a813fe55b40829e4c85f56d438177e535061f41627"
+      },
+      {
+        "path": "environment/workspace/TASK.md",
+        "originalSha256": "1657513a18b2b01b396fa73ba259686b274ad5e30e3ae55e77d46380ab9c96bd",
+        "sha256": "a5d18deb8231c17b9e3e7a3cfd969ac49f07a0a89cbce5bf4900f019d00842c5"
+      },
+      {
+        "path": "tests/task-package/README.md",
+        "originalSha256": "824cff3a9fac9fc167e0aa58ec6bf579aa8170630e72d04e76f32c09da3ba56e",
+        "sha256": "88febd48acaf70b63cc7392a8005bf450247cb1d47e7814e10639a7ed905e68b"
+      },
+      {
+        "path": "tests/task-package/VALIDATION.md",
+        "originalSha256": "6934ab7599a65f39c3c94cf9d97519870560c40d11920dd621ef6bd1212c919d",
+        "sha256": "5bca54e20eeafa2f40c11ebcc6583160cfbd4608237f1f74bec8586b2ae50069"
+      },
+      {
+        "path": "tests/task-package/spec.yaml",
+        "originalSha256": "ed71ae3c1cc4131280e3fc344c1e0c50e9a47e0ea9e4c163aaf7ca2f0fab2015",
+        "sha256": "98ff5656aadd19a52017550071dbf9f878bbb5a93c78b007b35bc2fbcc72e8c4"
+      },
+      {
+        "path": "GDD_RECEIPT.json",
+        "originalSha256": "7a93239f30e7026859fb91f54ec8de64dc1bebc41d5f59eb441e9a9a59097198",
+        "sha256": "d346c69021fd413099498cc5d9d4424185de76e1bc3f0e8992238848c41246a4"
+      }
+    ],
+    "note": "Scoring policy change; original C++ assertions retained. No new native execution or historical rescore claimed."
+  },
+  "files": [
+    {
+      "path": "tests/ue/ProgressionTests.cpp",
+      "originalSha256": "cd965c85aced0331a3545190198be3d585d5ee7ba0312d64de11c514f058b2d7",
+      "sha256": "d918028514a6efdae3f22d58c60e7146f8bcb9e3aaead42098feb35488b79a74"
+    },
+    {
+      "path": "tests/task-package/tests/ProgressionTests.cpp",
+      "originalSha256": "cd965c85aced0331a3545190198be3d585d5ee7ba0312d64de11c514f058b2d7",
+      "sha256": "d918028514a6efdae3f22d58c60e7146f8bcb9e3aaead42098feb35488b79a74"
+    },
+    {
+      "path": "tests/ue/StoryRuleTests.cpp",
+      "originalSha256": "03d1a8abf8084d4969ea5cbcdef40e2a8568cdbdf35a3a55a813e0e965bf00e0",
+      "sha256": "c5152a6966a65120375ef4867c73f87ad3fd2130693b2c0a2667b96f7292fea6"
+    },
+    {
+      "path": "tests/task-package/tests/StoryRuleTests.cpp",
+      "originalSha256": "03d1a8abf8084d4969ea5cbcdef40e2a8568cdbdf35a3a55a813e0e965bf00e0",
+      "sha256": "c5152a6966a65120375ef4867c73f87ad3fd2130693b2c0a2667b96f7292fea6"
+    },
+    {
+      "path": "tests/task-package/verification/checks.json",
+      "originalSha256": "3643aac57a5de89de959599775ad4639269cee5fb13bff9200f45264c83b71ae",
+      "sha256": "fd0a00255774bbd71d43bf5fa59fed8fadacca230234f9a2db422e8d9f50c0a4"
+    },
+    {
+      "path": "tests/task-package/verification/verify.py",
+      "originalSha256": "47c0a4d166d48ffe67e8b584c0cda694a68e251e648572afba9a6ababe2852ee",
+      "sha256": "801d431ce3e958fe2a7b9bb09cb69204c8f6be8256c9f1a45f208c74e18987b0"
+    },
+    {
+      "path": "tests/task-package/verification/verify_linux.py",
+      "originalSha256": "a774c3748d8a07e1ece49f7d7f4093d9daabd09bed1d96a08f14b3c2a7b55f3f",
+      "sha256": "f594ac1c05ce7c47330d24d0aa34b7a3fee7388ea7c3cbf1637bad9398355aa9"
+    },
+    {
+      "path": "tests/test.sh",
+      "originalSha256": "75f90372cf3371e9a84ff6235eebe673f6f40afa423db84151939eef29082c3d",
+      "sha256": "1e4601c9d8157bf219871a94a5499027f843f8888ca3cfa0fd00fb2fff0bf393"
+    },
+    {
+      "path": "task.toml",
+      "originalSha256": "b1cdb9452688b497d266380faf62380b38366ee92b6d3bb8521671cfa05cc5db",
+      "sha256": "dc8a9560f8fe18273b2e1efa3a17da1f8ad3e71b1617d79f764638ff6d0f4e1a"
+    },
+    {
+      "path": "gdd.md",
+      "originalSha256": "9bc252008787d3df351882a813fe55b40829e4c85f56d438177e535061f41627",
+      "sha256": "863e2cfa6bce8bf8f5bbf1d4f41b24158bd7b6a0a4fdd7b2a7ca1175ffdd8a97"
+    },
+    {
+      "path": "environment/workspace/gdd.md",
+      "originalSha256": "9bc252008787d3df351882a813fe55b40829e4c85f56d438177e535061f41627",
+      "sha256": "863e2cfa6bce8bf8f5bbf1d4f41b24158bd7b6a0a4fdd7b2a7ca1175ffdd8a97"
+    },
+    {
+      "path": "environment/workspace/TASK.md",
+      "originalSha256": "a5d18deb8231c17b9e3e7a3cfd969ac49f07a0a89cbce5bf4900f019d00842c5",
+      "sha256": "61fda611c6a830a818a078d54af536f3da0382238ae57543ca6ea55a2df088f3"
+    },
+    {
+      "path": "tests/task-package/README.md",
+      "originalSha256": "88febd48acaf70b63cc7392a8005bf450247cb1d47e7814e10639a7ed905e68b",
+      "sha256": "777b81a070a988281317d22d82ca9c92e628213e81d4c4bf61cacee7c88e1fc9"
+    },
+    {
+      "path": "tests/task-package/spec.yaml",
+      "originalSha256": "98ff5656aadd19a52017550071dbf9f878bbb5a93c78b007b35bc2fbcc72e8c4",
+      "sha256": "0c7e3d9f52a400940e8faf3be135e88702100847169ee631caebff1b1f7fb462"
+    },
+    {
+      "path": "tests/task-package/protected-paths.json",
+      "originalSha256": "41c60e28017ac3a740e3af706f6b287ecbb657fc8b854fe9f72ad59812d3ac2d",
+      "sha256": "08781e44cf5ff22f11a8cb736dfd648f17f651b29ae819e03d97d8699ad2b40c"
+    },
+    {
+      "path": "tests/task-package/VALIDATION.md",
+      "originalSha256": "5bca54e20eeafa2f40c11ebcc6583160cfbd4608237f1f74bec8586b2ae50069",
+      "sha256": "3a327c192d88e4aa391869e21a48ebbd90eed84f6acc9a03104db5e49a5a6d15"
+    },
+    {
+      "path": "GDD_RECEIPT.json",
+      "originalSha256": "d346c69021fd413099498cc5d9d4424185de76e1bc3f0e8992238848c41246a4",
+      "sha256": "03e8ce0c9a7b4be2341bb1255c26bf65e6fbd596a4484ca5fc59ab832696ca21"
+    }
+  ],
+  "note": "Valid synthetic story and initialized session fixtures; typed save-corruption probes do not require the private players wire key. Source preservation remains one of 45 checks, HUD is excluded. Existing grades retain their historical evaluator revisions. No model submission was changed. Native validation receipts are separate."
+}

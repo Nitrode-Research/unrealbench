@@ -1,0 +1,583 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+#include "NightSkyEngine/Network/InputDelivery.h"
+
+#include "CoreMinimal.h"
+#include "Actors/AudioManager.h"
+#include "Objects/PlayerObject.h"
+#include "GameFramework/GameStateBase.h"
+#include "include/ggponet.h"
+#include "Misc/RandomManager.h"
+#include "NightSkyGameState.generated.h"
+
+class UBattleExtensionData;
+class UBattleExtension;
+constexpr int32 MaxRollbackFrames = 1;
+constexpr float OneFrame = 0.0166666666;
+
+class ANightSkyBattleHudActor;
+
+// Battle data
+
+UENUM(BlueprintType)
+enum class EBattleFormat : uint8
+{
+	Rounds,
+	Tag,
+	KOF,
+    Relay,
+};
+
+enum EIntroSide
+{
+	INT_P1,
+	INT_P2,
+	INT_None,
+};
+
+UENUM(BlueprintType)
+enum EWinSide 
+{
+	WIN_None,
+	WIN_P1,
+	WIN_P2,
+	WIN_Draw,
+};
+
+// Relay commands use spare bits in the normal replay/GGPO input word.
+constexpr int32 RelaySlot1 = 1 << 20;
+constexpr int32 RelaySlot2 = 1 << 21;
+constexpr int32 RelaySlot3 = 1 << 22;
+constexpr int32 RelayInputMask = RelaySlot1 | RelaySlot2 | RelaySlot3;
+UENUM(BlueprintType)
+enum class ERelayPhase : uint8
+{
+    Idle,
+    Entry,
+    Synchronized,
+    Route,
+    Followup,
+    Exit
+};
+UENUM(BlueprintType)
+enum class ERelayRejection : uint8
+{
+    None,
+    WrongPhase,
+    Main,
+    Dead,
+    Visible,
+    Cooldown,
+    Resource,
+    Airborne,
+    Busy,
+    MissingMove,
+    QueueFull
+};
+// Presentation values, independent of how relay transitions are scheduled.
+USTRUCT(BlueprintType)
+struct FRelayStatus
+{
+    GENERATED_BODY()
+    UPROPERTY(BlueprintReadOnly)
+    ERelayPhase Stage = ERelayPhase::Idle;
+    UPROPERTY(BlueprintReadOnly)
+    int32 ElapsedFrames = 0;
+    UPROPERTY(BlueprintReadOnly)
+    int32 Resource = 200;
+    UPROPERTY(BlueprintReadOnly)
+    ERelayRejection Rejection = ERelayRejection::None;
+};
+USTRUCT(BlueprintType)
+struct FRelaySlotView
+{
+    GENERATED_BODY()
+    UPROPERTY(BlueprintReadOnly)
+    int32 Slot = 0;
+    UPROPERTY(BlueprintReadOnly)
+    FString Identity;
+    UPROPERTY(BlueprintReadOnly)
+    bool Main = false;
+    UPROPERTY(BlueprintReadOnly)
+    bool Visible = false;
+    UPROPERTY(BlueprintReadOnly)
+    int32 Health = 0;
+    UPROPERTY(BlueprintReadOnly)
+    int32 Recoverable = 0;
+    UPROPERTY(BlueprintReadOnly)
+    int32 Cooldown = 0;
+    UPROPERTY(BlueprintReadOnly)
+    bool Eligible = false;
+};
+
+UENUM()
+enum class EBattlePhase
+{
+	Intro,
+	Battle,
+	RoundEnd,
+	Fade,
+	Outro,
+	EndScreen,
+};
+
+USTRUCT()
+struct FAudioChannel
+{
+	GENERATED_BODY()
+
+	UPROPERTY()
+	USoundBase* SoundWave;
+	int StartingFrame;
+	float MaxDuration = 1.0f;
+	bool Finished = true;
+};
+
+USTRUCT()
+struct FTeamData
+{
+	GENERATED_BODY()
+
+	UPROPERTY(SaveGame)
+	int TeamCount = 0;
+
+	UPROPERTY(SaveGame)
+	TArray<int32> CooldownTimer;
+};
+
+UENUM(Meta = (Bitflags, UseEnumValuesAsMaskValuesInEditor = "true"))
+enum EScreenFlag 
+{
+	SCR_None,
+	SCR_Lock = 1 << 0,
+	SCR_LockXPos = 1 << 1,
+	SCR_LockYPos = 1 << 2,
+	SCR_LockWidth = 1 << 3,
+	SCR_DisableScreenSides = 1 << 4,
+};
+
+ENUM_CLASS_FLAGS(EScreenFlag);
+
+USTRUCT(BlueprintType)
+struct FScreenData 
+{
+	GENERATED_BODY()
+
+	TEnumAsByte<EScreenFlag> Flags;
+	bool bTouchingWorldSide;
+	
+	UPROPERTY(EditAnywhere)
+	int DefaultMaxWidth = 1689;
+	UPROPERTY(EditAnywhere)
+	int DefaultWidth = 1280;
+
+	int MaxZoomOutWidth = 1689;
+	int ZoomOutBeginX = 1280;
+	int ZoomOutBeginY = 180;
+	int ZoomOutBeginH = 360;
+	
+	UPROPERTY(SaveGame)
+	TArray<ABattleObject*> TargetObjects{};
+	
+	int ObjTop = 0;
+	int ObjBottom = 0;
+	int HigherObjBottom = 0;
+	int ObjLeft = 0;
+	int ObjRight = 0;
+	int ObjLength = 0;
+	int ObjHeight = 0;
+	int ObjDistanceY = 0;
+
+	int ScreenWorldCenterX = 0;
+	int ScreenWorldCenterY = 0;
+	int ScreenWorldWidth = 1280;
+
+	int TargetCenterX = 0;
+	int TargetCenterY = 0;
+	int TargetWidth = 1280;
+
+	int CenterXVelocity = 0;
+	int CenterYVelocity = 0;
+	int WidthVelocity = 0;
+
+	int FinalScreenX = 0;
+	int FinalScreenY = 0;
+	int FinalScreenWidth = 1280;
+
+	float ScreenYZoom = 0;
+	
+	int TargetOffsetY = 350;
+	int TargetOffsetLandYMax = 250;
+	int TargetOffsetLandYAdd = 6;
+	int TargetOffsetAirYMax = 180;
+	int TargetOffsetAirYAdd = 3;
+	int TargetOffsetAirYPos = 400;
+	int TargetOffsetAirYDist = 570;
+
+	int ScreenBoundsLeft = -640;
+	int ScreenBoundsRight = 640;
+	int ScreenBoundsTop = 0;
+
+	UPROPERTY(EditAnywhere)
+	int StageBoundsLeft = -3200;
+	UPROPERTY(EditAnywhere)
+	int StageBoundsRight = 3200;
+	UPROPERTY(EditAnywhere)
+	int StageBoundsTop = 5400;
+};
+
+USTRUCT(BlueprintType)
+struct FBattleState
+{
+	GENERATED_BODY()
+
+	char BattleStateSync;
+	
+	int32 FrameNumber = 0;
+	int32 TimeUntilRoundStart = 0;
+
+	UPROPERTY(EditAnywhere)
+	int32 TagCooldown = 300;
+	UPROPERTY(EditAnywhere)
+	int32 AssistCooldown = 180;
+	
+	UPROPERTY(EditAnywhere)
+	int32 RoundStartPos = 297500;
+
+	UPROPERTY(EditAnywhere, SaveGame)
+	FScreenData ScreenData;
+	
+	FVector CameraPosition = FVector();
+	bool bHUDVisible = true;
+	
+	UPROPERTY(BlueprintReadOnly)
+	int32 RoundTimer = 0;
+	
+	bool PauseTimer = false;
+	bool PauseParticles = false;
+	bool IsPlayingSequence = false;
+	
+	FRandomManager RandomManager;
+	
+	int32 Meter[2] {0, 0};
+	int32 MaxMeter[2] {10000, 10000};
+
+	int32 SuperFreezeDuration = 0;
+	int32 SuperFreezeSelfDuration = 0;
+	
+	UPROPERTY()
+	ABattleObject* SuperFreezeCaller = nullptr;
+	UPROPERTY()
+	APlayerObject* MainPlayer[2];
+	
+	int32 P1RoundsWon = 0;
+	int32 P2RoundsWon = 0;
+	UPROPERTY(BlueprintReadOnly)
+	int32 RoundCount = 0;
+	int32 FadeTimer;
+
+	EIntroSide CurrentIntroSide = INT_None;
+	UPROPERTY(BlueprintReadOnly)
+	TEnumAsByte<EWinSide> CurrentWinSide = WIN_None;
+	EBattlePhase BattlePhase = EBattlePhase::Intro;
+	
+	int32 ActiveObjectCount = 0;
+	int32 CurrentSequenceTime = -1;
+	
+	FAudioChannel CommonAudioChannels[CommonAudioChannelCount];
+	FAudioChannel CharaAudioChannels[CharaAudioChannelCount];
+	FAudioChannel CharaVoiceChannels[CharaVoiceChannelCount];
+	FAudioChannel AnnouncerVoiceChannel;
+	FAudioChannel MusicChannel;
+	
+	UPROPERTY(BlueprintReadOnly)
+	float OrthoBlendActive;
+
+    char BattleStateSyncEnd;
+
+    UPROPERTY(SaveGame)
+    FTeamData TeamData[2];
+
+    UPROPERTY(SaveGame)
+    TArray<int32> GaugeP1;
+	UPROPERTY(SaveGame)
+	TArray<int32> GaugeP2;
+	UPROPERTY(EditAnywhere, SaveGame)
+	TArray<int32> MaxGauge;
+	
+	UPROPERTY(BlueprintReadOnly)
+	EBattleFormat BattleFormat = EBattleFormat::Rounds;
+	UPROPERTY(BlueprintReadOnly)
+	int32 MaxRoundCount;
+	UPROPERTY(BlueprintReadOnly)
+	int32 MaxTimeUntilRoundStart;
+	UPROPERTY(EditAnywhere)
+	int32 MaxFadeTimer = 12;
+};
+
+constexpr size_t SizeOfBattleState = offsetof(FBattleState, BattleStateSyncEnd) - offsetof(
+	FBattleState, BattleStateSync);
+
+USTRUCT()
+struct FRollbackData
+{
+	GENERATED_BODY()
+	
+	UPROPERTY()
+	TArray<bool> ObjActive;
+	TArray<TArray<uint8>> ObjBuffer;
+	TArray<TArray<uint8>> CharBuffer;
+	TArray<uint8> BattleStateBuffer;
+	TArray<TArray<uint8>> PlayerData;
+	TArray<uint8> BattleStateData;
+	TArray<TArray<uint8>> StateData;
+	TArray<TArray<uint8>> ExtensionData;
+	TArray<TArray<uint8>> WidgetAnimationData;
+	
+	void Serialize(FArchive& Ar);
+};
+
+// Network
+
+USTRUCT(BlueprintType)
+struct FNetworkStats
+{
+	GENERATED_BODY()
+
+	UPROPERTY(BlueprintReadOnly)
+	int32 Ping;
+	UPROPERTY(BlueprintReadOnly)
+	int32 RollbackFrames;
+};
+
+// Main class
+
+UCLASS()
+class NIGHTSKYENGINE_API ANightSkyGameState : public AGameStateBase
+{
+	GENERATED_BODY()
+
+public:
+	// Sets default values for this actor's properties
+	ANightSkyGameState();
+	
+	UPROPERTY(EditAnywhere, Category=Defaults)
+	int MaxBattleObjects = 400;
+	UPROPERTY(EditAnywhere, Category=Defaults)
+	TSubclassOf<ABattleObject> BattleObjectClass = ABattleObject::StaticClass();
+	UPROPERTY()
+	TArray<ABattleObject*> Objects {};
+	UPROPERTY()
+	TArray<APlayerObject*> Players {};
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, SaveGame, Category=Battle)
+	FBattleState BattleState {};
+	
+	UPROPERTY()
+	TArray<ABattleObject*> SortedObjects {};
+	
+	UPROPERTY(BlueprintReadWrite)
+	FTransform BattleSceneTransform;
+	
+	UPROPERTY()
+	TArray<UBattleExtension*> BattleExtensions = {};
+	TArray<FGameplayTag> BattleExtensionNames = {};
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Assets)
+	UBattleExtensionData* BattleExtensionData = {};
+
+	UPROPERTY()
+	class UNightSkyGameInstance* GameInstance = nullptr;
+
+	UPROPERTY()
+	class AParticleManager* ParticleManager = nullptr;
+	UPROPERTY()
+	AAudioManager* AudioManager = nullptr;
+
+	UPROPERTY(BlueprintReadWrite)
+	class ALevelSequenceActor* SequenceActor = nullptr;
+	UPROPERTY(BlueprintReadWrite)
+	ACameraActor* CameraActor = nullptr;
+	UPROPERTY(BlueprintReadWrite)
+	ACameraActor* SequenceCameraActor = nullptr;
+	UPROPERTY(EditDefaultsOnly, Category=Defaults)
+	TSubclassOf<ACameraActor> SequenceCameraActorClass;
+	UPROPERTY(BlueprintReadOnly)
+	APlayerObject* SequenceTarget = nullptr;
+	UPROPERTY(BlueprintReadOnly)
+	APlayerObject* SequenceEnemy = nullptr;
+	UPROPERTY(BlueprintGetter=GetPaused, BlueprintSetter=SetPaused)
+	bool bPauseGame = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Debug)
+	bool bViewCollision = false;
+
+	UPROPERTY(BlueprintReadOnly)
+	bool bIsPlayingSequence = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float CameraYaw = -2.5f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float CameraYOffset = 105.0f;
+
+	UPROPERTY()
+	class AFighterLocalRunner* FighterRunner = nullptr;;
+	UPROPERTY(BlueprintReadWrite)
+	ANightSkyBattleHudActor* BattleHudActor = nullptr;;
+	
+	int32 LocalFrame = 0;
+	int32 RemoteFrame = 0;
+
+private:
+	int32 LocalInputs[2] = {};
+	int32 Checksum = 0;
+	int32 OtherChecksum = 0;
+	int32 OtherChecksumFrame = 0;
+	int32 PrevOtherChecksumFrame = 0;
+	FNetworkStats NetworkStats = FNetworkStats();
+	bool bIsResimulating = false;
+	
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+	void Init();
+	void PlayIntros();
+	void UpdateLocalInput(); //updates local input
+	void SortObjects();
+	void HandlePushCollision() const; //for each active object, handle push collision
+	void HandleHitCollision() const;
+	void UpdateVisuals(bool bShouldResimulate) const;
+	void HandleRoundWin();
+	void NextRoundTransition(bool bIsP1);
+	bool HandleMatchWin();
+	void CollisionView() const;
+	int32 CreateChecksum();
+	FGGPONetworkStats GetNetworkStats() const;
+	void ResetTraining();
+	
+public:
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION(BlueprintCallable)
+	void MatchInit();
+	void RoundInit();
+	
+	void AssignEnemy();
+
+    // Roster order is immutable in relay mode; command/view slots are one-based.
+    UFUNCTION(BlueprintPure)
+    bool IsRelayBattle() const;
+    UFUNCTION(BlueprintCallable)
+    bool SetInitialRelayResource(bool IsP1, int32 Amount);
+    UFUNCTION(BlueprintPure)
+    TArray<FRelaySlotView> GetRelaySlots(bool IsP1) const;
+    UFUNCTION(BlueprintPure)
+    FRelayStatus GetRelayStatus(bool IsP1) const;
+    UFUNCTION(BlueprintPure)
+    ERelayRejection RelayEligibility(bool IsP1, int32 Slot) const;
+    UFUNCTION(BlueprintCallable)
+    void ConfigureRelayMoves(FGameplayTag SynchronizedMove, FGameplayTag FollowupMove);
+    void CaptureRelayInputs(int32 Input1, int32 Input2);
+    void BeginRelayFrame();
+    void ResolveRelayFrame();
+    void ResetRelay(int32 Input1 = 0, int32 Input2 = 0);
+    void NotifyRelayContact(APlayerObject *Victim);
+    bool RelayControls(const APlayerObject *Fighter) const;
+    void FinishRelay(int32 Team, bool Interrupted);
+    void StartRelayMove(APlayerObject *Fighter, bool Followup);
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Relay")
+    FGameplayTag RelaySynchronizedMove;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Relay")
+    FGameplayTag RelayFollowupMove;
+
+    void UpdateGameState();
+    void UpdateGameState(int32 Input1, int32 Input2, bool bShouldResimulate);
+
+    void SetScreenCorners();
+    void UpdateScreen();
+    void SetScreenBounds() const; //forces wall collision
+	void StartSuperFreeze(int32 Duration, int32 SelfDuration, ABattleObject* CallingObject);
+	void ScreenPosToWorldPos(int32 X, int32 Y, int32& OutX, int32& OutY) const;
+	void WorldPosToScreenPos(int32 X, int32 Y, int32& OutX, int32& OutY) const;
+	ABattleObject* AddBattleObject(const UState* InState, int PosX, int PosY, EObjDir Dir, int32 ObjectStateIndex, bool bIsCommonState, APlayerObject* Parent) const;
+	void SetDrawPriorityFront(ABattleObject* InObject) const;
+	void SetDrawPriorityBack(ABattleObject* InObject) const;
+	APlayerObject* SwitchMainPlayer(APlayerObject* InPlayer, int TeamIndex, bool bForce = false, bool bEvenOnScreen = false);
+	APlayerObject* CallAssist(const bool IsP1, int AssistIndex, const FGameplayTag AssistName);
+	void SetTeamCooldown(const bool IsP1, const int TeamIndex, const int Cooldown);
+	bool CanTag(const APlayerObject* InPlayer, int TeamIndex) const;
+	
+	void SaveGameState(FRollbackData& RollbackData, int32* InChecksum); //saves game state
+	void LoadGameState(FRollbackData& RollbackData); //loads game state
+	
+	TArray<uint8> SaveForRollback();
+	void LoadForRollback(const TArray<uint8>& InBytes);
+	void EndMatch();
+
+	void UpdateCamera();
+	void PlayLevelSequence(APlayerObject* Target, APlayerObject* Enemy, ULevelSequence* Sequence);
+	void StopLevelSequence();
+	void CameraShake(const TSubclassOf<UCameraShakeBase>& Pattern, float Scale) const;
+
+	void HUDInit() const;
+	void UpdateHUD();
+	void BattleHudVisibility(bool Visible);
+	
+	void PlayCommonAudio(USoundBase* InSoundWave, float MaxDuration);
+	void PlayCharaAudio(USoundBase* InSoundWave, float MaxDuration);
+	void PlayVoiceLine(USoundBase* InSoundWave, float MaxDuration, int Player);
+	void PlayAnnouncerVoice(USoundBase* InSoundWave, float MaxDuration);
+	void PlayMusic(USoundBase* InSoundWave, float MaxDuration);
+    TFunction<void(ANightSkyGameState *, int32, int32, bool)> FrameObservation;
+    // Neutral online observation boundary. A false gate retains real remote input
+    // before gameplay consumes it; retry delivery on subsequent gameplay ticks.
+    TFunction<bool(const TArray<FRemoteInputChange>&)> RemoteInputDeliveryGate;
+    // Last frame for which actual input from both peers is known, independent of transport.
+    TFunction<int32()> ConfirmedInputFrame;
+
+    void ManageAudio();
+    void RollbackStartAudio(int32 InFrame);
+
+    int GetLocalInputs(int Index) const; // get local inputs from player controller
+    void SetOtherChecksum(uint32 RemoteChecksum, int32 InFrame);
+
+    UFUNCTION(BlueprintCallable)
+	void PlayAnnouncerVoice(const FGameplayTag Name);
+	UFUNCTION(BlueprintCallable)
+	void PlayMusic(const FGameplayTag Name);
+
+	UFUNCTION(BlueprintCallable)
+	TArray<APlayerObject*> GetTeam(bool IsP1) const;
+	UFUNCTION(BlueprintCallable)
+	APlayerObject* GetMainPlayer(bool IsP1) const;
+	UFUNCTION(BlueprintCallable)
+	void CallBattleExtension(FGameplayTag Name);
+	UFUNCTION(BlueprintPure)
+	int32 GetGauge(bool IsP1, int32 GaugeIndex) const;
+	UFUNCTION(BlueprintCallable)
+	void SetGauge(bool IsP1, int32 GaugeIndex, int32 Value);
+	UFUNCTION(BlueprintCallable)
+	void UseGauge(bool IsP1, int32 GaugeIndex, int32 Value);
+	UFUNCTION(BlueprintPure)
+	EScreenFlag GetScreenFlags() const;
+	UFUNCTION(BlueprintCallable)
+	void SetScreenFlags(UPARAM(meta = (Bitmask, BitmaskEnum = "/Script/NightSkyEngine.EScreenFlag")) int32 InFlags);
+	UFUNCTION(BlueprintPure)
+	bool IsTagBattle() const;
+	UFUNCTION(BlueprintPure)
+	int32 GetTeamCount(bool bIsP1) const;
+	
+	UFUNCTION(BlueprintPure)
+	bool GetPaused() const;
+	UFUNCTION(BlueprintCallable)
+	void SetPaused(bool bPause);
+	
+	UFUNCTION(BlueprintImplementableEvent)
+	void EndMatch_BP();
+	UFUNCTION(BlueprintImplementableEvent)
+	void UpdateHUD_BP();
+	UFUNCTION(BlueprintImplementableEvent)
+	void UpdateHUDAnimations_BP();
+};

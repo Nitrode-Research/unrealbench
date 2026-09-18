@@ -1,0 +1,6166 @@
+{
+  "schema": 1,
+  "sourceRevision": "b4ac4409ea4fdfccd2e7f741a1f32874b50e0d1b",
+  "sourceSceneSha256": "20dc306a8e103e4fe356bdc5afa3d7e2e9ee2b3db2ff7537674a1362304b09cf",
+  "targetMap": "/Game/Maps/Source/EntryGate_Source",
+  "players": [
+    {
+      "identity": 1,
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8822354613503714649-1202145409",
+      "position": [
+        -4251.7334,
+        -1448.8731400000001,
+        61.81716
+      ],
+      "yaw": -159.9035362952955
+    },
+    {
+      "identity": 2,
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5714313799803360567-1202145409",
+      "position": [
+        -4191.25328,
+        -1690.10315,
+        69.55112
+      ],
+      "yaw": -175.40253731838195
+    }
+  ],
+  "chainCentres": [
+    [
+      -4251.22681,
+      -1449.24955,
+      -3.3153776099999996
+    ],
+    [
+      -4249.999,
+      -1450.44508,
+      -13.1556228
+    ],
+    [
+      -4247.37663,
+      -1451.79548,
+      -22.629375800000002
+    ],
+    [
+      -4248.5427899999995,
+      -1452.1602599999999,
+      -31.1688662
+    ],
+    [
+      -4247.2029999999995,
+      -1449.63436,
+      -35.08062
+    ],
+    [
+      -4239.388,
+      -1450.91362,
+      -34.941625599999995
+    ],
+    [
+      -4237.972,
+      -1459.1604200000002,
+      -34.7926617
+    ],
+    [
+      -4238.327,
+      -1468.47477,
+      -34.6570015
+    ],
+    [
+      -4241.6877700000005,
+      -1473.51894,
+      -34.631872200000004
+    ],
+    [
+      -4241.67976,
+      -1474.1066,
+      -34.622824200000004
+    ],
+    [
+      -4234.010700000001,
+      -1470.1453199999999,
+      -34.56428
+    ],
+    [
+      -4231.223,
+      -1470.90549,
+      -34.511253200000006
+    ],
+    [
+      -4226.2535100000005,
+      -1477.15664,
+      -34.33768
+    ],
+    [
+      -4219.74525,
+      -1473.69289,
+      -34.2904359
+    ],
+    [
+      -4213.08022,
+      -1468.7768,
+      -34.264647999999994
+    ],
+    [
+      -4203.562550000001,
+      -1466.44077,
+      -34.15323
+    ],
+    [
+      -4196.786,
+      -1459.8378200000002,
+      -34.15221
+    ],
+    [
+      -4195.91331,
+      -1458.0842,
+      -30.214175599999997
+    ],
+    [
+      -4194.199,
+      -1460.60085,
+      -30.147486899999997
+    ],
+    [
+      -4186.438,
+      -1462.2963,
+      -33.95514
+    ],
+    [
+      -4181.00662,
+      -1459.22728,
+      -33.9179516
+    ],
+    [
+      -4175.46539,
+      -1455.89113,
+      -33.8257819
+    ],
+    [
+      -4172.014999999999,
+      -1452.6677100000002,
+      -33.8280678
+    ],
+    [
+      -4171.36154,
+      -1452.45323,
+      -33.798253499999994
+    ],
+    [
+      -4165.79475,
+      -1460.49585,
+      -33.37397
+    ],
+    [
+      -4157.1674299999995,
+      -1464.45675,
+      -32.8643441
+    ],
+    [
+      -4151.8272400000005,
+      -1464.8468,
+      -27.618740000000003
+    ],
+    [
+      -4151.017,
+      -1464.1346,
+      -27.592139999999997
+    ],
+    [
+      -4145.64247,
+      -1464.2974900000002,
+      -32.27741
+    ],
+    [
+      -4136.8187,
+      -1468.15157,
+      -31.758803099999998
+    ],
+    [
+      -4129.81873,
+      -1475.18625,
+      -31.2652439
+    ],
+    [
+      -4123.56033,
+      -1482.96347,
+      -30.820715399999997
+    ],
+    [
+      -4116.94756,
+      -1490.43951,
+      -30.3993434
+    ],
+    [
+      -4109.395219999999,
+      -1496.9322200000001,
+      -29.9460441
+    ],
+    [
+      -4100.361,
+      -1500.37193,
+      -29.469993700000003
+    ],
+    [
+      -4092.08679,
+      -1504.67978,
+      -29.016172899999997
+    ],
+    [
+      -4085.15739,
+      -1511.85951,
+      -28.5834044
+    ],
+    [
+      -4077.1392800000003,
+      -1517.68551,
+      -28.119266
+    ],
+    [
+      -4070.13855,
+      -1524.3425399999999,
+      -27.692318
+    ],
+    [
+      -4065.4089999999997,
+      -1533.1203500000001,
+      -27.340465800000004
+    ],
+    [
+      -4061.4627800000003,
+      -1541.04385,
+      -23.9822611
+    ],
+    [
+      -4055.7552299999998,
+      -1545.79954,
+      -23.641653400000003
+    ],
+    [
+      -4048.30551,
+      -1550.66166,
+      -26.2771964
+    ],
+    [
+      -4040.9799999999996,
+      -1557.44953,
+      -25.8319855
+    ],
+    [
+      -4035.718,
+      -1565.52258,
+      -25.4647136
+    ],
+    [
+      -4033.74939,
+      -1575.2593,
+      -25.076500000000003
+    ],
+    [
+      -4028.30467,
+      -1580.05962,
+      -24.6052712
+    ],
+    [
+      -4026.27373,
+      -1583.90741,
+      -24.3313968
+    ],
+    [
+      -4028.6068,
+      -1592.89255,
+      -24.018631900000003
+    ],
+    [
+      -4026.667,
+      -1602.66552,
+      -23.4715
+    ],
+    [
+      -4027.23,
+      -1612.12025,
+      -23.054866500000003
+    ],
+    [
+      -4029.251,
+      -1621.76,
+      -22.6968765
+    ],
+    [
+      -4030.0083200000004,
+      -1628.24612,
+      -17.7382931
+    ],
+    [
+      -4028.866,
+      -1630.83229,
+      -17.5633609
+    ],
+    [
+      -4030.55534,
+      -1635.5587,
+      -22.110757200000002
+    ],
+    [
+      -4031.241,
+      -1643.301,
+      -21.4454517
+    ],
+    [
+      -4032.919,
+      -1649.7060000000001,
+      -21.2238178
+    ],
+    [
+      -4037.7223999999997,
+      -1656.985,
+      -21.4403719
+    ],
+    [
+      -4037.55875,
+      -1666.9263799999999,
+      -20.9646
+    ],
+    [
+      -4037.517,
+      -1676.86615,
+      -20.500206900000002
+    ],
+    [
+      -4042.94357,
+      -1682.68642,
+      -20.477134
+    ],
+    [
+      -4050.604,
+      -1683.63018,
+      -16.4779842
+    ],
+    [
+      -4051.09749,
+      -1682.37534,
+      -16.560599200000002
+    ],
+    [
+      -4045.389,
+      -1677.4374000000003,
+      -20.8372757
+    ],
+    [
+      -4045.271,
+      -1670.1540000000002,
+      -21.1730078
+    ],
+    [
+      -4053.3268,
+      -1664.7892,
+      -21.7968985
+    ],
+    [
+      -4062.05177,
+      -1660.1635,
+      -22.4141836
+    ],
+    [
+      -4071.0273700000002,
+      -1656.62079,
+      -22.99533
+    ],
+    [
+      -4080.95322,
+      -1656.5763499999998,
+      -23.45665
+    ],
+    [
+      -4090.89355,
+      -1657.5890000000002,
+      -23.87162
+    ],
+    [
+      -4100.84152,
+      -1658.49056,
+      -24.28786
+    ],
+    [
+      -4110.64949,
+      -1660.1886700000002,
+      -24.6614218
+    ],
+    [
+      -4120.05577,
+      -1663.4834300000002,
+      -24.940305900000002
+    ],
+    [
+      -4129.274,
+      -1667.34962,
+      -25.186613200000004
+    ],
+    [
+      -4138.68141,
+      -1670.70656,
+      -25.4645735
+    ],
+    [
+      -4148.2480000000005,
+      -1673.611,
+      -25.771758
+    ],
+    [
+      -4157.8228,
+      -1676.49632,
+      -26.0808855
+    ],
+    [
+      -4167.043000000001,
+      -1679.75178,
+      -24.7654855
+    ],
+    [
+      -4175.0160000000005,
+      -1683.0032299999998,
+      -20.085978500000003
+    ],
+    [
+      -4181.188,
+      -1685.6750000000002,
+      -12.78841
+    ],
+    [
+      -4185.87341,
+      -1687.8263499999998,
+      -4.25140262
+    ],
+    [
+      -4189.5916,
+      -1689.4434,
+      4.881846
+    ]
+  ],
+  "geometry": [
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2025810231876769685-7494188603436346535",
+      "name": "Awning",
+      "path": "1:World/0:LoadingDocsTerrain/0:Awning",
+      "mesh": "a08f9fb6d05b325a4c7ab64e6b3b9c3087a8c444abcd5bb2315ef65b6c4dc625",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Awning_52c314c377fa",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        8.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        3.39999986,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        -15.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1550.0,
+        800.0,
+        339.999986
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1337148652979823100-7494188603436346535",
+      "name": "Building",
+      "path": "1:World/0:LoadingDocsTerrain/1:Building",
+      "mesh": "553dd3170a8906a87d450c2a78aa51d3437cb566bca35fc835e0bfc29fb3be70",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Building_29fcf3ea352e",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        -6.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        0.0,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        -4.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -400.0,
+        -600.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": true,
+      "navExcluded": true,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8422452214267461158-7494188603436346535",
+      "name": "Door",
+      "path": "1:World/0:LoadingDocsTerrain/2:Door",
+      "mesh": "4ec13357a69f98e38186312f6928b1819c4e5ea4b35431d21c54a5055fc6e5cb",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Door_abb885e0becf",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        7.95,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        0.6,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        -14.8499994,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1484.99994,
+        795.0,
+        60.0
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4325927841938982407-7494188603436346535",
+      "name": "DoorFrame",
+      "path": "1:World/0:LoadingDocsTerrain/3:DoorFrame",
+      "mesh": "4b3f40710a78daf63771b384e29ad702aa8973e8befb87c5c4581340b5612a66",
+      "asset": "/Game/Environment/Source/EntryGate/SM_DoorFrame_44c8ad2b27d5",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        8.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        0.6,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        -15.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1550.0,
+        800.0,
+        60.0
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7298808530902152486-7494188603436346535",
+      "name": "Icosphere.001",
+      "path": "1:World/0:LoadingDocsTerrain/4:Icosphere.001",
+      "mesh": "d75432704f81ad95a987d84639e2b610c4f21a0415222723ee315e5c8043e00e",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Icosphere_001_168cb7a36ab0",
+      "matrix": [
+        -0.610742033,
+        -0.0434329,
+        0.248876885,
+        -5.632833,
+        -0.0389267057,
+        0.6594952,
+        0.0195663366,
+        -0.13571474,
+        -0.249621391,
+        0.00342247915,
+        -0.6119717,
+        -26.75417,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -2675.417,
+        -563.2832999999999,
+        -13.571474
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4433748779209447670-7494188603436346535",
+      "name": "Icosphere.002",
+      "path": "1:World/0:LoadingDocsTerrain/5:Icosphere.002",
+      "mesh": "b8adc33c7254260bf32141b72927ed79e056a8def9645391f4b813fc4ce89f08",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Icosphere_002_f084c3eeecee",
+      "matrix": [
+        -0.562133,
+        -0.025551023,
+        -0.346677929,
+        -5.62800026,
+        0.0163559839,
+        0.6564707,
+        -0.07490449,
+        -0.133868381,
+        0.347233236,
+        -0.07228655,
+        -0.55770576,
+        -27.4502163,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -2745.02163,
+        -562.800026,
+        -13.3868381
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1436807697504342711-7494188603436346535",
+      "name": "Icosphere.003",
+      "path": "1:World/0:LoadingDocsTerrain/6:Icosphere.003",
+      "mesh": "0172d1f8875500c3ca73fab893139bad1a7f65a60cf036fa9a840e51d093b3c4",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Icosphere_003_8f595ee30448",
+      "matrix": [
+        -0.546123862,
+        -0.8350934,
+        0.06608899,
+        -5.46885538,
+        -0.8167888,
+        0.5133095,
+        -0.263380766,
+        -0.110242791,
+        0.186023429,
+        -0.197819293,
+        -0.9624255,
+        -26.92792,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -2692.792,
+        -546.885538,
+        -11.024279100000001
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5928276796010287788-7494188603436346535",
+      "name": "Pavement",
+      "path": "1:World/0:LoadingDocsTerrain/7:Pavement",
+      "mesh": "4afe5bb6fd2894ea3715c653b9006ccbb03ee48e33c80734b889fb18a619e0a9",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pavement_10d427a4b570",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        -6.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        0.0,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        -4.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -400.0,
+        -600.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": true,
+      "navExcluded": false,
+      "ground": true,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4729488990718313929-7494188603436346535",
+      "name": "Plank.001",
+      "path": "1:World/0:LoadingDocsTerrain/8:Plank.001",
+      "mesh": "86411fb92d4a87fd9392338d725571f5a76e56c4c69e8e6dd9e6f6f4380cef66",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Plank_001_0fefc2ebbf28",
+      "matrix": [
+        -0.9971376,
+        -1.13205331e-16,
+        -0.0756082162,
+        7.29999971,
+        -1.22114119e-16,
+        1.0,
+        1.13205318e-16,
+        0.199999988,
+        0.0756082162,
+        1.22114133e-16,
+        -0.9971376,
+        4.8,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        480.0,
+        729.999971,
+        19.9999988
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4694995489589361911-7494188603436346535",
+      "name": "Stairs",
+      "path": "1:World/0:LoadingDocsTerrain/9:Stairs",
+      "mesh": "f2283bf4168687e83ecb415f630a67e9a032ae99edadd321fbd4f7a6213bd16e",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Stairs_ae1a9b392d20",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        8.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        0.0,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        -15.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1550.0,
+        800.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": true,
+      "navExcluded": false,
+      "ground": true,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1068685266980709607-7494188603436346535",
+      "name": "Terrain",
+      "path": "1:World/0:LoadingDocsTerrain/10:Terrain",
+      "mesh": "6a3186aa39758039a9a7206b44cedf02b8f15754db82d302a7dd911dfd1c8796",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Terrain_b5636ffe6b04",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        -6.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        -0.3,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        -4.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -400.0,
+        -600.0,
+        -30.0
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": true,
+      "navExcluded": false,
+      "ground": true,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-9fbf29e190aa5754289c65135d264659-2100000-0",
+          "name": "Terrain",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Terrain.mat",
+          "guid": "9fbf29e190aa5754289c65135d264659",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6767234144770845450-7494188603436346535",
+      "name": "Trailer",
+      "path": "1:World/0:LoadingDocsTerrain/11:Trailer",
+      "mesh": "706313cfec7b985dbac5403e05ce2b39154c23dc13bec35ed2ceb68b938610ab",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Trailer_482d8c87dec8",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        3.30000019,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        2.3,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        5.60000038,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        560.000038,
+        330.000019,
+        229.99999999999997
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": true,
+      "navExcluded": true,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8084774192071321106-7494188603436346535",
+      "name": "Cube",
+      "path": "1:World/0:LoadingDocsTerrain/11:Trailer/0:Cube",
+      "mesh": "fed5806e1a40052287101947ef2e8ee86dab9d465be94d5f100460786fee7b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Cube_5d7164d091a5",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        3.300001,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        2.30000019,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        5.600001,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        560.0001,
+        330.0001,
+        230.000019
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": true,
+      "navExcluded": true,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2427827456978128225-7494188603436346535",
+      "name": "WheelBack",
+      "path": "1:World/0:LoadingDocsTerrain/11:Trailer/1:WheelBack",
+      "mesh": "e1c331a921599ae7f7104b682b98d550a35a91d3100605ce2a81f0683de0ecc2",
+      "asset": "/Game/Environment/Source/EntryGate/SM_WheelBack_99bfd60266fc",
+      "matrix": [
+        -0.9238794,
+        1.45989281e-23,
+        -0.382683456,
+        6.90000057,
+        -0.382683426,
+        -1.1920929e-07,
+        0.9238794,
+        0.4400003,
+        -4.47034765e-08,
+        1.0,
+        1.19209275e-07,
+        4.80000067,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        480.000067,
+        690.0000570000001,
+        44.00003
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": true,
+      "navExcluded": true,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8765419526098085850-7494188603436346535",
+      "name": "WheelFront",
+      "path": "1:World/0:LoadingDocsTerrain/11:Trailer/2:WheelFront",
+      "mesh": "33e365614089c04629b0a004996fa33924edb58ee016414cce3f8b6072b04a01",
+      "asset": "/Game/Environment/Source/EntryGate/SM_WheelFront_a978ce39a975",
+      "matrix": [
+        -0.9238794,
+        1.45989281e-23,
+        -0.382683456,
+        5.8,
+        -0.382683426,
+        -1.1920929e-07,
+        0.9238794,
+        0.4400003,
+        -4.47034765e-08,
+        1.0,
+        1.19209275e-07,
+        4.80000067,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        480.000067,
+        580.0,
+        44.00003
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": true,
+      "navExcluded": true,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3817836210468345439-7494188603436346535",
+      "name": "Window",
+      "path": "1:World/0:LoadingDocsTerrain/13:Window",
+      "mesh": "1570d33d1a143122fa6fc32b387af7aa86df2c8fec82cb13dfe2c11db591ec85",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Window_87a012531e34",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        8.5,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        6.70000029,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        5.60000038,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        560.000038,
+        850.0,
+        670.000029
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8358612443993088392-7494188603436346535",
+      "name": "Window.001",
+      "path": "1:World/0:LoadingDocsTerrain/14:Window.001",
+      "mesh": "1570d33d1a143122fa6fc32b387af7aa86df2c8fec82cb13dfe2c11db591ec85",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Window_87a012531e34",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        8.5,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        6.70000029,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        30.0,
+        850.0,
+        670.000029
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2623836678793132454-7494188603436346535",
+      "name": "Window.002",
+      "path": "1:World/0:LoadingDocsTerrain/15:Window.002",
+      "mesh": "1570d33d1a143122fa6fc32b387af7aa86df2c8fec82cb13dfe2c11db591ec85",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Window_87a012531e34",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        8.5,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        6.70000029,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        -5.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -500.0,
+        850.0,
+        670.000029
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6116062853228985738-7494188603436346535",
+      "name": "Window.003",
+      "path": "1:World/0:LoadingDocsTerrain/16:Window.003",
+      "mesh": "1570d33d1a143122fa6fc32b387af7aa86df2c8fec82cb13dfe2c11db591ec85",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Window_87a012531e34",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        8.5,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        6.70000029,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        -10.3,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1030.0,
+        850.0,
+        670.000029
+      ],
+      "visible": true,
+      "collision": true,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4300038668723839923-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/2:FenceMesh/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_5d0d6803a0cf",
+      "matrix": [
+        -1.7881392e-07,
+        1.0,
+        1.7881392e-07,
+        4.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        0.7071067,
+        2.98023224e-08,
+        0.707106769,
+        -18.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1834.0,
+        400.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8915111067450389233-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/2:FenceMesh/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_74cf2f73268d",
+      "matrix": [
+        1.0,
+        1.22464685e-16,
+        1.49975976e-32,
+        3.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        7.34684e-40,
+        -1.22464685e-16,
+        1.0,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        300.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2901241372335880181-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/2:FenceMesh/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_fc07a193f58e",
+      "matrix": [
+        1.0,
+        8.659559e-17,
+        8.65956e-17,
+        6.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        3.30872245e-24,
+        -0.707106769,
+        0.70710665,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        600.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4163348034235071437-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/3:Pole/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_9ce228920195",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        400.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5211655978651120878-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/4:FenceMesh (1)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_5d0d6803a0cf",
+      "matrix": [
+        -1.7881392e-07,
+        1.0,
+        1.7881392e-07,
+        0.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        0.7071067,
+        2.98023224e-08,
+        0.707106769,
+        -18.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1834.0,
+        0.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-596618833116571052-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/4:FenceMesh (1)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_74cf2f73268d",
+      "matrix": [
+        1.0,
+        1.22464685e-16,
+        1.49975976e-32,
+        -1.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        7.34684e-40,
+        -1.22464685e-16,
+        1.0,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -100.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6610171868916687016-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/4:FenceMesh (1)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_fc07a193f58e",
+      "matrix": [
+        1.0,
+        8.659559e-17,
+        8.65956e-17,
+        2.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        3.30872245e-24,
+        -0.707106769,
+        0.70710665,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        200.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-9054256581022240514-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/5:Pole (1)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_9ce228920195",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        0.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4615708892853653263-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/6:FenceMesh (2)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_5d0d6803a0cf",
+      "matrix": [
+        -1.7881392e-07,
+        1.0,
+        1.7881392e-07,
+        -4.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        0.7071067,
+        2.98023224e-08,
+        0.707106769,
+        -18.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1834.0,
+        -400.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7409482629226061-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/6:FenceMesh (2)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_74cf2f73268d",
+      "matrix": [
+        1.0,
+        1.22464685e-16,
+        1.49975976e-32,
+        -5.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        7.34684e-40,
+        -1.22464685e-16,
+        1.0,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -500.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6044326590767307593-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/6:FenceMesh (2)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_fc07a193f58e",
+      "matrix": [
+        1.0,
+        8.659559e-17,
+        8.65956e-17,
+        -2.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        3.30872245e-24,
+        -0.707106769,
+        0.70710665,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -200.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5416343359011511973-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/7:Pole (2)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_9ce228920195",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        -4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -400.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3508428799508261733-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/8:FenceMesh (3)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_5d0d6803a0cf",
+      "matrix": [
+        -1.7881392e-07,
+        1.0,
+        1.7881392e-07,
+        -8.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        0.7071067,
+        2.98023224e-08,
+        0.707106769,
+        -18.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1834.0,
+        -800.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8116728209862720039-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/8:FenceMesh (3)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_74cf2f73268d",
+      "matrix": [
+        1.0,
+        1.22464685e-16,
+        1.49975976e-32,
+        -9.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        7.34684e-40,
+        -1.22464685e-16,
+        1.0,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -900.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2549029338149682979-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/8:FenceMesh (3)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_fc07a193f58e",
+      "matrix": [
+        1.0,
+        8.659559e-17,
+        8.65956e-17,
+        -6.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        3.30872245e-24,
+        -0.707106769,
+        0.70710665,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -600.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8855551666246289750-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/9:Pole (3)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_9ce228920195",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        -8.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -800.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7639684975170002056-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/10:FenceMesh (4)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_5d0d6803a0cf",
+      "matrix": [
+        -1.7881392e-07,
+        1.0,
+        1.7881392e-07,
+        -20.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        0.7071067,
+        2.98023224e-08,
+        0.707106769,
+        -18.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1834.0,
+        -2000.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3031350435233877450-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/10:FenceMesh (4)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_74cf2f73268d",
+      "matrix": [
+        1.0,
+        1.22464685e-16,
+        1.49975976e-32,
+        -21.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        7.34684e-40,
+        -1.22464685e-16,
+        1.0,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -2100.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8784856876406851790-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/10:FenceMesh (4)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_fc07a193f58e",
+      "matrix": [
+        1.0,
+        8.659559e-17,
+        8.65956e-17,
+        -18.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        3.30872245e-24,
+        -0.707106769,
+        0.70710665,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -1800.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4153488753902920659-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/11:Pole (4)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_9ce228920195",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        -16.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -1600.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2956888157996488266-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/12:Pole (5)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_bf836b4b7396",
+      "matrix": [
+        -1.1920929e-07,
+        0.0,
+        1.00000012,
+        -20.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.00000012,
+        0.0,
+        -1.1920929e-07,
+        -14.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1400.0,
+        -2000.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1622501497182673982-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/13:FenceMesh (5)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_7b3207d484bb",
+      "matrix": [
+        0.707106769,
+        1.49011612e-07,
+        0.7071068,
+        -20.34,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        2.631076e-07,
+        -1.00000012,
+        -9.452024e-08,
+        -14.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1400.0,
+        -2034.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6237574170791513468-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/13:FenceMesh (5)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_98be8579e8be",
+      "matrix": [
+        1.1920929e-07,
+        -1.22464685e-16,
+        1.00000012,
+        -20.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -1.00000012,
+        -1.22464712e-16,
+        1.1920929e-07,
+        -13.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1300.0,
+        -2000.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-390618312227784824-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/13:FenceMesh (5)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_2fe7ec34780f",
+      "matrix": [
+        1.1920929e-07,
+        -0.7071068,
+        0.7071067,
+        -20.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -1.00000012,
+        -8.42936956e-08,
+        8.429368e-08,
+        -16.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1600.0,
+        -2000.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8878600077293310427-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/14:Pole (6)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_bf836b4b7396",
+      "matrix": [
+        -1.1920929e-07,
+        0.0,
+        1.00000012,
+        -20.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.00000012,
+        0.0,
+        -1.1920929e-07,
+        -10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1000.0,
+        -2000.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-869541483881254883-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/15:FenceMesh (6)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_7b3207d484bb",
+      "matrix": [
+        0.707106769,
+        1.49011612e-07,
+        0.7071068,
+        -20.34,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        2.631076e-07,
+        -1.00000012,
+        -9.452024e-08,
+        -10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1000.0,
+        -2034.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5477823509550309025-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/15:FenceMesh (6)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_98be8579e8be",
+      "matrix": [
+        1.1920929e-07,
+        -1.22464685e-16,
+        1.00000012,
+        -20.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -1.00000012,
+        -1.22464712e-16,
+        1.1920929e-07,
+        -9.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -900.0,
+        -2000.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2305476414497889189-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/15:FenceMesh (6)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_2fe7ec34780f",
+      "matrix": [
+        1.1920929e-07,
+        -0.7071068,
+        0.7071067,
+        -20.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -1.00000012,
+        -8.42936956e-08,
+        8.429368e-08,
+        -12.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1200.0,
+        -2000.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5567321648413737077-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/16:FenceMesh (7)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_7b3207d484bb",
+      "matrix": [
+        0.707106769,
+        1.49011612e-07,
+        0.7071068,
+        -20.34,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        2.631076e-07,
+        -1.00000012,
+        -9.452024e-08,
+        -6.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -600.0,
+        -2034.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-961238833133375799-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/16:FenceMesh (7)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_98be8579e8be",
+      "matrix": [
+        1.1920929e-07,
+        -1.22464685e-16,
+        1.00000012,
+        -20.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -1.00000012,
+        -1.22464712e-16,
+        1.1920929e-07,
+        -4.99999952,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -499.999952,
+        -2000.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6821986140918010931-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/16:FenceMesh (7)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_2fe7ec34780f",
+      "matrix": [
+        1.1920929e-07,
+        -0.7071068,
+        0.7071067,
+        -20.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -1.00000012,
+        -8.42936956e-08,
+        8.429368e-08,
+        -8.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -800.0,
+        -2000.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3307718734581779587-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/17:Pole (7)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_bf836b4b7396",
+      "matrix": [
+        -1.1920929e-07,
+        0.0,
+        1.00000012,
+        -20.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.00000012,
+        0.0,
+        -1.1920929e-07,
+        -6.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -600.0,
+        -2000.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4587254505722884257-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/18:Pole (8)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_bf836b4b7396",
+      "matrix": [
+        -1.1920929e-07,
+        0.0,
+        1.00000012,
+        -20.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.00000012,
+        0.0,
+        -1.1920929e-07,
+        -2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -200.0,
+        -2000.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4220141789914636313-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/19:FenceMesh (8)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_7b3207d484bb",
+      "matrix": [
+        0.707106769,
+        1.49011612e-07,
+        0.7071068,
+        -20.34,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        2.631076e-07,
+        -1.00000012,
+        -9.452024e-08,
+        -1.99999976,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -200.0,
+        -2034.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8828441425991856475-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/19:FenceMesh (8)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_98be8579e8be",
+      "matrix": [
+        1.1920929e-07,
+        -1.22464685e-16,
+        1.00000012,
+        -20.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -1.00000012,
+        -1.22464712e-16,
+        1.1920929e-07,
+        -0.9999995,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -99.99995,
+        -2000.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2990246475811910751-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/19:FenceMesh (8)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_2fe7ec34780f",
+      "matrix": [
+        1.1920929e-07,
+        -0.7071068,
+        0.7071067,
+        -20.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -1.00000012,
+        -8.42936956e-08,
+        8.429368e-08,
+        -4.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -400.0,
+        -2000.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6420348525305247688-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/20:FenceMesh (9)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_7b3207d484bb",
+      "matrix": [
+        0.707106769,
+        1.49011612e-07,
+        0.7071068,
+        -20.34,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        2.631076e-07,
+        -1.00000012,
+        -9.452024e-08,
+        2.00000024,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        200.0,
+        -2034.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1805293490158397066-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/20:FenceMesh (9)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_98be8579e8be",
+      "matrix": [
+        1.1920929e-07,
+        -1.22464685e-16,
+        1.00000012,
+        -20.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -1.00000012,
+        -1.22464712e-16,
+        1.1920929e-07,
+        3.00000048,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        300.000048,
+        -2000.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5401541350111896462-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/20:FenceMesh (9)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_2fe7ec34780f",
+      "matrix": [
+        1.1920929e-07,
+        -0.7071068,
+        0.7071067,
+        -20.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -1.00000012,
+        -8.42936956e-08,
+        8.429368e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        0.0,
+        -2000.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6966744871536147914-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/21:Pole (9)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_bf836b4b7396",
+      "matrix": [
+        -1.1920929e-07,
+        0.0,
+        1.00000012,
+        -20.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.00000012,
+        0.0,
+        -1.1920929e-07,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        200.0,
+        -2000.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2139428245865905420-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/22:Pole (10)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_bf836b4b7396",
+      "matrix": [
+        -1.1920929e-07,
+        0.0,
+        1.00000012,
+        -20.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.00000012,
+        0.0,
+        -1.1920929e-07,
+        6.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        600.0,
+        -2000.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1745985798586832496-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/23:FenceMesh (10)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_7b3207d484bb",
+      "matrix": [
+        0.707106769,
+        1.49011612e-07,
+        0.7071068,
+        -20.34,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        2.631076e-07,
+        -1.00000012,
+        -9.452024e-08,
+        6.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        600.0,
+        -2034.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6354267910929106738-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/23:FenceMesh (10)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_98be8579e8be",
+      "matrix": [
+        1.1920929e-07,
+        -1.22464685e-16,
+        1.00000012,
+        -20.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -1.00000012,
+        -1.22464712e-16,
+        1.1920929e-07,
+        7.00000048,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        700.000048,
+        -2000.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-852716483407528502-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/23:FenceMesh (10)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_2fe7ec34780f",
+      "matrix": [
+        1.1920929e-07,
+        -0.7071068,
+        0.7071067,
+        -20.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -1.00000012,
+        -8.42936956e-08,
+        8.429368e-08,
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        400.0,
+        -2000.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4522805102803520075-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/24:FenceMesh (11)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_7b3207d484bb",
+      "matrix": [
+        0.707106769,
+        1.49011612e-07,
+        0.7071068,
+        -20.34,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        2.631076e-07,
+        -1.00000012,
+        -9.452024e-08,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -2034.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-9137842598648437513-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/24:FenceMesh (11)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_98be8579e8be",
+      "matrix": [
+        1.1920929e-07,
+        -1.22464685e-16,
+        1.00000012,
+        -20.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -1.00000012,
+        -1.22464712e-16,
+        1.1920929e-07,
+        11.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1100.0,
+        -2000.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3254891477870370317-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/24:FenceMesh (11)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_2fe7ec34780f",
+      "matrix": [
+        1.1920929e-07,
+        -0.7071068,
+        0.7071067,
+        -20.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -1.00000012,
+        -8.42936956e-08,
+        8.429368e-08,
+        8.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        800.0,
+        -2000.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1674843613644655433-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/25:FenceMesh (12)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_a93359092602",
+      "matrix": [
+        1.7881392e-07,
+        -1.0,
+        -1.7881392e-07,
+        -16.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        -0.7071067,
+        -2.98023224e-08,
+        -0.707106769,
+        10.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1034.0,
+        -1600.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6280873649283914251-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/25:FenceMesh (12)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_f3ff4768f81c",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        -15.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -1500.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-347257307607490319-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/25:FenceMesh (12)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_45279c16c4c5",
+      "matrix": [
+        -1.0,
+        -8.659559e-17,
+        -8.65956e-17,
+        -18.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -3.30872245e-24,
+        0.707106769,
+        -0.70710665,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -1800.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8555843680846127379-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/26:Pole (11)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_c41044e42060",
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        -16.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -1600.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5006957865996739361-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/27:Pole (12)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_c41044e42060",
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        -12.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -1200.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2452208994015057401-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/28:FenceMesh (13)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_a93359092602",
+      "matrix": [
+        1.7881392e-07,
+        -1.0,
+        -1.7881392e-07,
+        -12.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        -0.7071067,
+        -2.98023224e-08,
+        -0.707106769,
+        10.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1034.0,
+        -1200.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7067246487817405627-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/28:FenceMesh (13)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_f3ff4768f81c",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        -11.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -1100.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3596254992258580927-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/28:FenceMesh (13)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_45279c16c4c5",
+      "matrix": [
+        -1.0,
+        -8.659559e-17,
+        -8.65956e-17,
+        -14.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -3.30872245e-24,
+        0.707106769,
+        -0.70710665,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -1400.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4188361212985620958-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/29:FenceMesh (14)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_a93359092602",
+      "matrix": [
+        1.7881392e-07,
+        -1.0,
+        -1.7881392e-07,
+        -8.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        -0.7071067,
+        -2.98023224e-08,
+        -0.707106769,
+        10.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1034.0,
+        -800.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8805685711374837916-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/29:FenceMesh (14)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_f3ff4768f81c",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        -7.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -700.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3012773597825297816-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/29:FenceMesh (14)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_45279c16c4c5",
+      "matrix": [
+        -1.0,
+        -8.659559e-17,
+        -8.65956e-17,
+        -10.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -3.30872245e-24,
+        0.707106769,
+        -0.70710665,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -1000.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8271134665085315192-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/30:Pole (13)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_c41044e42060",
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        -8.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -800.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-9149540570667681350-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/31:Pole (14)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_c41044e42060",
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        -4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -400.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-473102198000755062-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/32:FenceMesh (15)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_a93359092602",
+      "matrix": [
+        1.7881392e-07,
+        -1.0,
+        -1.7881392e-07,
+        -4.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        -0.7071067,
+        -2.98023224e-08,
+        -0.707106769,
+        10.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1034.0,
+        -400.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5081419220008857652-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/32:FenceMesh (15)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_f3ff4768f81c",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        -3.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -300.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1549029620732392752-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/32:FenceMesh (15)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_45279c16c4c5",
+      "matrix": [
+        -1.0,
+        -8.659559e-17,
+        -8.65956e-17,
+        -6.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -3.30872245e-24,
+        0.707106769,
+        -0.70710665,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -600.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2011500293256095315-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/33:FenceMesh (16)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_a93359092602",
+      "matrix": [
+        1.7881392e-07,
+        -1.0,
+        -1.7881392e-07,
+        0.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        -0.7071067,
+        -2.98023224e-08,
+        -0.707106769,
+        10.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1034.0,
+        0.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6628824697824704273-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/33:FenceMesh (16)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_f3ff4768f81c",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        1.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        100.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-578080406366777877-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/33:FenceMesh (16)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_45279c16c4c5",
+      "matrix": [
+        -1.0,
+        -8.659559e-17,
+        -8.65956e-17,
+        -2.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -3.30872245e-24,
+        0.707106769,
+        -0.70710665,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -200.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-140253166542365688-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/34:Pole (15)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_c41044e42060",
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        0.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6219955833908565349-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/35:Pole (16)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_c41044e42060",
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        400.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6514604927559321081-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/36:FenceMesh (17)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_a93359092602",
+      "matrix": [
+        1.7881392e-07,
+        -1.0,
+        -1.7881392e-07,
+        4.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        -0.7071067,
+        -2.98023224e-08,
+        -0.707106769,
+        10.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1034.0,
+        400.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1908574616874128571-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/36:FenceMesh (17)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_f3ff4768f81c",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        5.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        500.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5298220393950843327-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/36:FenceMesh (17)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_45279c16c4c5",
+      "matrix": [
+        -1.0,
+        -8.659559e-17,
+        -8.65956e-17,
+        2.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -3.30872245e-24,
+        0.707106769,
+        -0.70710665,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        200.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6493268577457790144-7494188603436346535",
+      "name": "BarbedWire",
+      "path": "1:World/37:FenceMesh (18)/0:Fence.fbx_Mesh/0:BarbedWire",
+      "mesh": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "asset": "/Game/Environment/Source/EntryGate/SM_BarbedWire_a93359092602",
+      "matrix": [
+        1.7881392e-07,
+        -1.0,
+        -1.7881392e-07,
+        8.0,
+        -0.70710665,
+        -2.38418579e-07,
+        0.707106769,
+        3.34,
+        -0.7071067,
+        -2.98023224e-08,
+        -0.707106769,
+        10.34,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1034.0,
+        800.0,
+        334.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1875926767133330818-7494188603436346535",
+      "name": "Mesh",
+      "path": "1:World/37:FenceMesh (18)/0:Fence.fbx_Mesh/1:Mesh",
+      "mesh": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Mesh_f3ff4768f81c",
+      "matrix": [
+        -1.0,
+        -1.22464685e-16,
+        -1.49975976e-32,
+        9.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        1.0,
+        -7.34684e-40,
+        1.22464685e-16,
+        -1.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        900.0,
+        100.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5328656199184713862-7494188603436346535",
+      "name": "Wires",
+      "path": "1:World/37:FenceMesh (18)/0:Fence.fbx_Mesh/2:Wires",
+      "mesh": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Wires_45279c16c4c5",
+      "matrix": [
+        -1.0,
+        -8.659559e-17,
+        -8.65956e-17,
+        6.0,
+        -1.22464672e-16,
+        0.70710665,
+        0.707106769,
+        3.0,
+        -3.30872245e-24,
+        0.707106769,
+        -0.70710665,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        600.0,
+        300.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3202671415910961655-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/38:Pole (17)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_f70f9a475465",
+      "matrix": [
+        0.7071068,
+        0.0,
+        0.707106769,
+        -20.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.707106769,
+        0.0,
+        0.7071068,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1800.0,
+        -2000.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-510926879913615510-7494188603436346535",
+      "name": "Fence.fbx_Pole",
+      "path": "1:World/39:Pole (18)/0:Fence.fbx_Pole",
+      "mesh": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Pole_af4f9f75d649",
+      "matrix": [
+        -0.707106948,
+        0.0,
+        0.707106769,
+        -20.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.707106769,
+        0.0,
+        -0.707106948,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        1000.0,
+        -2000.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6025108400315240134-7494188603436346535",
+      "name": "Building",
+      "path": "1:World/40:Kiosk/0:Kiosk/0:Building",
+      "mesh": "aa20559e17d524e0cb4f02f154be329bb8ecf14b0273a8b78460eb31fb0a5adc",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Building_6b572788f510",
+      "matrix": [
+        1.0,
+        1.22464685e-16,
+        1.49975976e-32,
+        -15.2,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        0.0,
+        7.34684e-40,
+        -1.22464685e-16,
+        1.0,
+        -17.2,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1720.0,
+        -1520.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": true,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3887013423751303452-7494188603436346535",
+      "name": "Door",
+      "path": "1:World/40:Kiosk/0:Kiosk/1:Door",
+      "mesh": "2b20683782cb5a241e2f2f68a703a8fb4290ca4cb237a11c562eddba76925286",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Door_0c0cc3a18c41",
+      "matrix": [
+        1.0,
+        1.22464685e-16,
+        1.49975976e-32,
+        -15.8499994,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        0.099999994,
+        7.34684e-40,
+        -1.22464685e-16,
+        1.0,
+        -17.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1775.0,
+        -1584.99994,
+        9.9999994
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7934762919475572860-7494188603436346535",
+      "name": "Foundation",
+      "path": "1:World/40:Kiosk/0:Kiosk/2:Foundation",
+      "mesh": "beed31bf9628cceeeea56e9d958c4cd88297fc59e3eeb9f746277ae8f2eac1ba",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Foundation_463d27967d9e",
+      "matrix": [
+        1.0,
+        1.22464685e-16,
+        1.49975976e-32,
+        -15.2,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        0.0,
+        7.34684e-40,
+        -1.22464685e-16,
+        1.0,
+        -17.2,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1720.0,
+        -1520.0,
+        0.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": false,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4262647842815551174-7494188603436346535",
+      "name": "Gate",
+      "path": "1:World/40:Kiosk/0:Kiosk/3:Gate",
+      "mesh": "0b08f2d6989ae736a362af235a5751259c4a1cb1c91fed1199a3b103ab9ef698",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Gate_1fb4c64144b2",
+      "matrix": [
+        1.0,
+        1.22464685e-16,
+        1.49975976e-32,
+        -14.0,
+        -1.22464685e-16,
+        1.0,
+        1.22464685e-16,
+        0.6,
+        7.34684e-40,
+        -1.22464685e-16,
+        1.0,
+        -17.8000011,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -1780.00011,
+        -1400.0,
+        60.0
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": true,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2069646354898226138-33962685",
+      "name": "HighwayBarrier",
+      "path": "12:HighwayBarrier",
+      "mesh": "67eeb921621d751606494f1004bb8e4cf95e048d23ba5874dd5e4e970d2ffcc5",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Barrier_eba7c0fa5a39",
+      "matrix": [
+        -0.138896346,
+        -0.0143307429,
+        0.9902032,
+        -12.6398458,
+        0.0,
+        0.9998953,
+        0.0144710112,
+        -0.43250227,
+        -0.9903069,
+        0.0020099706,
+        -0.1388818,
+        -44.88552,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -4488.552,
+        -1263.98458,
+        -43.250227
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": true,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2069646354898226138-1835788109",
+      "name": "HighwayBarrier (1)",
+      "path": "13:HighwayBarrier (1)",
+      "mesh": "67eeb921621d751606494f1004bb8e4cf95e048d23ba5874dd5e4e970d2ffcc5",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Barrier_c408e3aa4ee3",
+      "matrix": [
+        -0.306158662,
+        -1.54077517e-16,
+        0.951980531,
+        -16.0006371,
+        -1.224646e-16,
+        1.0,
+        1.224646e-16,
+        -0.3942027,
+        -0.951980531,
+        -7.909032e-17,
+        -0.306158662,
+        -44.121273,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -4412.1273,
+        -1600.06371,
+        -39.42027
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": true,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2069646354898226138-231129926",
+      "name": "HighwayBarrier (2)",
+      "path": "14:HighwayBarrier (2)",
+      "mesh": "67eeb921621d751606494f1004bb8e4cf95e048d23ba5874dd5e4e970d2ffcc5",
+      "asset": "/Game/Environment/Source/EntryGate/SM_Barrier_3faa015c8b67",
+      "matrix": [
+        -0.463538051,
+        0.0300440229,
+        0.885567367,
+        -19.2572556,
+        -5.58793545e-09,
+        0.999425,
+        -0.0339067876,
+        -0.229615688,
+        -0.886076868,
+        -0.0157170948,
+        -0.4632715,
+        -42.7885246,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pivot": [
+        -4278.85246,
+        -1925.72556,
+        -22.961568800000002
+      ],
+      "visible": true,
+      "collision": false,
+      "navRelevant": false,
+      "navExcluded": true,
+      "ground": false,
+      "materials": [
+        {
+          "id": "GlobalObjectId_V1-3-0f3812287e117cb42ae838938ac30dae-2100000-0",
+          "name": "Palette",
+          "type": "UnityEngine.Material",
+          "assetPath": "Assets/Environment/Materials/Palette.mat",
+          "guid": "0f3812287e117cb42ae838938ac30dae",
+          "localFileId": 2100000
+        }
+      ]
+    }
+  ],
+  "boxes": [
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-565171227422283892-7494188603436346535",
+      "name": "FenceMesh",
+      "matrix": [
+        -4.0,
+        0.0,
+        0.0,
+        6.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.2,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8370133277053734697-7494188603436346535",
+      "name": "FenceMesh (1)",
+      "matrix": [
+        -4.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.2,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8968180431134127304-7494188603436346535",
+      "name": "FenceMesh (2)",
+      "matrix": [
+        -4.0,
+        0.0,
+        0.0,
+        -2.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.2,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-921930852387786914-7494188603436346535",
+      "name": "FenceMesh (3)",
+      "matrix": [
+        -4.0,
+        0.0,
+        0.0,
+        -6.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.2,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-6232620541343770447-7494188603436346535",
+      "name": "FenceMesh (4)",
+      "matrix": [
+        -4.0,
+        0.0,
+        0.0,
+        -18.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.2,
+        -18.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3098303773024479225-7494188603436346535",
+      "name": "FenceMesh (5)",
+      "matrix": [
+        -4.7683716e-07,
+        0.0,
+        -0.200000024,
+        -20.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        4.00000048,
+        0.0,
+        -2.3841858000000004e-08,
+        -16.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3488619558389543972-7494188603436346535",
+      "name": "FenceMesh (6)",
+      "matrix": [
+        -4.7683716e-07,
+        0.0,
+        -0.200000024,
+        -20.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        4.00000048,
+        0.0,
+        -2.3841858000000004e-08,
+        -12.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8158327712930839474-7494188603436346535",
+      "name": "FenceMesh (7)",
+      "matrix": [
+        -4.7683716e-07,
+        0.0,
+        -0.200000024,
+        -20.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        4.00000048,
+        0.0,
+        -2.3841858000000004e-08,
+        -8.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-498737130568686558-7494188603436346535",
+      "name": "FenceMesh (8)",
+      "matrix": [
+        -4.7683716e-07,
+        0.0,
+        -0.200000024,
+        -20.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        4.00000048,
+        0.0,
+        -2.3841858000000004e-08,
+        -4.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7305545212195572751-7494188603436346535",
+      "name": "FenceMesh (9)",
+      "matrix": [
+        -4.7683716e-07,
+        0.0,
+        -0.200000024,
+        -20.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        4.00000048,
+        0.0,
+        -2.3841858000000004e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2612605151706983863-7494188603436346535",
+      "name": "FenceMesh (10)",
+      "matrix": [
+        -4.7683716e-07,
+        0.0,
+        -0.200000024,
+        -20.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        4.00000048,
+        0.0,
+        -2.3841858000000004e-08,
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-197895709487346060-7494188603436346535",
+      "name": "FenceMesh (11)",
+      "matrix": [
+        -4.7683716e-07,
+        0.0,
+        -0.200000024,
+        -20.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        4.00000048,
+        0.0,
+        -2.3841858000000004e-08,
+        8.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3117923858320175246-7494188603436346535",
+      "name": "FenceMesh (12)",
+      "matrix": [
+        4.0,
+        0.0,
+        0.0,
+        -18.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.2,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2196865224222813758-7494188603436346535",
+      "name": "FenceMesh (13)",
+      "matrix": [
+        4.0,
+        0.0,
+        0.0,
+        -14.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.2,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-458001617094214169-7494188603436346535",
+      "name": "FenceMesh (14)",
+      "matrix": [
+        4.0,
+        0.0,
+        0.0,
+        -10.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.2,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4245735215868549809-7494188603436346535",
+      "name": "FenceMesh (15)",
+      "matrix": [
+        4.0,
+        0.0,
+        0.0,
+        -6.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.2,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-2851168365213588884-7494188603436346535",
+      "name": "FenceMesh (16)",
+      "matrix": [
+        4.0,
+        0.0,
+        0.0,
+        -2.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.2,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7355412781225639486-7494188603436346535",
+      "name": "FenceMesh (17)",
+      "matrix": [
+        4.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.2,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7379028142963255047-7494188603436346535",
+      "name": "FenceMesh (18)",
+      "matrix": [
+        4.0,
+        0.0,
+        0.0,
+        6.0,
+        0.0,
+        4.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.2,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": false
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-5043856877063627578-7494188603436346535",
+      "name": "Building",
+      "matrix": [
+        1.6,
+        4.40872866e-16,
+        2.399615466024024e-32,
+        -15.2,
+        -1.95943496e-16,
+        3.6,
+        1.9594348375353148e-16,
+        0.799999952,
+        1.1754944000000002e-39,
+        -4.40872866e-16,
+        1.5999999,
+        -17.2,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": true
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-8696506351899992811-7494188603436346535",
+      "name": "Gate",
+      "matrix": [
+        10.25,
+        2.4492937e-16,
+        2.999519115064865e-33,
+        -9.325,
+        -1.2552630212499999e-15,
+        2.0,
+        2.4492933693453504e-17,
+        1.1000000599999993,
+        7.530511e-39,
+        -2.4492937e-16,
+        0.199999973,
+        -17.8000011,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": true
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7101687145910472993-33962685",
+      "name": "HighwayBarrier",
+      "matrix": [
+        -0.09444950805739001,
+        -0.02149611435,
+        2.970609362351232,
+        -12.646294634408747,
+        0.0,
+        1.4998429500000001,
+        0.04341303012695731,
+        0.01745061499848382,
+        -0.6734086405040411,
+        0.0030149559,
+        -0.416645366668368,
+        -44.88461551321545,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": true
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7101687145910472993-1835788109",
+      "name": "HighwayBarrier (1)",
+      "matrix": [
+        -0.20818787423974958,
+        -2.311162755e-16,
+        2.8559413645246727,
+        -16.00063710009974,
+        -8.32759216318408e-17,
+        1.5,
+        3.6739377060849605e-16,
+        0.055797299999999994,
+        -0.6473467115770124,
+        -1.1863548e-16,
+        -0.9184759125219213,
+        -44.12127299996793,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": true
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-7101687145910472993-231129926",
+      "name": "HighwayBarrier (2)",
+      "matrix": [
+        -0.31520585057602135,
+        0.045066034350000006,
+        2.6567018884638323,
+        -19.243735789787785,
+        -3.799795815427356e-09,
+        1.4991375,
+        -0.10172035466237099,
+        0.22012556200355257,
+        -0.6025322241640028,
+        -0.023575642200000003,
+        -1.38981438881484,
+        -42.79559729261146,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "navRelevant": true,
+      "navExcluded": true
+    }
+  ],
+  "exclusions": [
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4612443507860558351-7494188603436346535",
+      "name": "Doc",
+      "matrix": [
+        0.89,
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        4.4,
+        0.0,
+        1.3,
+        0.0,
+        0.0,
+        3.4,
+        5.6,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-3925210139955383907-7494188603436346535",
+      "name": "Doc (1)",
+      "matrix": [
+        0.89,
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        4.4,
+        0.0,
+        1.3,
+        0.0,
+        0.0,
+        3.4,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-697024370176167860-7494188603436346535",
+      "name": "Doc (2)",
+      "matrix": [
+        0.89,
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        4.4,
+        0.0,
+        1.3,
+        0.0,
+        0.0,
+        3.4,
+        -5.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-4593019550178911212-7494188603436346535",
+      "name": "Doc (3)",
+      "matrix": [
+        0.89,
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        4.4,
+        0.0,
+        1.3,
+        0.0,
+        0.0,
+        3.4,
+        -10.3,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-718093279-0",
+      "name": "Bounds",
+      "matrix": [
+        3.903142928,
+        0.0,
+        10.12494351483,
+        -25.05,
+        0.0,
+        5.71,
+        0.0,
+        1.2993164,
+        -0.874914108,
+        0.0,
+        45.169121534279995,
+        -32.33,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1813543714-0",
+      "name": "Bounds (1)",
+      "matrix": [
+        0.467782976,
+        0.0,
+        -14.847419079999998,
+        -3.89,
+        0.0,
+        5.39,
+        0.0,
+        1.2993164,
+        3.9725536,
+        0.0,
+        1.7483388728,
+        -47.58,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-331621754-0",
+      "name": "Bounds (3)",
+      "matrix": [
+        2.297994612,
+        0.0,
+        -12.236657225,
+        -27.73,
+        0.0,
+        5.39,
+        0.0,
+        1.2993164,
+        3.274022,
+        0.0,
+        8.58875486235,
+        -39.05,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-887150214-0",
+      "name": "Bounds (2)",
+      "matrix": [
+        -3.993360996,
+        0.0,
+        -2.6659850619000003,
+        1.46,
+        0.0,
+        6.69,
+        0.0,
+        1.2993164,
+        0.23037244,
+        0.0,
+        -46.213170126209995,
+        -35.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "sourceMeshes": {
+    "0172d1f8875500c3ca73fab893139bad1a7f65a60cf036fa9a840e51d093b3c4": {
+      "key": "0172d1f8875500c3ca73fab893139bad1a7f65a60cf036fa9a840e51d093b3c4",
+      "file": "Meshes/0172d1f8875500c3ca73fab893139bad1a7f65a60cf036fa9a840e51d093b3c4.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-15232223069843394648-0",
+        "name": "Icosphere.003",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -3214521003866156968
+      },
+      "vertices": 60,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "0b08f2d6989ae736a362af235a5751259c4a1cb1c91fed1199a3b103ab9ef698": {
+      "key": "0b08f2d6989ae736a362af235a5751259c4a1cb1c91fed1199a3b103ab9ef698",
+      "file": "Meshes/0b08f2d6989ae736a362af235a5751259c4a1cb1c91fed1199a3b103ab9ef698.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-962209921104072034-0",
+        "name": "Gate",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+        "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+        "localFileId": 962209921104072034
+      },
+      "vertices": 344,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "1570d33d1a143122fa6fc32b387af7aa86df2c8fec82cb13dfe2c11db591ec85": {
+      "key": "1570d33d1a143122fa6fc32b387af7aa86df2c8fec82cb13dfe2c11db591ec85",
+      "file": "Meshes/1570d33d1a143122fa6fc32b387af7aa86df2c8fec82cb13dfe2c11db591ec85.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-1049928748687988745-0",
+        "name": "Window",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": 1049928748687988745
+      },
+      "vertices": 272,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883": {
+      "key": "2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883",
+      "file": "Meshes/2664d8169cb190b123a84515ec08a04ac453babaea7d6c94cc60c37531142883.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-14844643716770389032-0",
+        "name": "Wires",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+        "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+        "localFileId": -3602100356939162584
+      },
+      "vertices": 12,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "2b20683782cb5a241e2f2f68a703a8fb4290ca4cb237a11c562eddba76925286": {
+      "key": "2b20683782cb5a241e2f2f68a703a8fb4290ca4cb237a11c562eddba76925286",
+      "file": "Meshes/2b20683782cb5a241e2f2f68a703a8fb4290ca4cb237a11c562eddba76925286.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-2619086233303812490-0",
+        "name": "Door",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+        "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+        "localFileId": 2619086233303812490
+      },
+      "vertices": 24,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "33e365614089c04629b0a004996fa33924edb58ee016414cce3f8b6072b04a01": {
+      "key": "33e365614089c04629b0a004996fa33924edb58ee016414cce3f8b6072b04a01",
+      "file": "Meshes/33e365614089c04629b0a004996fa33924edb58ee016414cce3f8b6072b04a01.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-17308049851083322892-0",
+        "name": "WheelFront",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -1138694222626228724
+      },
+      "vertices": 144,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "4afe5bb6fd2894ea3715c653b9006ccbb03ee48e33c80734b889fb18a619e0a9": {
+      "key": "4afe5bb6fd2894ea3715c653b9006ccbb03ee48e33c80734b889fb18a619e0a9",
+      "file": "Meshes/4afe5bb6fd2894ea3715c653b9006ccbb03ee48e33c80734b889fb18a619e0a9.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-13125483970098300175-0",
+        "name": "Pavement",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -5321260103611251441
+      },
+      "vertices": 99,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "4b3f40710a78daf63771b384e29ad702aa8973e8befb87c5c4581340b5612a66": {
+      "key": "4b3f40710a78daf63771b384e29ad702aa8973e8befb87c5c4581340b5612a66",
+      "file": "Meshes/4b3f40710a78daf63771b384e29ad702aa8973e8befb87c5c4581340b5612a66.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-6274059880062070182-0",
+        "name": "DoorFrame",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": 6274059880062070182
+      },
+      "vertices": 56,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c": {
+      "key": "4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c",
+      "file": "Meshes/4cde55778bf6c42150dd8fb9c4fb1568eaaac7750f7846dbcb84912d7af02b0c.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-b98b896d950fb0e4cbc0b9574af44ed3-3944073510091631902-0",
+        "name": "Pole",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Fence.fbx_Pole.fbx",
+        "guid": "b98b896d950fb0e4cbc0b9574af44ed3",
+        "localFileId": 3944073510091631902
+      },
+      "vertices": 40,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "4ec13357a69f98e38186312f6928b1819c4e5ea4b35431d21c54a5055fc6e5cb": {
+      "key": "4ec13357a69f98e38186312f6928b1819c4e5ea4b35431d21c54a5055fc6e5cb",
+      "file": "Meshes/4ec13357a69f98e38186312f6928b1819c4e5ea4b35431d21c54a5055fc6e5cb.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-2619086233303812490-0",
+        "name": "Door",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": 2619086233303812490
+      },
+      "vertices": 24,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "553dd3170a8906a87d450c2a78aa51d3437cb566bca35fc835e0bfc29fb3be70": {
+      "key": "553dd3170a8906a87d450c2a78aa51d3437cb566bca35fc835e0bfc29fb3be70",
+      "file": "Meshes/553dd3170a8906a87d450c2a78aa51d3437cb566bca35fc835e0bfc29fb3be70.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-14239300350892095587-0",
+        "name": "Building",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -4207443722817456029
+      },
+      "vertices": 504,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "67eeb921621d751606494f1004bb8e4cf95e048d23ba5874dd5e4e970d2ffcc5": {
+      "key": "67eeb921621d751606494f1004bb8e4cf95e048d23ba5874dd5e4e970d2ffcc5",
+      "file": "Meshes/67eeb921621d751606494f1004bb8e4cf95e048d23ba5874dd5e4e970d2ffcc5.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-33280f180a9b15045bfdb71c77f68831-1042801323994665371-0",
+        "name": "Barrier",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/HighwayBarrier.fbx",
+        "guid": "33280f180a9b15045bfdb71c77f68831",
+        "localFileId": 1042801323994665371
+      },
+      "vertices": 56,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "6a3186aa39758039a9a7206b44cedf02b8f15754db82d302a7dd911dfd1c8796": {
+      "key": "6a3186aa39758039a9a7206b44cedf02b8f15754db82d302a7dd911dfd1c8796",
+      "file": "Meshes/6a3186aa39758039a9a7206b44cedf02b8f15754db82d302a7dd911dfd1c8796.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-16005085659577738511-0",
+        "name": "Terrain",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -2441658414131813105
+      },
+      "vertices": 1111,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55": {
+      "key": "6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55",
+      "file": "Meshes/6e0ed3469bf65dda348528b87f7329e8c2d8c6a1fc2b1e2281dcb05bf96eca55.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-7121584756871417403-0",
+        "name": "BarbedWire",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+        "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+        "localFileId": 7121584756871417403
+      },
+      "vertices": 136,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "706313cfec7b985dbac5403e05ce2b39154c23dc13bec35ed2ceb68b938610ab": {
+      "key": "706313cfec7b985dbac5403e05ce2b39154c23dc13bec35ed2ceb68b938610ab",
+      "file": "Meshes/706313cfec7b985dbac5403e05ce2b39154c23dc13bec35ed2ceb68b938610ab.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-11394667453629044045-0",
+        "name": "Trailer",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -7052076620080507571
+      },
+      "vertices": 88,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "86411fb92d4a87fd9392338d725571f5a76e56c4c69e8e6dd9e6f6f4380cef66": {
+      "key": "86411fb92d4a87fd9392338d725571f5a76e56c4c69e8e6dd9e6f6f4380cef66",
+      "file": "Meshes/86411fb92d4a87fd9392338d725571f5a76e56c4c69e8e6dd9e6f6f4380cef66.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-12390799778285082274-0",
+        "name": "Plank.001",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -6055944295424469342
+      },
+      "vertices": 18,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "a08f9fb6d05b325a4c7ab64e6b3b9c3087a8c444abcd5bb2315ef65b6c4dc625": {
+      "key": "a08f9fb6d05b325a4c7ab64e6b3b9c3087a8c444abcd5bb2315ef65b6c4dc625",
+      "file": "Meshes/a08f9fb6d05b325a4c7ab64e6b3b9c3087a8c444abcd5bb2315ef65b6c4dc625.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-11550082984964285972-0",
+        "name": "Awning",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -6896661088745265644
+      },
+      "vertices": 24,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "aa20559e17d524e0cb4f02f154be329bb8ecf14b0273a8b78460eb31fb0a5adc": {
+      "key": "aa20559e17d524e0cb4f02f154be329bb8ecf14b0273a8b78460eb31fb0a5adc",
+      "file": "Meshes/aa20559e17d524e0cb4f02f154be329bb8ecf14b0273a8b78460eb31fb0a5adc.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-14239300350892095587-0",
+        "name": "Building",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+        "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+        "localFileId": -4207443722817456029
+      },
+      "vertices": 184,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "b8adc33c7254260bf32141b72927ed79e056a8def9645391f4b813fc4ce89f08": {
+      "key": "b8adc33c7254260bf32141b72927ed79e056a8def9645391f4b813fc4ce89f08",
+      "file": "Meshes/b8adc33c7254260bf32141b72927ed79e056a8def9645391f4b813fc4ce89f08.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-4444728127320036556-0",
+        "name": "Icosphere.002",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": 4444728127320036556
+      },
+      "vertices": 60,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "beed31bf9628cceeeea56e9d958c4cd88297fc59e3eeb9f746277ae8f2eac1ba": {
+      "key": "beed31bf9628cceeeea56e9d958c4cd88297fc59e3eeb9f746277ae8f2eac1ba",
+      "file": "Meshes/beed31bf9628cceeeea56e9d958c4cd88297fc59e3eeb9f746277ae8f2eac1ba.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-30cb36c55494b0a48a1c9a3f4bfdf475-48619220562948502-0",
+        "name": "Foundation",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Kiosk.fbx",
+        "guid": "30cb36c55494b0a48a1c9a3f4bfdf475",
+        "localFileId": 48619220562948502
+      },
+      "vertices": 24,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "d75432704f81ad95a987d84639e2b610c4f21a0415222723ee315e5c8043e00e": {
+      "key": "d75432704f81ad95a987d84639e2b610c4f21a0415222723ee315e5c8043e00e",
+      "file": "Meshes/d75432704f81ad95a987d84639e2b610c4f21a0415222723ee315e5c8043e00e.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-16867502442910141440-0",
+        "name": "Icosphere.001",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -1579241630799410176
+      },
+      "vertices": 60,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "e1c331a921599ae7f7104b682b98d550a35a91d3100605ce2a81f0683de0ecc2": {
+      "key": "e1c331a921599ae7f7104b682b98d550a35a91d3100605ce2a81f0683de0ecc2",
+      "file": "Meshes/e1c331a921599ae7f7104b682b98d550a35a91d3100605ce2a81f0683de0ecc2.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-16971934713353517075-0",
+        "name": "WheelBack",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -1474809360356034541
+      },
+      "vertices": 144,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03": {
+      "key": "e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03",
+      "file": "Meshes/e9cc73cc8fb97fcbcd9ca7ae58858e11d50bb8fd3f367811873e4cc0ed784b03.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-ac9fca50ed125fe4298f28b6d099ce13-12923466412529977364-0",
+        "name": "Mesh",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/Fence.fbx_Mesh.fbx",
+        "guid": "ac9fca50ed125fe4298f28b6d099ce13",
+        "localFileId": -5523277661179574252
+      },
+      "vertices": 302,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "f2283bf4168687e83ecb415f630a67e9a032ae99edadd321fbd4f7a6213bd16e": {
+      "key": "f2283bf4168687e83ecb415f630a67e9a032ae99edadd321fbd4f7a6213bd16e",
+      "file": "Meshes/f2283bf4168687e83ecb415f630a67e9a032ae99edadd321fbd4f7a6213bd16e.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-4104380202958562290-0",
+        "name": "Stairs",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": 4104380202958562290
+      },
+      "vertices": 156,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    },
+    "fed5806e1a40052287101947ef2e8ee86dab9d465be94d5f100460786fee7b0c": {
+      "key": "fed5806e1a40052287101947ef2e8ee86dab9d465be94d5f100460786fee7b0c",
+      "file": "Meshes/fed5806e1a40052287101947ef2e8ee86dab9d465be94d5f100460786fee7b0c.json",
+      "source": {
+        "id": "GlobalObjectId_V1-1-56620576aa96a3b4fb32005a3097938b-12950841956634786071-0",
+        "name": "Cube",
+        "type": "UnityEngine.Mesh",
+        "assetPath": "Assets/Environment/Models/LoadingDocsTerrain.fbx",
+        "guid": "56620576aa96a3b4fb32005a3097938b",
+        "localFileId": -5495902117074765545
+      },
+      "vertices": 152,
+      "submeshes": 1,
+      "storage": "modelAsset"
+    }
+  },
+  "policy": "E01 terrain/enclosure foundation; active prototype and legacy maps remain unchanged; full scene composition is pending E02."
+}

@@ -1,0 +1,324 @@
+{
+  "schema": 1,
+  "sourceCommit": "b4ac4409ea4fdfccd2e7f741a1f32874b50e0d1b",
+  "blendSeconds": 0.6000000238418579,
+  "curve": "smoothstep",
+  "explorationPriority": 10,
+  "profiles": [
+    {
+      "id": "EntryGate.BarriersIeraction",
+      "scene": "EntryGate",
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-208036374-0",
+      "sourcePath": "19:BarriersIeraction",
+      "target": [
+        -4221.492767333984,
+        -1569.4879531860352,
+        63.89265060424805
+      ],
+      "waypoints": [
+        [
+          -4191.253280639648,
+          -1690.1031494140625,
+          -31.837058067321777
+        ],
+        [
+          -4251.731872558594,
+          -1448.8727569580078,
+          -40.37764072418213
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "EntryGate.RockInteraction",
+      "scene": "EntryGate",
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-1433286801-0",
+      "sourcePath": "18:RockInteraction",
+      "target": [
+        -2768.008041381836,
+        -693.0632591247559,
+        75.70017576217651
+      ],
+      "waypoints": [
+        [
+          -2867.0719146728516,
+          -680.4272651672363,
+          -26.11868381500244
+        ],
+        [
+          -2668.9441680908203,
+          -705.6992053985596,
+          -22.48096466064453
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "EntryGate.RollingGateInteraction",
+      "scene": "EntryGate",
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-592781869-0",
+      "sourcePath": "7:RollingGateInteraction",
+      "target": [
+        -1944.1003799438477,
+        -1115.3425216674805,
+        106.62364959716797
+      ],
+      "waypoints": [
+        [
+          -1942.689323425293,
+          -1188.0620002746582,
+          6.695842742919922
+        ],
+        [
+          -1945.5114364624023,
+          -1042.6231384277344,
+          6.551456451416016
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "EntryGate.SecurityKisokInteraction",
+      "scene": "EntryGate",
+      "sourceId": "GlobalObjectId_V1-2-d3d00d6c72bccf7478ca19004637feca-649345888-0",
+      "sourcePath": "8:SecurityKisokInteraction",
+      "target": [
+        -1927.7433395385742,
+        -1534.9550247192383,
+        110.14695167541504
+      ],
+      "waypoints": [
+        [
+          -1928.2419204711914,
+          -1461.4834785461426,
+          9.082937240600586
+        ],
+        [
+          -1927.244758605957,
+          -1608.4264755249023,
+          11.210966110229492
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "LoadingDocks.DocInteraction1/Interaction",
+      "scene": "LoadingDocks",
+      "sourceId": "GlobalObjectId_V1-2-60d535fdc5996bf489a8d6f2fb7f5827-4212352966741544762-1509679589",
+      "sourcePath": "6:DocInteraction1/0:Interaction",
+      "target": [
+        267.4250364303589,
+        675.5232334136963,
+        100.0
+      ],
+      "waypoints": [
+        [
+          329.62329387664795,
+          657.8364372253418,
+          0.0
+        ],
+        [
+          205.22685050964355,
+          693.2101249694824,
+          0.0
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "LoadingDocks.DocInteraction2/Interaction",
+      "scene": "LoadingDocks",
+      "sourceId": "GlobalObjectId_V1-2-60d535fdc5996bf489a8d6f2fb7f5827-4212352966741544762-2095741207",
+      "sourcePath": "7:DocInteraction2/0:Interaction",
+      "target": [
+        -262.5749349594116,
+        675.5232334136963,
+        100.0
+      ],
+      "waypoints": [
+        [
+          -200.37670135498047,
+          657.8364372253418,
+          0.0
+        ],
+        [
+          -324.77314472198486,
+          693.2101249694824,
+          0.0
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "LoadingDocks.DocInteraction3/Interaction",
+      "scene": "LoadingDocks",
+      "sourceId": "GlobalObjectId_V1-2-60d535fdc5996bf489a8d6f2fb7f5827-4212352966741544762-1547520801",
+      "sourcePath": "8:DocInteraction3/0:Interaction",
+      "target": [
+        -792.5749778747559,
+        675.5232334136963,
+        100.0
+      ],
+      "waypoints": [
+        [
+          -730.3767204284668,
+          657.8364372253418,
+          0.0
+        ],
+        [
+          -854.7731399536133,
+          693.2101249694824,
+          0.0
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "LoadingDocks.DocInteraction4/Interaction",
+      "scene": "LoadingDocks",
+      "sourceId": "GlobalObjectId_V1-2-60d535fdc5996bf489a8d6f2fb7f5827-4212352966741544762-1400848187",
+      "sourcePath": "9:DocInteraction4/0:Interaction",
+      "target": [
+        -1322.5749969482422,
+        675.5232334136963,
+        100.0
+      ],
+      "waypoints": [
+        [
+          -1260.3767395019531,
+          657.8364372253418,
+          0.0
+        ],
+        [
+          -1384.7731590270996,
+          693.2101249694824,
+          0.0
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "LoadingDocks.EmployeeDoorInteraction",
+      "scene": "LoadingDocks",
+      "sourceId": "GlobalObjectId_V1-2-60d535fdc5996bf489a8d6f2fb7f5827-1022070888-0",
+      "sourcePath": "11:EmployeeDoorInteraction",
+      "target": [
+        -1550.0276565551758,
+        677.965497970581,
+        159.99996662139893
+      ],
+      "waypoints": [
+        [
+          -1471.2170600891113,
+          673.5103607177734,
+          59.999990463256836
+        ],
+        [
+          -1628.8381576538086,
+          682.4206352233887,
+          59.999942779541016
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "LoadingDocks.RollingGateInteraction",
+      "scene": "LoadingDocks",
+      "sourceId": "GlobalObjectId_V1-2-60d535fdc5996bf489a8d6f2fb7f5827-4398866771222208306-0",
+      "sourcePath": "10:RollingGateInteraction",
+      "target": [
+        -1691.5386199951172,
+        -1110.3643417358398,
+        97.65444993972778
+      ],
+      "waypoints": [
+        [
+          -1699.7507095336914,
+          -1174.2695808410645,
+          -1.6232013702392578
+        ],
+        [
+          -1683.326530456543,
+          -1046.4590072631836,
+          -3.067898750305176
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "LoadingDocks.SecurityKisokInteraction",
+      "scene": "LoadingDocks",
+      "sourceId": "GlobalObjectId_V1-2-60d535fdc5996bf489a8d6f2fb7f5827-499792037-0",
+      "sourcePath": "12:SecurityKisokInteraction",
+      "target": [
+        -1627.0744323730469,
+        -1694.6283340454102,
+        108.79260301589966
+      ],
+      "waypoints": [
+        [
+          -1688.1000518798828,
+          -1703.299903869629,
+          12.800002098083496
+        ],
+        [
+          -1566.0489082336426,
+          -1685.9567642211914,
+          4.78520393371582
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    },
+    {
+      "id": "LoadingDocks.TelephonePoleInteraction",
+      "scene": "LoadingDocks",
+      "sourceId": "GlobalObjectId_V1-2-60d535fdc5996bf489a8d6f2fb7f5827-1309030242-0",
+      "sourcePath": "13:TelephonePoleInteraction",
+      "target": [
+        682.9131126403809,
+        -1669.748878479004,
+        78.00760269165039
+      ],
+      "waypoints": [
+        [
+          822.5984573364258,
+          -1641.5987014770508,
+          -14.377593994140625
+        ],
+        [
+          573.8124847412109,
+          -1652.250099182129,
+          -30.32970428466797
+        ],
+        [
+          636.1991882324219,
+          -1759.524917602539,
+          -19.764328002929688
+        ],
+        [
+          743.4739112854004,
+          -1758.0032348632812,
+          -12.702560424804688
+        ],
+        [
+          638.481616973877,
+          -1537.3672485351562,
+          -32.78779983520508
+        ]
+      ],
+      "halfHeight": 400.0,
+      "priority": 100
+    }
+  ]
+}

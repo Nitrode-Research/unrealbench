@@ -1,0 +1,146 @@
+﻿// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "NightSkyEngine/Battle/Script/State.h"
+#include "InputBuffer.generated.h"
+
+constexpr int32 InputSequenceSize = 0x10;
+constexpr int32 InputBufferSize = 0x20;
+
+/**
+ * @brief The input buffer for a player object.
+ *
+ * Stores inputs every frame, and handles input checking.
+ */
+USTRUCT()
+struct FInputBuffer
+{
+	GENERATED_BODY()
+	
+private:
+	/**
+	 * The input sequence. Updated by the input being checked.
+	 */
+	FInputBitmask InputSequence[InputSequenceSize] = {  };
+	/**
+	 * How much time is allowed between inputs. Updated by the input being checked.
+	 */
+	int32 ImpreciseInputCount = 0;
+	/**
+	 * Disallowed inputs. If any inputs in this array are detected, the entire condition is invalidated.
+	 */
+	TArray<TEnumAsByte<EInputFlags>> DisallowedInputs{};
+
+	
+public:
+	/**
+	 * All stored inputs.
+	 * Inputs are stored with the newest at the end and the oldest at the beginning.
+	 */
+	int32 InputBufferInternal[InputBufferSize] = { 16 };
+	/**
+	 * All stored inputs.
+	 * Inputs are stored with the newest at the end and the oldest at the beginning.
+	 */
+	int8_t InputBufferValid[InputBufferSize] = { 16 };
+	/**
+	 * All input times.
+	 * Input times are looped over and incremented every actionable frame.
+	 */
+	int32 InputTime[InputBufferSize] = {};
+
+	/**
+	 * Writes an input condition to the buffer. For use with CPU.
+	 * @param InputCondition The input condition to write.
+	 */
+	void WriteInputCondition(const FInputCondition& InputCondition);
+	
+	/**
+	 * @brief Stores the input for this frame.
+	 * 
+	 * @param Input The input bitmask to store.
+	 * @param bStopped If the owning object is in hitstop/super freeze.
+	 */
+	void Update(int32 Input, bool bStopped = false);
+	/**
+	 * @brief Stores the input at an arbitrary buffer position. Intended for CPU usage.
+	 * 
+	 * @param Input The input bitmask to store.
+	 * @param Index The index of the buffer to store at.
+	 */
+	void Emplace(int32 Input, uint32 Index);
+	/**
+	 * @brief Checks an input condition against the buffer.
+	 * 
+	 * @param InputCondition The input condition to check.
+	 * @return If the input condition matches the buffer, return true. Otherwise return false.
+	 */
+	bool CheckInputCondition(const FInputCondition& InputCondition);
+
+	/**
+	 * Checks the input sequence against the buffer with the Normal method.
+	 * @see EInputMethod
+	 * 
+	 * @return If the input sequence matches the buffer, return true. Otherwise return false. 
+	 */
+	bool CheckInputSequence() const;
+	/**
+	 * Checks the input sequence against the buffer with the Strict method.
+	 * @see EInputMethod
+	 * 
+	 * @return If the input sequence matches the buffer, return true. Otherwise return false. 
+	 */
+	bool CheckInputSequenceStrict() const;
+	/**
+	 * Checks the input sequence against the buffer with the Once method.
+	 * @see EInputMethod
+	 * 
+	 * @return If the input sequence matches the buffer, return true. Otherwise return false. 
+	 */
+	bool CheckInputSequenceOnce() const;
+	/**
+	 * Checks the input sequence against the buffer with the Once Strict method.
+	 * @see EInputMethod
+	 * 
+	 * @return If the input sequence matches the buffer, return true. Otherwise return false. 
+	 */
+	bool CheckInputSequenceOnceStrict() const;
+	/**
+	 * Checks the input sequence against the buffer with the Once method.
+	 * @see EInputMethod
+	 * 
+	 * @return If the input sequence matches the buffer, return true. Otherwise return false. 
+	 */
+	bool CheckInputSequencePressAndRelease() const;
+	/**
+	 * Checks the input sequence against the buffer with the Once Strict method.
+	 * @see EInputMethod
+	 * 
+	 * @return If the input sequence matches the buffer, return true. Otherwise return false. 
+	 */
+	bool CheckInputSequencePressAndReleaseStrict() const;
+	/**
+	 * Checks the input sequence against the buffer with the Negative method.
+	 * @see EInputMethod
+	 * 
+	 * @return If the input sequence matches the buffer, return true. Otherwise return false. 
+	 */
+	bool CheckInputSequenceNegative() const;
+	/**
+	 * Checks the input sequence against the buffer with the Negative Strict method.
+	 * @see EInputMethod
+	 * 
+	 * @return If the input sequence matches the buffer, return true. Otherwise return false. 
+	 */
+	bool CheckInputSequenceNegativeStrict() const;
+	/**
+	 * Flips the directional inputs in the buffer. For use after a character switches sides.
+	 */
+	void FlipInputsInBuffer();
+	/**
+	 * Resets the input buffer, as if it were the start of a match.
+	 */
+	void ResetBuffer();
+};

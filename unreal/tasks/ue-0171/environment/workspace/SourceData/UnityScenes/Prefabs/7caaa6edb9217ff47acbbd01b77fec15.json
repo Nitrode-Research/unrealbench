@@ -1,0 +1,1941 @@
+{
+  "schema": 1,
+  "assetPath": "Assets/Player/Prefab/PlayerManager.prefab",
+  "guid": "7caaa6edb9217ff47acbbd01b77fec15",
+  "kind": "prefab",
+  "nodes": [
+    {
+      "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager",
+      "transformId": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:0",
+      "parent": null,
+      "name": "PlayerManager",
+      "path": "0:PlayerManager",
+      "siblingIndex": 0,
+      "activeSelf": true,
+      "activeInHierarchy": true,
+      "layer": 0,
+      "tag": "Untagged",
+      "staticFlags": 0,
+      "localPosition":[0.0,0.0,0.0],
+      "localRotation":[0.0,0.0,0.0,1.0],
+      "localScale":[1.0,1.0,1.0],
+      "localMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldMatrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0],
+      "worldPosition":[0.0,0.0,0.0],
+      "worldRotation":[0.0,0.0,0.0,1.0],
+      "prefab": null,
+      "components": [
+        {
+          "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:0",
+          "type": "UnityEngine.Transform",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager",
+                "name": "PlayerManager",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalRotation",
+              "kind": "Quaternion",
+              "value":[0.0,0.0,0.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalPosition",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalScale",
+              "kind": "Vector3",
+              "value":[1.0,1.0,1.0],
+              "prefabOverride": false
+            },
+            {
+              "path": "m_ConstrainProportionsScale",
+              "kind": "Boolean",
+              "value": false,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Children.Array.size",
+              "kind": "ArraySize",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Father",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_LocalEulerAnglesHint",
+              "kind": "Vector3",
+              "value":[0.0,0.0,0.0],
+              "prefabOverride": false
+            }
+          ]
+        },
+        {
+          "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:1",
+          "type": "Player.PlayerManager",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager",
+                "name": "PlayerManager",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-63f0512bb8944bd99e6439664e519982-11500000-0",
+                "name": "PlayerManager",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/PlayerManager.cs",
+                "guid": "63f0512bb8944bd99e6439664e519982",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_bundle",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-5fbd4547a65c8bb408e316186c88a582-11400000-0",
+                "name": "GameplaySettingsBundle",
+                "type": "Settings.Bundles.GameplaySettingsBundle",
+                "assetPath": "Assets/Settings/Bundles/GameplaySettingsBundle.asset",
+                "guid": "5fbd4547a65c8bb408e316186c88a582",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_cameraPrefab",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-c9dd8bf4e995d864eb0071619b6309c9-6031051610096390852-0",
+                "name": "TopDownVCamera",
+                "type": "Cinemachine.CinemachineVirtualCamera",
+                "assetPath": "Assets/Player/Prefab/TopDownVCamera.prefab",
+                "guid": "c9dd8bf4e995d864eb0071619b6309c9",
+                "localFileId": 6031051610096390852
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_initialInteractable",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "RT",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "LT",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:2",
+          "type": "Player.ChainManager",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager",
+                "name": "PlayerManager",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-00a99719d4b64cd49c9365512137a312-11500000-0",
+                "name": "ChainManager",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/ChainManager.cs",
+                "guid": "00a99719d4b64cd49c9365512137a312",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_link",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-d230c944bb16d0440be0e42045187b58-8012408627624135789-0",
+                "name": "ChainLink",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "Assets/Player/Prefab/ChainLink.prefab",
+                "guid": "d230c944bb16d0440be0e42045187b58",
+                "localFileId": 8012408627624135789
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_length",
+              "kind": "Integer",
+              "value": 82,
+              "prefabOverride": false
+            },
+            {
+              "path": "_linkLength",
+              "kind": "Float",
+              "value": 0.05000000074505806,
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.size",
+              "kind": "ArraySize",
+              "value": 82,
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[0]",
+              "kind": "Vector3",
+              "value":[-1.69184434,0.224226773,0.0518055521],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[1]",
+              "kind": "Vector3",
+              "value":[-1.69307446,0.127224833,0.0295787137],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[2]",
+              "kind": "Vector3",
+              "value":[-1.68527949,0.0647724047,0.0613442548],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[3]",
+              "kind": "Vector3",
+              "value":[-1.71721673,0.05000154,0.08345394],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[4]",
+              "kind": "Vector3",
+              "value":[-1.789726,0.0499997735,0.100216873],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[5]",
+              "kind": "Vector3",
+              "value":[-1.85269082,0.0499986634,0.177520171],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[6]",
+              "kind": "Vector3",
+              "value":[-1.875463,0.0500010028,0.2625147],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[7]",
+              "kind": "Vector3",
+              "value":[-1.815171,0.0499987453,0.321930468],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[8]",
+              "kind": "Vector3",
+              "value":[-1.81618309,0.0500015765,0.3292628],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[9]",
+              "kind": "Vector3",
+              "value":[-1.869956,0.0681599751,0.279390424],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[10]",
+              "kind": "Vector3",
+              "value":[-1.85494184,0.06816219,0.190426826],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[11]",
+              "kind": "Vector3",
+              "value":[-1.78660011,0.0499987751,0.155558452],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[12]",
+              "kind": "Vector3",
+              "value":[-1.68841648,0.0499985069,0.174044162],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[13]",
+              "kind": "Vector3",
+              "value":[-1.60978127,0.04999984,0.224832833],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[14]",
+              "kind": "Vector3",
+              "value":[-1.554769,0.0500165373,0.3081406],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[15]",
+              "kind": "Vector3",
+              "value":[-1.49740791,0.05000458,0.3895976],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[16]",
+              "kind": "Vector3",
+              "value":[-1.4264884,0.0499990173,0.459805965],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[17]",
+              "kind": "Vector3",
+              "value":[-1.34649634,0.0500005968,0.5196429],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[18]",
+              "kind": "Vector3",
+              "value":[-1.26742077,0.0499995872,0.580525458],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[19]",
+              "kind": "Vector3",
+              "value":[-1.24154079,0.08704863,0.5820008],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[20]",
+              "kind": "Vector3",
+              "value":[-1.28667092,0.08706098,0.5488975],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[21]",
+              "kind": "Vector3",
+              "value":[-1.27385771,0.0499992333,0.528541],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[22]",
+              "kind": "Vector3",
+              "value":[-1.17759645,0.0499995276,0.509553552],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[23]",
+              "kind": "Vector3",
+              "value":[-1.08129108,0.0499994941,0.4905827],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[24]",
+              "kind": "Vector3",
+              "value":[-1.00113058,0.05000109,0.435040832],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[25]",
+              "kind": "Vector3",
+              "value":[-0.9318223,0.0797742754,0.379306555],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[26]",
+              "kind": "Vector3",
+              "value":[-0.871490359,0.07977332,0.328876555],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[27]",
+              "kind": "Vector3",
+              "value":[-0.8445498,0.04999963,0.247448251],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[28]",
+              "kind": "Vector3",
+              "value":[-0.8323256,0.0500004739,0.148538485],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[29]",
+              "kind": "Vector3",
+              "value":[-0.8320619,0.0500009656,0.0505440235],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[30]",
+              "kind": "Vector3",
+              "value":[-0.874142647,0.0499983653,-0.0369809456],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[31]",
+              "kind": "Vector3",
+              "value":[-0.935014248,0.0500018336,-0.11626599],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[32]",
+              "kind": "Vector3",
+              "value":[-1.01376188,0.0530076921,-0.156172514],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[33]",
+              "kind": "Vector3",
+              "value":[-1.038527,0.0530136973,-0.112056375],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[34]",
+              "kind": "Vector3",
+              "value":[-0.9998878,0.0500032231,-0.0207897779],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[35]",
+              "kind": "Vector3",
+              "value":[-0.9747699,0.05000205,0.07605943],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[36]",
+              "kind": "Vector3",
+              "value":[-0.915253639,0.04999868,0.139642119],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[37]",
+              "kind": "Vector3",
+              "value":[-0.8302866,0.0500008,0.187961],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[38]",
+              "kind": "Vector3",
+              "value":[-0.7565157,0.0499991365,0.255504549],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[39]",
+              "kind": "Vector3",
+              "value":[-0.687664747,0.0500019751,0.327786982],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[40]",
+              "kind": "Vector3",
+              "value":[-0.624694,0.0499987751,0.405515283],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[41]",
+              "kind": "Vector3",
+              "value":[-0.5519459,0.04999978,0.471742868],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[42]",
+              "kind": "Vector3",
+              "value":[-0.47346434,0.0500041023,0.532922149],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[43]",
+              "kind": "Vector3",
+              "value":[-0.391317219,0.0500022173,0.5872165],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[44]",
+              "kind": "Vector3",
+              "value":[-0.297784925,0.04999989,0.5921131],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[45]",
+              "kind": "Vector3",
+              "value":[-0.202423245,0.0499990657,0.591481745],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[46]",
+              "kind": "Vector3",
+              "value":[-0.10899061,0.05000019,0.626518548],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[47]",
+              "kind": "Vector3",
+              "value":[-0.0171809979,0.0500006229,0.666062236],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[48]",
+              "kind": "Vector3",
+              "value":[0.07473783,0.0500007533,0.70545],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[49]",
+              "kind": "Vector3",
+              "value":[0.169576377,0.0499991961,0.7350645],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[50]",
+              "kind": "Vector3",
+              "value":[0.263567865,0.0499999635,0.766470253],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[51]",
+              "kind": "Vector3",
+              "value":[0.353633344,0.049998,0.8097738],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[52]",
+              "kind": "Vector3",
+              "value":[0.44356,0.05000275,0.8533923],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[53]",
+              "kind": "Vector3",
+              "value":[0.535341263,0.0499979034,0.892951965],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[54]",
+              "kind": "Vector3",
+              "value":[0.6290827,0.0500195175,0.9276246],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[55]",
+              "kind": "Vector3",
+              "value":[0.721833646,0.0499986559,0.9648136],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[56]",
+              "kind": "Vector3",
+              "value":[0.8122887,0.0500008129,1.00731492],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[57]",
+              "kind": "Vector3",
+              "value":[0.852058649,0.08499399,1.06465459],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[58]",
+              "kind": "Vector3",
+              "value":[0.8449949,0.0849884748,1.13569379],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[59]",
+              "kind": "Vector3",
+              "value":[0.839894056,0.05000129,1.2212168],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[60]",
+              "kind": "Vector3",
+              "value":[0.8247338,0.0499997474,1.22258186],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[61]",
+              "kind": "Vector3",
+              "value":[0.807445049,0.0499975979,1.12435079],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[62]",
+              "kind": "Vector3",
+              "value":[0.752720058,0.05000259,1.0686928],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[63]",
+              "kind": "Vector3",
+              "value":[0.669423342,0.08678196,1.058183],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[64]",
+              "kind": "Vector3",
+              "value":[0.6166146,0.08677383,1.08140385],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[65]",
+              "kind": "Vector3",
+              "value":[0.5480068,0.0499990322,1.10082579],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[66]",
+              "kind": "Vector3",
+              "value":[0.4491057,0.0499992445,1.08618593],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[67]",
+              "kind": "Vector3",
+              "value":[0.444794774,0.0500029624,1.05925143],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[68]",
+              "kind": "Vector3",
+              "value":[0.529139936,0.0558748767,1.00732887],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[69]",
+              "kind": "Vector3",
+              "value":[0.577922463,0.05587378,1.02516341],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[70]",
+              "kind": "Vector3",
+              "value":[0.601044536,0.049998574,1.12211466],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[71]",
+              "kind": "Vector3",
+              "value":[0.6375072,0.04999944,1.214656],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[72]",
+              "kind": "Vector3",
+              "value":[0.700349,0.0500022136,1.28939486],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[73]",
+              "kind": "Vector3",
+              "value":[0.7849164,0.0499986447,1.34210467],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[74]",
+              "kind": "Vector3",
+              "value":[0.8748884,0.0499999449,1.385595],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[75]",
+              "kind": "Vector3",
+              "value":[0.963736057,0.050001625,1.43146133],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[76]",
+              "kind": "Vector3",
+              "value":[1.02853262,0.04999929,1.50136244],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[77]",
+              "kind": "Vector3",
+              "value":[1.08128238,0.0499995723,1.58548832],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[78]",
+              "kind": "Vector3",
+              "value":[1.14200652,0.0604108348,1.66350842],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[79]",
+              "kind": "Vector3",
+              "value":[1.19540739,0.104176126,1.731108],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[80]",
+              "kind": "Vector3",
+              "value":[1.23326862,0.180688336,1.78065538],
+              "prefabOverride": false
+            },
+            {
+              "path": "_positions.Array.data[81]",
+              "kind": "Vector3",
+              "value":[1.25874293,0.269589663,1.81838214],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.size",
+              "kind": "ArraySize",
+              "value": 82,
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[0]",
+              "kind": "Quaternion",
+              "value":[-0.09489566,-0.07974501,0.9920704,-0.0207853746],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[1]",
+              "kind": "Quaternion",
+              "value":[0.984075367,-0.05433805,0.09126846,-0.1425243],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[2]",
+              "kind": "Quaternion",
+              "value":[-0.633856058,-0.4701951,-0.495900452,-0.362251133],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[3]",
+              "kind": "Quaternion",
+              "value":[-0.173468724,-0.180031985,0.685645461,0.6836574],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[4]",
+              "kind": "Quaternion",
+              "value":[-0.3565015,-0.295401156,-0.6103962,-0.642698467],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[5]",
+              "kind": "Quaternion",
+              "value":[-0.311366826,-0.248221561,-0.63469696,-0.662266254],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[6]",
+              "kind": "Quaternion",
+              "value":[0.590566,0.5141045,0.389191717,0.48524043],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[7]",
+              "kind": "Quaternion",
+              "value":[0.06070212,0.210735053,0.704593658,-0.674873233],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[8]",
+              "kind": "Quaternion",
+              "value":[-0.161496565,0.114287496,0.68860364,0.697626233],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[9]",
+              "kind": "Quaternion",
+              "value":[0.07942564,-0.824326754,0.558448136,-0.0480912253],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[10]",
+              "kind": "Quaternion",
+              "value":[-0.169415474,-0.551567,0.808174133,-0.118012421],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[11]",
+              "kind": "Quaternion",
+              "value":[0.5487435,0.61169225,0.445322067,-0.3555299],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[12]",
+              "kind": "Quaternion",
+              "value":[0.5347102,0.6221189,0.462554127,-0.3362986],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[13]",
+              "kind": "Quaternion",
+              "value":[0.314523458,0.6954361,0.6336146,-0.126397118],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[14]",
+              "kind": "Quaternion",
+              "value":[-0.276486963,-0.7015318,-0.6509888,0.08730266],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[15]",
+              "kind": "Quaternion",
+              "value":[-0.62481,-0.149179116,0.332625538,-0.690448],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[16]",
+              "kind": "Quaternion",
+              "value":[-0.5930531,-0.2114321,0.38397,-0.67539],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[17]",
+              "kind": "Quaternion",
+              "value":[-0.413538337,-0.6633648,-0.573356569,0.245347634],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[18]",
+              "kind": "Quaternion",
+              "value":[-0.5994269,-0.203021273,0.3746513,-0.67757374],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[19]",
+              "kind": "Quaternion",
+              "value":[0.008282918,0.8680714,-0.359511852,-0.342249662],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[20]",
+              "kind": "Quaternion",
+              "value":[-0.9326933,0.3589657,0.0231135525,0.026319202],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[21]",
+              "kind": "Quaternion",
+              "value":[-0.112829745,0.1594678,-0.6978491,0.689090848],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[22]",
+              "kind": "Quaternion",
+              "value":[-0.70664525,-0.7066094,-0.0252887346,0.0267621428],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[23]",
+              "kind": "Quaternion",
+              "value":[-0.6989788,-0.6878673,0.106532075,0.16406785],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[24]",
+              "kind": "Quaternion",
+              "value":[0.2549808,-0.3132835,0.659739137,-0.633705437],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[25]",
+              "kind": "Quaternion",
+              "value":[0.048321858,-0.3347527,0.446877658,-0.8281945],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[26]",
+              "kind": "Quaternion",
+              "value":[0.8560449,0.368219733,-0.254999816,-0.258024275],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[27]",
+              "kind": "Quaternion",
+              "value":[-0.387770772,0.57512176,-0.5916089,0.410935253],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[28]",
+              "kind": "Quaternion",
+              "value":[-0.335803777,0.5403857,-0.622564137,0.455667645],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[29]",
+              "kind": "Quaternion",
+              "value":[-0.448506117,0.625971854,-0.546960235,0.328384161],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[30]",
+              "kind": "Quaternion",
+              "value":[-0.435408145,-0.150743037,0.5567821,0.6911512],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[31]",
+              "kind": "Quaternion",
+              "value":[-0.458647668,-0.175246581,0.538422167,0.6848596],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[32]",
+              "kind": "Quaternion",
+              "value":[0.650467,-0.6864407,0.215854689,0.243102208],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[33]",
+              "kind": "Quaternion",
+              "value":[-0.7281261,-0.333762348,0.0137995714,-0.598535538],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[34]",
+              "kind": "Quaternion",
+              "value":[-0.7039375,-0.255228549,-0.06814485,-0.659307837],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[35]",
+              "kind": "Quaternion",
+              "value":[0.702681839,0.240885824,0.0796368,0.6647333],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[36]",
+              "kind": "Quaternion",
+              "value":[0.6173368,0.486684054,-0.343999058,0.5135159],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[37]",
+              "kind": "Quaternion",
+              "value":[0.212632567,0.6085852,0.6744347,-0.35992974],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[38]",
+              "kind": "Quaternion",
+              "value":[0.203966051,0.612377346,0.6768812,-0.353869766],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[39]",
+              "kind": "Quaternion",
+              "value":[-0.6870848,-0.3181203,0.167581022,-0.631372],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[40]",
+              "kind": "Quaternion",
+              "value":[-0.6905781,-0.302121341,0.150132209,-0.6397538],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[41]",
+              "kind": "Quaternion",
+              "value":[-0.652272165,-0.405676842,0.272986472,-0.5791768],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[42]",
+              "kind": "Quaternion",
+              "value":[-0.6749302,-0.3444142,0.2108685,-0.617561758],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[43]",
+              "kind": "Quaternion",
+              "value":[0.327420056,0.5501925,0.627474666,-0.443125218],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[44]",
+              "kind": "Quaternion",
+              "value":[-0.455403984,-0.5998669,0.540598631,-0.374860018],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[45]",
+              "kind": "Quaternion",
+              "value":[-0.385255873,-0.5434063,-0.592621446,0.4528658],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[46]",
+              "kind": "Quaternion",
+              "value":[0.350157678,0.569224656,0.6143572,-0.419449836],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[47]",
+              "kind": "Quaternion",
+              "value":[-0.356914073,-0.564604461,-0.6103957,0.425736159],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[48]",
+              "kind": "Quaternion",
+              "value":[-0.6135298,-0.4205426,0.3514248,-0.5685295],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[49]",
+              "kind": "Quaternion",
+              "value":[-0.5698304,-0.4800637,0.418213457,-0.5195476],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[50]",
+              "kind": "Quaternion",
+              "value":[0.618791,0.406839848,-0.342333257,0.5782621],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[51]",
+              "kind": "Quaternion",
+              "value":[0.3452039,0.5766302,0.617160261,-0.409200579],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[52]",
+              "kind": "Quaternion",
+              "value":[-0.6196679,-0.403569251,0.3415078,-0.58010006],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[53]",
+              "kind": "Quaternion",
+              "value":[-0.369841635,-0.558791,-0.602305949,0.4338172],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[54]",
+              "kind": "Quaternion",
+              "value":[-0.3751415,-0.556872845,-0.599630952,0.4354356],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[55]",
+              "kind": "Quaternion",
+              "value":[0.353300363,0.5716695,0.6122394,-0.416576147],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[56]",
+              "kind": "Quaternion",
+              "value":[-0.6182868,-0.40284735,0.3432148,-0.581067264],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[57]",
+              "kind": "Quaternion",
+              "value":[-0.0360988267,0.920776069,0.385975331,0.04349002],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[58]",
+              "kind": "Quaternion",
+              "value":[-0.8985463,0.108130358,0.206064567,-0.372102022],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[59]",
+              "kind": "Quaternion",
+              "value":[-0.6752857,0.251222819,0.209894761,-0.660924],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[60]",
+              "kind": "Quaternion",
+              "value":[-0.139223546,-0.639151156,0.6930855,0.3028782],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[61]",
+              "kind": "Quaternion",
+              "value":[0.68198806,-0.25605303,0.186668351,-0.659154058],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[62]",
+              "kind": "Quaternion",
+              "value":[-0.565403342,0.510173,0.425475061,0.4888901],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[63]",
+              "kind": "Quaternion",
+              "value":[0.2996801,-0.6914971,-0.204216763,-0.6247553],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[64]",
+              "kind": "Quaternion",
+              "value":[-0.39015907,-0.18408227,-0.845962,-0.3134293],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[65]",
+              "kind": "Quaternion",
+              "value":[-0.699101567,0.70670563,-0.108150341,0.0113030085],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[66]",
+              "kind": "Quaternion",
+              "value":[-0.701505363,0.7068371,-0.090847075,-0.004284971],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[67]",
+              "kind": "Quaternion",
+              "value":[-0.2048208,0.09546471,-0.6774006,0.7000453],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[68]",
+              "kind": "Quaternion",
+              "value":[-0.603773236,-0.7257915,0.276147038,0.180076271],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[69]",
+              "kind": "Quaternion",
+              "value":[-0.414590269,-0.614962757,-0.6222134,-0.250571966],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[70]",
+              "kind": "Quaternion",
+              "value":[-0.411472172,-0.6635927,-0.574660838,-0.245153889],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[71]",
+              "kind": "Quaternion",
+              "value":[0.530873537,-0.1677359,-0.467274964,0.6867985],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[72]",
+              "kind": "Quaternion",
+              "value":[0.43031466,2.93625271E-05,-0.561368644,0.7068908],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[73]",
+              "kind": "Quaternion",
+              "value":[0.378573328,0.07270063,-0.596862853,0.703670144],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[74]",
+              "kind": "Quaternion",
+              "value":[0.3721235,0.08114327,-0.601444244,0.702285349],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[75]",
+              "kind": "Quaternion",
+              "value":[0.5863358,0.7046781,0.39553082,-0.05652078],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[76]",
+              "kind": "Quaternion",
+              "value":[-0.408757985,-0.69605875,-0.576742053,-0.12564984],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[77]",
+              "kind": "Quaternion",
+              "value":[0.472254,0.706351757,0.526165843,0.0345393568],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[78]",
+              "kind": "Quaternion",
+              "value":[-0.41200304,-0.7751287,-0.4755962,-0.05689672],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[79]",
+              "kind": "Quaternion",
+              "value":[-0.291862547,-0.909116447,-0.2853181,-0.0831696],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[80]",
+              "kind": "Quaternion",
+              "value":[0.166398734,0.958762,0.201545492,0.111652806],
+              "prefabOverride": false
+            },
+            {
+              "path": "_rotations.Array.data[81]",
+              "kind": "Quaternion",
+              "value":[0.15414913,-0.111765034,-0.138820216,0.971841335],
+              "prefabOverride": false
+            },
+            {
+              "path": "_chainEvent.Event",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-762e5b8737e77ec41900fa62e882f68d-11400000-0",
+                "name": "ChainEvent",
+                "type": "Audio.Events.FMODEvent",
+                "assetPath": "Assets/Audio/Events/ChainEvent.asset",
+                "guid": "762e5b8737e77ec41900fa62e882f68d",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_chainVelocityParam",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-9ec51029366620a44bcec73d9d888ded-11400000-0",
+                "name": "ChainVelocityParameter",
+                "type": "Audio.Parameters.FMODParameter",
+                "assetPath": "Assets/Audio/Parameters/ChainVelocityParameter.asset",
+                "guid": "9ec51029366620a44bcec73d9d888ded",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_chainAccelerationParam",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-37cc654e17df3d241ad6bb7bb62bd5c0-11400000-0",
+                "name": "ChainAccelerationParameter",
+                "type": "Audio.Parameters.FMODParameter",
+                "assetPath": "Assets/Audio/Parameters/ChainAccelerationParameter.asset",
+                "guid": "37cc654e17df3d241ad6bb7bb62bd5c0",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_velocitySpringConfig._frequency",
+              "kind": "Float",
+              "value": 70.5999984741211,
+              "prefabOverride": false
+            },
+            {
+              "path": "_velocitySpringConfig._damping",
+              "kind": "Float",
+              "value": 7.820000171661377,
+              "prefabOverride": false
+            },
+            {
+              "path": "_accelerationSpringConfig._frequency",
+              "kind": "Float",
+              "value": 106.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "_accelerationSpringConfig._damping",
+              "kind": "Float",
+              "value": 3.0199999809265137,
+              "prefabOverride": false
+            },
+            {
+              "path": "_id.ChunkId",
+              "kind": "String",
+              "value": "7caaa6edb9217ff47acbbd01b77fec15",
+              "prefabOverride": false
+            },
+            {
+              "path": "_id.ObjectId",
+              "kind": "String",
+              "value": "4796299548502591021-0",
+              "prefabOverride": false
+            },
+            {
+              "path": "_players.LT",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "_players.RT",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:3",
+          "type": "Player.PlayerUI",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager",
+                "name": "PlayerManager",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-cb0afa5d2cac42a6bbf5b17df65db3b2-11500000-0",
+                "name": "PlayerUI",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/PlayerUI.cs",
+                "guid": "cb0afa5d2cac42a6bbf5b17df65db3b2",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:4",
+          "type": "Cinemachine.CinemachineTargetGroup",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager",
+                "name": "PlayerManager",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-e5eb80d8e62d9d145bb50fb783c0f731-11500000-0",
+                "name": "CinemachineTargetGroup",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineTargetGroup.cs",
+                "guid": "e5eb80d8e62d9d145bb50fb783c0f731",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_PositionMode",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_RotationMode",
+              "kind": "Enum",
+              "value": 1,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_UpdateMethod",
+              "kind": "Enum",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Targets.Array.size",
+              "kind": "ArraySize",
+              "value": 2,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Targets.Array.data[0].target",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Targets.Array.data[0].weight",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Targets.Array.data[0].radius",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Targets.Array.data[1].target",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Targets.Array.data[1].weight",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Targets.Array.data[1].radius",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:5",
+          "type": "Player.ManagerStates.DialogueState",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager",
+                "name": "PlayerManager",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-d3fd6b180b554c6d9f680608ecd3b5a4-11500000-0",
+                "name": "DialogueState",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/ManagerStates/DialogueState.cs",
+                "guid": "d3fd6b180b554c6d9f680608ecd3b5a4",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_skipSound.Event",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "_nextSound.Event",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "_exitSound.Event",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "_optionSound.Event",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "_inDialogueParam._parameter",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-c65474eedb6ba1349b5bf6c16db99684-11400000-0",
+                "name": "InDialogueParameter",
+                "type": "Audio.Parameters.FMODParameter",
+                "assetPath": "Assets/Audio/Parameters/InDialogueParameter.asset",
+                "guid": "c65474eedb6ba1349b5bf6c16db99684",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_bundle",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-5fbd4547a65c8bb408e316186c88a582-11400000-0",
+                "name": "GameplaySettingsBundle",
+                "type": "Settings.Bundles.GameplaySettingsBundle",
+                "assetPath": "Assets/Settings/Bundles/GameplaySettingsBundle.asset",
+                "guid": "5fbd4547a65c8bb408e316186c88a582",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_volume",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:7",
+                "name": "PlayerManager",
+                "type": "UnityEngine.Rendering.Volume",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_interactionCooldown",
+              "kind": "Float",
+              "value": 0.20000000298023224,
+              "prefabOverride": false
+            },
+            {
+              "path": "_fastForwardCooldown",
+              "kind": "Float",
+              "value": 0.5,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:6",
+          "type": "Player.ManagerStates.ExploreState",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager",
+                "name": "PlayerManager",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-b2804565c70e4770a968f378e8476b9d-11500000-0",
+                "name": "ExploreState",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/Player/ManagerStates/ExploreState.cs",
+                "guid": "b2804565c70e4770a968f378e8476b9d",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_config",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-74b20a78b90c2d847bdaa3ceb262eace-11400000-0",
+                "name": "PlayerConfig",
+                "type": "Player.PlayerConfig",
+                "assetPath": "Assets/Player/PlayerConfig.asset",
+                "guid": "74b20a78b90c2d847bdaa3ceb262eace",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_targetPrefab",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-3ee265cd1d7910f458699d94b5fa0948-4803978102406822656-0",
+                "name": "Target",
+                "type": "Player.TargetController",
+                "assetPath": "Assets/Player/Prefab/Target.prefab",
+                "guid": "3ee265cd1d7910f458699d94b5fa0948",
+                "localFileId": 4803978102406822656
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_targetAction",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-314bc7151929a6a439a2af7e101ce57a-8969022858353728413-0",
+                "name": "Pointing/Point",
+                "type": "UnityEngine.InputSystem.InputActionReference",
+                "assetPath": "Assets/Input/PlayerActions.inputactions",
+                "guid": "314bc7151929a6a439a2af7e101ce57a",
+                "localFileId": 8969022858353728413
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "_interactionHoverSound.Event",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "_keyReleaseDelay",
+              "kind": "Float",
+              "value": 0.10000000149011612,
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:7",
+          "type": "UnityEngine.Rendering.Volume",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager",
+                "name": "PlayerManager",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-172515602e62fb746b5d573b38a5fe58-11500000-0",
+                "name": "Volume",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Packages/com.unity.render-pipelines.core/Runtime/Volume/Volume.cs",
+                "guid": "172515602e62fb746b5d573b38a5fe58",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_IsGlobal",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "priority",
+              "kind": "Float",
+              "value": 1.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "blendDistance",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "weight",
+              "kind": "Float",
+              "value": 0.0,
+              "prefabOverride": false
+            },
+            {
+              "path": "sharedProfile",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-3-8bfea386c15287348b0e7bfba8a88a3a-11400000-0",
+                "name": "ConversationProfile",
+                "type": "UnityEngine.Rendering.VolumeProfile",
+                "assetPath": "Assets/Player/ConversationProfile.asset",
+                "guid": "8bfea386c15287348b0e7bfba8a88a3a",
+                "localFileId": 11400000
+              },
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        },
+        {
+          "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager:component:8",
+          "type": "DevTools.GoogleSheetLoader",
+          "properties": [
+            {
+              "path": "m_GameObject",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "prefab:7caaa6edb9217ff47acbbd01b77fec15:0:PlayerManager",
+                "name": "PlayerManager",
+                "type": "UnityEngine.GameObject",
+                "assetPath": "",
+                "guid": "00000000000000000000000000000000",
+                "localFileId": 0
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Enabled",
+              "kind": "Boolean",
+              "value": true,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorHideFlags",
+              "kind": "Integer",
+              "value": 0,
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Script",
+              "kind": "ObjectReference",
+              "value": {
+                "id": "GlobalObjectId_V1-1-3a0e7ba60ef04a6b99cf5ce52943ff18-11500000-0",
+                "name": "GoogleSheetLoader",
+                "type": "UnityEditor.MonoScript",
+                "assetPath": "Assets/DevTools/GoogleSheetLoader.cs",
+                "guid": "3a0e7ba60ef04a6b99cf5ce52943ff18",
+                "localFileId": 11500000
+              },
+              "prefabOverride": false
+            },
+            {
+              "path": "m_Name",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "m_EditorClassIdentifier",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            },
+            {
+              "path": "_table",
+              "kind": "ObjectReference",
+              "value": null,
+              "prefabOverride": false
+            },
+            {
+              "path": "_documentId",
+              "kind": "String",
+              "value": "19LPYCjdn4JkR4B1pN3EYKgbfLMHpOu8uYFZwuZMw0SI",
+              "prefabOverride": false
+            },
+            {
+              "path": "_sheetName",
+              "kind": "String",
+              "value": "",
+              "prefabOverride": false
+            }
+          ],
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

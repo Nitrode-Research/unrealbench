@@ -1,0 +1,96 @@
+{
+  "name": "unrealbench",
+  "datasets": [
+    {
+      "name": "unreal",
+      "version": "0.1.0-rc.1",
+      "description": "14 Unreal Engine agent tasks; see VALIDATION.md for release status.",
+      "tasks": [
+        {
+          "name": "ue-0121-nse-swept-projectiles",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0121-nse-swept-projectiles"
+        },
+        {
+          "name": "ue-0122-nse-replay-takeover",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0122-nse-replay-takeover"
+        },
+        {
+          "name": "ue-0123-nse-spectator-rooms",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0123-nse-spectator-rooms"
+        },
+        {
+          "name": "ue-0124-nse-relay-combat",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0124-nse-relay-combat"
+        },
+        {
+          "name": "ue-0125-nse-match-modifiers",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0125-nse-match-modifiers"
+        },
+        {
+          "name": "ue-0131-nse-partitioned-charge",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0131-nse-partitioned-charge"
+        },
+        {
+          "name": "ue-0132-nse-simultaneous-contacts",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0132-nse-simultaneous-contacts"
+        },
+        {
+          "name": "ue-0133-nse-canonical-checkpoints",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0133-nse-canonical-checkpoints"
+        },
+        {
+          "name": "ue-0134-nse-combo-discovery",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0134-nse-combo-discovery"
+        },
+        {
+          "name": "ue-0164",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0164"
+        },
+        {
+          "name": "ue-0168",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0168"
+        },
+        {
+          "name": "ue-0169",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0169"
+        },
+        {
+          "name": "ue-0171",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0171"
+        },
+        {
+          "name": "ue-0172",
+          "git_url": "https://github.com/Nitrode-Research/unrealbench.git",
+          "git_commit_id": "v0.1.0-rc.1",
+          "path": "unreal/tasks/ue-0172"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# Composable match modifiers
+
+Build an authorable match-modifier system in NightSkyEngine. Designers must be able to create independent rules, configure several before a match, and play their combination locally and online. Include damage, meter, movement and victory rules, their setup validation and an in-game display of active rule names and remaining simulation frames. Supply a playable preset combining the four rules below, with authoring controls for the behavior below.
+
+- Each definition has a stable, case-sensitive ASCII identifier, revision, integer priority, optional exclusive groups and activation intervals identified by round number, start frame and duration, or round end. Round numbers start at one. Frame zero is the first playable step; frames advance through hitstop and superfreeze, but not pause, introductions or round results. Intervals are start-inclusive and end-exclusive; remaining frames include the displayed frame. Ending rules cease before starting rules take effect, before that frame's gameplay. Each round ends all intervals; rematch restarts the configured schedule and rule state. Author-requested deactivation takes effect before the next playable step.
+- Apply rules by ascending priority, then identifier in ASCII order, independent of selection/registration order. Reject duplicate definition identifiers, missing definitions/revisions, invalid numeric parameters, negative starts, nonpositive durations and overlapping intervals for the same identifier or shared exclusive group before accepting battle input. Name the offending rules and reason. Validate conflicts across the whole schedule, including future rounds. Online peers must agree on the exact definitions and configuration before starting; mismatch blocks play with a reason.
+- Damage rules transform the nonnegative integer damage remaining after ordinary combat scaling, before health loss. Authored operations support adding a signed integer, multiplying by a nonnegative rational with positive denominator, and canceling. Clamp damage to zero after each operation and round multiplication down. Cancellation stops later handlers and discards that damage event and its pending child events: no health loss or damage-derived meter gain. Contact reactions remain ordinary. Otherwise ordinary damage-derived meter uses transformed damage, except converted damage grants neither participant these gains. Conversion still debits the victim and does not cancel authored children. Clamp each committed meter change to the ordinary meter bounds.
+- Authored damage and meter rules may produce either kind of child event. Commit children after the accepted parent, including its ordinary meter gains or conversion debit. The observable order is parent, then each child and its descendants in emission order. For an accepted damage event, commit its health change and both ordinary damage-derived meter changes, or its conversion debit, before executing any authored descendant emitted while processing that event or those meter changes. Then execute authored children and their descendants depth first in emission order. Children use the same ordered handlers. A rule affects an event at most once along each parent-to-descendant chain. Meter handlers may also cancel, preventing the meter change and children. Canceled parents emit no children. Removing a modifier removes its live owned attacks/statuses and pending effects before further gameplay, without undoing committed health/meter changes or deleting another owner's effects. Overlapping movement restrictions remain until their last owner ends.
+- Ship configurable resource drain, subtracting a nonnegative amount from both teams' meter at each active frame's start; damage conversion, replacing a victim's health damage with an equal meter debit without spilling into health; movement restriction, suppressing new walk/dash/jump commands while preserving existing momentum, knockback and attacks; and sudden death, awarding the round to the sole side inflicting positive committed health damage that frame. If both sides do so, draw; if neither does, ordinary victory rules apply. Evaluate victory after all that frame's events. Conversion follows damage transforms and precedes health commit; drain follows activation and precedes combat.
+
+For damage caused by attacker A to victim V, both ordinary damage-derived meter events retain A as their source; their recipients are V and A respectively. A conversion debit likewise retains the damage event's source and targets its victim. Every authored child inherits its parent event's source, including ChildDamage, which uses that source as its ordinary damage attacker. Unless ToAttacker is true, a child targets its parent event's recipient; ToAttacker targets the inherited source. Receiving meter or selecting a child target does not change source attribution.
+
+Save the immutable configuration and required rule revisions with replays, and reject unavailable or incompatible definitions explicitly. Rewinding across activation, cancellation, expiry or round transitions must reconstruct gameplay, owned effects and rule durations. Corrected online play and replay must reproduce confirmed health, meter, movement, round results and rule displays without duplicated effects. Expiry restores ordinary behavior immediately; rounds and rematches leave no stale rule state.
+
+The supported numeric domain consists of authored parameters and incoming event amounts representable by their published public field types, with every required final public value also representable after the specified gameplay clamps. Intermediate arithmetic is mathematical and need not fit those field types: apply only the stated flooring and zero clamps, without overflow, wraparound or additional saturation. Final health and meter commits retain ordinary engine bounds. Configurations or event sequences requiring unrepresentable final public values are outside scope.
+
+## Editable paths
+
+You may add or modify files within these paths:
+
+- `Config`
+- `Content`
+- `Source`
+- `Plugins`
+- `NightSkyEngine.uproject`
+
+## Protected paths
+
+Do not change these paths, including when nested within an editable path:
+
+- `Plugins/NightSkyEngine/Source/NightSkyEngine/Fixtures`
