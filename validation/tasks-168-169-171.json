@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "date_utc": "2026-09-18",
-  "observed_at_utc": "2026-09-18T09:00:57.745600+00:00",
-  "status": "partial_native_validation",
+  "observed_at_utc": "2026-09-18T10:06:30.834977+00:00",
+  "status": "native_validation_complete_with_limitations",
   "certified": false,
   "model_agent_tested": false,
   "source_commit": "7fc690ef7d2e5969df3a529d05932230eeb67dd5",
@@ -13,8 +13,11 @@
   "limitations": [
     "This is a release-candidate validation receipt, not a certification.",
     "An incomplete verifier with no reward is not a valid zero score.",
-    "Task 168 completed its headless lane but crashed before rendered assertions; task 169 and native regrades remain in progress.",
-    "No model-agent evaluation was performed."
+    "No model-agent evaluation was performed.",
+    "ue-0171: the regrade controller was cancelled after the native child started. Whole-job pre-run hashes were not persisted; integrity is only established from watcher start through completion, plus the separately archived original result/native-report hashes.",
+    "ue-0168: oracle verifier did not produce a valid reward; the rendered lane is incomplete.",
+    "ue-0169: native regrade has not completed successfully in this receipt.",
+    "The final packages have no completed NOP baseline in this receipt; task 169 native regrade was also deferred before scheduled worker cleanup."
   ],
   "tasks": {
     "ue-0171": {
@@ -35,6 +38,39 @@
           "failed": 0,
           "infrastructure_errors": []
         }
+      },
+      "runtime_package_manifest_sha256": "77c43abc052e195e5de4eab913c462cb78d284a492b8905441ad8e492b489c88",
+      "runtime_package_matches_recorded_manifest": true,
+      "regrade": {
+        "status": "complete",
+        "returncode": null,
+        "returncode_note": "Original supervisor cancelled; collected completed native trial result without interrupting it",
+        "seconds": 538.1,
+        "trial": "ue-0171__HoWUFVX",
+        "reward": 1.0,
+        "exception_type": null,
+        "native_regrade": true,
+        "result_sha256": "9b279f6a02af48a2da843cd5274cf8e3be2a332ed4a01b8db51fa764350f6fa5",
+        "native_report_sha256": "90f0dbeab4606dc5db395dcc79637bcdd17e0d5dbed37ddc239d623953320cd9",
+        "verification": {
+          "reward_valid": true,
+          "passed": 45,
+          "failed": 0,
+          "infrastructure_errors": []
+        }
+      },
+      "source_integrity": {
+        "scope": "watcher_start_to_regrade_completion_only",
+        "pre_run_baseline_available": false,
+        "source_unchanged": null,
+        "observed_source_unchanged": true,
+        "watcher_started_at": "2026-09-18T09:28:46.448780+00:00",
+        "finished_at": "2026-09-18T09:32:08.496692+00:00",
+        "original_archived_reports_unchanged": true,
+        "before_manifest_sha256": "4c07e945f9fc311abd520a346339cb2953daf75f2eb4d1a4ddfda508f9c37895",
+        "after_manifest_sha256": "4c07e945f9fc311abd520a346339cb2953daf75f2eb4d1a4ddfda508f9c37895",
+        "source_files": 927,
+        "integrity_report_sha256": "7a63292258ce72b58dfc1c6b2f80fd783a62e198359232d41c215c795e1125d4"
       },
       "package_matches_final_local": true,
       "task_files_sha256": {
@@ -385,11 +421,9 @@
         "tests/ue/StoryRuleTests.cpp": "07e633a8c3aaa734c5cb77f91eec84af38e69d01504bd13a17e6a37de76adccb",
         "tests/ue/Task0163Tests.cpp": "594057eefb0250f2c91eb1bb452aefa60799048a1ebdb8f659da17f5543ecadd"
       },
-      "regrade": {
-        "status": "pending"
-      },
       "nop": {
-        "status": "pending"
+        "status": "not_run",
+        "reason": "Deferred because the estimated native runtime exceeded the remaining time before scheduled worker cleanup."
       }
     },
     "ue-0168": {
@@ -444,6 +478,60 @@
           "physical_vram_exhaustion_established": false,
           "notes": "The native dump shows low device-local and host-heap allocations. Container/driver allocation cause remains unresolved; no claim that T4 physical VRAM is insufficient."
         }
+      },
+      "runtime_package_manifest_sha256": "c115d1d4e4f32fff7ccdc6bea7657d23dc6fa47d26ffa22bf6a8bacc9e1013b5",
+      "runtime_package_matches_recorded_manifest": true,
+      "regrade": {
+        "status": "complete",
+        "returncode": 0,
+        "seconds": 1965.8,
+        "trial": "ue-0168__P42k6EV",
+        "reward": 1.0,
+        "exception_type": null,
+        "native_regrade": true,
+        "result_sha256": "1acb5238869e09e406bdb8327097901a5eddd30db7cd6c7237e9dc7ddf03131d",
+        "native_report_sha256": "92447309c465d65af7bb28229d66ac813bb967f5c907f1513dea70bd6a14673d",
+        "verification": {
+          "reward_valid": true,
+          "status": "complete"
+        },
+        "lanes": {
+          "headless": {
+            "complete": true,
+            "exit_code": 0,
+            "expected": 68,
+            "incomplete_reasons": [],
+            "passed": 68,
+            "failed": 0
+          },
+          "rendered": {
+            "complete": true,
+            "exit_code": 0,
+            "expected": 5,
+            "incomplete_reasons": [],
+            "passed": 5,
+            "failed": 0
+          }
+        },
+        "candidate_hashes_match_original_oracle": true,
+        "candidate_files_compared": 117,
+        "interpretation": "The saved submission from the infrastructure-failed oracle passed all 73 native checks on replay with unchanged task-package hashes and matching candidate hashes. The original Vulkan allocation failure remains unexplained; this successful replay does not establish its cause."
+      },
+      "source_integrity": {
+        "scope": "full_native_regrade",
+        "pre_run_baseline_available": true,
+        "source_unchanged": true,
+        "before_manifest_sha256": "c73dbdbc1ef8f5f645437904c9664eb738c19b15b2a24e218c0196f1060a6397",
+        "after_manifest_sha256": "c73dbdbc1ef8f5f645437904c9664eb738c19b15b2a24e218c0196f1060a6397",
+        "source_files": 672,
+        "integrity_report_sha256": "5a8b04d2c7a56e90de063251d0f9033bec0b26681541045b0955212b8e016bd5"
+      },
+      "artifact_preflight": {
+        "scope": "Pinned Harbor 0.23.0 native artifact-coverage preflight; verifier build separately checked locally against matching package hash",
+        "ready": true,
+        "source_unchanged": true,
+        "source_manifest_sha256": "c73dbdbc1ef8f5f645437904c9664eb738c19b15b2a24e218c0196f1060a6397",
+        "source_files": 672
       },
       "package_matches_final_local": true,
       "task_files_sha256": {
@@ -649,20 +737,48 @@
         "tests/ue/Task0161OverlayRenderTests.cpp": "e70ad21cf9d900177ff403f744307588c896f056035906a8af3dcb4924d86bf4",
         "tests/ue/Task0161OverlayTest.cpp": "bbf114aa498510644bdad72c96c6e45d30137aa2c9f9db0b4282453f7885c450"
       },
-      "regrade": {
-        "status": "pending"
-      },
       "nop": {
-        "status": "pending"
+        "status": "not_run",
+        "reason": "Deferred because the estimated native runtime exceeded the remaining time before scheduled worker cleanup."
       }
     },
     "ue-0169": {
       "version": "0.2.1",
       "package_manifest_sha256": "71492aec44b5b65fc936da0f16e9062f1e0dc8dec50050677c4b10bdac058961",
       "package_files": 209,
-      "status": "running",
-      "seconds": null,
-      "oracle": {},
+      "status": "complete",
+      "seconds": 1970.0,
+      "oracle": {
+        "trial": "ue-0169__3EPyZXt",
+        "reward": 1.0,
+        "exception_type": null,
+        "result_sha256": "1e7773a100a01171c7dfd62910a5dfe8cbbc019ca6c87627cf429c2353ab2857",
+        "native_report_sha256": "45dff7620cd6e5f055184a438d99735db2efaafab7e41b53d5ee135eade69355",
+        "verification": {
+          "reward_valid": true,
+          "status": "complete"
+        },
+        "lanes": {
+          "headless": {
+            "complete": true,
+            "exit_code": 0,
+            "expected": 68,
+            "incomplete_reasons": [],
+            "passed": 68,
+            "failed": 0
+          },
+          "rendered": {
+            "complete": true,
+            "exit_code": 0,
+            "expected": 5,
+            "incomplete_reasons": [],
+            "passed": 5,
+            "failed": 0
+          }
+        }
+      },
+      "runtime_package_manifest_sha256": "71492aec44b5b65fc936da0f16e9062f1e0dc8dec50050677c4b10bdac058961",
+      "runtime_package_matches_recorded_manifest": true,
       "package_matches_final_local": true,
       "task_files_sha256": {
         ".gitattributes": "15cdf9aaa8d1705b909683f481165792f98f09b0e326de9d6280bae511fdbe37",
@@ -876,10 +992,12 @@
         "tests/ue/Task0161OverlayTest.cpp": "354c8457a45761a477003dd16f1feb7bd7f8408e5fa75cc8f6134f723e540606"
       },
       "regrade": {
-        "status": "pending"
+        "status": "not_run",
+        "reason": "Deferred because the estimated native runtime exceeded the remaining time before scheduled worker cleanup."
       },
       "nop": {
-        "status": "pending"
+        "status": "not_run",
+        "reason": "Deferred because the estimated native runtime exceeded the remaining time before scheduled worker cleanup."
       }
     }
   }

@@ -49,12 +49,22 @@ task 125's optional integration checks are not certified by these results.
 
 Tasks 168 and 169 v0.2.1 repair a UE5.8 fixture compilation incompatibility.
 Task 171 v0.2.1 corrects the native automation exit protocol; its reference
-solution passed all 45 checks with reward 1. Task 168 passed all 68 headless
-checks but its Vulkan renderer crashed during startup, before any of the five
-rendered checks ran. It produced no valid reward. The allocation failure does
-not establish that the GPU lacks physical VRAM. Task 169 and native follow-up
-checks remain in progress. The [receipt](validation/tasks-168-169-171.json)
-records exact tested packages and current limitations. Task 123 remains
+solution and native regrade each passed all 45 checks with reward 1. A
+validation-controller interruption lost the regrade's full pre-run source
+hash baseline; its integrity check covers only the recovery watcher's start
+through completion. The receipt distinguishes this limited observation from
+a complete before/after source-job comparison. Task 169's reference solution
+passed all 73 checks, including five rendered checks, with reward 1.
+Task 168's first oracle run passed all 68 headless checks but its Vulkan
+renderer crashed during startup, before any of the five rendered checks ran.
+It produced no valid reward. A native regrade of that saved submission,
+using the unchanged package, passed all 73 checks with reward 1 and preserved
+the complete source job. The original allocation failure remains unexplained;
+the successful retry does not establish repeatable rendering reliability.
+Task 169's regrade and the unchanged-starter baselines for tasks 168, 169 and
+171 were not run within this validation window. The
+[receipt](validation/tasks-168-169-171.json) records exact tested packages,
+both task 168 outcomes, and the integrity limitations. Task 123 remains
 deferred, including its known incomplete oracle result.
 
 The portable installation/regrade fixture passed with a fresh HOME and Python
@@ -86,5 +96,6 @@ that a submission is incorrect.
 Apache-2.0 has been selected and included for Nitrode-owned code and task content;
 existing third-party terms remain in effect. The local file inventory has been
 reviewed and the portable installation smoke passed. The repository is public
-and anonymous download has been verified. The immutable release-candidate tag
-will follow the remaining native validation receipts.
+and anonymous download has been verified. This snapshot is the
+`v0.1.0-rc.1` release candidate; certification remains incomplete for the reasons
+above.
