@@ -384,15 +384,15 @@
     },
     "SOURCE.json": {
       "bytes": 319,
-      "sha256": "00304b6e8710dde757ca976560ee990a246e27724e2dffa0ce42090f262f520c"
+      "sha256": "18dcca6cb2e0925c288737d1eea4a9f6a60e8db3d069bb1878d48a0194bdcbf9"
     },
     "THIRD-PARTY.md": {
       "bytes": 1159,
       "sha256": "8de95bed0d5280d5370d4ceff7c69aa2290a84b1237440b6d0128a8290f7fc25"
     },
     "VALIDATION.md": {
-      "bytes": 5172,
-      "sha256": "d99b6a491f04eda552993cab472fa50c342bc931abcdce6070ea553e001bc66b"
+      "bytes": 5646,
+      "sha256": "1fc08ed45d9acac919a6bf94671ac6f9b9f94c09100ed66e74aec545d85c690d"
     },
     "examples/regrade-smoke/README.md": {
       "bytes": 646,
@@ -132777,6 +132777,10 @@
     "validation/tasks-121-124-125.json": {
       "bytes": 2635074,
       "sha256": "3e8bc52c4efb189fc3a137359174059e6a78ce7344dacd9a5011abc62f971b8c"
+    },
+    "validation/tasks-168-169-171.json": {
+      "bytes": 113542,
+      "sha256": "5ccb88ee3ad90f40b5d5a6daa165c78d23443b6f749c10933d058b9d9f4a387d"
     }
   },
   "large_files_requiring_distribution_plan": [],

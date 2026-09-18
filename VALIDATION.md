@@ -47,8 +47,14 @@ records tested hashes and package differences; task 125 has only a subsequent
 QC documentation correction. Task 121's separate visual acceptance and
 task 125's optional integration checks are not certified by these results.
 
-The first native runs of tasks 168, 169 and 171 did not produce valid rewards.
-Their verifier failures remain qualification blockers. Task 123 remains
+Tasks 168 and 169 v0.2.1 repair a UE5.8 fixture compilation incompatibility.
+Task 171 v0.2.1 corrects the native automation exit protocol; its reference
+solution passed all 45 checks with reward 1. Task 168 passed all 68 headless
+checks but its Vulkan renderer crashed during startup, before any of the five
+rendered checks ran. It produced no valid reward. The allocation failure does
+not establish that the GPU lacks physical VRAM. Task 169 and native follow-up
+checks remain in progress. The [receipt](validation/tasks-168-169-171.json)
+records exact tested packages and current limitations. Task 123 remains
 deferred, including its known incomplete oracle result.
 
 The portable installation/regrade fixture passed with a fresh HOME and Python
@@ -79,6 +85,6 @@ that a submission is incorrect.
 
 Apache-2.0 has been selected and included for Nitrode-owned code and task content;
 existing third-party terms remain in effect. The local file inventory has been
-reviewed and the portable installation smoke passed. Publication still requires
-an immutable tag and verification that an unaffiliated user can download and
-use the published snapshot anonymously.
+reviewed and the portable installation smoke passed. The repository is public
+and anonymous download has been verified. The immutable release-candidate tag
+will follow the remaining native validation receipts.
